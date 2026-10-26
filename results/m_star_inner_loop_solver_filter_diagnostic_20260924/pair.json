@@ -1,0 +1,313 @@
+{
+  "gap_by_iteration": [
+    {
+      "column_mass_dex_p95": 0.009057339982052976,
+      "temperature_relative_p95": 0.0017665620808583302
+    },
+    {
+      "column_mass_dex_p95": 0.008217027835997244,
+      "temperature_relative_p95": 0.0015118454039182493
+    },
+    {
+      "column_mass_dex_p95": 0.005185330167228749,
+      "temperature_relative_p95": 0.0009385495919796314
+    },
+    {
+      "column_mass_dex_p95": 0.004508206048268357,
+      "temperature_relative_p95": 0.0008651168808225917
+    },
+    {
+      "column_mass_dex_p95": 0.004912643765065147,
+      "temperature_relative_p95": 0.0007831492980806597
+    },
+    {
+      "column_mass_dex_p95": 0.002992099261209845,
+      "temperature_relative_p95": 0.0006235829866685914
+    },
+    {
+      "column_mass_dex_p95": 0.0029165155019206007,
+      "temperature_relative_p95": 0.0006250488352649518
+    },
+    {
+      "column_mass_dex_p95": 0.001813008731587228,
+      "temperature_relative_p95": 0.0005542190799656172
+    },
+    {
+      "column_mass_dex_p95": 0.0015487656892716462,
+      "temperature_relative_p95": 0.0004957269422590609
+    },
+    {
+      "column_mass_dex_p95": 0.0012174438645221376,
+      "temperature_relative_p95": 0.0004474012067434191
+    },
+    {
+      "column_mass_dex_p95": 0.0009426587588883921,
+      "temperature_relative_p95": 0.0004597056176272206
+    }
+  ],
+  "iteration_history": {
+    "primary": [
+      {
+        "abs_flux_error_percent_L45": 0.006698225734180347,
+        "abs_flux_error_percent_L77": 1.5517337935145934,
+        "abs_flux_error_percent_L78": 4.258336861513926,
+        "abs_flux_error_percent_L79": 4.053761369174148,
+        "all_layer_relative_temperature_change": 0.0005316205956238411,
+        "iteration": 1,
+        "mask_median_abs_flux_error_percent": 0.20626381059842785,
+        "p95_absolute_flux_error_percent": 1.1402574070940887
+      },
+      {
+        "abs_flux_error_percent_L45": 0.012243336377781286,
+        "abs_flux_error_percent_L77": 1.7427438000514712,
+        "abs_flux_error_percent_L78": 2.473952499907535,
+        "abs_flux_error_percent_L79": 5.448395349810674,
+        "all_layer_relative_temperature_change": 0.0008728566338568372,
+        "iteration": 2,
+        "mask_median_abs_flux_error_percent": 0.18912030042415195,
+        "p95_absolute_flux_error_percent": 0.4653189873587868
+      },
+      {
+        "abs_flux_error_percent_L45": 0.03104304016300375,
+        "abs_flux_error_percent_L77": 2.1606117083879597,
+        "abs_flux_error_percent_L78": 1.384667283509299,
+        "abs_flux_error_percent_L79": 5.843812833128625,
+        "all_layer_relative_temperature_change": 0.0002477193315001582,
+        "iteration": 3,
+        "mask_median_abs_flux_error_percent": 0.14369329349733936,
+        "p95_absolute_flux_error_percent": 0.5010179119803247
+      },
+      {
+        "abs_flux_error_percent_L45": 0.029364072519840155,
+        "abs_flux_error_percent_L77": 2.1491222287737046,
+        "abs_flux_error_percent_L78": 0.7517137912801629,
+        "abs_flux_error_percent_L79": 5.825156145983066,
+        "all_layer_relative_temperature_change": 0.00013593985634552326,
+        "iteration": 4,
+        "mask_median_abs_flux_error_percent": 0.11022451798442377,
+        "p95_absolute_flux_error_percent": 0.48117372034728906
+      },
+      {
+        "abs_flux_error_percent_L45": 0.015852583644395346,
+        "abs_flux_error_percent_L77": 2.1223178109872216,
+        "abs_flux_error_percent_L78": 0.6873313283392518,
+        "abs_flux_error_percent_L79": 6.158727617026206,
+        "all_layer_relative_temperature_change": 0.0003139360754565584,
+        "iteration": 5,
+        "mask_median_abs_flux_error_percent": 0.11312911923017101,
+        "p95_absolute_flux_error_percent": 0.5094757262785905
+      },
+      {
+        "abs_flux_error_percent_L45": 0.009705525632281888,
+        "abs_flux_error_percent_L77": 2.1169599707915645,
+        "abs_flux_error_percent_L78": 0.7022352306939057,
+        "abs_flux_error_percent_L79": 6.377176775810439,
+        "all_layer_relative_temperature_change": 7.295762731487961e-05,
+        "iteration": 6,
+        "mask_median_abs_flux_error_percent": 0.11302540599172493,
+        "p95_absolute_flux_error_percent": 0.5264941478857448
+      },
+      {
+        "abs_flux_error_percent_L45": 0.004763101505309666,
+        "abs_flux_error_percent_L77": 2.089880787392575,
+        "abs_flux_error_percent_L78": 0.5606587505348635,
+        "abs_flux_error_percent_L79": 6.278342781334112,
+        "all_layer_relative_temperature_change": 0.00021198828647067675,
+        "iteration": 7,
+        "mask_median_abs_flux_error_percent": 0.11409105736607562,
+        "p95_absolute_flux_error_percent": 0.5265538562046072
+      },
+      {
+        "abs_flux_error_percent_L45": 0.0028483426847220267,
+        "abs_flux_error_percent_L77": 2.061721528075548,
+        "abs_flux_error_percent_L78": 0.41826777545474064,
+        "abs_flux_error_percent_L79": 6.131868701605062,
+        "all_layer_relative_temperature_change": 6.209401590036327e-05,
+        "iteration": 8,
+        "mask_median_abs_flux_error_percent": 0.11205968287018495,
+        "p95_absolute_flux_error_percent": 0.4238448408052061
+      },
+      {
+        "abs_flux_error_percent_L45": 0.005204257109564034,
+        "abs_flux_error_percent_L77": 2.04075979883376,
+        "abs_flux_error_percent_L78": 0.30451663520700323,
+        "abs_flux_error_percent_L79": 6.004046122273106,
+        "all_layer_relative_temperature_change": 6.874641094273392e-05,
+        "iteration": 9,
+        "mask_median_abs_flux_error_percent": 0.11262738521671928,
+        "p95_absolute_flux_error_percent": 0.3159263399005137
+      },
+      {
+        "abs_flux_error_percent_L45": 0.006294902217106415,
+        "abs_flux_error_percent_L77": 2.03438226868128,
+        "abs_flux_error_percent_L78": 0.24938925041029553,
+        "abs_flux_error_percent_L79": 5.947746200505142,
+        "all_layer_relative_temperature_change": 7.473475313736854e-05,
+        "iteration": 10,
+        "mask_median_abs_flux_error_percent": 0.1117168445711678,
+        "p95_absolute_flux_error_percent": 0.26555826971405594
+      }
+    ],
+    "reference_start": [
+      {
+        "abs_flux_error_percent_L45": 0.08543095431555997,
+        "abs_flux_error_percent_L77": 1.4779212135224917,
+        "abs_flux_error_percent_L78": 0.7179979362463617,
+        "abs_flux_error_percent_L79": 3.7472576858807156,
+        "all_layer_relative_temperature_change": 0.0002420994100689547,
+        "iteration": 1,
+        "mask_median_abs_flux_error_percent": 0.1429231191617285,
+        "p95_absolute_flux_error_percent": 0.2912161409461046
+      },
+      {
+        "abs_flux_error_percent_L45": 0.07971456437930245,
+        "abs_flux_error_percent_L77": 1.7724446777983356,
+        "abs_flux_error_percent_L78": 0.7335325534216162,
+        "abs_flux_error_percent_L79": 5.256665578017047,
+        "all_layer_relative_temperature_change": 0.0005344401197901879,
+        "iteration": 2,
+        "mask_median_abs_flux_error_percent": 0.1169749048563313,
+        "p95_absolute_flux_error_percent": 0.3104585756305917
+      },
+      {
+        "abs_flux_error_percent_L45": 0.0821954303530227,
+        "abs_flux_error_percent_L77": 1.9155264932283984,
+        "abs_flux_error_percent_L78": 0.4494888959728534,
+        "abs_flux_error_percent_L79": 5.56927427175905,
+        "all_layer_relative_temperature_change": 0.00013105521500605933,
+        "iteration": 3,
+        "mask_median_abs_flux_error_percent": 0.11337625345466437,
+        "p95_absolute_flux_error_percent": 0.40399456350224205
+      },
+      {
+        "abs_flux_error_percent_L45": 0.08163680441937322,
+        "abs_flux_error_percent_L77": 1.9838204989853534,
+        "abs_flux_error_percent_L78": 0.4065071276600576,
+        "abs_flux_error_percent_L79": 5.8438121272201515,
+        "all_layer_relative_temperature_change": 0.0002691403707354363,
+        "iteration": 4,
+        "mask_median_abs_flux_error_percent": 0.11115567331237347,
+        "p95_absolute_flux_error_percent": 0.40943770184588707
+      },
+      {
+        "abs_flux_error_percent_L45": 0.08075992584924589,
+        "abs_flux_error_percent_L77": 2.005642257079553,
+        "abs_flux_error_percent_L78": 0.32624920178936884,
+        "abs_flux_error_percent_L79": 5.89926981246025,
+        "all_layer_relative_temperature_change": 0.00022397595793453013,
+        "iteration": 5,
+        "mask_median_abs_flux_error_percent": 0.11213101126656348,
+        "p95_absolute_flux_error_percent": 0.3348913812728052
+      },
+      {
+        "abs_flux_error_percent_L45": 0.08065345795159817,
+        "abs_flux_error_percent_L77": 2.0111280303892234,
+        "abs_flux_error_percent_L78": 0.2580679101895496,
+        "abs_flux_error_percent_L79": 5.888329789446418,
+        "all_layer_relative_temperature_change": 0.00015974993588239997,
+        "iteration": 6,
+        "mask_median_abs_flux_error_percent": 0.11120536361726008,
+        "p95_absolute_flux_error_percent": 0.2710219028093158
+      },
+      {
+        "abs_flux_error_percent_L45": 0.08040480821399736,
+        "abs_flux_error_percent_L77": 2.0153761474006533,
+        "abs_flux_error_percent_L78": 0.23260540581657585,
+        "abs_flux_error_percent_L79": 5.893527893906401,
+        "all_layer_relative_temperature_change": 0.00013590844523019287,
+        "iteration": 7,
+        "mask_median_abs_flux_error_percent": 0.11122771993204782,
+        "p95_absolute_flux_error_percent": 0.2522751563836627
+      },
+      {
+        "abs_flux_error_percent_L45": 0.08031818401218895,
+        "abs_flux_error_percent_L77": 2.016747074297976,
+        "abs_flux_error_percent_L78": 0.21494758872246592,
+        "abs_flux_error_percent_L79": 5.889416283365858,
+        "all_layer_relative_temperature_change": 9.913375485163194e-05,
+        "iteration": 8,
+        "mask_median_abs_flux_error_percent": 0.11127864031305054,
+        "p95_absolute_flux_error_percent": 0.25286462424277795
+      },
+      {
+        "abs_flux_error_percent_L45": 0.0805313762735152,
+        "abs_flux_error_percent_L77": 2.0174989744393415,
+        "abs_flux_error_percent_L78": 0.2085628195248687,
+        "abs_flux_error_percent_L79": 5.890296625064892,
+        "all_layer_relative_temperature_change": 8.185977077208918e-05,
+        "iteration": 9,
+        "mask_median_abs_flux_error_percent": 0.11151585118617494,
+        "p95_absolute_flux_error_percent": 0.25345165957645355
+      },
+      {
+        "abs_flux_error_percent_L45": 0.08054605948601928,
+        "abs_flux_error_percent_L77": 2.0185498218263724,
+        "abs_flux_error_percent_L78": 0.20845050079596594,
+        "abs_flux_error_percent_L79": 5.894367216833904,
+        "all_layer_relative_temperature_change": 6.111649473506348e-05,
+        "iteration": 10,
+        "mask_median_abs_flux_error_percent": 0.1115202331496801,
+        "p95_absolute_flux_error_percent": 0.2536032195010256
+      }
+    ]
+  },
+  "node_id": "g+4.75_m+0.00_a+0.00_c+0.00_x1.00_t3850",
+  "overrides": {
+    "convection_zone_inner_loop_correct_written_gradient": true,
+    "convection_zone_inner_loop_fill_holes": true,
+    "convection_zone_inner_loop_filter_written_gradient": true,
+    "convection_zone_inner_loop_freeze_mask": true,
+    "convection_zone_inner_loop_hold_correction": true,
+    "convection_zone_inner_loop_passes": 8,
+    "convection_zone_inner_loop_refresh_state": true,
+    "convection_zone_inner_loop_relaxation": 0.5
+  },
+  "path_consistency": {
+    "available": true,
+    "column_mass_dex": {
+      "max": 0.0025041727066632546,
+      "median": 0.00012292839007499445,
+      "p95": 0.0009426583882745636
+    },
+    "passes": true,
+    "temperature_relative": {
+      "max": 0.0011932106315067266,
+      "median": 4.902465678444632e-05,
+      "p95": 0.0004642385509285255
+    }
+  },
+  "preregistered_stage2_lines_for_reference": {
+    "closes": true,
+    "no_alternating_mode": true,
+    "stationary": true
+  },
+  "terminal_alternating_amplitude_ln_t": {
+    "primary": {
+      "L45_51": 1.2661723151856969e-05,
+      "L52_58": -1.5886963882343658e-05,
+      "L59_65": 7.554808309048358e-05,
+      "L66_72": -1.9941042626671545e-05,
+      "L73_78": 4.0502199472491895e-05
+    },
+    "reference_start": {
+      "L45_51": 1.730847070875135e-05,
+      "L52_58": -1.3319517270967854e-05,
+      "L59_65": 7.58047980329936e-05,
+      "L66_72": -2.3513773630412516e-05,
+      "L73_78": 3.892153556680119e-05
+    }
+  },
+  "tio": {
+    "available": true,
+    "metrics": {
+      "flux_continuum": 1.5118476057875057e-06,
+      "flux_total": 0.00012027227964513172,
+      "normalized_flux": 0.00011948150679819136
+    },
+    "passes": true,
+    "spectra": {
+      "base": "/nexus/posix0/MIA-astro-env/hxr/jdli/payne-zero-mstar-resume-20260919/results/m_star_inner_loop_solver_filter_diagnostic_20260924/spectra/primary.npz",
+      "other": "/nexus/posix0/MIA-astro-env/hxr/jdli/payne-zero-mstar-resume-20260919/results/m_star_inner_loop_solver_filter_diagnostic_20260924/spectra/reference_start.npz"
+    }
+  }
+}

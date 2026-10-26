@@ -1,0 +1,188 @@
+{
+  "atmosphere": {
+    "case_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/dwarf/g+5.00_m+0.00_a+0.00_c+0.00_x1.00/t3750/case.json",
+    "case_status": "training_eligible",
+    "path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/dwarf/g+5.00_m+0.00_a+0.00_c+0.00_x1.00/t3750/products/primary/t03750.0_g+5.00_m+0.00_a+0.00_x1.00.npz",
+    "primary_solver_converged": true,
+    "schema_field_count": 25,
+    "training_eligible": true
+  },
+  "comparison_limit": "This compares two complete forward pipelines, not radiation-transfer code alone: native Payne-Zero uses its native atomic/molecular catalogs; Korg v3 used the GALAH molecular list for TiO and an atomic-only list for Ca I.",
+  "experiment": "native Payne-Zero forward synthesis on the converged PZ atmosphere",
+  "fixed_nuisance": {
+    "catalogue_rv_km_s_applied_by_v1": 12.6,
+    "fit_status": "frozen from v3; not refitted",
+    "instrument_resolving_power": 80000.0,
+    "limb_darkening": 0.6,
+    "residual_rv_km_s": -0.6918215629,
+    "vsini_km_s": 7.1124722692
+  },
+  "observation": {
+    "catalogue_rv_km_s_applied_as_common_fixed_shift": 12.6,
+    "date_obs": "2001-03-09T04:17:07.929",
+    "dec_deg": -52.96126,
+    "error_column_present": true,
+    "flux_calibration": "Calibrated",
+    "instrument": "VLT/UVES",
+    "n_good_pixels_full_spectrum": 211441,
+    "n_pixels": 352500,
+    "object": "IC2391-0096",
+    "observation_block_id": 200105380,
+    "path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/observations/IC2391-0096_R80k.fits",
+    "pixel_mask_used": "PIXMASK == 1 and QUALITY == 0",
+    "primary_flux_unit": "erg/cm^2/s/ang",
+    "program_id": "266.D-5655(A)",
+    "ra_deg": 130.864945,
+    "spectral_resolution": 80000.0,
+    "table_column_units": {
+      "ERROR": null,
+      "FLUX": null,
+      "PIXMASK": null,
+      "QUALITY": null,
+      "WAVE": null
+    },
+    "wavelength_axis_header": "AWAV",
+    "wavelength_max_A": 10249.98,
+    "wavelength_min_A": 3200.0,
+    "wavelength_system": "air (CTYPE1=AWAV)"
+  },
+  "solver_campaign_success_rate_used_in_spectral_score": false,
+  "synthesis": {
+    "atomic_source": "/Users/jdli/Project/payne-zero/source_data_files/source_catalogs/lines/atomic_source_lines_parsed.npz",
+    "backend": "payne_zero_synthesis.synthesize",
+    "device": "cpu",
+    "dtype": "float64",
+    "molecular_lines": true,
+    "molecular_manifest": "/Users/jdli/Project/payne-zero/source_data_files/source_catalogs/molecules/manifest.json",
+    "molecular_source": "/Users/jdli/Project/payne-zero/source_data_files/source_catalogs/molecules/molecular_band_lines.npz",
+    "native_wavelength_system": "vacuum",
+    "observation_wavelength_system": "air",
+    "padding_A": 3.0,
+    "r_grid": 600000.0,
+    "r_grid_meaning": "intrinsic logarithmic wavelength sampling, not instrumental resolving power",
+    "tio_provenance": "tio/schwenke.bin (Schwenke TiO), per molecular manifest",
+    "tio_source": "/Users/jdli/Project/payne-zero/source_data_files/source_catalogs/molecules/titanium_oxide_lines.npy",
+    "wavelength_conversion": "air observation pixels converted to vacuum before native projection; air retained for plotting"
+  },
+  "target": "IC2391-0096",
+  "windows": {
+    "ca_i_6162": {
+      "continuum_nuisance": "each model multiplied by independently fitted (a+b*x)",
+      "korg_v3": {
+        "atmosphere": "same Payne-Zero converged atmosphere",
+        "mad": 0.062208323680168015,
+        "median_signed": 0.02136336124854521,
+        "p95_absolute": 0.15035870742563417,
+        "processed_source": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/processed/IC2391-0096_ca_i_6162.npz",
+        "rms": 0.08276494011293856
+      },
+      "label": "Ca I",
+      "n_pixels": 750,
+      "native_payne_zero": {
+        "continuum_coefficients_a_b": [
+          1.2206564113418312,
+          0.021541620824700684
+        ],
+        "mad": 0.04096815661771719,
+        "median_signed": 0.02050529654708022,
+        "native_pixels": 2045,
+        "operator": {
+          "instrument": {
+            "broadening_sigma_km_s": 0.0,
+            "custom_lsf_kernel_pixels": null,
+            "device": "cpu",
+            "dtype": "torch.float64",
+            "input_pixels": 2045,
+            "last_seconds": 0.0007847079978091642,
+            "name": "generic_observed_spectrum",
+            "output_pixels": 750,
+            "radial_velocity_km_s": -0.6918215629,
+            "resolving_power": 80000.0,
+            "velocity_step_km_s": 0.49965368029149165
+          },
+          "order": "native total/continuum -> Gray rotation -> constant-R Gaussian LSF -> observed pixels",
+          "rotation": {
+            "device": "cpu",
+            "dtype": "torch.float64",
+            "limb_darkening": 0.6,
+            "maximum_vsini_km_s": 7.1124722692,
+            "profile": "Gray linear-limb-darkened rotation",
+            "velocity_step_km_s": 0.49965368029149165
+          }
+        },
+        "p95_absolute": 0.11946791362604153,
+        "processed_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v4_native_paynezero/processed/IC2391-0096_ca_i_6162.npz",
+        "rms": 0.061837002129463546,
+        "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v4_native_paynezero/spectra/IC2391-0096_ca_i_6162_native_r600000.npz",
+        "synthesis_seconds": 18.050024459007545
+      },
+      "native_vs_korg_prediction_rms": 0.05488571449046217,
+      "noise_rms": 0.02581813247561644,
+      "normalization": "observation divided by local 95th percentile",
+      "residual_correlation_native_vs_korg": 0.7409465470786953,
+      "wavelength_air_A": [
+        6155.0,
+        6170.0
+      ]
+    },
+    "tio_6650": {
+      "continuum_nuisance": "each model multiplied by independently fitted (a+b*x)",
+      "korg_v3": {
+        "atmosphere": "same Payne-Zero converged atmosphere",
+        "mad": 0.03256493997334453,
+        "median_signed": 0.002752025690458626,
+        "p95_absolute": 0.0843950204899524,
+        "processed_source": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/processed/IC2391-0096_tio_6650.npz",
+        "rms": 0.043975239670756526
+      },
+      "label": "TiO-rich",
+      "n_pixels": 1001,
+      "native_payne_zero": {
+        "continuum_coefficients_a_b": [
+          1.2158217613350235,
+          0.008545599169152394
+        ],
+        "mad": 0.02496513171043757,
+        "median_signed": 0.002653968841068166,
+        "native_pixels": 2342,
+        "operator": {
+          "instrument": {
+            "broadening_sigma_km_s": 0.0,
+            "custom_lsf_kernel_pixels": null,
+            "device": "cpu",
+            "dtype": "torch.float64",
+            "input_pixels": 2342,
+            "last_seconds": 0.0018794159987010062,
+            "name": "generic_observed_spectrum",
+            "output_pixels": 1001,
+            "radial_velocity_km_s": -0.6918215629,
+            "resolving_power": 80000.0,
+            "velocity_step_km_s": 0.4996536802917191
+          },
+          "order": "native total/continuum -> Gray rotation -> constant-R Gaussian LSF -> observed pixels",
+          "rotation": {
+            "device": "cpu",
+            "dtype": "torch.float64",
+            "limb_darkening": 0.6,
+            "maximum_vsini_km_s": 7.1124722692,
+            "profile": "Gray linear-limb-darkened rotation",
+            "velocity_step_km_s": 0.4996536802917191
+          }
+        },
+        "p95_absolute": 0.07224451391167064,
+        "processed_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v4_native_paynezero/processed/IC2391-0096_tio_6650.npz",
+        "rms": 0.03907387100872458,
+        "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v4_native_paynezero/spectra/IC2391-0096_tio_6650_native_r600000.npz",
+        "synthesis_seconds": 16.18836304200522
+      },
+      "native_vs_korg_prediction_rms": 0.035281750949158225,
+      "noise_rms": 0.029164235030602722,
+      "normalization": "observation divided by local 95th percentile",
+      "residual_correlation_native_vs_korg": 0.6444238765255663,
+      "wavelength_air_A": [
+        6650.0,
+        6670.0
+      ]
+    }
+  }
+}

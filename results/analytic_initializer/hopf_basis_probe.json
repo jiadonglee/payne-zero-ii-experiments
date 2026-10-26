@@ -1,0 +1,2134 @@
+{
+  "format": "payne_zero_hopf_basis_probe_v1",
+  "date": "2026-08-17",
+  "question": "Does replacing part of the generic Chebyshev depth basis with the exact grey/Hopf temperature profile improve the emulator-free warm start?",
+  "answer": "No, in the only sense that matters. The physical columns do improve the depth representation floor by up to 1.9 times at matched dimension, but the depth basis contributes only 16 percent of the held-out error, so end to end the gain is 0.5 percent and about 6 percent of stored floats. Rank truncation and the label-to-amplitude polynomial own 37 and 48 percent respectively, and that is where any real improvement has to come from.",
+  "verdict": "not adopted: real but immaterial; the optimized term is not binding",
+  "corpus": {
+    "path": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+    "sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+    "rows": 52199
+  },
+  "split": {
+    "seed": 20260816,
+    "train": 40911,
+    "validation": 10228,
+    "manifests": [
+      "results/reconstruction_metrics.json",
+      "results/sealed_solver_subset_20260808.json",
+      "results/sealed_audit_20260808.json",
+      "results/sealed_audit_20260811.json",
+      "results/sealed_initializer_holdout_20260812.json",
+      "results/initializer_calibration_20260812.json",
+      "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+    ]
+  },
+  "hopf_recovery": {
+    "note": "Inverting the target through T^4 = (3/4) Teff^4 (tau + q) recovers the textbook Hopf function at the surface and diverges deep, where convection replaces the grey solution.",
+    "rows": [
+      {
+        "tau": 1.333521432163324e-07,
+        "implied_q_p50": 0.17397693814510287,
+        "implied_q_p16": 0.1288214636651714,
+        "implied_q_p84": 0.27077963489962625,
+        "classical_q": 0.5770000328112908
+      },
+      {
+        "tau": 4.216965034285822e-05,
+        "implied_q_p50": 0.3406417041360086,
+        "implied_q_p16": 0.2622290701005114,
+        "implied_q_p84": 0.41564939878876567,
+        "classical_q": 0.5770103754377476
+      },
+      {
+        "tau": 0.01333521432163324,
+        "implied_q_p50": 0.5670013490401064,
+        "implied_q_p16": 0.5054779684819148,
+        "implied_q_p84": 0.6291658171114395,
+        "classical_q": 0.5802409872934184
+      },
+      {
+        "tau": 0.23713737056616552,
+        "implied_q_p50": 0.7185527817982893,
+        "implied_q_p16": 0.6680248564549093,
+        "implied_q_p84": 0.811223785526042,
+        "classical_q": 0.6242320843853433
+      },
+      {
+        "tau": 0.7498942093324559,
+        "implied_q_p50": 0.8158545765508949,
+        "implied_q_p16": 0.7449095907922284,
+        "implied_q_p84": 0.9092789155185232,
+        "classical_q": 0.6767835630933509
+      },
+      {
+        "tau": 4.216965034285822,
+        "implied_q_p50": 0.8650352079592833,
+        "implied_q_p16": -0.13369241793540884,
+        "implied_q_p84": 0.9715911526586245,
+        "classical_q": 0.7099455806878415
+      },
+      {
+        "tau": 74.98942093324558,
+        "implied_q_p50": -2.3885799063670277,
+        "implied_q_p16": -65.88114958956889,
+        "implied_q_p84": 1.3176501482956484,
+        "classical_q": 0.71
+      },
+      {
+        "tau": 1000.0,
+        "implied_q_p50": -471.0319070567508,
+        "implied_q_p16": -981.9792935487321,
+        "implied_q_p84": 7.957897918665762,
+        "classical_q": 0.71
+      }
+    ]
+  },
+  "representation_floor_dex": [
+    {
+      "variant": "chebyshev",
+      "dimension": 9,
+      "p50": 0.001595681201581613,
+      "p95": 0.007694444836769668,
+      "surface_p95": 0.004164736288946383,
+      "deep_p95": 0.009545755982143755
+    },
+    {
+      "variant": "classical_hopf",
+      "physical_columns": 1,
+      "physical_block_condition_number": 1.0,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 9,
+      "p50": 0.0012133038644883951,
+      "p95": 0.007764184795100947,
+      "surface_p95": 0.0028957253925408523,
+      "deep_p95": 0.009740321318237348
+    },
+    {
+      "variant": "hopf_plus_1q",
+      "physical_columns": 2,
+      "physical_block_condition_number": 55.893085326044805,
+      "physical_block_max_at_tau_1000": 5.0645743985040845e-05,
+      "dimension": 9,
+      "p50": 0.0009391455295351195,
+      "p95": 0.004818763330422725,
+      "surface_p95": 0.0027526418288928434,
+      "deep_p95": 0.005902365044055824
+    },
+    {
+      "variant": "hopf_plus_2q",
+      "physical_columns": 3,
+      "physical_block_condition_number": 384.7283953515543,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 9,
+      "p50": 0.0010576337434568088,
+      "p95": 0.004625810266869804,
+      "surface_p95": 0.003422642881431709,
+      "deep_p95": 0.005674715375734146
+    },
+    {
+      "variant": "hopf_plus_5q",
+      "physical_columns": 6,
+      "physical_block_condition_number": 8111806.281533178,
+      "physical_block_max_at_tau_1000": 6.150147768161217e-05,
+      "dimension": 9,
+      "p50": 0.0043956557009412894,
+      "p95": 0.022371755915628237,
+      "surface_p95": 0.02447866250365843,
+      "deep_p95": 0.016649404946832865
+    },
+    {
+      "variant": "hopf_plus_kernels",
+      "physical_columns": 3,
+      "physical_block_condition_number": 1228.7050471154635,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 9,
+      "p50": 0.0007258881872483844,
+      "p95": 0.005086004269371035,
+      "surface_p95": 0.0026845206205168975,
+      "deep_p95": 0.0072427647804920265
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "physical_columns": 5,
+      "physical_block_condition_number": 6271.61426973471,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 9,
+      "p50": 0.0014722594851017054,
+      "p95": 0.007812955061510281,
+      "surface_p95": 0.004063025098092865,
+      "deep_p95": 0.009179608944199563
+    },
+    {
+      "variant": "chebyshev",
+      "dimension": 13,
+      "p50": 0.0007496416905716265,
+      "p95": 0.00380313445974558,
+      "surface_p95": 0.0016748911864690186,
+      "deep_p95": 0.00547282587640462
+    },
+    {
+      "variant": "classical_hopf",
+      "physical_columns": 1,
+      "physical_block_condition_number": 1.0,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 13,
+      "p50": 0.000762084813474264,
+      "p95": 0.0036925943070240303,
+      "surface_p95": 0.0022994030101577134,
+      "deep_p95": 0.0050077908296230714
+    },
+    {
+      "variant": "hopf_plus_1q",
+      "physical_columns": 2,
+      "physical_block_condition_number": 55.893085326044805,
+      "physical_block_max_at_tau_1000": 5.0645743985040845e-05,
+      "dimension": 13,
+      "p50": 0.00040851516300712725,
+      "p95": 0.002489537735459647,
+      "surface_p95": 0.0012409295232334513,
+      "deep_p95": 0.0033448936509501855
+    },
+    {
+      "variant": "hopf_plus_2q",
+      "physical_columns": 3,
+      "physical_block_condition_number": 384.7283953515543,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 13,
+      "p50": 0.00046986539257402177,
+      "p95": 0.0028482511747315625,
+      "surface_p95": 0.001892061700879688,
+      "deep_p95": 0.0037559419249134016
+    },
+    {
+      "variant": "hopf_plus_5q",
+      "physical_columns": 6,
+      "physical_block_condition_number": 8111806.281533178,
+      "physical_block_max_at_tau_1000": 6.150147768161217e-05,
+      "dimension": 13,
+      "p50": 0.00035295365939399766,
+      "p95": 0.002499054513533565,
+      "surface_p95": 0.0018277802481275474,
+      "deep_p95": 0.0030315167085173647
+    },
+    {
+      "variant": "hopf_plus_kernels",
+      "physical_columns": 3,
+      "physical_block_condition_number": 1228.7050471154635,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 13,
+      "p50": 0.00041102414819377785,
+      "p95": 0.0025908719976276973,
+      "surface_p95": 0.0016625864085443726,
+      "deep_p95": 0.0034707408153581048
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "physical_columns": 5,
+      "physical_block_condition_number": 6271.61426973471,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 13,
+      "p50": 0.0003755429539955661,
+      "p95": 0.0020243931863899735,
+      "surface_p95": 0.0016547227923904284,
+      "deep_p95": 0.0023152621179672707
+    },
+    {
+      "variant": "chebyshev",
+      "dimension": 17,
+      "p50": 0.000392499564403799,
+      "p95": 0.002475495805871976,
+      "surface_p95": 0.0009687047025008777,
+      "deep_p95": 0.0035516143135629766
+    },
+    {
+      "variant": "classical_hopf",
+      "physical_columns": 1,
+      "physical_block_condition_number": 1.0,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 17,
+      "p50": 0.00027189605322919534,
+      "p95": 0.0022318093768709723,
+      "surface_p95": 0.0007192501424268805,
+      "deep_p95": 0.0031299881938425637
+    },
+    {
+      "variant": "hopf_plus_1q",
+      "physical_columns": 2,
+      "physical_block_condition_number": 55.893085326044805,
+      "physical_block_max_at_tau_1000": 5.0645743985040845e-05,
+      "dimension": 17,
+      "p50": 0.00026897914771191944,
+      "p95": 0.0017091201182612558,
+      "surface_p95": 0.0009635635409455112,
+      "deep_p95": 0.0022854950021465167
+    },
+    {
+      "variant": "hopf_plus_2q",
+      "physical_columns": 3,
+      "physical_block_condition_number": 384.7283953515543,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 17,
+      "p50": 0.0002026213406899416,
+      "p95": 0.001667067804071908,
+      "surface_p95": 0.0007496533588612353,
+      "deep_p95": 0.0023315828787276445
+    },
+    {
+      "variant": "hopf_plus_5q",
+      "physical_columns": 6,
+      "physical_block_condition_number": 8111806.281533178,
+      "physical_block_max_at_tau_1000": 6.150147768161217e-05,
+      "dimension": 17,
+      "p50": 0.00018059773110651057,
+      "p95": 0.0013038305175477878,
+      "surface_p95": 0.0010481187076424592,
+      "deep_p95": 0.00147545698472561
+    },
+    {
+      "variant": "hopf_plus_kernels",
+      "physical_columns": 3,
+      "physical_block_condition_number": 1228.7050471154635,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 17,
+      "p50": 0.0002669091863573116,
+      "p95": 0.0015860149730852013,
+      "surface_p95": 0.0009693018782241658,
+      "deep_p95": 0.0021515561613454316
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "physical_columns": 5,
+      "physical_block_condition_number": 6271.61426973471,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 17,
+      "p50": 0.00018805791347482545,
+      "p95": 0.0012762775259514282,
+      "surface_p95": 0.0008689565525442644,
+      "deep_p95": 0.001558319857403471
+    },
+    {
+      "variant": "chebyshev",
+      "dimension": 21,
+      "p50": 0.00024301030391747983,
+      "p95": 0.0016621172978662179,
+      "surface_p95": 0.0006746655927776027,
+      "deep_p95": 0.00240854042022528
+    },
+    {
+      "variant": "classical_hopf",
+      "physical_columns": 1,
+      "physical_block_condition_number": 1.0,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 21,
+      "p50": 0.0002249703568246485,
+      "p95": 0.0013668469809530064,
+      "surface_p95": 0.0007428976138655063,
+      "deep_p95": 0.0018980740019662087
+    },
+    {
+      "variant": "hopf_plus_1q",
+      "physical_columns": 2,
+      "physical_block_condition_number": 55.893085326044805,
+      "physical_block_max_at_tau_1000": 5.0645743985040845e-05,
+      "dimension": 21,
+      "p50": 0.00017932610655305506,
+      "p95": 0.0013980344218921775,
+      "surface_p95": 0.0005431844902601766,
+      "deep_p95": 0.00197164240980823
+    },
+    {
+      "variant": "hopf_plus_2q",
+      "physical_columns": 3,
+      "physical_block_condition_number": 384.7283953515543,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 21,
+      "p50": 0.00017874434153066637,
+      "p95": 0.0010800600826969013,
+      "surface_p95": 0.0006599488247615859,
+      "deep_p95": 0.0014759544077058901
+    },
+    {
+      "variant": "hopf_plus_5q",
+      "physical_columns": 6,
+      "physical_block_condition_number": 8111806.281533178,
+      "physical_block_max_at_tau_1000": 6.150147768161217e-05,
+      "dimension": 21,
+      "p50": 0.00013316622312430776,
+      "p95": 0.0009043843408289699,
+      "surface_p95": 0.0006551719789231331,
+      "deep_p95": 0.0011047054101715555
+    },
+    {
+      "variant": "hopf_plus_kernels",
+      "physical_columns": 3,
+      "physical_block_condition_number": 1228.7050471154635,
+      "physical_block_max_at_tau_1000": 4.701620605844139e-06,
+      "dimension": 21,
+      "p50": 0.0001337393185547619,
+      "p95": 0.0010328709095813893,
+      "surface_p95": 0.0005026738264198582,
+      "deep_p95": 0.0014149537045081858
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "physical_columns": 5,
+      "physical_block_condition_number": 6271.61426973471,
+      "physical_block_max_at_tau_1000": 5.607347515701272e-05,
+      "dimension": 21,
+      "p50": 0.00013595357473245473,
+      "p95": 0.0008647259947317631,
+      "surface_p95": 0.0005978270033105415,
+      "deep_p95": 0.0010656417493245922
+    }
+  ],
+  "end_to_end": [
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 210,
+      "temperature_relative_p95": 0.0430111163968717,
+      "temperature_relative_deep_p95": 0.045182834136871505
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 222,
+      "temperature_relative_p95": 0.040755419242535514,
+      "temperature_relative_deep_p95": 0.04257028293448511
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 246,
+      "temperature_relative_p95": 0.04037160557875525,
+      "temperature_relative_deep_p95": 0.042182613170399307
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 234,
+      "temperature_relative_p95": 0.04063421763782012,
+      "temperature_relative_deep_p95": 0.04174868854421436
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 258,
+      "temperature_relative_p95": 0.03998284859322807,
+      "temperature_relative_deep_p95": 0.04113863857806733
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 282,
+      "temperature_relative_p95": 0.03980604794868771,
+      "temperature_relative_deep_p95": 0.04072646710451298
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 252,
+      "temperature_relative_p95": 0.040562232250742174,
+      "temperature_relative_deep_p95": 0.041823101275691
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 276,
+      "temperature_relative_p95": 0.03991970726653312,
+      "temperature_relative_deep_p95": 0.04129188045960771
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 300,
+      "temperature_relative_p95": 0.03975074801958218,
+      "temperature_relative_deep_p95": 0.04089495022151489
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 324,
+      "temperature_relative_p95": 0.039834683666892585,
+      "temperature_relative_deep_p95": 0.04114606598139808
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 294,
+      "temperature_relative_p95": 0.04147844332021266,
+      "temperature_relative_deep_p95": 0.042984013385684854
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 306,
+      "temperature_relative_p95": 0.03968355102752981,
+      "temperature_relative_deep_p95": 0.04047927670112036
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 342,
+      "temperature_relative_p95": 0.03925607947521551,
+      "temperature_relative_deep_p95": 0.04000992907412311
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 318,
+      "temperature_relative_p95": 0.03935574383956157,
+      "temperature_relative_deep_p95": 0.03934271807088861
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 354,
+      "temperature_relative_p95": 0.03876956948022831,
+      "temperature_relative_deep_p95": 0.03871101179346346
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 390,
+      "temperature_relative_p95": 0.03844909287327083,
+      "temperature_relative_deep_p95": 0.03802826043948333
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 336,
+      "temperature_relative_p95": 0.03939725677952759,
+      "temperature_relative_deep_p95": 0.0396020050387298
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 372,
+      "temperature_relative_p95": 0.03883663832950565,
+      "temperature_relative_deep_p95": 0.038963108671168804
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 408,
+      "temperature_relative_p95": 0.03845993208642675,
+      "temperature_relative_deep_p95": 0.03832788134800549
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 444,
+      "temperature_relative_p95": 0.03856537349597595,
+      "temperature_relative_deep_p95": 0.03855154786044756
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 378,
+      "temperature_relative_p95": 0.04074627961029731,
+      "temperature_relative_deep_p95": 0.04260337480423284
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 390,
+      "temperature_relative_p95": 0.03893148189142651,
+      "temperature_relative_deep_p95": 0.04030541709466944
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 438,
+      "temperature_relative_p95": 0.03816576219163606,
+      "temperature_relative_deep_p95": 0.03929537343825969
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 402,
+      "temperature_relative_p95": 0.03873429428623736,
+      "temperature_relative_deep_p95": 0.039313594399695694
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 450,
+      "temperature_relative_p95": 0.03768243213035682,
+      "temperature_relative_deep_p95": 0.03794610778080632
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 498,
+      "temperature_relative_p95": 0.03717217387792998,
+      "temperature_relative_deep_p95": 0.03707680436653276
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 420,
+      "temperature_relative_p95": 0.0387681233874685,
+      "temperature_relative_deep_p95": 0.0396115554976637
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 468,
+      "temperature_relative_p95": 0.037784909297352946,
+      "temperature_relative_deep_p95": 0.038285641973709074
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 516,
+      "temperature_relative_p95": 0.037275403268559576,
+      "temperature_relative_deep_p95": 0.03744967604391572
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 564,
+      "temperature_relative_p95": 0.037366106155095884,
+      "temperature_relative_deep_p95": 0.03766859735988596
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 462,
+      "temperature_relative_p95": 0.0404055001321083,
+      "temperature_relative_deep_p95": 0.042395943221245284
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 474,
+      "temperature_relative_p95": 0.03868160641733526,
+      "temperature_relative_deep_p95": 0.040410744308679906
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 534,
+      "temperature_relative_p95": 0.03774035918929857,
+      "temperature_relative_deep_p95": 0.03920391938690676
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 486,
+      "temperature_relative_p95": 0.038455622722251406,
+      "temperature_relative_deep_p95": 0.03933854376129358
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 546,
+      "temperature_relative_p95": 0.03733611848745065,
+      "temperature_relative_deep_p95": 0.03785864977686229
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 606,
+      "temperature_relative_p95": 0.036892558633022134,
+      "temperature_relative_deep_p95": 0.03698495317695943
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 504,
+      "temperature_relative_p95": 0.03846304059520491,
+      "temperature_relative_deep_p95": 0.03956031222556544
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 564,
+      "temperature_relative_p95": 0.03739122124186864,
+      "temperature_relative_deep_p95": 0.03817607906493472
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 624,
+      "temperature_relative_p95": 0.03694731792152595,
+      "temperature_relative_deep_p95": 0.03737433636723403
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 684,
+      "temperature_relative_p95": 0.037034094350706294,
+      "temperature_relative_deep_p95": 0.03763386482939479
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 420,
+      "temperature_relative_p95": 0.0322322648328545,
+      "temperature_relative_deep_p95": 0.0357588186695381
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 432,
+      "temperature_relative_p95": 0.02981752624326231,
+      "temperature_relative_deep_p95": 0.03277820925202398
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 456,
+      "temperature_relative_p95": 0.027691505878885164,
+      "temperature_relative_deep_p95": 0.029458204728661137
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 444,
+      "temperature_relative_p95": 0.02942171081046776,
+      "temperature_relative_deep_p95": 0.031958466025221094
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 468,
+      "temperature_relative_p95": 0.02709578339620473,
+      "temperature_relative_deep_p95": 0.02847892624105561
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 492,
+      "temperature_relative_p95": 0.02662606183860944,
+      "temperature_relative_deep_p95": 0.027691957896322106
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 462,
+      "temperature_relative_p95": 0.02922010747552404,
+      "temperature_relative_deep_p95": 0.031662231675814716
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 486,
+      "temperature_relative_p95": 0.02705942310629337,
+      "temperature_relative_deep_p95": 0.028537802906948323
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 510,
+      "temperature_relative_p95": 0.026497411916814387,
+      "temperature_relative_deep_p95": 0.027586759719294186
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 534,
+      "temperature_relative_p95": 0.026475030377130792,
+      "temperature_relative_deep_p95": 0.02758601105355083
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 609,
+      "temperature_relative_p95": 0.030010737873711783,
+      "temperature_relative_deep_p95": 0.03244906050549004
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 621,
+      "temperature_relative_p95": 0.028064169854238527,
+      "temperature_relative_deep_p95": 0.029883506472064933
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 657,
+      "temperature_relative_p95": 0.02489876603654324,
+      "temperature_relative_deep_p95": 0.025395799911660955
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 633,
+      "temperature_relative_p95": 0.027223423334978097,
+      "temperature_relative_deep_p95": 0.02845256850001448
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 669,
+      "temperature_relative_p95": 0.024151919380140614,
+      "temperature_relative_deep_p95": 0.023960512333616485
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 705,
+      "temperature_relative_p95": 0.02326306481015088,
+      "temperature_relative_deep_p95": 0.022767469278731398
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 651,
+      "temperature_relative_p95": 0.027035100293804855,
+      "temperature_relative_deep_p95": 0.028174618269508737
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 687,
+      "temperature_relative_p95": 0.024130401842351476,
+      "temperature_relative_deep_p95": 0.0239824663910439
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 723,
+      "temperature_relative_p95": 0.023162422334903968,
+      "temperature_relative_deep_p95": 0.022642856297376026
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 759,
+      "temperature_relative_p95": 0.023108743148251877,
+      "temperature_relative_deep_p95": 0.022455900570021812
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 798,
+      "temperature_relative_p95": 0.02907065549787088,
+      "temperature_relative_deep_p95": 0.03242964067074193
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 810,
+      "temperature_relative_p95": 0.026845110944967828,
+      "temperature_relative_deep_p95": 0.02937914240307024
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 858,
+      "temperature_relative_p95": 0.023164399689663603,
+      "temperature_relative_deep_p95": 0.024083272146708336
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 822,
+      "temperature_relative_p95": 0.02623120168046782,
+      "temperature_relative_deep_p95": 0.028397596778420943
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 870,
+      "temperature_relative_p95": 0.02208291600415883,
+      "temperature_relative_deep_p95": 0.022353138524011787
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 918,
+      "temperature_relative_p95": 0.020958494882205334,
+      "temperature_relative_deep_p95": 0.020850166869023957
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 840,
+      "temperature_relative_p95": 0.026042335738474608,
+      "temperature_relative_deep_p95": 0.02816134524145476
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 888,
+      "temperature_relative_p95": 0.022133107501781036,
+      "temperature_relative_deep_p95": 0.02245909253945971
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 936,
+      "temperature_relative_p95": 0.02086966241087349,
+      "temperature_relative_deep_p95": 0.020740272668995297
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 984,
+      "temperature_relative_p95": 0.020764679592876756,
+      "temperature_relative_deep_p95": 0.020483096119356094
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 987,
+      "temperature_relative_p95": 0.028684620819184506,
+      "temperature_relative_deep_p95": 0.032318065537032585
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 999,
+      "temperature_relative_p95": 0.026569417484948447,
+      "temperature_relative_deep_p95": 0.029198062243736046
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 1059,
+      "temperature_relative_p95": 0.022330088445991318,
+      "temperature_relative_deep_p95": 0.023308478700306872
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 1011,
+      "temperature_relative_p95": 0.02590706869704829,
+      "temperature_relative_deep_p95": 0.0283006810859161
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 1071,
+      "temperature_relative_p95": 0.021450550881899934,
+      "temperature_relative_deep_p95": 0.02210594895299059
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 1131,
+      "temperature_relative_p95": 0.02040582916386457,
+      "temperature_relative_deep_p95": 0.020391294508792478
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 1029,
+      "temperature_relative_p95": 0.025767723613029994,
+      "temperature_relative_deep_p95": 0.02809546378221148
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 1089,
+      "temperature_relative_p95": 0.021448431308580203,
+      "temperature_relative_deep_p95": 0.02215092956509669
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 1149,
+      "temperature_relative_p95": 0.020248333723931183,
+      "temperature_relative_deep_p95": 0.020149158180797072
+    },
+    {
+      "variant": "chebyshev",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 1209,
+      "temperature_relative_p95": 0.020114423016719493,
+      "temperature_relative_deep_p95": 0.019886066156102864
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 210,
+      "temperature_relative_p95": 0.04406282158317056,
+      "temperature_relative_deep_p95": 0.05125844978307059
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 222,
+      "temperature_relative_p95": 0.04154760139207406,
+      "temperature_relative_deep_p95": 0.04697953424519692
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 246,
+      "temperature_relative_p95": 0.039858753799100005,
+      "temperature_relative_deep_p95": 0.04131184949999433
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 234,
+      "temperature_relative_p95": 0.04156901569400448,
+      "temperature_relative_deep_p95": 0.047061742340899645
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 258,
+      "temperature_relative_p95": 0.039703987407330395,
+      "temperature_relative_deep_p95": 0.04087431719851082
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 282,
+      "temperature_relative_p95": 0.03971327917520229,
+      "temperature_relative_deep_p95": 0.04074875224691396
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 252,
+      "temperature_relative_p95": 0.04154171640534919,
+      "temperature_relative_deep_p95": 0.047026672031002636
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 276,
+      "temperature_relative_p95": 0.03968684677658774,
+      "temperature_relative_deep_p95": 0.04090922443955781
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 300,
+      "temperature_relative_p95": 0.03970310032224808,
+      "temperature_relative_deep_p95": 0.040790595969098536
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 324,
+      "temperature_relative_p95": 0.03968840417655275,
+      "temperature_relative_deep_p95": 0.04079871433943198
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 294,
+      "temperature_relative_p95": 0.04279533834677616,
+      "temperature_relative_deep_p95": 0.04916722730427587
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 306,
+      "temperature_relative_p95": 0.03974851210255829,
+      "temperature_relative_deep_p95": 0.04426150736579086
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 342,
+      "temperature_relative_p95": 0.038687336405263284,
+      "temperature_relative_deep_p95": 0.038846731997314386
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 318,
+      "temperature_relative_p95": 0.039771823105041244,
+      "temperature_relative_deep_p95": 0.0444358101101119
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 354,
+      "temperature_relative_p95": 0.03843156595503415,
+      "temperature_relative_deep_p95": 0.03817736753725907
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 390,
+      "temperature_relative_p95": 0.03842952266693824,
+      "temperature_relative_deep_p95": 0.03816426343290058
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 336,
+      "temperature_relative_p95": 0.03977542350959572,
+      "temperature_relative_deep_p95": 0.04437643138149284
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 372,
+      "temperature_relative_p95": 0.038486444173842976,
+      "temperature_relative_deep_p95": 0.03834748213586652
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 408,
+      "temperature_relative_p95": 0.03845890156011414,
+      "temperature_relative_deep_p95": 0.03831252198462192
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 444,
+      "temperature_relative_p95": 0.038404190456901195,
+      "temperature_relative_deep_p95": 0.038271620792426526
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 378,
+      "temperature_relative_p95": 0.04229389937220061,
+      "temperature_relative_deep_p95": 0.048974496752927726
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 390,
+      "temperature_relative_p95": 0.03948556739504785,
+      "temperature_relative_deep_p95": 0.044150596931498864
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 438,
+      "temperature_relative_p95": 0.037532078508017444,
+      "temperature_relative_deep_p95": 0.038019972914210116
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 402,
+      "temperature_relative_p95": 0.03953627258112807,
+      "temperature_relative_deep_p95": 0.04433833476670492
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 450,
+      "temperature_relative_p95": 0.03719784154411353,
+      "temperature_relative_deep_p95": 0.03731875531553207
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 498,
+      "temperature_relative_p95": 0.037327523202638144,
+      "temperature_relative_deep_p95": 0.03735686300576518
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 420,
+      "temperature_relative_p95": 0.03951817706748938,
+      "temperature_relative_deep_p95": 0.044272375014441395
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 468,
+      "temperature_relative_p95": 0.03725147245467797,
+      "temperature_relative_deep_p95": 0.03749488115688551
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 516,
+      "temperature_relative_p95": 0.03734518253221364,
+      "temperature_relative_deep_p95": 0.037513340981415885
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 564,
+      "temperature_relative_p95": 0.03723090689030652,
+      "temperature_relative_deep_p95": 0.03742822376926192
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 462,
+      "temperature_relative_p95": 0.04206821097266642,
+      "temperature_relative_deep_p95": 0.048731700050328695
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 474,
+      "temperature_relative_p95": 0.039369540692438344,
+      "temperature_relative_deep_p95": 0.04399455196285617
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 534,
+      "temperature_relative_p95": 0.03727741020921518,
+      "temperature_relative_deep_p95": 0.03819347133981187
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 486,
+      "temperature_relative_p95": 0.039388355312420006,
+      "temperature_relative_deep_p95": 0.04414534575302947
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 546,
+      "temperature_relative_p95": 0.03703340198206286,
+      "temperature_relative_deep_p95": 0.0375582308534954
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 606,
+      "temperature_relative_p95": 0.03713087973848297,
+      "temperature_relative_deep_p95": 0.037422689622916484
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 504,
+      "temperature_relative_p95": 0.03938786020611626,
+      "temperature_relative_deep_p95": 0.044066848160789575
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 564,
+      "temperature_relative_p95": 0.037064811208862694,
+      "temperature_relative_deep_p95": 0.03768115480697975
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 624,
+      "temperature_relative_p95": 0.03714662295313547,
+      "temperature_relative_deep_p95": 0.037536043128503144
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 2,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 684,
+      "temperature_relative_p95": 0.03694987482772989,
+      "temperature_relative_deep_p95": 0.03741293408003218
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 420,
+      "temperature_relative_p95": 0.03369794780516185,
+      "temperature_relative_deep_p95": 0.03995468833533451
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 432,
+      "temperature_relative_p95": 0.030751645653891716,
+      "temperature_relative_deep_p95": 0.03337725811179612
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 456,
+      "temperature_relative_p95": 0.026566172030800285,
+      "temperature_relative_deep_p95": 0.027810363094072903
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 444,
+      "temperature_relative_p95": 0.030683128040736047,
+      "temperature_relative_deep_p95": 0.03339352746759867
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 468,
+      "temperature_relative_p95": 0.026462896602198676,
+      "temperature_relative_deep_p95": 0.027565434250773187
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 492,
+      "temperature_relative_p95": 0.0263947137373642,
+      "temperature_relative_deep_p95": 0.02734778321390012
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 462,
+      "temperature_relative_p95": 0.030739637165199438,
+      "temperature_relative_deep_p95": 0.03340387676114867
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 486,
+      "temperature_relative_p95": 0.026460752726331964,
+      "temperature_relative_deep_p95": 0.02760828853051841
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 510,
+      "temperature_relative_p95": 0.026378556763878333,
+      "temperature_relative_deep_p95": 0.027408301790514303
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 2,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 534,
+      "temperature_relative_p95": 0.02634861751532959,
+      "temperature_relative_deep_p95": 0.027342179370330916
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 609,
+      "temperature_relative_p95": 0.03190716123837806,
+      "temperature_relative_deep_p95": 0.036738084658944445
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 621,
+      "temperature_relative_p95": 0.028272675665909873,
+      "temperature_relative_deep_p95": 0.029290193977357475
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 657,
+      "temperature_relative_p95": 0.023276663427377473,
+      "temperature_relative_deep_p95": 0.022738927579987227
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 633,
+      "temperature_relative_p95": 0.028254982080092306,
+      "temperature_relative_deep_p95": 0.02935257308228224
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 669,
+      "temperature_relative_p95": 0.02316309570512969,
+      "temperature_relative_deep_p95": 0.02250515923304366
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 705,
+      "temperature_relative_p95": 0.02303263663369965,
+      "temperature_relative_deep_p95": 0.02234733008343599
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 651,
+      "temperature_relative_p95": 0.02825985708075372,
+      "temperature_relative_deep_p95": 0.029340847704546983
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 687,
+      "temperature_relative_p95": 0.023182891755627273,
+      "temperature_relative_deep_p95": 0.022569543100712457
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 723,
+      "temperature_relative_p95": 0.02306475178311662,
+      "temperature_relative_deep_p95": 0.02239684405487335
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 3,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 759,
+      "temperature_relative_p95": 0.022990806172426905,
+      "temperature_relative_deep_p95": 0.02226428878506597
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 798,
+      "temperature_relative_p95": 0.031089275132823765,
+      "temperature_relative_deep_p95": 0.036158077015723586
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 810,
+      "temperature_relative_p95": 0.027323156401773428,
+      "temperature_relative_deep_p95": 0.028695105320618634
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 858,
+      "temperature_relative_p95": 0.021173325293289684,
+      "temperature_relative_deep_p95": 0.021125422074441565
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 822,
+      "temperature_relative_p95": 0.0273441783018998,
+      "temperature_relative_deep_p95": 0.028758406425604278
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 870,
+      "temperature_relative_p95": 0.0210970590051691,
+      "temperature_relative_deep_p95": 0.020990781419747334
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 918,
+      "temperature_relative_p95": 0.02067907794835404,
+      "temperature_relative_deep_p95": 0.0204270905242175
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 840,
+      "temperature_relative_p95": 0.02734165370548433,
+      "temperature_relative_deep_p95": 0.028752593964927003
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 888,
+      "temperature_relative_p95": 0.021126737876722312,
+      "temperature_relative_deep_p95": 0.021071079866487114
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 936,
+      "temperature_relative_p95": 0.020685564769762303,
+      "temperature_relative_deep_p95": 0.020486336115789486
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 4,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 984,
+      "temperature_relative_p95": 0.020681344695233268,
+      "temperature_relative_deep_p95": 0.020411711313591846
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 9,
+      "mode_dimension": 7,
+      "stored_floats": 987,
+      "temperature_relative_p95": 0.030670028026592185,
+      "temperature_relative_deep_p95": 0.03559010827175286
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 7,
+      "stored_floats": 999,
+      "temperature_relative_p95": 0.02684889803269776,
+      "temperature_relative_deep_p95": 0.027981665319544744
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 13,
+      "mode_dimension": 11,
+      "stored_floats": 1059,
+      "temperature_relative_p95": 0.020636662426814452,
+      "temperature_relative_deep_p95": 0.02029301358163712
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 7,
+      "stored_floats": 1011,
+      "temperature_relative_p95": 0.026825484701913604,
+      "temperature_relative_deep_p95": 0.02797854185918759
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 11,
+      "stored_floats": 1071,
+      "temperature_relative_p95": 0.02053154075322655,
+      "temperature_relative_deep_p95": 0.020109980375846773
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 17,
+      "mode_dimension": 15,
+      "stored_floats": 1131,
+      "temperature_relative_p95": 0.02001534046778185,
+      "temperature_relative_deep_p95": 0.019784052711380756
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 7,
+      "stored_floats": 1029,
+      "temperature_relative_p95": 0.026811358283016482,
+      "temperature_relative_deep_p95": 0.02797533752860634
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 11,
+      "stored_floats": 1089,
+      "temperature_relative_p95": 0.020537994314081074,
+      "temperature_relative_deep_p95": 0.02018297416222162
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 15,
+      "stored_floats": 1149,
+      "temperature_relative_p95": 0.020016308183849182,
+      "temperature_relative_deep_p95": 0.019818759144437842
+    },
+    {
+      "variant": "hopf_2q_kernels",
+      "degree": 3,
+      "components": 5,
+      "center_dimension": 23,
+      "mode_dimension": 19,
+      "stored_floats": 1209,
+      "temperature_relative_p95": 0.02011047522173468,
+      "temperature_relative_deep_p95": 0.01990700809309534
+    }
+  ],
+  "best_at_budget": [
+    {
+      "budget": 300,
+      "chebyshev": {
+        "variant": "chebyshev",
+        "degree": 2,
+        "components": 2,
+        "center_dimension": 23,
+        "mode_dimension": 15,
+        "stored_floats": 300,
+        "temperature_relative_p95": 0.03975074801958218,
+        "temperature_relative_deep_p95": 0.04089495022151489
+      },
+      "hopf_2q_kernels": {
+        "variant": "hopf_2q_kernels",
+        "degree": 2,
+        "components": 2,
+        "center_dimension": 23,
+        "mode_dimension": 11,
+        "stored_floats": 276,
+        "temperature_relative_p95": 0.03968684677658774,
+        "temperature_relative_deep_p95": 0.04090922443955781
+      },
+      "hopf_gain": 0.0016075481891046906
+    },
+    {
+      "budget": 400,
+      "chebyshev": {
+        "variant": "chebyshev",
+        "degree": 2,
+        "components": 3,
+        "center_dimension": 17,
+        "mode_dimension": 15,
+        "stored_floats": 390,
+        "temperature_relative_p95": 0.03844909287327083,
+        "temperature_relative_deep_p95": 0.03802826043948333
+      },
+      "hopf_2q_kernels": {
+        "variant": "hopf_2q_kernels",
+        "degree": 2,
+        "components": 3,
+        "center_dimension": 17,
+        "mode_dimension": 15,
+        "stored_floats": 390,
+        "temperature_relative_p95": 0.03842952266693824,
+        "temperature_relative_deep_p95": 0.03816426343290058
+      },
+      "hopf_gain": 0.0005089900663479696
+    },
+    {
+      "budget": 550,
+      "chebyshev": {
+        "variant": "chebyshev",
+        "degree": 3,
+        "components": 2,
+        "center_dimension": 23,
+        "mode_dimension": 19,
+        "stored_floats": 534,
+        "temperature_relative_p95": 0.026475030377130792,
+        "temperature_relative_deep_p95": 0.02758601105355083
+      },
+      "hopf_2q_kernels": {
+        "variant": "hopf_2q_kernels",
+        "degree": 3,
+        "components": 2,
+        "center_dimension": 23,
+        "mode_dimension": 19,
+        "stored_floats": 534,
+        "temperature_relative_p95": 0.02634861751532959,
+        "temperature_relative_deep_p95": 0.027342179370330916
+      },
+      "hopf_gain": 0.004774795722629177
+    },
+    {
+      "budget": 800,
+      "chebyshev": {
+        "variant": "chebyshev",
+        "degree": 3,
+        "components": 3,
+        "center_dimension": 23,
+        "mode_dimension": 19,
+        "stored_floats": 759,
+        "temperature_relative_p95": 0.023108743148251877,
+        "temperature_relative_deep_p95": 0.022455900570021812
+      },
+      "hopf_2q_kernels": {
+        "variant": "hopf_2q_kernels",
+        "degree": 3,
+        "components": 3,
+        "center_dimension": 23,
+        "mode_dimension": 19,
+        "stored_floats": 759,
+        "temperature_relative_p95": 0.022990806172426905,
+        "temperature_relative_deep_p95": 0.02226428878506597
+      },
+      "hopf_gain": 0.005103565134129462
+    },
+    {
+      "budget": 1200,
+      "chebyshev": {
+        "variant": "chebyshev",
+        "degree": 3,
+        "components": 5,
+        "center_dimension": 23,
+        "mode_dimension": 15,
+        "stored_floats": 1149,
+        "temperature_relative_p95": 0.020248333723931183,
+        "temperature_relative_deep_p95": 0.020149158180797072
+      },
+      "hopf_2q_kernels": {
+        "variant": "hopf_2q_kernels",
+        "degree": 3,
+        "components": 5,
+        "center_dimension": 17,
+        "mode_dimension": 15,
+        "stored_floats": 1131,
+        "temperature_relative_p95": 0.02001534046778185,
+        "temperature_relative_deep_p95": 0.019784052711380756
+      },
+      "hopf_gain": 0.011506786648521117
+    }
+  ],
+  "error_budget": {
+    "stages": [
+      {
+        "stage": "depth",
+        "cumulative_p95_dex": 0.0013607357315137845,
+        "added_by_this_stage_dex": 0.0013607357315137845,
+        "share_of_final": 0.15903608520525292
+      },
+      {
+        "stage": "rank",
+        "cumulative_p95_dex": 0.004489239607523564,
+        "added_by_this_stage_dex": 0.00312850387600978,
+        "share_of_final": 0.36564411256882995
+      },
+      {
+        "stage": "label",
+        "cumulative_p95_dex": 0.008556144536364881,
+        "added_by_this_stage_dex": 0.004066904928841317,
+        "share_of_final": 0.47531980222591713
+      }
+    ],
+    "center_dimension": 23,
+    "mode_dimension": 19
+  },
+  "reproducer": "PYTHONPATH=. python3 -m experiments.analytic_initializer.run_hopf_basis_probe"
+}

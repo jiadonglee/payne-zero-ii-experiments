@@ -1,0 +1,255 @@
+{
+  "reduced_state_reconstruction": {
+    "star_count": 60,
+    "converged_count": 60,
+    "converged_fraction": 1.0,
+    "retry_count": 0,
+    "retry_fraction": 0.0,
+    "failure_count": 0,
+    "failure_fraction": 0.0,
+    "converging_trial_iterations": {
+      "mean": 3.3333333333333335,
+      "p50": 3.0,
+      "p75": 3.0,
+      "p90": 3.0,
+      "p95": 4.1499999999999915,
+      "p99": 10.22999999999999,
+      "max": 12.0,
+      "histogram": {
+        "3": 56,
+        "4": 1,
+        "7": 1,
+        "9": 1,
+        "12": 1
+      }
+    },
+    "total_iterations_including_retries": {
+      "mean": 3.3333333333333335,
+      "p50": 3.0,
+      "p75": 3.0,
+      "p90": 3.0,
+      "p95": 4.1499999999999915,
+      "p99": 10.22999999999999,
+      "max": 12.0
+    },
+    "seconds_per_star": {
+      "mean": 133.04301943742516,
+      "p50": 146.54297935590148,
+      "p75": 158.67567873059306,
+      "p90": 168.50469569237902,
+      "p95": 178.61744823412735,
+      "p99": 198.25616510807524,
+      "total_hours": 2.2173836572904193
+    },
+    "stage_seconds": {
+      "first_iteration_mean": {
+        "population_seconds": 0.9134826015642223,
+        "opacity_seconds": 98.14061692351243,
+        "transfer_seconds": 0.32327656604272004,
+        "finalization_seconds": 0.6889528812724166,
+        "remap_seconds": 0.004348372287737826
+      },
+      "later_iteration_mean": {
+        "population_seconds": 0.24225675708980166,
+        "opacity_seconds": 13.023537643726117,
+        "transfer_seconds": 0.2048997177426437,
+        "finalization_seconds": 0.5872964350190679,
+        "remap_seconds": 0.0039392616167398435
+      }
+    },
+    "contraction": {
+      "trajectory_count": 60,
+      "non_monotonic_fraction": 0.26666666666666666,
+      "q_ratio": {
+        "geometric_mean": 0.6424416940454893,
+        "max": 2.039130037375301,
+        "p50": 0.7140158710090584,
+        "p75": 0.9134196933451253,
+        "p90": 1.06117260724385,
+        "p95": 1.16820281059007,
+        "p99": 1.7432791744014702
+      },
+      "first_iteration_residual": {
+        "mean": 0.0009604660566332671,
+        "p50": 0.0004204280460532874,
+        "p75": 0.0009529400174955956,
+        "p90": 0.0016078427997471784,
+        "p95": 0.002310969433650937,
+        "p99": 0.009918528343432773
+      }
+    },
+    "tail_labels": {
+      "threshold_iterations": 3.0,
+      "tail_count": 60,
+      "tail_fraction": 1.0,
+      "labels": {
+        "effective_temperature": {
+          "population_mean": 7522.124220902316,
+          "tail_mean": 7522.124220902316,
+          "tail_min": 4049.66551750241,
+          "tail_max": 10469.75190775047
+        },
+        "log_surface_gravity": {
+          "population_mean": 2.8034292694834635,
+          "tail_mean": 2.8034292694834635,
+          "tail_min": 0.7240574613295848,
+          "tail_max": 5.288664866674544
+        },
+        "metallicity": {
+          "population_mean": -1.0673117399661178,
+          "tail_mean": -1.0673117399661178,
+          "tail_min": -2.351004212280746,
+          "tail_max": 0.39958749963549556
+        },
+        "alpha_enhancement": {
+          "population_mean": 0.19262471190922023,
+          "tail_mean": 0.19262471190922023,
+          "tail_min": -0.0995175498169942,
+          "tail_max": 0.4934423383644879
+        },
+        "microturbulence_km_s": {
+          "population_mean": 2.4690691719460416,
+          "tail_mean": 2.4690691719460416,
+          "tail_min": 0.5931306549941151,
+          "tail_max": 3.9827011938553363
+        }
+      }
+    },
+    "headroom": {
+      "iteration_floor": 3,
+      "stars_already_at_floor": 56,
+      "stars_already_at_floor_fraction": 0.9333333333333333,
+      "total_iterations_burned": 200,
+      "recoverable_iterations": 20,
+      "recoverable_fraction": 0.1
+    }
+  },
+  "full_truth_oracle": {
+    "star_count": 60,
+    "converged_count": 60,
+    "converged_fraction": 1.0,
+    "retry_count": 0,
+    "retry_fraction": 0.0,
+    "failure_count": 0,
+    "failure_fraction": 0.0,
+    "converging_trial_iterations": {
+      "mean": 3.2333333333333334,
+      "p50": 3.0,
+      "p75": 3.0,
+      "p90": 3.0,
+      "p95": 3.0999999999999943,
+      "p99": 8.819999999999993,
+      "max": 10.0,
+      "histogram": {
+        "3": 57,
+        "5": 1,
+        "8": 1,
+        "10": 1
+      }
+    },
+    "total_iterations_including_retries": {
+      "mean": 3.2333333333333334,
+      "p50": 3.0,
+      "p75": 3.0,
+      "p90": 3.0,
+      "p95": 3.0999999999999943,
+      "p99": 8.819999999999993,
+      "max": 10.0
+    },
+    "seconds_per_star": {
+      "mean": 144.3362067145412,
+      "p50": 167.61857425398193,
+      "p75": 176.42856140405638,
+      "p90": 178.88453701029067,
+      "p95": 184.70920469303383,
+      "p99": 204.74077249361187,
+      "total_hours": 2.405603445242353
+    },
+    "stage_seconds": {
+      "first_iteration_mean": {
+        "population_seconds": 0.8921653548915249,
+        "opacity_seconds": 104.14283215199443,
+        "transfer_seconds": 0.3519536870880984,
+        "finalization_seconds": 0.6886572900034177,
+        "remap_seconds": 0.004752391739748419
+      },
+      "later_iteration_mean": {
+        "population_seconds": 0.253794743849743,
+        "opacity_seconds": 15.943531350329962,
+        "transfer_seconds": 0.21644105275210215,
+        "finalization_seconds": 0.583576711129272,
+        "remap_seconds": 0.003754977635524945
+      }
+    },
+    "contraction": {
+      "trajectory_count": 60,
+      "non_monotonic_fraction": 0.31666666666666665,
+      "q_ratio": {
+        "geometric_mean": 0.6363296214318823,
+        "max": 3.0850587218474623,
+        "p50": 0.688382569609102,
+        "p75": 0.9005145020529222,
+        "p90": 1.053677678636419,
+        "p95": 1.2308498172878557,
+        "p99": 1.8872483506531426
+      },
+      "first_iteration_residual": {
+        "mean": 0.0009528860544308286,
+        "p50": 0.0004227683461354702,
+        "p75": 0.0009483430917824969,
+        "p90": 0.0015742879939406379,
+        "p95": 0.0023257837748929706,
+        "p99": 0.00990262677356952
+      }
+    },
+    "tail_labels": {
+      "threshold_iterations": 3.0,
+      "tail_count": 60,
+      "tail_fraction": 1.0,
+      "labels": {
+        "effective_temperature": {
+          "population_mean": 7522.124220902316,
+          "tail_mean": 7522.124220902316,
+          "tail_min": 4049.66551750241,
+          "tail_max": 10469.75190775047
+        },
+        "log_surface_gravity": {
+          "population_mean": 2.8034292694834635,
+          "tail_mean": 2.8034292694834635,
+          "tail_min": 0.7240574613295848,
+          "tail_max": 5.288664866674544
+        },
+        "metallicity": {
+          "population_mean": -1.0673117399661178,
+          "tail_mean": -1.0673117399661178,
+          "tail_min": -2.351004212280746,
+          "tail_max": 0.39958749963549556
+        },
+        "alpha_enhancement": {
+          "population_mean": 0.19262471190922023,
+          "tail_mean": 0.19262471190922023,
+          "tail_min": -0.0995175498169942,
+          "tail_max": 0.4934423383644879
+        },
+        "microturbulence_km_s": {
+          "population_mean": 2.4690691719460416,
+          "tail_mean": 2.4690691719460416,
+          "tail_min": 0.5931306549941151,
+          "tail_max": 3.9827011938553363
+        }
+      }
+    },
+    "headroom": {
+      "iteration_floor": 3,
+      "stars_already_at_floor": 57,
+      "stars_already_at_floor_fraction": 0.95,
+      "total_iterations_burned": 194,
+      "recoverable_iterations": 14,
+      "recoverable_fraction": 0.07216494845360824
+    }
+  },
+  "star_count": 60,
+  "seed": 20260807,
+  "hard_fraction": 0.3333333333333333,
+  "n_synchronizations": 3
+}

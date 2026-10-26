@@ -1,0 +1,884 @@
+{
+  "star_count": 60,
+  "star_indices": [
+    14767,
+    47791,
+    4507,
+    38490,
+    21633,
+    1318,
+    48980,
+    45514,
+    25391,
+    15661,
+    41799,
+    35590,
+    48708,
+    18143,
+    36745,
+    28463,
+    33136,
+    46286,
+    20379,
+    22097,
+    36600,
+    12402,
+    28078,
+    28401,
+    4175,
+    40736,
+    40161,
+    23476,
+    29143,
+    486,
+    32199,
+    31022,
+    48678,
+    6152,
+    7584,
+    24670,
+    43618,
+    46124,
+    30143,
+    11964,
+    43749,
+    22783,
+    2203,
+    33053,
+    26629,
+    28267,
+    40636,
+    13949,
+    33051,
+    11874,
+    11397,
+    20818,
+    8823,
+    30805,
+    23895,
+    44167,
+    31506,
+    40496,
+    50505,
+    24755
+  ],
+  "seed": 20260807,
+  "resolutions": [
+    40,
+    80,
+    160,
+    320,
+    640
+  ],
+  "n_synchronizations": 3,
+  "by_resolution": {
+    "40": {
+      "resolution": 40,
+      "representation_error": {
+        "column_mass_relative_error": {
+          "median": 3.079479530776917e-05,
+          "p90": 0.00034825441153385717,
+          "max": 0.02226418316927456
+        },
+        "temperature_relative_error": {
+          "median": 1.7353008244264302e-05,
+          "p90": 0.0003676640521327421,
+          "max": 0.08116798588561505
+        }
+      },
+      "reconstruction_error": {
+        "gas_pressure": {
+          "median": 0.00043635755122208074,
+          "p90": 0.003193235816801466,
+          "max": 0.3275638877018879
+        },
+        "electron_density": {
+          "median": 0.0007769347980206095,
+          "p90": 0.0054544071492114805,
+          "max": 0.27879263280919
+        },
+        "rosseland_opacity": {
+          "median": 0.001202907506597719,
+          "p90": 0.007723536750891945,
+          "max": 0.17847798049013025
+        },
+        "radiative_acceleration": {
+          "median": 0.0011743946958076997,
+          "p90": 0.00959074312897753,
+          "max": 31.53791575665418
+        }
+      },
+      "convergence": {
+        "star_count": 60,
+        "converged_count": 59,
+        "converged_fraction": 0.9833333333333333,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 1,
+        "failure_fraction": 0.016666666666666666,
+        "converging_trial_iterations": {
+          "mean": 3.4237288135593222,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 4.0,
+          "p95": 5.099999999999994,
+          "p99": 11.100000000000009,
+          "max": 14.0,
+          "histogram": {
+            "3": 52,
+            "4": 3,
+            "5": 1,
+            "6": 1,
+            "9": 1,
+            "14": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 3.6166666666666667,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 4.0,
+          "p95": 6.1499999999999915,
+          "p99": 14.409999999999997,
+          "max": 15.0
+        },
+        "seconds_per_star": {
+          "mean": 145.57358613505883,
+          "p50": 163.82497097249143,
+          "p75": 174.8079200158827,
+          "p90": 189.88342548508663,
+          "p95": 196.78818591408196,
+          "p99": 226.29902320126988,
+          "total_hours": 2.4262264355843137
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.6328666498341288,
+            "opacity_seconds": 103.60198243789297,
+            "transfer_seconds": 0.318340336647816,
+            "finalization_seconds": 0.6991929651703686,
+            "remap_seconds": 0.004988019296433777
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.23568798800942245,
+            "opacity_seconds": 14.264575094847709,
+            "transfer_seconds": 0.2238160644666808,
+            "finalization_seconds": 0.5811305174153227,
+            "remap_seconds": 0.0036860885673979664
+          }
+        },
+        "contraction": {
+          "trajectory_count": 60,
+          "non_monotonic_fraction": 0.15,
+          "q_ratio": {
+            "geometric_mean": 0.5476243344043469,
+            "max": 1.9459918395899112,
+            "p50": 0.6111348750448707,
+            "p75": 0.7953306012699272,
+            "p90": 0.9991644140543173,
+            "p95": 1.1755751633488452,
+            "p99": 1.6282895477424868
+          },
+          "first_iteration_residual": {
+            "mean": 0.0017723122363359862,
+            "p50": 0.0008153684674332919,
+            "p75": 0.0016121828446711288,
+            "p90": 0.0029557685190938422,
+            "p95": 0.004392157367515564,
+            "p99": 0.01874866796713708
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 4.0,
+          "tail_count": 8,
+          "tail_fraction": 0.13333333333333333,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7522.124220902316,
+              "tail_mean": 5920.856639503914,
+              "tail_min": 4336.073871705856,
+              "tail_max": 7473.347970402287
+            },
+            "log_surface_gravity": {
+              "population_mean": 2.8034292694834635,
+              "tail_mean": 3.1923037602219724,
+              "tail_min": 1.0752786688421436,
+              "tail_max": 5.288664866674544
+            },
+            "metallicity": {
+              "population_mean": -1.0673117399661178,
+              "tail_mean": -1.1352481261631304,
+              "tail_min": -2.0136832913841385,
+              "tail_max": 0.21352073925153547
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.19262471190922023,
+              "tail_mean": 0.1964711207794809,
+              "tail_min": -0.0815288829000887,
+              "tail_max": 0.38177981670872274
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.4690691719460416,
+              "tail_mean": 2.4791840522566773,
+              "tail_min": 0.6235038738451772,
+              "tail_max": 3.97415011006838
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 52,
+          "stars_already_at_floor_fraction": 0.8666666666666667,
+          "total_iterations_burned": 217,
+          "recoverable_iterations": 37,
+          "recoverable_fraction": 0.17050691244239632
+        }
+      }
+    },
+    "80": {
+      "resolution": 80,
+      "representation_error": {
+        "column_mass_relative_error": {
+          "median": 1.3006214800249069e-16,
+          "p90": 4.1157712854637543e-16,
+          "max": 1.0953976060490774e-15
+        },
+        "temperature_relative_error": {
+          "median": 2.833439824424492e-16,
+          "p90": 5.662897641522803e-16,
+          "max": 2.6735390972874803e-15
+        }
+      },
+      "reconstruction_error": {
+        "gas_pressure": {
+          "median": 0.0003891922121783719,
+          "p90": 0.002855477491012574,
+          "max": 0.32721818220867105
+        },
+        "electron_density": {
+          "median": 0.0005495150700473373,
+          "p90": 0.0035032764987206347,
+          "max": 0.28055697600692214
+        },
+        "rosseland_opacity": {
+          "median": 0.0008520352420850097,
+          "p90": 0.005494012127036626,
+          "max": 0.13564467812154918
+        },
+        "radiative_acceleration": {
+          "median": 0.0008189953878403936,
+          "p90": 0.004449197577130225,
+          "max": 0.22806296518346242
+        }
+      },
+      "convergence": {
+        "star_count": 60,
+        "converged_count": 60,
+        "converged_fraction": 1.0,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 0,
+        "failure_fraction": 0.0,
+        "converging_trial_iterations": {
+          "mean": 3.3333333333333335,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 4.1499999999999915,
+          "p99": 10.22999999999999,
+          "max": 12.0,
+          "histogram": {
+            "3": 56,
+            "4": 1,
+            "7": 1,
+            "9": 1,
+            "12": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 3.3333333333333335,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 4.1499999999999915,
+          "p99": 10.22999999999999,
+          "max": 12.0
+        },
+        "seconds_per_star": {
+          "mean": 134.95817848580967,
+          "p50": 152.88484165107366,
+          "p75": 158.7512973335106,
+          "p90": 163.07983524105512,
+          "p95": 172.40608316960277,
+          "p99": 200.12923582644885,
+          "total_hours": 2.2493029747634945
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.7371984667377547,
+            "opacity_seconds": 98.10360932745195,
+            "transfer_seconds": 0.35424952492661155,
+            "finalization_seconds": 0.7152499247536374,
+            "remap_seconds": 0.004542317563512673
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.24701731549077002,
+            "opacity_seconds": 13.857287998648825,
+            "transfer_seconds": 0.23552758219385786,
+            "finalization_seconds": 0.5944460893648543,
+            "remap_seconds": 0.003914702835027128
+          }
+        },
+        "contraction": {
+          "trajectory_count": 60,
+          "non_monotonic_fraction": 0.26666666666666666,
+          "q_ratio": {
+            "geometric_mean": 0.642366830319624,
+            "max": 2.039130037330224,
+            "p50": 0.7140158710131796,
+            "p75": 0.9134196933417739,
+            "p90": 1.061172607235137,
+            "p95": 1.1682028098068333,
+            "p99": 1.7432791743885734
+          },
+          "first_iteration_residual": {
+            "mean": 0.0009604866822571904,
+            "p50": 0.0004204280460537763,
+            "p75": 0.0009529400174947122,
+            "p90": 0.001607842799745496,
+            "p95": 0.0023109694336579108,
+            "p99": 0.00991852834351384
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 3.0,
+          "tail_count": 60,
+          "tail_fraction": 1.0,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7522.124220902316,
+              "tail_mean": 7522.124220902316,
+              "tail_min": 4049.66551750241,
+              "tail_max": 10469.75190775047
+            },
+            "log_surface_gravity": {
+              "population_mean": 2.8034292694834635,
+              "tail_mean": 2.8034292694834635,
+              "tail_min": 0.7240574613295848,
+              "tail_max": 5.288664866674544
+            },
+            "metallicity": {
+              "population_mean": -1.0673117399661178,
+              "tail_mean": -1.0673117399661178,
+              "tail_min": -2.351004212280746,
+              "tail_max": 0.39958749963549556
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.19262471190922023,
+              "tail_mean": 0.19262471190922023,
+              "tail_min": -0.0995175498169942,
+              "tail_max": 0.4934423383644879
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.4690691719460416,
+              "tail_mean": 2.4690691719460416,
+              "tail_min": 0.5931306549941151,
+              "tail_max": 3.9827011938553363
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 56,
+          "stars_already_at_floor_fraction": 0.9333333333333333,
+          "total_iterations_burned": 200,
+          "recoverable_iterations": 20,
+          "recoverable_fraction": 0.1
+        }
+      }
+    },
+    "160": {
+      "resolution": 160,
+      "representation_error": {
+        "column_mass_relative_error": {
+          "median": 3.9507194371176206e-07,
+          "p90": 2.514083943843651e-06,
+          "max": 3.98966405818756e-05
+        },
+        "temperature_relative_error": {
+          "median": 2.5889666875270593e-07,
+          "p90": 3.398414346603072e-06,
+          "max": 0.00017088299038430467
+        }
+      },
+      "reconstruction_error": {
+        "gas_pressure": {
+          "median": 0.00038928073275220655,
+          "p90": 0.002855685433651681,
+          "max": 0.32721708611708694
+        },
+        "electron_density": {
+          "median": 0.000550693127679728,
+          "p90": 0.0035113954175555167,
+          "max": 0.2805563083531101
+        },
+        "rosseland_opacity": {
+          "median": 0.0008530600533782094,
+          "p90": 0.005460775336326516,
+          "max": 0.13564460473363635
+        },
+        "radiative_acceleration": {
+          "median": 0.0008301088866832645,
+          "p90": 0.004470374063895956,
+          "max": 0.2267900335571218
+        }
+      },
+      "convergence": {
+        "star_count": 60,
+        "converged_count": 59,
+        "converged_fraction": 0.9833333333333333,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 1,
+        "failure_fraction": 0.016666666666666666,
+        "converging_trial_iterations": {
+          "mean": 3.152542372881356,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 3.0,
+          "p99": 7.420000000000002,
+          "max": 8.0,
+          "histogram": {
+            "3": 57,
+            "7": 1,
+            "8": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 3.35,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 3.1999999999999886,
+          "p99": 10.869999999999976,
+          "max": 15.0
+        },
+        "seconds_per_star": {
+          "mean": 131.51582600555074,
+          "p50": 148.98306507407688,
+          "p75": 153.185185995535,
+          "p90": 158.94124907427468,
+          "p95": 170.83638768214732,
+          "p99": 199.63385015899524,
+          "total_hours": 2.1919304334258456
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.7538993323454634,
+            "opacity_seconds": 94.87660175599157,
+            "transfer_seconds": 0.34712575081503017,
+            "finalization_seconds": 0.7289178298592257,
+            "remap_seconds": 0.004931377984272937
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.24397831690392013,
+            "opacity_seconds": 13.634613152928583,
+            "transfer_seconds": 0.2538521803159214,
+            "finalization_seconds": 0.6038896046192485,
+            "remap_seconds": 0.003596485853327293
+          }
+        },
+        "contraction": {
+          "trajectory_count": 60,
+          "non_monotonic_fraction": 0.26666666666666666,
+          "q_ratio": {
+            "geometric_mean": 0.6498479827052754,
+            "max": 2.084280395007671,
+            "p50": 0.7072089857512266,
+            "p75": 0.9041193654747227,
+            "p90": 1.068243532281959,
+            "p95": 1.172831462046019,
+            "p99": 1.9441837736049925
+          },
+          "first_iteration_residual": {
+            "mean": 0.000968884073191367,
+            "p50": 0.0004216567522540849,
+            "p75": 0.0009565730826484568,
+            "p90": 0.0016086606142229451,
+            "p95": 0.0023170379380258728,
+            "p99": 0.010163431419866666
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 3.0,
+          "tail_count": 60,
+          "tail_fraction": 1.0,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7522.124220902316,
+              "tail_mean": 7522.124220902316,
+              "tail_min": 4049.66551750241,
+              "tail_max": 10469.75190775047
+            },
+            "log_surface_gravity": {
+              "population_mean": 2.8034292694834635,
+              "tail_mean": 2.8034292694834635,
+              "tail_min": 0.7240574613295848,
+              "tail_max": 5.288664866674544
+            },
+            "metallicity": {
+              "population_mean": -1.0673117399661178,
+              "tail_mean": -1.0673117399661178,
+              "tail_min": -2.351004212280746,
+              "tail_max": 0.39958749963549556
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.19262471190922023,
+              "tail_mean": 0.19262471190922023,
+              "tail_min": -0.0995175498169942,
+              "tail_max": 0.4934423383644879
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.4690691719460416,
+              "tail_mean": 2.4690691719460416,
+              "tail_min": 0.5931306549941151,
+              "tail_max": 3.9827011938553363
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 57,
+          "stars_already_at_floor_fraction": 0.95,
+          "total_iterations_burned": 201,
+          "recoverable_iterations": 21,
+          "recoverable_fraction": 0.1044776119402985
+        }
+      }
+    },
+    "320": {
+      "resolution": 320,
+      "representation_error": {
+        "column_mass_relative_error": {
+          "median": 4.718004707279085e-08,
+          "p90": 4.6922548054875155e-07,
+          "max": 2.7870332275115384e-05
+        },
+        "temperature_relative_error": {
+          "median": 3.2696563303295275e-08,
+          "p90": 7.967277186576997e-07,
+          "max": 4.1085609141042346e-05
+        }
+      },
+      "reconstruction_error": {
+        "gas_pressure": {
+          "median": 0.0003891615955395075,
+          "p90": 0.002855744053226245,
+          "max": 0.3272183165710071
+        },
+        "electron_density": {
+          "median": 0.0005497776234674672,
+          "p90": 0.003504065431225982,
+          "max": 0.28055637705107167
+        },
+        "rosseland_opacity": {
+          "median": 0.0008511878859092247,
+          "p90": 0.005492577459660375,
+          "max": 0.13564462276781178
+        },
+        "radiative_acceleration": {
+          "median": 0.0008185277698749395,
+          "p90": 0.004436703671120194,
+          "max": 0.22646714494947573
+        }
+      },
+      "convergence": {
+        "star_count": 60,
+        "converged_count": 59,
+        "converged_fraction": 0.9833333333333333,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 1,
+        "failure_fraction": 0.016666666666666666,
+        "converging_trial_iterations": {
+          "mean": 3.1864406779661016,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 3.0999999999999943,
+          "p99": 7.840000000000003,
+          "max": 9.0,
+          "histogram": {
+            "3": 56,
+            "4": 1,
+            "7": 1,
+            "9": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 3.3833333333333333,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 4.1499999999999915,
+          "p99": 11.45999999999998,
+          "max": 15.0
+        },
+        "seconds_per_star": {
+          "mean": 144.68980875718407,
+          "p50": 163.2668764620321,
+          "p75": 175.49816490377998,
+          "p90": 181.24923895450775,
+          "p95": 189.02257248833774,
+          "p99": 221.86962172087027,
+          "total_hours": 2.4114968126197347
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 6.020390366367065,
+            "opacity_seconds": 100.81960497663046,
+            "transfer_seconds": 0.3463805430568755,
+            "finalization_seconds": 0.692739785866191,
+            "remap_seconds": 0.004482307281189909
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.23878401684431502,
+            "opacity_seconds": 14.312432672644452,
+            "transfer_seconds": 0.2122637067800974,
+            "finalization_seconds": 0.572202756002845,
+            "remap_seconds": 0.003478524421660842
+          }
+        },
+        "contraction": {
+          "trajectory_count": 60,
+          "non_monotonic_fraction": 0.26666666666666666,
+          "q_ratio": {
+            "geometric_mean": 0.6517411734357474,
+            "max": 2.0401774068495944,
+            "p50": 0.7219963913421286,
+            "p75": 0.9246878744568454,
+            "p90": 1.063532219088068,
+            "p95": 1.206158853899216,
+            "p99": 1.746268565238528
+          },
+          "first_iteration_residual": {
+            "mean": 0.000962510099792463,
+            "p50": 0.0004203772823746035,
+            "p75": 0.0009532420375294373,
+            "p90": 0.0016080107473884482,
+            "p95": 0.002311949848352529,
+            "p99": 0.009979450320474155
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 3.0,
+          "tail_count": 60,
+          "tail_fraction": 1.0,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7522.124220902316,
+              "tail_mean": 7522.124220902316,
+              "tail_min": 4049.66551750241,
+              "tail_max": 10469.75190775047
+            },
+            "log_surface_gravity": {
+              "population_mean": 2.8034292694834635,
+              "tail_mean": 2.8034292694834635,
+              "tail_min": 0.7240574613295848,
+              "tail_max": 5.288664866674544
+            },
+            "metallicity": {
+              "population_mean": -1.0673117399661178,
+              "tail_mean": -1.0673117399661178,
+              "tail_min": -2.351004212280746,
+              "tail_max": 0.39958749963549556
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.19262471190922023,
+              "tail_mean": 0.19262471190922023,
+              "tail_min": -0.0995175498169942,
+              "tail_max": 0.4934423383644879
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.4690691719460416,
+              "tail_mean": 2.4690691719460416,
+              "tail_min": 0.5931306549941151,
+              "tail_max": 3.9827011938553363
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 56,
+          "stars_already_at_floor_fraction": 0.9333333333333333,
+          "total_iterations_burned": 203,
+          "recoverable_iterations": 23,
+          "recoverable_fraction": 0.11330049261083744
+        }
+      }
+    },
+    "640": {
+      "resolution": 640,
+      "representation_error": {
+        "column_mass_relative_error": {
+          "median": 6.54985666347657e-09,
+          "p90": 6.98317391698458e-08,
+          "max": 1.7115878006812208e-06
+        },
+        "temperature_relative_error": {
+          "median": 4.7917929235616816e-09,
+          "p90": 1.0855444009165005e-07,
+          "max": 8.617881526592235e-06
+        }
+      },
+      "reconstruction_error": {
+        "gas_pressure": {
+          "median": 0.00038918573529662503,
+          "p90": 0.0028556404090450383,
+          "max": 0.32721811568607406
+        },
+        "electron_density": {
+          "median": 0.0005495092764206958,
+          "p90": 0.00350308654023683,
+          "max": 0.28055682411423616
+        },
+        "rosseland_opacity": {
+          "median": 0.0008528108843160047,
+          "p90": 0.005492176938136765,
+          "max": 0.13564466662744715
+        },
+        "radiative_acceleration": {
+          "median": 0.0008191425530963887,
+          "p90": 0.0044408106327877145,
+          "max": 0.22704608194570994
+        }
+      },
+      "convergence": {
+        "star_count": 60,
+        "converged_count": 60,
+        "converged_fraction": 1.0,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 0,
+        "failure_fraction": 0.0,
+        "converging_trial_iterations": {
+          "mean": 3.316666666666667,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 4.1499999999999915,
+          "p99": 9.639999999999986,
+          "max": 12.0,
+          "histogram": {
+            "3": 56,
+            "4": 1,
+            "7": 1,
+            "8": 1,
+            "12": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 3.316666666666667,
+          "p50": 3.0,
+          "p75": 3.0,
+          "p90": 3.0,
+          "p95": 4.1499999999999915,
+          "p99": 9.639999999999986,
+          "max": 12.0
+        },
+        "seconds_per_star": {
+          "mean": 137.15435469903363,
+          "p50": 154.65552803257015,
+          "p75": 164.05509651685134,
+          "p90": 171.11684334473685,
+          "p95": 175.57193910379428,
+          "p99": 202.2877732024736,
+          "total_hours": 2.2859059116505605
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.9558968474972062,
+            "opacity_seconds": 99.36221306746205,
+            "transfer_seconds": 0.30875107312652594,
+            "finalization_seconds": 0.719793805340305,
+            "remap_seconds": 0.004567451371500889
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.2445050768450358,
+            "opacity_seconds": 14.270912056867529,
+            "transfer_seconds": 0.24028467508736434,
+            "finalization_seconds": 0.5996008415140291,
+            "remap_seconds": 0.003993276136478396
+          }
+        },
+        "contraction": {
+          "trajectory_count": 60,
+          "non_monotonic_fraction": 0.26666666666666666,
+          "q_ratio": {
+            "geometric_mean": 0.641298459214233,
+            "max": 2.039464757173977,
+            "p50": 0.7219572330327573,
+            "p75": 0.9149164193463053,
+            "p90": 1.0478606958574943,
+            "p95": 1.1641316265169555,
+            "p99": 1.7468339351693636
+          },
+          "first_iteration_residual": {
+            "mean": 0.0009603900354415455,
+            "p50": 0.0004204977029396003,
+            "p75": 0.0009529616036905779,
+            "p90": 0.0016078817405954112,
+            "p95": 0.0023111077984836396,
+            "p99": 0.009914920558892645
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 3.0,
+          "tail_count": 60,
+          "tail_fraction": 1.0,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7522.124220902316,
+              "tail_mean": 7522.124220902316,
+              "tail_min": 4049.66551750241,
+              "tail_max": 10469.75190775047
+            },
+            "log_surface_gravity": {
+              "population_mean": 2.8034292694834635,
+              "tail_mean": 2.8034292694834635,
+              "tail_min": 0.7240574613295848,
+              "tail_max": 5.288664866674544
+            },
+            "metallicity": {
+              "population_mean": -1.0673117399661178,
+              "tail_mean": -1.0673117399661178,
+              "tail_min": -2.351004212280746,
+              "tail_max": 0.39958749963549556
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.19262471190922023,
+              "tail_mean": 0.19262471190922023,
+              "tail_min": -0.0995175498169942,
+              "tail_max": 0.4934423383644879
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.4690691719460416,
+              "tail_mean": 2.4690691719460416,
+              "tail_min": 0.5931306549941151,
+              "tail_max": 3.9827011938553363
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 56,
+          "stars_already_at_floor_fraction": 0.9333333333333333,
+          "total_iterations_burned": 199,
+          "recoverable_iterations": 19,
+          "recoverable_fraction": 0.09547738693467336
+        }
+      }
+    }
+  }
+}

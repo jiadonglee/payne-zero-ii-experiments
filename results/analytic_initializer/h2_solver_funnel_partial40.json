@@ -1,0 +1,29 @@
+{
+  "candidate": "H2_standalone_low_rank_hopf_and_opacity_profile",
+  "status": "stopped_after_hard_tail_diagnostic",
+  "selection": {
+    "requested_count": 60,
+    "completed_count": 40,
+    "seed": 20260817,
+    "stratification": "20 cool, 20 warm, 20 hot; 12-star smoke indices excluded"
+  },
+  "completed": {
+    "converged_count": 37,
+    "finite_final_state_count": 40,
+    "nonconverged_finite_indices": [11206, 13265, 33356],
+    "nonconverged_finite_count": 3
+  },
+  "hard_tail": {
+    "index": 34042,
+    "labels": {
+      "effective_temperature": 7069.261004,
+      "log_surface_gravity": 3.70661091,
+      "metallicity": -1.88870188,
+      "alpha_enhancement": 0.47930559,
+      "microturbulence_km_s": 0.58863069
+    },
+    "observation": "The solver emitted molecular-equilibrium and continuum-opacity overflow warnings and did not return within the local hard-case budget.",
+    "action": "The single process was terminated after the result became non-informative; this row is not counted as converged or finite in the 40-row summary."
+  },
+  "interpretation": "The formula is physically positive and often solver-stable, but its hard-tail reliability is below the production replacement gate."
+}

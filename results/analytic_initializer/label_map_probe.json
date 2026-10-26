@@ -1,0 +1,283 @@
+{
+  "format": "payne_zero_label_map_probe_v1",
+  "date": "2026-08-17",
+  "question": "The label-to-amplitude polynomial owns 48 percent of the held-out error. Can physically motivated label coordinates take some of it?",
+  "answer": "Yes. Adding two Saha ionized fractions to the five standard coordinates closes 59 percent of the gap to the per-star oracle, and beats simply raising the polynomial degree at lower cost: 104 terms reach 0.00614 dex where 126 terms of degree 4 reach 0.00698. Column mass improves from 0.0870 to 0.0597 dex.",
+  "corpus": {
+    "path": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+    "sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+    "rows": 52199
+  },
+  "split": {
+    "seed": 20260816,
+    "train": 40911,
+    "validation": 10228,
+    "manifests": [
+      "results/reconstruction_metrics.json",
+      "results/sealed_solver_subset_20260808.json",
+      "results/sealed_audit_20260808.json",
+      "results/sealed_audit_20260811.json",
+      "results/sealed_initializer_holdout_20260812.json",
+      "results/initializer_calibration_20260812.json",
+      "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+    ]
+  },
+  "fixed_depth_pieces": {
+    "center_degree": 22,
+    "opacity_center_degree": 18,
+    "mode_degree": 18,
+    "components": 5,
+    "note": "held fixed so only the label map varies"
+  },
+  "per_star_oracle_p95_dex": 0.004489239607523393,
+  "label_maps": [
+    {
+      "label_map": "standard_degree_2",
+      "features": 5,
+      "terms": 21,
+      "temperature_p95_dex": 0.01608502050245911,
+      "mass_p95_dex": 0.13405207050510862,
+      "closes_fraction_of_gap": -1.8512544792235468
+    },
+    {
+      "label_map": "standard_degree_3",
+      "features": 5,
+      "terms": 56,
+      "temperature_p95_dex": 0.008556144536364918,
+      "mass_p95_dex": 0.08698082512575939,
+      "closes_fraction_of_gap": 0.0
+    },
+    {
+      "label_map": "standard_degree_4",
+      "features": 5,
+      "terms": 126,
+      "temperature_p95_dex": 0.0069801544312155265,
+      "mass_p95_dex": 0.06361572895197981,
+      "closes_fraction_of_gap": 0.3875158462576401
+    },
+    {
+      "label_map": "standard_degree_5",
+      "features": 5,
+      "terms": 252,
+      "temperature_p95_dex": 0.006699620572908831,
+      "mass_p95_dex": 0.05699374885598371,
+      "closes_fraction_of_gap": 0.4564955404514275
+    },
+    {
+      "label_map": "physical_degree_3_full",
+      "features": 7,
+      "terms": 120,
+      "temperature_p95_dex": 0.006152105118621489,
+      "mass_p95_dex": 0.058457631461324266,
+      "closes_fraction_of_gap": 0.5911226005541834
+    },
+    {
+      "label_map": "physical_degree_3_capped",
+      "features": 7,
+      "terms": 104,
+      "temperature_p95_dex": 0.006138725629603451,
+      "mass_p95_dex": 0.059675540749548804,
+      "closes_fraction_of_gap": 0.5944124460883521
+    },
+    {
+      "label_map": "physical_degree_4_capped",
+      "features": 7,
+      "terms": 254,
+      "temperature_p95_dex": 0.005632229149774879,
+      "mass_p95_dex": 0.052440822901134575,
+      "closes_fraction_of_gap": 0.7189534640591976
+    },
+    {
+      "label_map": "control_substituted_not_added",
+      "features": 5,
+      "terms": 56,
+      "temperature_p95_dex": 0.026769590793280413,
+      "mass_p95_dex": 0.34695958210603167,
+      "closes_fraction_of_gap": -4.478453904282359
+    },
+    {
+      "label_map": "control_linear_abundances",
+      "features": 7,
+      "terms": 120,
+      "temperature_p95_dex": 0.008587458242149107,
+      "mass_p95_dex": 0.08374258826602532,
+      "closes_fraction_of_gap": -0.007699640471583249
+    },
+    {
+      "label_map": "nearest_neighbour_k1",
+      "features": 5,
+      "terms": null,
+      "temperature_p95_dex": 0.010366509412868617,
+      "mass_p95_dex": 0.3744713750253409,
+      "closes_fraction_of_gap": -0.4451456102809341
+    },
+    {
+      "label_map": "nearest_neighbour_k10",
+      "features": 5,
+      "terms": null,
+      "temperature_p95_dex": 0.008618072394873557,
+      "mass_p95_dex": 0.2940801536233931,
+      "closes_fraction_of_gap": -0.01522726977694052
+    },
+    {
+      "label_map": "nearest_neighbour_k40",
+      "features": 5,
+      "terms": null,
+      "temperature_p95_dex": 0.01096132756798279,
+      "mass_p95_dex": 0.3861819536384217,
+      "closes_fraction_of_gap": -0.5914038006054393
+    }
+  ],
+  "rank_saturation": {
+    "question": "Gate B concluded the low-rank basis was saturated at five modes. Was that a property of the basis or of the label map?",
+    "answer": "Of the label map. With the standard coordinates, going from five modes to sixteen buys 4 percent, because the extra amplitudes cannot be predicted from the labels -- the gap to the per-star oracle grows from 0.00407 to 0.00638 dex. With the Saha coordinates the same change buys 15 percent and the gap grows only from 0.00165 to 0.00341.",
+    "ranks": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      12,
+      16
+    ],
+    "standard": [
+      {
+        "rank": 1,
+        "terms": 56,
+        "oracle_p95_dex": 0.023150197921987057,
+        "achieved_p95_dex": 0.023786765952726854,
+        "label_map_gap_dex": 0.0006365680307397967,
+        "deep_p95_dex_7000_8000K": 0.034115641615244094
+      },
+      {
+        "rank": 2,
+        "terms": 56,
+        "oracle_p95_dex": 0.008890038227857383,
+        "achieved_p95_dex": 0.011504847726899721,
+        "label_map_gap_dex": 0.002614809499042338,
+        "deep_p95_dex_7000_8000K": 0.0319756441733303
+      },
+      {
+        "rank": 3,
+        "terms": 56,
+        "oracle_p95_dex": 0.007076911797559576,
+        "achieved_p95_dex": 0.010027297421312805,
+        "label_map_gap_dex": 0.0029503856237532294,
+        "deep_p95_dex_7000_8000K": 0.030656780330157778
+      },
+      {
+        "rank": 5,
+        "terms": 56,
+        "oracle_p95_dex": 0.004489239607523393,
+        "achieved_p95_dex": 0.008556144536364918,
+        "label_map_gap_dex": 0.004066904928841525,
+        "deep_p95_dex_7000_8000K": 0.02998019558889486
+      },
+      {
+        "rank": 8,
+        "terms": 56,
+        "oracle_p95_dex": 0.0027222529421245365,
+        "achieved_p95_dex": 0.008212599673109404,
+        "label_map_gap_dex": 0.005490346730984868,
+        "deep_p95_dex_7000_8000K": 0.02950274128284815
+      },
+      {
+        "rank": 12,
+        "terms": 56,
+        "oracle_p95_dex": 0.0019899947312723735,
+        "achieved_p95_dex": 0.008205033703423289,
+        "label_map_gap_dex": 0.006215038972150915,
+        "deep_p95_dex_7000_8000K": 0.029584828648338803
+      },
+      {
+        "rank": 16,
+        "terms": 56,
+        "oracle_p95_dex": 0.0018163562417462117,
+        "achieved_p95_dex": 0.008194629104018546,
+        "label_map_gap_dex": 0.006378272862272334,
+        "deep_p95_dex_7000_8000K": 0.029564652747298106
+      }
+    ],
+    "physical": [
+      {
+        "rank": 1,
+        "terms": 104,
+        "oracle_p95_dex": 0.023150197921987057,
+        "achieved_p95_dex": 0.023615612014351164,
+        "label_map_gap_dex": 0.00046541409236410675,
+        "deep_p95_dex_7000_8000K": 0.028307881288430373
+      },
+      {
+        "rank": 2,
+        "terms": 104,
+        "oracle_p95_dex": 0.008890038227857383,
+        "achieved_p95_dex": 0.009863393727760607,
+        "label_map_gap_dex": 0.0009733554999032234,
+        "deep_p95_dex_7000_8000K": 0.025897372043668692
+      },
+      {
+        "rank": 3,
+        "terms": 104,
+        "oracle_p95_dex": 0.007076911797559576,
+        "achieved_p95_dex": 0.008298045138917694,
+        "label_map_gap_dex": 0.001221133341358118,
+        "deep_p95_dex_7000_8000K": 0.02364495540254139
+      },
+      {
+        "rank": 5,
+        "terms": 104,
+        "oracle_p95_dex": 0.004489239607523393,
+        "achieved_p95_dex": 0.006138725629603451,
+        "label_map_gap_dex": 0.0016494860220800586,
+        "deep_p95_dex_7000_8000K": 0.023226588875114
+      },
+      {
+        "rank": 8,
+        "terms": 104,
+        "oracle_p95_dex": 0.0027222529421245365,
+        "achieved_p95_dex": 0.0053805987140633635,
+        "label_map_gap_dex": 0.002658345771938827,
+        "deep_p95_dex_7000_8000K": 0.021708453579149103
+      },
+      {
+        "rank": 12,
+        "terms": 104,
+        "oracle_p95_dex": 0.0019899947312723735,
+        "achieved_p95_dex": 0.0052468664002938425,
+        "label_map_gap_dex": 0.003256871669021469,
+        "deep_p95_dex_7000_8000K": 0.02172374049372598
+      },
+      {
+        "rank": 16,
+        "terms": 104,
+        "oracle_p95_dex": 0.0018163562417462117,
+        "achieved_p95_dex": 0.005222063517053899,
+        "label_map_gap_dex": 0.0034057072753076872,
+        "deep_p95_dex_7000_8000K": 0.02171381670062265
+      }
+    ]
+  },
+  "assets": {
+    "parity": {
+      "stored_floats": 2407,
+      "temperature_relative_p95": 0.020114423016717703,
+      "temperature_relative_deep_p95": 0.019886066156101796,
+      "mass_dex_p95": 0.0869808251257628,
+      "temperature_monotone_rows": 10228,
+      "rows": 10228
+    },
+    "physical": {
+      "stored_floats": 3851,
+      "temperature_relative_p95": 0.014619194662697005,
+      "temperature_relative_deep_p95": 0.015201884721300046,
+      "mass_dex_p95": 0.05967554074954796,
+      "temperature_monotone_rows": 10228,
+      "rows": 10228,
+      "path": "results/analytic_initializer/compact_profile_parameters_physical.npz",
+      "sha256": "b813930bad8e3d20bb26c4223070046a2421f0d9a02897b3d1ad222cec9e8cdb",
+      "round_trip_exact": true,
+      "label_features": "physical"
+    }
+  },
+  "reproducer": "PYTHONPATH=. python3 -m experiments.analytic_initializer.run_label_map_probe"
+}

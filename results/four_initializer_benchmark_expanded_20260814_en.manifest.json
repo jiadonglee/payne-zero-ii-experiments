@@ -1,0 +1,24 @@
+{
+  "format": "payne_zero_expanded_four_initializer_report_v1",
+  "pdf": "results/four_initializer_benchmark_expanded_20260814_en.pdf",
+  "pdf_sha256": "b5135c1f47474dc65d785027d38a326610e45d7d810836ed4a4760c5f96566d7",
+  "summary": "results/four_initializer_benchmark_expanded_20260814/expanded_four_initializer_comparison.json",
+  "summary_sha256": "a7e0009f29d3eb605085185ac23a8cd2c26fc6b58e11ac869a4ed3d8a4600637",
+  "four_arm_common_star_count": 47,
+  "representative_slugs": [
+    "t10408.1_g+2.68_m-1.97_a-0.07_x3.00",
+    "t05300.3_g+3.94_m-1.30_a+0.21_x3.50",
+    "t05791.1_g+3.20_m-2.19_a+0.02_x2.59",
+    "t09671.0_g+2.30_m-1.01_a-0.02_x0.79",
+    "t05004.6_g+4.52_m-0.33_a+0.47_x3.96",
+    "t09120.4_g+2.05_m-0.19_a+0.26_x2.74"
+  ],
+  "representative_count": 6,
+  "representative_window_nm": 5.0,
+  "spectrum_window_nm": [
+    400.0,
+    900.0
+  ],
+  "spectrum_resolution": 20000.0,
+  "page_count": 7
+}

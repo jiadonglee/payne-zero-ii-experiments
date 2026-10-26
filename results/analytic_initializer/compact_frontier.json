@@ -1,0 +1,1263 @@
+{
+  "format": "payne_zero_compact_frontier_v1",
+  "date": "2026-08-17",
+  "question": "What do grid independence and a 600-float budget cost the emulator-free warm start?",
+  "answer": "Grid independence costs nothing: at 2407 stored floats the Chebyshev-depth formula reproduces H2 to the digit while being 1.9 times smaller, and at H2's own size it is better in both fields. The 600-float budget costs roughly a factor of two.",
+  "corpus": {
+    "path": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+    "sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+    "rows": 52199,
+    "layers": 80
+  },
+  "split": {
+    "seed": 20260816,
+    "train": 40911,
+    "validation": 10228,
+    "excluded": 1060,
+    "manifests": [
+      "results/reconstruction_metrics.json",
+      "results/sealed_solver_subset_20260808.json",
+      "results/sealed_audit_20260808.json",
+      "results/sealed_audit_20260811.json",
+      "results/sealed_initializer_holdout_20260812.json",
+      "results/initializer_calibration_20260812.json",
+      "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+    ]
+  },
+  "reference_h2": {
+    "note": "the tabulated monotone asset on the same held-out draw",
+    "stored_floats": 4591,
+    "temperature_relative_p95": 0.020122,
+    "temperature_relative_deep_p95": 0.019909,
+    "mass_dex_p95": 0.086913
+  },
+  "assets": {
+    "parity": {
+      "path": "results/analytic_initializer/compact_profile_parameters_parity.npz",
+      "configuration": {
+        "temperature": {
+          "degree": 3,
+          "components": 5,
+          "center_degree": 22,
+          "mode_degree": 18
+        },
+        "opacity": {
+          "degree": 3,
+          "components": 5,
+          "center_degree": 18,
+          "mode_degree": 18
+        }
+      },
+      "stored_floats": 2407,
+      "temperature_relative_p95": 0.020114423016717703,
+      "temperature_relative_deep_p95": 0.019886066156101796,
+      "mass_dex_p95": 0.0869808251257628,
+      "temperature_monotone_rows": 10228,
+      "rows": 10228,
+      "sha256": "482fb703bb8eda6574eb1bb8cf8fa71eba2691e4ef63d9997777e1f6ac114767",
+      "round_trip_exact": true
+    },
+    "budget_600": {
+      "path": "results/analytic_initializer/compact_profile_parameters_600.npz",
+      "configuration": {
+        "temperature": {
+          "degree": 2,
+          "components": 3,
+          "center_degree": 14,
+          "mode_degree": 10
+        },
+        "opacity": {
+          "degree": 2,
+          "components": 2,
+          "center_degree": 10,
+          "mode_degree": 10
+        }
+      },
+      "stored_floats": 589,
+      "temperature_relative_p95": 0.03894744230947962,
+      "temperature_relative_deep_p95": 0.03922102578956752,
+      "mass_dex_p95": 0.16979176789739567,
+      "temperature_monotone_rows": 10228,
+      "rows": 10228,
+      "sha256": "c0aaa4bf976ea4d437f5b4fe67d3870ea6231a77811ac33a0b4c5784e4a81890",
+      "round_trip_exact": true
+    }
+  },
+  "grid_independence": {
+    "unprojected_series_max_relative_difference_at_shared_depths": 6.018243681182867e-10,
+    "projected_temperature_max_relative_difference_at_shared_depths": 0.007451089852849924,
+    "interlayer_deviation_from_linear_interpolant_dex": {
+      "p50": 1.194695525864875e-05,
+      "p95": 0.00020101004749379706,
+      "max": 0.005898835330988783
+    },
+    "invariants_off_grid": [
+      {
+        "grid": "dense_10x",
+        "layers": 791,
+        "temperature_positive": true,
+        "temperature_monotone": true,
+        "mass_monotone": true,
+        "opacity_finite": true
+      },
+      {
+        "grid": "coarse_40",
+        "layers": 40,
+        "temperature_positive": true,
+        "temperature_monotone": true,
+        "mass_monotone": true,
+        "opacity_finite": true
+      },
+      {
+        "grid": "subrange_60",
+        "layers": 60,
+        "temperature_positive": true,
+        "temperature_monotone": true,
+        "mass_monotone": true,
+        "opacity_finite": true
+      },
+      {
+        "grid": "non_uniform_50",
+        "layers": 50,
+        "temperature_positive": true,
+        "temperature_monotone": true,
+        "mass_monotone": true,
+        "opacity_finite": true
+      }
+    ]
+  },
+  "reproducer": "PYTHONPATH=. python3 -m experiments.analytic_initializer.run_compact_frontier",
+  "frontier": {
+    "swept_configurations_per_field": 195,
+    "temperature_pareto": [
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 132,
+        "error": 0.059223704970604064,
+        "deep_p95": 0.04930517118669072
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 144,
+        "error": 0.059005643129324575,
+        "deep_p95": 0.04814266148889605
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 156,
+        "error": 0.058889936784734226,
+        "deep_p95": 0.047438461787552386
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 168,
+        "error": 0.058793504484097134,
+        "deep_p95": 0.0472698996752265
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 180,
+        "error": 0.05874521396724571,
+        "deep_p95": 0.047280980992016046
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 192,
+        "error": 0.05872137337510844,
+        "deep_p95": 0.047319732693006364
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 204,
+        "error": 0.05869998327536393,
+        "deep_p95": 0.04735627341029994
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 216,
+        "error": 0.041660653553000936,
+        "deep_p95": 0.044020547768021806
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 228,
+        "error": 0.040717544757673634,
+        "deep_p95": 0.042098350356122895
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 18,
+        "mode_degree": 6,
+        "stored_floats": 240,
+        "error": 0.04045103656480518,
+        "deep_p95": 0.04157112175178484
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 252,
+        "error": 0.040067068786088685,
+        "deep_p95": 0.04152840871293319
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 264,
+        "error": 0.03991104096615751,
+        "deep_p95": 0.041143329488364314
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 276,
+        "error": 0.03981788454990797,
+        "deep_p95": 0.041126281243245535
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 288,
+        "error": 0.03969423555642839,
+        "deep_p95": 0.04078122684551446
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 312,
+        "error": 0.039391960630177,
+        "deep_p95": 0.03960979808691395
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 18,
+        "mode_degree": 6,
+        "stored_floats": 324,
+        "error": 0.03929495076990927,
+        "deep_p95": 0.039434393621333406
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 348,
+        "error": 0.03894744230947962,
+        "deep_p95": 0.03922102578956752
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 360,
+        "error": 0.03876000960288069,
+        "deep_p95": 0.0388644053784614
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 384,
+        "error": 0.03852613092184706,
+        "deep_p95": 0.038505665191017134
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 396,
+        "error": 0.038395061389458696,
+        "deep_p95": 0.03817260120750825
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 426,
+        "error": 0.030599576120053342,
+        "deep_p95": 0.03379986059866352
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 438,
+        "error": 0.029459889670313946,
+        "deep_p95": 0.0321723130111336
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 450,
+        "error": 0.02819044625191677,
+        "deep_p95": 0.030429741127277924
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 462,
+        "error": 0.027298149681128876,
+        "deep_p95": 0.02894630986160922
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 474,
+        "error": 0.027098680525758485,
+        "deep_p95": 0.02858247228345509
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 486,
+        "error": 0.026654376635913687,
+        "deep_p95": 0.027925241725815977
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 498,
+        "error": 0.02651829531324004,
+        "deep_p95": 0.02759546425994976
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 510,
+        "error": 0.026497411916814387,
+        "deep_p95": 0.027586759719293565
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 522,
+        "error": 0.02647716123137867,
+        "deep_p95": 0.027610346613991636
+      },
+      {
+        "degree": 3,
+        "components": 2,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 534,
+        "error": 0.026475030377129033,
+        "deep_p95": 0.027586011053549676
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 651,
+        "error": 0.025115436936468543,
+        "deep_p95": 0.02576738151106824
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 663,
+        "error": 0.024432860721443416,
+        "deep_p95": 0.024470984153809407
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 675,
+        "error": 0.024193617287513715,
+        "deep_p95": 0.02411703929392401
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 22,
+        "mode_degree": 10,
+        "stored_floats": 687,
+        "error": 0.024130401842351566,
+        "deep_p95": 0.023982466391042765
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 699,
+        "error": 0.023400426716149073,
+        "deep_p95": 0.023105649873147692
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 711,
+        "error": 0.023199622636110185,
+        "deep_p95": 0.022709120303885257
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 723,
+        "error": 0.023162422334903968,
+        "deep_p95": 0.02264285629737661
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 747,
+        "error": 0.023144222132773794,
+        "deep_p95": 0.022512437770338404
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 759,
+        "error": 0.02310874314825253,
+        "deep_p95": 0.022455900570021812
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 864,
+        "error": 0.022567502863068325,
+        "deep_p95": 0.02303694942308486
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 876,
+        "error": 0.02225208399477002,
+        "deep_p95": 0.022662128208690457
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 10,
+        "stored_floats": 888,
+        "error": 0.02213310750178264,
+        "deep_p95": 0.02245909253946095
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 912,
+        "error": 0.02126673956385837,
+        "deep_p95": 0.02144236701251738
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 924,
+        "error": 0.0208891397378084,
+        "deep_p95": 0.02078919602386453
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 936,
+        "error": 0.020869662410866772,
+        "deep_p95": 0.020740272668986277
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 972,
+        "error": 0.020788630602499948,
+        "deep_p95": 0.02053785811558023
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 984,
+        "error": 0.020764679592876756,
+        "deep_p95": 0.02048309611935725
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 1137,
+        "error": 0.020285198475765195,
+        "deep_p95": 0.020229923817991616
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 1149,
+        "error": 0.020248333723934732,
+        "deep_p95": 0.02014915818079777
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 1197,
+        "error": 0.020136908056614347,
+        "deep_p95": 0.019935657923009255
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 1209,
+        "error": 0.020114423016717703,
+        "deep_p95": 0.019886066156101796
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 1704,
+        "error": 0.01990237118766327,
+        "deep_p95": 0.021108822830938276
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 1716,
+        "error": 0.01965166519396664,
+        "deep_p95": 0.020789220690340695
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 10,
+        "stored_floats": 1728,
+        "error": 0.019421870967505653,
+        "deep_p95": 0.02050375484545519
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 1752,
+        "error": 0.01860869705016298,
+        "deep_p95": 0.01936585403349195
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 1764,
+        "error": 0.018149924561386345,
+        "deep_p95": 0.018588559931840706
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 1776,
+        "error": 0.018077596622231216,
+        "deep_p95": 0.01852460051104127
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 1812,
+        "error": 0.01796940990420482,
+        "deep_p95": 0.018261900435386072
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 1824,
+        "error": 0.017864397354250102,
+        "deep_p95": 0.01813502477811544
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 2175,
+        "error": 0.017586400160776807,
+        "deep_p95": 0.018772214801376443
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 2187,
+        "error": 0.016970732840254864,
+        "deep_p95": 0.017741625624202482
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 2199,
+        "error": 0.01690731311995825,
+        "deep_p95": 0.0176277163038524
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 2247,
+        "error": 0.01673664725274958,
+        "deep_p95": 0.017323917358881346
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 2259,
+        "error": 0.016630293175276364,
+        "deep_p95": 0.01715620068759449
+      }
+    ],
+    "opacity_pareto": [
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 132,
+        "error": 0.5389421627540087
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 144,
+        "error": 0.5370348063528996
+      },
+      {
+        "degree": 2,
+        "components": 1,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 156,
+        "error": 0.5357636305010339
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 216,
+        "error": 0.1774493385842625
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 228,
+        "error": 0.17672864405941732
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 240,
+        "error": 0.16979176789739567
+      },
+      {
+        "degree": 2,
+        "components": 2,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 276,
+        "error": 0.16872863063238694
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 300,
+        "error": 0.15352643797661036
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 312,
+        "error": 0.15267399431943268
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 18,
+        "mode_degree": 6,
+        "stored_floats": 324,
+        "error": 0.15262116340054752
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 336,
+        "error": 0.14836355703117685
+      },
+      {
+        "degree": 2,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 348,
+        "error": 0.14775371802395668
+      },
+      {
+        "degree": 2,
+        "components": 4,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 384,
+        "error": 0.1421532740325733
+      },
+      {
+        "degree": 2,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 396,
+        "error": 0.14141117940963524
+      },
+      {
+        "degree": 2,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 6,
+        "stored_floats": 408,
+        "error": 0.14136409247355053
+      },
+      {
+        "degree": 2,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 6,
+        "stored_floats": 420,
+        "error": 0.14130697571631265
+      },
+      {
+        "degree": 2,
+        "components": 4,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 432,
+        "error": 0.1364214069905576
+      },
+      {
+        "degree": 2,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 444,
+        "error": 0.13513403204564353
+      },
+      {
+        "degree": 2,
+        "components": 5,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 540,
+        "error": 0.13465209884423512
+      },
+      {
+        "degree": 2,
+        "components": 5,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 600,
+        "error": 0.13405900414700703
+      },
+      {
+        "degree": 2,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 612,
+        "error": 0.13395657544299766
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 615,
+        "error": 0.12119562016143726
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 627,
+        "error": 0.11919222684184465
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 651,
+        "error": 0.11590943943318198
+      },
+      {
+        "degree": 3,
+        "components": 3,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 663,
+        "error": 0.11473496813469314
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 10,
+        "mode_degree": 6,
+        "stored_floats": 804,
+        "error": 0.10563850353682026
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 6,
+        "stored_floats": 816,
+        "error": 0.1036538725052314
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 852,
+        "error": 0.09563896323258403
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 864,
+        "error": 0.09318034263360303
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 912,
+        "error": 0.09317524560943287
+      },
+      {
+        "degree": 3,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 972,
+        "error": 0.09293673184772225
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 1065,
+        "error": 0.08960171784859482
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 1077,
+        "error": 0.08921851050445068
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 1125,
+        "error": 0.08776492557269575
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 1137,
+        "error": 0.08760159264071388
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 1149,
+        "error": 0.0875776748729504
+      },
+      {
+        "degree": 3,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 1197,
+        "error": 0.0869808251257628
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 1692,
+        "error": 0.07828715267376869
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 1704,
+        "error": 0.07352551515353262
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 1752,
+        "error": 0.07207486203797654
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 1776,
+        "error": 0.07206445560500091
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 1812,
+        "error": 0.0717686412450929
+      },
+      {
+        "degree": 4,
+        "components": 4,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 1824,
+        "error": 0.07174619036742715
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 10,
+        "mode_degree": 10,
+        "stored_floats": 2103,
+        "error": 0.07173206204630278
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 14,
+        "mode_degree": 10,
+        "stored_floats": 2115,
+        "error": 0.06708393981051695
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 10,
+        "stored_floats": 2127,
+        "error": 0.0669487787020761
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 10,
+        "stored_floats": 2139,
+        "error": 0.06691983878195501
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 14,
+        "mode_degree": 14,
+        "stored_floats": 2175,
+        "error": 0.06407265112578002
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 14,
+        "stored_floats": 2187,
+        "error": 0.0638906039211526
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 14,
+        "stored_floats": 2199,
+        "error": 0.06388953975402654
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 18,
+        "mode_degree": 18,
+        "stored_floats": 2247,
+        "error": 0.0636157289519777
+      },
+      {
+        "degree": 4,
+        "components": 5,
+        "center_degree": 22,
+        "mode_degree": 18,
+        "stored_floats": 2259,
+        "error": 0.06355006449260674
+      }
+    ],
+    "joint_optimum_by_budget": [
+      {
+        "budget": 600,
+        "stored_floats": 589,
+        "worst_ratio_to_h2": 1.9535830991611802,
+        "temperature": {
+          "degree": 2,
+          "components": 3,
+          "center_degree": 14,
+          "mode_degree": 10,
+          "stored_floats": 348,
+          "error": 0.03894744230947962,
+          "deep_p95": 0.03922102578956752
+        },
+        "opacity": {
+          "degree": 2,
+          "components": 2,
+          "center_degree": 10,
+          "mode_degree": 10,
+          "stored_floats": 240,
+          "error": 0.16979176789739567
+        }
+      },
+      {
+        "budget": 800,
+        "stored_floats": 775,
+        "worst_ratio_to_h2": 1.7000186165931066,
+        "temperature": {
+          "degree": 3,
+          "components": 2,
+          "center_degree": 10,
+          "mode_degree": 6,
+          "stored_floats": 426,
+          "error": 0.030599576120053342,
+          "deep_p95": 0.03379986059866352
+        },
+        "opacity": {
+          "degree": 2,
+          "components": 3,
+          "center_degree": 14,
+          "mode_degree": 10,
+          "stored_floats": 348,
+          "error": 0.14775371802395668
+        }
+      },
+      {
+        "budget": 1000,
+        "stored_floats": 967,
+        "worst_ratio_to_h2": 1.5492745486202883,
+        "temperature": {
+          "degree": 3,
+          "components": 2,
+          "center_degree": 10,
+          "mode_degree": 6,
+          "stored_floats": 426,
+          "error": 0.030599576120053342,
+          "deep_p95": 0.03379986059866352
+        },
+        "opacity": {
+          "degree": 2,
+          "components": 5,
+          "center_degree": 14,
+          "mode_degree": 10,
+          "stored_floats": 540,
+          "error": 0.13465209884423512
+        }
+      },
+      {
+        "budget": 1400,
+        "stored_floats": 1339,
+        "worst_ratio_to_h2": 1.3157255927407332,
+        "temperature": {
+          "degree": 3,
+          "components": 2,
+          "center_degree": 22,
+          "mode_degree": 18,
+          "stored_floats": 534,
+          "error": 0.026475030377129033,
+          "deep_p95": 0.027586011053549676
+        },
+        "opacity": {
+          "degree": 3,
+          "components": 4,
+          "center_degree": 10,
+          "mode_degree": 6,
+          "stored_floats": 804,
+          "error": 0.10563850353682026
+        }
+      },
+      {
+        "budget": 2000,
+        "stored_floats": 1990,
+        "worst_ratio_to_h2": 1.0381244278803496,
+        "temperature": {
+          "degree": 3,
+          "components": 4,
+          "center_degree": 18,
+          "mode_degree": 14,
+          "stored_floats": 924,
+          "error": 0.0208891397378084,
+          "deep_p95": 0.02078919602386453
+        },
+        "opacity": {
+          "degree": 3,
+          "components": 5,
+          "center_degree": 14,
+          "mode_degree": 10,
+          "stored_floats": 1065,
+          "error": 0.08960171784859482
+        }
+      },
+      {
+        "budget": 2600,
+        "stored_floats": 2395,
+        "worst_ratio_to_h2": 1.0007803795262251,
+        "temperature": {
+          "degree": 3,
+          "components": 5,
+          "center_degree": 18,
+          "mode_degree": 18,
+          "stored_floats": 1197,
+          "error": 0.020136908056614347,
+          "deep_p95": 0.019935657923009255
+        },
+        "opacity": {
+          "degree": 3,
+          "components": 5,
+          "center_degree": 18,
+          "mode_degree": 18,
+          "stored_floats": 1197,
+          "error": 0.0869808251257628
+        }
+      }
+    ]
+  }
+}

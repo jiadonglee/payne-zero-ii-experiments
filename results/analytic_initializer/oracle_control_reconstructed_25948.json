@@ -1,0 +1,46 @@
+{
+  "arms": {
+    "truth_T_truth_m": {
+      "by_temperature_band": {
+        "5500-7500K": {
+          "converged_count": 1,
+          "star_count": 1
+        }
+      },
+      "converged_count": 1,
+      "error_count": 0,
+      "finite_count": 1,
+      "iteration_median_successes": 3.0,
+      "iterations_successes": [
+        3
+      ],
+      "not_converged_indices": [],
+      "star_count": 1,
+      "timeout_count": 0
+    }
+  },
+  "candidate": "oracle_cross_grey_temperature_truth_mass_vs_truth_temperature_grey_mass",
+  "corpus": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+  "grey_opacity_cm2_per_g": 0.34,
+  "indices": [
+    25948
+  ],
+  "iterations_per_trial": 15,
+  "paired": null,
+  "records": {
+    "grey_T_truth_m": "results/analytic_initializer/oracle_control_reconstructed_25948.grey_T_truth_m.jsonl",
+    "truth_T_grey_m": "results/analytic_initializer/oracle_control_reconstructed_25948.truth_T_grey_m.jsonl",
+    "truth_T_truth_m": "results/analytic_initializer/oracle_control_reconstructed_25948.truth_T_truth_m.jsonl"
+  },
+  "seed_contract": {
+    "only_reduced_fields_changed": [
+      "column_mass",
+      "temperature"
+    ],
+    "same_bridge": "reduced_state.reconstruct_full_atmosphere(seed='physical')",
+    "same_provisional_opacity": true,
+    "same_solver_policy": true,
+    "truth_pressure_or_electron_density_used": false
+  },
+  "status": "diagnostic_only_not_production"
+}

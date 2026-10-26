@@ -1,0 +1,331 @@
+{
+  "definition": {
+    "metal_poor": -1.0,
+    "metal_rich": 0.5,
+    "alpha": 0.0,
+    "giant_logg": {
+      "poor": 2.5,
+      "rich": 1.5
+    },
+    "dwarf_logg": {
+      "poor": 4.5,
+      "rich": 5.0
+    }
+  },
+  "window_air_A": [
+    6650.0,
+    6670.0
+  ],
+  "resolution": 80000.0,
+  "rv_km_s": 0.0,
+  "rotation_km_s": 0.0,
+  "continuum": "each total spectrum divided by its own continuum after the same R=80000 convolution",
+  "wavelength_convention": "synthesis in vacuum; plotted after deterministic vacuum-to-air conversion",
+  "kurucz_line_provenance": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v5_same_linelist/inputs/pz_atomic_molecular_transitions_tio.tsv",
+  "rows": [
+    {
+      "kind": "poor giant",
+      "teff_K": 3200,
+      "logg": 2.5,
+      "metallicity": -1.0,
+      "alpha": 0.0,
+      "vmic_km_s": 2.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/giant/g+2.50_m-1.00_a+0.00_c+0.00_x2.00/t3200/products/primary/t03200.0_g+2.50_m-1.00_a+0.00_x2.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t3200_g2.5_mm1.0_three_spectra.npz",
+      "pz_seconds": 9.498607041008654,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.10286735274868707,
+        "rms_pz_minus_korg_kurucz": 0.1243016025461132,
+        "rms_korg_native_minus_korg_kurucz": 0.07415570519941399
+      }
+    },
+    {
+      "kind": "poor giant",
+      "teff_K": 3500,
+      "logg": 2.5,
+      "metallicity": -1.0,
+      "alpha": 0.0,
+      "vmic_km_s": 2.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/giant/g+2.50_m-1.00_a+0.00_c+0.00_x2.00/t3500/products/primary/t03500.0_g+2.50_m-1.00_a+0.00_x2.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t3500_g2.5_mm1.0_three_spectra.npz",
+      "pz_seconds": 6.467823500002851,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.05489969953949663,
+        "rms_pz_minus_korg_kurucz": 0.06414722348280961,
+        "rms_korg_native_minus_korg_kurucz": 0.042327783692111785
+      }
+    },
+    {
+      "kind": "poor giant",
+      "teff_K": 4000,
+      "logg": 2.5,
+      "metallicity": -1.0,
+      "alpha": 0.0,
+      "vmic_km_s": 2.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/giant/g+2.50_m-1.00_a+0.00_c+0.00_x2.00/t4000/products/primary/t04000.0_g+2.50_m-1.00_a+0.00_x2.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t4000_g2.5_mm1.0_three_spectra.npz",
+      "pz_seconds": 3.397865249993629,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.008181830971511914,
+        "rms_pz_minus_korg_kurucz": 0.003495632847273615,
+        "rms_korg_native_minus_korg_kurucz": 0.007129872464752853
+      }
+    },
+    {
+      "kind": "rich giant",
+      "teff_K": 3200,
+      "logg": 1.5,
+      "metallicity": 0.5,
+      "alpha": 0.0,
+      "vmic_km_s": 2.0,
+      "atmosphere_path": null,
+      "status": "MISSING_LOCAL_ELIGIBLE_PZ_ATMOSPHERE"
+    },
+    {
+      "kind": "rich giant",
+      "teff_K": 3500,
+      "logg": 1.5,
+      "metallicity": 0.5,
+      "alpha": 0.0,
+      "vmic_km_s": 2.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/giant/g+1.50_m+0.50_a+0.00_c+0.00_x2.00/t3500/products/primary/t03500.0_g+1.50_m+0.50_a+0.00_x2.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t3500_g1.5_mp0.5_three_spectra.npz",
+      "pz_seconds": 10.909245125003508,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.15802125357286226,
+        "rms_pz_minus_korg_kurucz": 0.1849372106704448,
+        "rms_korg_native_minus_korg_kurucz": 0.06364795469685905
+      }
+    },
+    {
+      "kind": "rich giant",
+      "teff_K": 4000,
+      "logg": 1.5,
+      "metallicity": 0.5,
+      "alpha": 0.0,
+      "vmic_km_s": 2.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/giant/g+1.50_m+0.50_a+0.00_c+0.00_x2.00/t4000/products/primary/t04000.0_g+1.50_m+0.50_a+0.00_x2.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t4000_g1.5_mp0.5_three_spectra.npz",
+      "pz_seconds": 5.4859537910087965,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.05519372982969393,
+        "rms_pz_minus_korg_kurucz": 0.0544084562108194,
+        "rms_korg_native_minus_korg_kurucz": 0.03973859891286946
+      }
+    },
+    {
+      "kind": "poor dwarf",
+      "teff_K": 3200,
+      "logg": 4.5,
+      "metallicity": -1.0,
+      "alpha": 0.0,
+      "vmic_km_s": 1.0,
+      "atmosphere_path": null,
+      "status": "MISSING_LOCAL_ELIGIBLE_PZ_ATMOSPHERE"
+    },
+    {
+      "kind": "poor dwarf",
+      "teff_K": 3500,
+      "logg": 4.5,
+      "metallicity": -1.0,
+      "alpha": 0.0,
+      "vmic_km_s": 1.0,
+      "atmosphere_path": null,
+      "status": "MISSING_LOCAL_ELIGIBLE_PZ_ATMOSPHERE"
+    },
+    {
+      "kind": "poor dwarf",
+      "teff_K": 4000,
+      "logg": 4.5,
+      "metallicity": -1.0,
+      "alpha": 0.0,
+      "vmic_km_s": 1.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/dwarf/g+4.50_m-1.00_a+0.00_c+0.00_x1.00/t4000/products/primary/t04000.0_g+4.50_m-1.00_a+0.00_x1.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t4000_g4.5_mm1.0_three_spectra.npz",
+      "pz_seconds": 3.158345374991768,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.010506760864449764,
+        "rms_pz_minus_korg_kurucz": 0.003442863628119743,
+        "rms_korg_native_minus_korg_kurucz": 0.010145646850043703
+      }
+    },
+    {
+      "kind": "rich dwarf",
+      "teff_K": 3200,
+      "logg": 5.0,
+      "metallicity": 0.5,
+      "alpha": 0.0,
+      "vmic_km_s": 1.0,
+      "atmosphere_path": null,
+      "status": "MISSING_LOCAL_ELIGIBLE_PZ_ATMOSPHERE"
+    },
+    {
+      "kind": "rich dwarf",
+      "teff_K": 3500,
+      "logg": 5.0,
+      "metallicity": 0.5,
+      "alpha": 0.0,
+      "vmic_km_s": 1.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/dwarf/g+5.00_m+0.50_a+0.00_c+0.00_x1.00/t3500/products/primary/t03500.0_g+5.00_m+0.50_a+0.00_x1.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t3500_g5.0_mp0.5_three_spectra.npz",
+      "pz_seconds": 14.34936941700289,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.08758144435974953,
+        "rms_pz_minus_korg_kurucz": 0.09616143250747275,
+        "rms_korg_native_minus_korg_kurucz": 0.08194236969942555
+      }
+    },
+    {
+      "kind": "rich dwarf",
+      "teff_K": 4000,
+      "logg": 5.0,
+      "metallicity": 0.5,
+      "alpha": 0.0,
+      "vmic_km_s": 1.0,
+      "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/dwarf/g+5.00_m+0.50_a+0.00_c+0.00_x1.00/t4000/products/primary/t04000.0_g+5.00_m+0.50_a+0.00_x1.00.npz",
+      "status": "COMPLETE",
+      "spectrum_path": "/Users/jdli/Project/payne-zero/results/m_star_cool_grid_v6_three_spectra/spectra/t4000_g5.0_mp0.5_three_spectra.npz",
+      "pz_seconds": 8.445182875002502,
+      "inventories": {
+        "native": {
+          "source_line_count": 307000,
+          "window_line_count": 14656,
+          "atomic_line_count": 606,
+          "molecular_line_count": 14050,
+          "tio_line_count": 12981
+        },
+        "kurucz": {
+          "source_line_count": 406724,
+          "window_line_count": 404073,
+          "atomic_line_count": 2434,
+          "molecular_line_count": 401639,
+          "tio_line_count": 351246
+        }
+      },
+      "metrics": {
+        "rms_pz_minus_korg_native": 0.07051558267952973,
+        "rms_pz_minus_korg_kurucz": 0.07499469068956921,
+        "rms_korg_native_minus_korg_kurucz": 0.057115640384931284
+      }
+    }
+  ]
+}

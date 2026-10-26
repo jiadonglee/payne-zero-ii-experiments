@@ -1,0 +1,191 @@
+{
+  "rows": [
+    {
+      "arm": "default",
+      "star": "alfCet",
+      "role": "calibration",
+      "benchmark": {
+        "teff": 3738.0,
+        "logg": 0.66,
+        "m_h": -0.24,
+        "vmic_km_s": 1.77
+      },
+      "parameters": {
+        "teff": 3495.9022632566903,
+        "logg": 0.5,
+        "m_h": -0.8778341833616008,
+        "rv_km_s": -0.501237402473275,
+        "sigma_extra_km_s": 3.4441954181337553
+      },
+      "refined": false,
+      "ends_at_cap": true,
+      "chi2_per_pixel": 120.42696733062917,
+      "difference": {
+        "teff": -242.09773674330972,
+        "logg": -0.16000000000000003,
+        "m_h": -0.6378341833616008
+      },
+      "on_bound": [
+        "logg"
+      ]
+    },
+    {
+      "arm": "default",
+      "star": "alfTau",
+      "role": "calibration",
+      "benchmark": {
+        "teff": 3921.0,
+        "logg": 1.17,
+        "m_h": -0.2,
+        "vmic_km_s": 1.63
+      },
+      "parameters": {
+        "teff": 3642.793163491548,
+        "logg": 0.6777842749097259,
+        "m_h": -0.7412974678099783,
+        "rv_km_s": 26.870086555216254,
+        "sigma_extra_km_s": 2.5741925766398723
+      },
+      "refined": true,
+      "ends_at_cap": false,
+      "chi2_per_pixel": 105.84910127866415,
+      "difference": {
+        "teff": -278.20683650845194,
+        "logg": -0.492215725090274,
+        "m_h": -0.5412974678099782
+      },
+      "on_bound": []
+    },
+    {
+      "arm": "default",
+      "star": "gamSge",
+      "role": "test",
+      "benchmark": {
+        "teff": 3904.0,
+        "logg": 1.06,
+        "m_h": -0.26,
+        "vmic_km_s": 1.67
+      },
+      "parameters": {
+        "teff": 3728.352984886849,
+        "logg": 0.5713126807832952,
+        "m_h": -0.35851230663148564,
+        "rv_km_s": 0.2835695342866583,
+        "sigma_extra_km_s": 2.82679636737416
+      },
+      "refined": true,
+      "ends_at_cap": false,
+      "chi2_per_pixel": 950.9198102532305,
+      "difference": {
+        "teff": -175.64701511315116,
+        "logg": -0.48868731921670483,
+        "m_h": -0.09851230663148564
+      },
+      "on_bound": []
+    },
+    {
+      "arm": "calibrated",
+      "star": "alfCet",
+      "role": "calibration",
+      "benchmark": {
+        "teff": 3738.0,
+        "logg": 0.66,
+        "m_h": -0.24,
+        "vmic_km_s": 1.77
+      },
+      "parameters": {
+        "teff": 3596.95717903372,
+        "logg": 0.5,
+        "m_h": -0.9502106147055933,
+        "rv_km_s": -0.5034535716488912,
+        "sigma_extra_km_s": 3.378887436846328
+      },
+      "refined": true,
+      "ends_at_cap": false,
+      "chi2_per_pixel": 121.74373000764699,
+      "difference": {
+        "teff": -141.04282096628003,
+        "logg": -0.16000000000000003,
+        "m_h": -0.7102106147055933
+      },
+      "on_bound": [
+        "logg"
+      ]
+    },
+    {
+      "arm": "calibrated",
+      "star": "alfTau",
+      "role": "calibration",
+      "benchmark": {
+        "teff": 3921.0,
+        "logg": 1.17,
+        "m_h": -0.2,
+        "vmic_km_s": 1.63
+      },
+      "parameters": {
+        "teff": 3735.6247033948202,
+        "logg": 0.6687715135275538,
+        "m_h": -0.7484247165406736,
+        "rv_km_s": 26.864466465383316,
+        "sigma_extra_km_s": 2.5727203358846853
+      },
+      "refined": true,
+      "ends_at_cap": false,
+      "chi2_per_pixel": 106.35187178527558,
+      "difference": {
+        "teff": -185.37529660517976,
+        "logg": -0.5012284864724461,
+        "m_h": -0.5484247165406735
+      },
+      "on_bound": []
+    },
+    {
+      "arm": "calibrated",
+      "star": "gamSge",
+      "role": "test",
+      "benchmark": {
+        "teff": 3904.0,
+        "logg": 1.06,
+        "m_h": -0.26,
+        "vmic_km_s": 1.67
+      },
+      "parameters": {
+        "teff": 3836.42619719773,
+        "logg": 0.6404653648035918,
+        "m_h": -0.37370858635656407,
+        "rv_km_s": 0.27628269906330133,
+        "sigma_extra_km_s": 2.8211036365183046
+      },
+      "refined": true,
+      "ends_at_cap": false,
+      "chi2_per_pixel": 946.1127405410338,
+      "difference": {
+        "teff": -67.57380280227017,
+        "logg": -0.4195346351964082,
+        "m_h": -0.11370858635656406
+      },
+      "on_bound": []
+    }
+  ],
+  "tio_offsets": [
+    0.42199127745645987,
+    0.3973315562958063,
+    0.42777465241278917,
+    0.40221754920936353,
+    0.4120498149396019
+  ],
+  "tio_bins_air_A": [
+    6480.0,
+    6531.0,
+    6582.0,
+    6633.0,
+    6684.0,
+    6735.0
+  ],
+  "calibration_chi2": [
+    174.48062560671067,
+    151.3358551413045,
+    148.31396974739067,
+    148.3104339231028
+  ]
+}

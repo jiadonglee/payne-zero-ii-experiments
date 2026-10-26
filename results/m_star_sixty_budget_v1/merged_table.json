@@ -1,0 +1,343 @@
+{
+  "rows": [
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": 0.40708104458983957,
+      "emulator_frozen": 25,
+      "group": "nominal",
+      "logg": 1.75,
+      "mass_dex_p95": 0.0011829960886951426,
+      "metallicity": 0.5,
+      "node_id": "g+1.75_m+0.50_a+0.00_c+0.00_x2.00_t3675",
+      "reference_flux_p95": 0.5426334294865099,
+      "reference_frozen": 45,
+      "teff_K": 3675.0,
+      "temperature_p95": 0.0016336896180270371,
+      "tiO": {
+        "flux_continuum": 3.465216626475762e-05,
+        "flux_total": 3.561483971374086e-05,
+        "normalized_flux": 4.383003757282844e-05
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": 0.17756935831932394,
+      "emulator_frozen": 25,
+      "group": "nominal",
+      "logg": 2.25,
+      "metallicity": -1.0,
+      "node_id": "g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525",
+      "reference_flux_p95": 330.7018761932386,
+      "reference_frozen": null,
+      "teff_K": 3525.0,
+      "verdict": "undetermined"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": 0.1947675128996629,
+      "emulator_frozen": 45,
+      "group": "cool",
+      "logg": 2.25,
+      "metallicity": 0.5,
+      "node_id": "g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175",
+      "reference_flux_p95": null,
+      "reference_frozen": null,
+      "teff_K": 3175.0,
+      "verdict": "undetermined"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": 0.3701349276322367,
+      "emulator_frozen": 25,
+      "group": "cool",
+      "logg": 1.5,
+      "metallicity": -0.5,
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325",
+      "reference_flux_p95": null,
+      "reference_frozen": null,
+      "teff_K": 3325.0,
+      "verdict": "undetermined"
+    },
+    {
+      "budget": "over_budget",
+      "emulator_flux_p95": 0.214859121061578,
+      "emulator_frozen": 90,
+      "group": "low_gravity",
+      "logg": 0.75,
+      "mass_dex_p95": 0.0006767373708992828,
+      "metallicity": -0.5,
+      "node_id": "g+0.75_m-0.50_a+0.00_c+0.00_x2.00_t3750",
+      "reference_flux_p95": 0.5906306147239349,
+      "reference_frozen": 95,
+      "teff_K": 3750.0,
+      "temperature_p95": 0.002479668157108151,
+      "tiO": {
+        "flux_continuum": 0.0001615973827196876,
+        "flux_total": 0.0006915891149053743,
+        "normalized_flux": 0.000562025090871221
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": 0.8417906846868549,
+      "emulator_frozen": 40,
+      "group": "low_gravity",
+      "logg": 0.5,
+      "mass_dex_p95": 0.0005117693445871973,
+      "metallicity": 0.5,
+      "node_id": "g+0.50_m+0.50_a+0.00_c+0.00_x2.00_t3400",
+      "reference_flux_p95": 0.5835757351620411,
+      "reference_frozen": 145,
+      "teff_K": 3400.0,
+      "temperature_p95": 0.003727273768025994,
+      "tiO": {
+        "flux_continuum": 0.0004977759647765048,
+        "flux_total": 0.00020207022988225694,
+        "normalized_flux": 0.0001530567097307034
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": 0.26708150854295537,
+      "emulator_frozen": 40,
+      "group": "t3250_resolution",
+      "logg": 2.0,
+      "mass_dex_p95": 0.00036092749711464923,
+      "metallicity": 0.0,
+      "node_id": "g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+      "reference_flux_p95": 0.08732867135721636,
+      "reference_frozen": 30,
+      "teff_K": 3250.0,
+      "temperature_p95": 0.00047939148993469483,
+      "tiO": {
+        "flux_continuum": 0.0003447489727558693,
+        "flux_total": 2.4279711216061077e-05,
+        "normalized_flux": 5.057838885658139e-06
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_30",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 25,
+      "group": "original",
+      "logg": 2.0,
+      "mass_dex_p95": 9.955941262183022e-05,
+      "metallicity": -0.5,
+      "node_id": "g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650",
+      "reference_flux_p95": null,
+      "reference_frozen": 30,
+      "teff_K": 3650.0,
+      "temperature_p95": 0.0004564501575933186,
+      "tiO": {
+        "flux_continuum": 0.00014389147101402674,
+        "flux_total": 0.00010880180044810663,
+        "normalized_flux": 3.666255140138963e-05
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_30",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 20,
+      "group": "original",
+      "logg": 1.5,
+      "mass_dex_p95": 0.0007363571737691643,
+      "metallicity": 0.0,
+      "node_id": "g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825",
+      "reference_flux_p95": null,
+      "reference_frozen": 30,
+      "teff_K": 3825.0,
+      "temperature_p95": 0.0009047776983218398,
+      "tiO": {
+        "flux_continuum": 2.5309452189642953e-05,
+        "flux_total": 5.170913878107073e-05,
+        "normalized_flux": 3.979166772316578e-05
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_30",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 25,
+      "group": "original",
+      "logg": 2.5,
+      "mass_dex_p95": 0.00020247462233482502,
+      "metallicity": -1.0,
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575",
+      "reference_flux_p95": null,
+      "reference_frozen": 30,
+      "teff_K": 3575.0,
+      "temperature_p95": 0.0002497278061168402,
+      "tiO": {
+        "flux_continuum": 1.0271436475806141e-05,
+        "flux_total": 0.00010213929413151432,
+        "normalized_flux": 0.00010734355228758652
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_30",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 25,
+      "group": "original",
+      "logg": 2.0,
+      "mass_dex_p95": 0.00017179694675257816,
+      "metallicity": 0.5,
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925",
+      "reference_flux_p95": null,
+      "reference_frozen": 35,
+      "teff_K": 3925.0,
+      "temperature_p95": 0.0008898036781213502,
+      "tiO": {
+        "flux_continuum": 6.511414963870167e-05,
+        "flux_total": 7.332157258905806e-05,
+        "normalized_flux": 3.8932302583782885e-05
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 40,
+      "group": "resolution",
+      "logg": 1.5,
+      "mass_dex_p95": null,
+      "metallicity": -0.5,
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150",
+      "reference_flux_p95": null,
+      "reference_frozen": 60,
+      "teff_K": 3150.0,
+      "temperature_p95": 0.0008490098429473542,
+      "tiO": {
+        "flux_continuum": 7.235535296424681e-05,
+        "flux_total": 1.7679283654474995e-05,
+        "normalized_flux": 2.0648016620813947e-05
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_30",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 30,
+      "group": "original",
+      "logg": 2.5,
+      "mass_dex_p95": 0.0006165783322387374,
+      "metallicity": -1.0,
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350",
+      "reference_flux_p95": null,
+      "reference_frozen": 60,
+      "teff_K": 3350.0,
+      "temperature_p95": 0.0006154396507027035,
+      "tiO": {
+        "flux_continuum": 0.00036850389761565856,
+        "flux_total": 0.000639291871361708,
+        "normalized_flux": 0.0007655432501005865
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 55,
+      "group": "resolution",
+      "logg": 2.0,
+      "mass_dex_p95": null,
+      "metallicity": 0.5,
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050",
+      "reference_flux_p95": null,
+      "reference_frozen": 30,
+      "teff_K": 3050.0,
+      "temperature_p95": 0.0006747731176845384,
+      "tiO": {
+        "flux_continuum": 8.045379541594479e-05,
+        "flux_total": 4.211299821724618e-06,
+        "normalized_flux": 6.238234702627549e-06
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_30",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 25,
+      "group": "original",
+      "logg": 0.75,
+      "mass_dex_p95": 0.00104115752309335,
+      "metallicity": 0.0,
+      "node_id": "g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650",
+      "reference_flux_p95": null,
+      "reference_frozen": 125,
+      "teff_K": 3650.0,
+      "temperature_p95": 0.0039117679600472344,
+      "tiO": {
+        "flux_continuum": 0.00024207550899107093,
+        "flux_total": 0.00030638607480514403,
+        "normalized_flux": 0.00018604938477623234
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 50,
+      "group": "resolution",
+      "logg": 0.5,
+      "mass_dex_p95": null,
+      "metallicity": -0.5,
+      "node_id": "g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850",
+      "reference_flux_p95": null,
+      "reference_frozen": 25,
+      "teff_K": 3850.0,
+      "temperature_p95": 0.0013689563624468555,
+      "tiO": {
+        "flux_continuum": 0.00010666008344244195,
+        "flux_total": 0.00019764376957471673,
+        "normalized_flux": 0.00012778725917161893
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_30",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 25,
+      "group": "original",
+      "logg": 1.0,
+      "mass_dex_p95": 0.0006924120478455586,
+      "metallicity": -1.0,
+      "node_id": "g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450",
+      "reference_flux_p95": null,
+      "reference_frozen": 50,
+      "teff_K": 3450.0,
+      "temperature_p95": 0.0018781396920423282,
+      "tiO": {
+        "flux_continuum": 4.824199057169613e-05,
+        "flux_total": 2.608075315317194e-05,
+        "normalized_flux": 4.195180266353127e-05
+      },
+      "verdict": "pass"
+    },
+    {
+      "budget": "within_60",
+      "emulator_flux_p95": null,
+      "emulator_frozen": 45,
+      "group": "resolution",
+      "logg": 0.75,
+      "mass_dex_p95": null,
+      "metallicity": 0.5,
+      "node_id": "g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300",
+      "reference_flux_p95": null,
+      "reference_frozen": 85,
+      "teff_K": 3300.0,
+      "temperature_p95": 0.0018892005314273166,
+      "tiO": {
+        "flux_continuum": 0.00011391957358989381,
+        "flux_total": 9.915579213749642e-05,
+        "normalized_flux": 9.611015253157759e-05
+      },
+      "verdict": "pass"
+    }
+  ]
+}

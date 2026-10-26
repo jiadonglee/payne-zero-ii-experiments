@@ -1,0 +1,129 @@
+{
+  "canonical_tally": {
+    "counting": {
+      "derived_from_full_label_rows": true,
+      "emulator_over_60": 1,
+      "emulator_within_60": 17,
+      "incorrect_reported_tally": "21/21",
+      "incorrect_tally_reason": "The gravity-walk closeout added 12 original + 6 reproduction + 3 gravity-walk points. The three gravity-walk targets are three of the six reproduction points, not three new stars.",
+      "over_budget_point": {
+        "alpha_enhancement": 0.0,
+        "carbon_enhancement": 0.0,
+        "emulator_frozen_iteration": 90,
+        "logg": 0.75,
+        "metallicity": -0.5,
+        "microturbulence_km_s": 2.0,
+        "teff_K": 3750.0
+      },
+      "spectrum_consistent": 18,
+      "unique_targets": 18
+    },
+    "dwarf_n_formal_converge_within_30": 3,
+    "dwarf_n_tio_pass_among_converged": 0,
+    "dwarf_n_validation": 9,
+    "fit_smoke_continuous_inversion": false,
+    "fixed_labels": {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "microturbulence_km_s": 2.0
+    },
+    "ledger_id": "m_star_dual_path_validation_v1",
+    "n_over_budget_60": 1,
+    "n_rows": 18,
+    "n_spectrum_consistent": 18,
+    "n_unique": 18,
+    "n_within_budget_60": 17,
+    "observed_label_ranges": {
+      "alpha_enhancement": {
+        "max": 0.0,
+        "min": 0.0,
+        "n_unique": 1,
+        "values": [
+          0.0
+        ]
+      },
+      "carbon_enhancement": {
+        "max": 0.0,
+        "min": 0.0,
+        "n_unique": 1,
+        "values": [
+          0.0
+        ]
+      },
+      "logg": {
+        "max": 2.5,
+        "min": 0.5,
+        "n_unique": 8,
+        "values": [
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          1.75,
+          2.0,
+          2.25,
+          2.5
+        ]
+      },
+      "metallicity": {
+        "max": 0.5,
+        "min": -1.0,
+        "n_unique": 4,
+        "values": [
+          -1.0,
+          -0.5,
+          0.0,
+          0.5
+        ]
+      },
+      "microturbulence_km_s": {
+        "max": 2.0,
+        "min": 2.0,
+        "n_unique": 1,
+        "values": [
+          2.0
+        ]
+      },
+      "teff_K": {
+        "max": 3925.0,
+        "min": 3050.0,
+        "n_unique": 17,
+        "values": [
+          3050.0,
+          3150.0,
+          3175.0,
+          3250.0,
+          3300.0,
+          3325.0,
+          3350.0,
+          3400.0,
+          3450.0,
+          3525.0,
+          3575.0,
+          3650.0,
+          3675.0,
+          3750.0,
+          3825.0,
+          3850.0,
+          3925.0
+        ]
+      }
+    },
+    "over_budget_points": [
+      {
+        "alpha_enhancement": 0.0,
+        "carbon_enhancement": 0.0,
+        "emulator_frozen_iteration": 90,
+        "logg": 0.75,
+        "metallicity": -0.5,
+        "microturbulence_km_s": 2.0,
+        "teff_K": 3750.0
+      }
+    ],
+    "t3250_resolved": true
+  },
+  "config_hash": "b59df5e812d09cf4cf608d0762e4a2b6464b820b95fd0c9ae77c848957be4532",
+  "diagnostic_record_count": 4154,
+  "input_identity_hash": "8c8ce1202512a337eb47504034ba0fc050c9fb8a389108e94b36f86eaf8dc350",
+  "ledger_path": "/Users/jdli/Project/payne-zero/notes/ledgers/m_star_dual_path_validation_v1.json"
+}

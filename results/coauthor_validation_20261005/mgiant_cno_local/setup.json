@@ -1,0 +1,456 @@
+{
+  "expected": 24,
+  "labels": [
+    {
+      "effective_temperature": 3725.1272920087717,
+      "log_surface_gravity": 1.0140186446961421,
+      "metallicity": -0.6011191770244249,
+      "alpha_enhancement": -0.023320952493514326,
+      "microturbulence_km_s": 1.8201313765311955,
+      "carbon_enhancement": 0.00849446170664929,
+      "nitrogen_enhancement": -0.014387002066493265,
+      "oxygen_enhancement": -0.08677143451610936,
+      "absolute_abundance_offsets": {
+        "6": -0.5926247153177756,
+        "7": -0.6155061790909181,
+        "8": -0.6878906115405342
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 4
+    },
+    {
+      "effective_temperature": 3894.123466089889,
+      "log_surface_gravity": 0.867286628040031,
+      "metallicity": -0.8115824566126855,
+      "alpha_enhancement": 0.029040952872327816,
+      "microturbulence_km_s": 2.127265703753042,
+      "carbon_enhancement": -0.07313417236585362,
+      "nitrogen_enhancement": -0.07371518962873258,
+      "oxygen_enhancement": -0.04803391158510517,
+      "absolute_abundance_offsets": {
+        "6": -0.8847166289785391,
+        "7": -0.885297646241418,
+        "8": -0.8596163681977906
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 0
+    },
+    {
+      "effective_temperature": 3898.2797231124837,
+      "log_surface_gravity": 0.9156596790115481,
+      "metallicity": -0.703638871479859,
+      "alpha_enhancement": -0.03503936157617719,
+      "microturbulence_km_s": 2.125399763003151,
+      "carbon_enhancement": 0.07190239257922768,
+      "nitrogen_enhancement": -0.03883295329384731,
+      "oxygen_enhancement": 0.04015712526260937,
+      "absolute_abundance_offsets": {
+        "6": -0.6317364789006313,
+        "7": -0.7424718247737063,
+        "8": -0.6634817462172496
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 7
+    },
+    {
+      "effective_temperature": 3779.322558449593,
+      "log_surface_gravity": 1.082356441203054,
+      "metallicity": -0.870436613147398,
+      "alpha_enhancement": -0.019357917392306957,
+      "microturbulence_km_s": 2.0516146098224097,
+      "carbon_enhancement": 0.009441052055875282,
+      "nitrogen_enhancement": -0.020668086702139307,
+      "oxygen_enhancement": -0.019305588965304696,
+      "absolute_abundance_offsets": {
+        "6": -0.8609955610915226,
+        "7": -0.8911046998495372,
+        "8": -0.8897422021127026
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 4
+    },
+    {
+      "effective_temperature": 3852.403009256987,
+      "log_surface_gravity": 1.1477279628406152,
+      "metallicity": -0.8935046869044478,
+      "alpha_enhancement": -0.0010381769157388615,
+      "microturbulence_km_s": 1.991932676928958,
+      "carbon_enhancement": 0.04149001614470588,
+      "nitrogen_enhancement": -0.047635666395599956,
+      "oxygen_enhancement": -0.08773385672754108,
+      "absolute_abundance_offsets": {
+        "6": -0.852014670759742,
+        "7": -0.9411403533000477,
+        "8": -0.9812385436319889
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 4
+    },
+    {
+      "effective_temperature": 3721.835921878017,
+      "log_surface_gravity": 1.0613295953299735,
+      "metallicity": -0.7709675543303299,
+      "alpha_enhancement": -0.046220271967606454,
+      "microturbulence_km_s": 2.2168790302262407,
+      "carbon_enhancement": 0.073544683997742,
+      "nitrogen_enhancement": 0.06187205229706483,
+      "oxygen_enhancement": 0.05463975859814371,
+      "absolute_abundance_offsets": {
+        "6": -0.697422870332588,
+        "7": -0.7090955020332651,
+        "8": -0.7163277957321862
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 7
+    },
+    {
+      "effective_temperature": 3767.343453561719,
+      "log_surface_gravity": 1.0471039062834737,
+      "metallicity": -0.8266589958642194,
+      "alpha_enhancement": 0.048165229574531204,
+      "microturbulence_km_s": 1.9409628015698783,
+      "carbon_enhancement": -0.03390238199403468,
+      "nitrogen_enhancement": -0.011948615894462472,
+      "oxygen_enhancement": -0.02966398087025586,
+      "absolute_abundance_offsets": {
+        "6": -0.8605613778582542,
+        "7": -0.8386076117586819,
+        "8": -0.8563229767344753
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 0
+    },
+    {
+      "effective_temperature": 3735.951878501972,
+      "log_surface_gravity": 0.9026060609133424,
+      "metallicity": -0.6584086643475301,
+      "alpha_enhancement": 0.03332477730879091,
+      "microturbulence_km_s": 2.140857453409753,
+      "carbon_enhancement": -0.08629668422284736,
+      "nitrogen_enhancement": -0.08841386962504767,
+      "oxygen_enhancement": 0.03878261019955326,
+      "absolute_abundance_offsets": {
+        "6": -0.7447053485703774,
+        "7": -0.7468225339725778,
+        "8": -0.6196260541479768
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 1
+    },
+    {
+      "effective_temperature": 3887.4394286795387,
+      "log_surface_gravity": 1.0309236705963034,
+      "metallicity": -0.7741187123814975,
+      "alpha_enhancement": -0.04100764113365677,
+      "microturbulence_km_s": 1.9984261660461797,
+      "carbon_enhancement": -0.07642202238003336,
+      "nitrogen_enhancement": -0.020533374971720433,
+      "oxygen_enhancement": 0.08968207222193439,
+      "absolute_abundance_offsets": {
+        "6": -0.8505407347615309,
+        "7": -0.794652087353218,
+        "8": -0.6844366401595632
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 1
+    },
+    {
+      "effective_temperature": 3857.7516670252335,
+      "log_surface_gravity": 0.895918468366081,
+      "metallicity": -0.8764843817919655,
+      "alpha_enhancement": 0.03241043166762057,
+      "microturbulence_km_s": 1.7712270841503603,
+      "carbon_enhancement": -0.08785158556130013,
+      "nitrogen_enhancement": 0.034598985740978555,
+      "oxygen_enhancement": 0.03441702579298048,
+      "absolute_abundance_offsets": {
+        "6": -0.9643359673532657,
+        "7": -0.841885396050987,
+        "8": -0.8420673559989851
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 2
+    },
+    {
+      "effective_temperature": 3890.033350825145,
+      "log_surface_gravity": 1.0819383495251989,
+      "metallicity": -0.7965534669224602,
+      "alpha_enhancement": -0.0335186615995894,
+      "microturbulence_km_s": 1.891805603925818,
+      "carbon_enhancement": -0.06186738286809057,
+      "nitrogen_enhancement": -0.027381740221132336,
+      "oxygen_enhancement": -0.0428744810796603,
+      "absolute_abundance_offsets": {
+        "6": -0.8584208497905508,
+        "7": -0.8239352071435926,
+        "8": -0.8394279480021205
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 0
+    },
+    {
+      "effective_temperature": 3804.571384847384,
+      "log_surface_gravity": 1.1319300868745474,
+      "metallicity": -0.8881033469008587,
+      "alpha_enhancement": 0.006832640143234502,
+      "microturbulence_km_s": 2.188268011644946,
+      "carbon_enhancement": 0.0945406882224877,
+      "nitrogen_enhancement": 0.09750779651356453,
+      "oxygen_enhancement": -0.0493356799104163,
+      "absolute_abundance_offsets": {
+        "6": -0.793562658678371,
+        "7": -0.7905955503872941,
+        "8": -0.937439026811275
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 6
+    },
+    {
+      "effective_temperature": 3776.109291973387,
+      "log_surface_gravity": 1.0850849680077295,
+      "metallicity": -0.8532926290456161,
+      "alpha_enhancement": 0.015385656426850497,
+      "microturbulence_km_s": 1.902533408473454,
+      "carbon_enhancement": 0.045250940870644324,
+      "nitrogen_enhancement": 0.04173286977776278,
+      "oxygen_enhancement": -0.08989850621570639,
+      "absolute_abundance_offsets": {
+        "6": -0.8080416881749718,
+        "7": -0.8115597592678533,
+        "8": -0.9431911352613225
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 6
+    },
+    {
+      "effective_temperature": 3718.7201362157334,
+      "log_surface_gravity": 1.0440777548176565,
+      "metallicity": -0.7427120677944017,
+      "alpha_enhancement": -0.04351661600601769,
+      "microturbulence_km_s": 1.8804760651167869,
+      "carbon_enhancement": 0.03644200937465342,
+      "nitrogen_enhancement": 0.07098022513438731,
+      "oxygen_enhancement": -0.06287229939050494,
+      "absolute_abundance_offsets": {
+        "6": -0.7062700584197483,
+        "7": -0.6717318426600144,
+        "8": -0.8055843671849067
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 6
+    },
+    {
+      "effective_temperature": 3762.0242556772014,
+      "log_surface_gravity": 1.0721603649630704,
+      "metallicity": -0.6021459653931893,
+      "alpha_enhancement": -0.01702804714570444,
+      "microturbulence_km_s": 2.2065068483300916,
+      "carbon_enhancement": 0.07210779890105964,
+      "nitrogen_enhancement": -0.09927817706136109,
+      "oxygen_enhancement": 0.021800284177578136,
+      "absolute_abundance_offsets": {
+        "6": -0.5300381664921296,
+        "7": -0.7014241424545504,
+        "8": -0.5803456812156111
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 4
+    },
+    {
+      "effective_temperature": 3749.0705617869858,
+      "log_surface_gravity": 1.006112415974226,
+      "metallicity": -0.8086294556590267,
+      "alpha_enhancement": -0.03173869420787493,
+      "microturbulence_km_s": 1.9144322612287346,
+      "carbon_enhancement": 0.029539846202934317,
+      "nitrogen_enhancement": 0.03934662893186078,
+      "oxygen_enhancement": 0.029275084671222196,
+      "absolute_abundance_offsets": {
+        "6": -0.7790896094560924,
+        "7": -0.7692828267271659,
+        "8": -0.7793543709878045
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 7
+    },
+    {
+      "effective_temperature": 3799.4839862328927,
+      "log_surface_gravity": 1.054406625979085,
+      "metallicity": -0.8671237364943831,
+      "alpha_enhancement": -0.048149532666701245,
+      "microturbulence_km_s": 1.9700531323858403,
+      "carbon_enhancement": 0.015133514716628119,
+      "nitrogen_enhancement": 0.07124997534564201,
+      "oxygen_enhancement": -0.040297597311336086,
+      "absolute_abundance_offsets": {
+        "6": -0.851990221777755,
+        "7": -0.7958737611487411,
+        "8": -0.9074213338057192
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 6
+    },
+    {
+      "effective_temperature": 3712.2122441115025,
+      "log_surface_gravity": 1.0158916479205795,
+      "metallicity": -0.7148520131317335,
+      "alpha_enhancement": 0.024745833850076143,
+      "microturbulence_km_s": 1.965786232087439,
+      "carbon_enhancement": -0.016486585071056645,
+      "nitrogen_enhancement": -0.07707606424122367,
+      "oxygen_enhancement": 0.06164804633335058,
+      "absolute_abundance_offsets": {
+        "6": -0.7313385982027901,
+        "7": -0.7919280773729572,
+        "8": -0.6532039667983829
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 1
+    },
+    {
+      "effective_temperature": 3833.1526113913656,
+      "log_surface_gravity": 0.9090822283901402,
+      "metallicity": -0.7873316379148252,
+      "alpha_enhancement": -0.04380368307640871,
+      "microturbulence_km_s": 2.1182181715034125,
+      "carbon_enhancement": -0.06537586981536256,
+      "nitrogen_enhancement": 0.055739331512081824,
+      "oxygen_enhancement": -0.015256038147944587,
+      "absolute_abundance_offsets": {
+        "6": -0.8527075077301878,
+        "7": -0.7315923064027434,
+        "8": -0.8025876760627698
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 2
+    },
+    {
+      "effective_temperature": 3819.1970130887703,
+      "log_surface_gravity": 1.0218243357361514,
+      "metallicity": -0.7333454662513552,
+      "alpha_enhancement": -0.03505774316738264,
+      "microturbulence_km_s": 2.108326182139659,
+      "carbon_enhancement": -0.004498959626071011,
+      "nitrogen_enhancement": -0.07105021007456358,
+      "oxygen_enhancement": 0.08368524503289013,
+      "absolute_abundance_offsets": {
+        "6": -0.7378444258774263,
+        "7": -0.8043956763259188,
+        "8": -0.6496602212184651
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 1
+    },
+    {
+      "effective_temperature": 3791.1259939647584,
+      "log_surface_gravity": 1.0258208360467524,
+      "metallicity": -0.6038206003755314,
+      "alpha_enhancement": -0.04319956115573083,
+      "microturbulence_km_s": 1.834262091691717,
+      "carbon_enhancement": -0.047326870277544786,
+      "nitrogen_enhancement": 0.014367066102533285,
+      "oxygen_enhancement": -0.030694201707009164,
+      "absolute_abundance_offsets": {
+        "6": -0.6511474706530762,
+        "7": -0.5894535342729982,
+        "8": -0.6345148020825406
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 2
+    },
+    {
+      "effective_temperature": 3870.2146457165486,
+      "log_surface_gravity": 1.074436074938335,
+      "metallicity": -0.8605458185928951,
+      "alpha_enhancement": 0.03164474111489814,
+      "microturbulence_km_s": 1.7957950629354194,
+      "carbon_enhancement": -0.01462621334500866,
+      "nitrogen_enhancement": -0.004584262466411276,
+      "oxygen_enhancement": 0.03232929512797425,
+      "absolute_abundance_offsets": {
+        "6": -0.8751720319379038,
+        "7": -0.8651300810593064,
+        "8": -0.8282165234649209
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 1
+    },
+    {
+      "effective_temperature": 3720.658825863273,
+      "log_surface_gravity": 0.9178157428267725,
+      "metallicity": -0.7276676885567547,
+      "alpha_enhancement": 0.026146251021608072,
+      "microturbulence_km_s": 1.9334950617107602,
+      "carbon_enhancement": 0.006017583516921138,
+      "nitrogen_enhancement": -0.08978389321605998,
+      "oxygen_enhancement": -0.057865790528943674,
+      "absolute_abundance_offsets": {
+        "6": -0.7216501050398335,
+        "7": -0.8174515817728146,
+        "8": -0.7855334790856984
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 4
+    },
+    {
+      "effective_temperature": 3737.9564006977294,
+      "log_surface_gravity": 1.0377339770305918,
+      "metallicity": -0.881097547308141,
+      "alpha_enhancement": -0.008934203165326282,
+      "microturbulence_km_s": 1.9136471308221281,
+      "carbon_enhancement": -0.08885472460848072,
+      "nitrogen_enhancement": 0.04098718876171187,
+      "oxygen_enhancement": -0.04638611837601403,
+      "absolute_abundance_offsets": {
+        "6": -0.9699522719166218,
+        "7": -0.8401103585464291,
+        "8": -0.9274836656841551
+      },
+      "development_group": "t3800_g1.00_m-0.75",
+      "reference_donor_case": 2
+    }
+  ],
+  "ranges": {
+    "effective_temperature": [
+      3700,
+      3900
+    ],
+    "log_surface_gravity": [
+      0.85,
+      1.15
+    ],
+    "metallicity": [
+      -0.9,
+      -0.6
+    ],
+    "alpha_enhancement": [
+      -0.05,
+      0.05
+    ],
+    "microturbulence_km_s": [
+      1.75,
+      2.25
+    ],
+    "carbon_enhancement": [
+      -0.1,
+      0.1
+    ],
+    "nitrogen_enhancement": [
+      -0.1,
+      0.1
+    ],
+    "oxygen_enhancement": [
+      -0.1,
+      0.1
+    ]
+  },
+  "random_seed": 20261008,
+  "role": "local random development; no holdout",
+  "predictor": "frozen five-label v4, target chemistry in reconstruction",
+  "reference": "nearest accepted MARCS-derived pilot endpoint in CNO coordinates",
+  "source": "/nexus/posix0/MIA-astro-env/hxr/jdli/payne-zero-coauthor-20261005/runs/mgiant_cno_pilot_20261007",
+  "parent_group": "t3800_g1.00_m-0.75",
+  "workers": 8,
+  "physical_iteration_cap": 90,
+  "reference_iteration_cap": 120
+}

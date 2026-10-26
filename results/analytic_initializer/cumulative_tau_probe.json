@@ -1,0 +1,1156 @@
+{
+  "format": "payne_zero_cumulative_tau_probe_v1",
+  "status": "offline_smoke",
+  "sealed_holdout_status": "not opened; manifest indices used only for exclusion",
+  "corpus": {
+    "path": "/Users/jdli/Project/payne-zero/source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+    "sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+    "rows_total": 52199,
+    "layers": 80
+  },
+  "selection": {
+    "max_rows": 2000,
+    "selected_open_rows": 2000,
+    "selected_original_index_sha256": "b3bd4adc5f23402b7aeddffdcae9095f78ddb3917cb097f474af944578fd2f46"
+  },
+  "split": {
+    "seed": 20260816,
+    "train": 1600,
+    "validation": 400,
+    "source_excluded": 1060,
+    "manifests": [
+      "/Users/jdli/Project/payne-zero/results/reconstruction_metrics.json",
+      "/Users/jdli/Project/payne-zero/results/sealed_solver_subset_20260808.json",
+      "/Users/jdli/Project/payne-zero/results/sealed_audit_20260808.json",
+      "/Users/jdli/Project/payne-zero/results/sealed_audit_20260811.json",
+      "/Users/jdli/Project/payne-zero/results/sealed_initializer_holdout_20260812.json",
+      "/Users/jdli/Project/payne-zero/results/initializer_calibration_20260812.json",
+      "/Users/jdli/Project/payne-zero/results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+    ]
+  },
+  "screen": {
+    "label_feature_maps": [
+      "standard",
+      "physical"
+    ],
+    "degrees": [
+      1,
+      2
+    ],
+    "widths_ln_tau": [
+      0.35,
+      0.7,
+      1.2
+    ],
+    "oracle_targets_reused_across_degrees": true
+  },
+  "candidates": [
+    {
+      "label_feature_map": "standard",
+      "degree": 1,
+      "width_ln_tau": 0.35,
+      "term_count": 6,
+      "fitted_parameter_count": 60,
+      "stored_float_count": 89,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.013337500881987985,
+          "p95": 0.05253262124738968
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03502243370369862,
+          "p95": 0.17927145484600007
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.020025466743549325,
+            "p95": 0.06250757381840896
+          },
+          "mass_absolute_dex": {
+            "p50": 0.024411243532794946,
+            "p95": 0.15367103457595596
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.027706107891961707,
+        "p95": 0.17555909792806199
+      },
+      "mass_absolute_dex": {
+        "p50": 0.272878995037076,
+        "p95": 0.8302166425256373
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.032768506625103444,
+          "p95": 0.16189078294768602
+        },
+        "mass_absolute_dex": {
+          "p50": 0.21303457854452396,
+          "p95": 0.6712608796208334
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 2.220446049250313e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 0.0,
+          "mass_max_dex_jump": 1.7763568394002505e-15
+        }
+      ],
+      "selection_score": 4.151083212628186,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": true,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.03310950007289648,
+        "fit_predict_score": 0.0046968343667685986
+      }
+    },
+    {
+      "label_feature_map": "standard",
+      "degree": 2,
+      "width_ln_tau": 0.35,
+      "term_count": 21,
+      "fitted_parameter_count": 210,
+      "stored_float_count": 239,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.013337500881987985,
+          "p95": 0.05253262124738968
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03502243370369862,
+          "p95": 0.17927145484600007
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.020025466743549325,
+            "p95": 0.06250757381840896
+          },
+          "mass_absolute_dex": {
+            "p50": 0.024411243532794946,
+            "p95": 0.15367103457595596
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.021988386532167614,
+        "p95": 0.14463128697973857
+      },
+      "mass_absolute_dex": {
+        "p50": 0.09177268387387913,
+        "p95": 0.5416407171367391
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.03096751834959277,
+          "p95": 0.14878738339068387
+        },
+        "mass_absolute_dex": {
+          "p50": 0.07856097179991958,
+          "p95": 0.6279838030906226
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 1.7763568394002505e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.9984014443252818e-15,
+          "mass_max_dex_jump": 1.3322676295501878e-15
+        }
+      ],
+      "selection_score": 2.892625739594771,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": false,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.03310950007289648,
+        "fit_predict_score": 0.0039482503198087215
+      }
+    },
+    {
+      "label_feature_map": "physical",
+      "degree": 1,
+      "width_ln_tau": 0.35,
+      "term_count": 8,
+      "fitted_parameter_count": 80,
+      "stored_float_count": 113,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.013337500881987985,
+          "p95": 0.05253262124738968
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03502243370369862,
+          "p95": 0.17927145484600007
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.020025466743549325,
+            "p95": 0.06250757381840896
+          },
+          "mass_absolute_dex": {
+            "p50": 0.024411243532794946,
+            "p95": 0.15367103457595596
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.022683569263084347,
+        "p95": 0.10263527794398776
+      },
+      "mass_absolute_dex": {
+        "p50": 0.13177825183644207,
+        "p95": 0.6092971010893288
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.029646257394017383,
+          "p95": 0.10345111788746975
+        },
+        "mass_absolute_dex": {
+          "p50": 0.09414290522054042,
+          "p95": 0.5697513074085094
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 3.3306690738754696e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 0.0,
+          "mass_max_dex_jump": 1.7763568394002505e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.887379141862766e-15,
+          "mass_max_dex_jump": 1.7763568394002505e-15
+        }
+      ],
+      "selection_score": 3.0464855054466438,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": true,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.03310950007289648,
+        "fit_predict_score": 0.0037826253101229668
+      }
+    },
+    {
+      "label_feature_map": "physical",
+      "degree": 2,
+      "width_ln_tau": 0.35,
+      "term_count": 34,
+      "fitted_parameter_count": 340,
+      "stored_float_count": 373,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.013337500881987985,
+          "p95": 0.05253262124738968
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03502243370369862,
+          "p95": 0.17927145484600007
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.020025466743549325,
+            "p95": 0.06250757381840896
+          },
+          "mass_absolute_dex": {
+            "p50": 0.024411243532794946,
+            "p95": 0.15367103457595596
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.017868548826612818,
+        "p95": 0.07489131659343332
+      },
+      "mass_absolute_dex": {
+        "p50": 0.06574641820140181,
+        "p95": 0.3214225911625342
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.02434056183801092,
+          "p95": 0.07527788790341139
+        },
+        "mass_absolute_dex": {
+          "p50": 0.05414535802347337,
+          "p95": 0.29971422305022183
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.9984014443252818e-15,
+          "mass_max_dex_jump": 1.3322676295501878e-14
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.887379141862766e-15,
+          "mass_max_dex_jump": 1.1102230246251565e-14
+        }
+      ],
+      "selection_score": 1.6071129558126709,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": false,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.03310950007289648,
+        "fit_predict_score": 0.01460262481123209
+      }
+    },
+    {
+      "label_feature_map": "standard",
+      "degree": 1,
+      "width_ln_tau": 0.7,
+      "term_count": 6,
+      "fitted_parameter_count": 60,
+      "stored_float_count": 89,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.012868196137509946,
+          "p95": 0.046165137411970605
+        },
+        "mass_absolute_dex": {
+          "p50": 0.032257474798556146,
+          "p95": 0.16525521354805284
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.013819445200807245,
+            "p95": 0.05652169236277533
+          },
+          "mass_absolute_dex": {
+            "p50": 0.020985655404623493,
+            "p95": 0.13819197428785848
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.025541339209978364,
+        "p95": 0.18124045228822558
+      },
+      "mass_absolute_dex": {
+        "p50": 0.3030593180290104,
+        "p95": 0.9623175771704253
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.026578244518430494,
+          "p95": 0.16786471563355176
+        },
+        "mass_absolute_dex": {
+          "p50": 0.26053280445584515,
+          "p95": 0.9280489028878346
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 2.6645352591003757e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 8.881784197001252e-16
+        }
+      ],
+      "selection_score": 4.811587885852126,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": true,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.05834754230454564,
+        "fit_predict_score": 0.005612249951809645
+      }
+    },
+    {
+      "label_feature_map": "standard",
+      "degree": 2,
+      "width_ln_tau": 0.7,
+      "term_count": 21,
+      "fitted_parameter_count": 210,
+      "stored_float_count": 239,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.012868196137509946,
+          "p95": 0.046165137411970605
+        },
+        "mass_absolute_dex": {
+          "p50": 0.032257474798556146,
+          "p95": 0.16525521354805284
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.013819445200807245,
+            "p95": 0.05652169236277533
+          },
+          "mass_absolute_dex": {
+            "p50": 0.020985655404623493,
+            "p95": 0.13819197428785848
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.0206350465573219,
+        "p95": 0.17280078835693524
+      },
+      "mass_absolute_dex": {
+        "p50": 0.10128320125136447,
+        "p95": 0.9985499439633119
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.02537862181919498,
+          "p95": 0.1849026339792751
+        },
+        "mass_absolute_dex": {
+          "p50": 0.09705624893820053,
+          "p95": 1.5608809070299343
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 0.0,
+          "mass_max_dex_jump": 1.5543122344752192e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.6653345369377348e-15,
+          "mass_max_dex_jump": 1.7763568394002505e-15
+        }
+      ],
+      "selection_score": 4.992749719816559,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": false,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.05834754230454564,
+        "fit_predict_score": 0.008520416915416718
+      }
+    },
+    {
+      "label_feature_map": "physical",
+      "degree": 1,
+      "width_ln_tau": 0.7,
+      "term_count": 8,
+      "fitted_parameter_count": 80,
+      "stored_float_count": 113,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.012868196137509946,
+          "p95": 0.046165137411970605
+        },
+        "mass_absolute_dex": {
+          "p50": 0.032257474798556146,
+          "p95": 0.16525521354805284
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.013819445200807245,
+            "p95": 0.05652169236277533
+          },
+          "mass_absolute_dex": {
+            "p50": 0.020985655404623493,
+            "p95": 0.13819197428785848
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.021168657923669232,
+        "p95": 0.11500840811353487
+      },
+      "mass_absolute_dex": {
+        "p50": 0.150124708830013,
+        "p95": 1.3209879623640854
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.022720187687990112,
+          "p95": 0.11875964741426122
+        },
+        "mass_absolute_dex": {
+          "p50": 0.11413697284131219,
+          "p95": 2.0145297155081674
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 0.0,
+          "mass_max_dex_jump": 1.7763568394002505e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 1.3322676295501878e-15
+        }
+      ],
+      "selection_score": 6.604939811820427,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": true,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.05834754230454564,
+        "fit_predict_score": 0.005196457728743553
+      }
+    },
+    {
+      "label_feature_map": "physical",
+      "degree": 2,
+      "width_ln_tau": 0.7,
+      "term_count": 34,
+      "fitted_parameter_count": 340,
+      "stored_float_count": 373,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.012868196137509946,
+          "p95": 0.046165137411970605
+        },
+        "mass_absolute_dex": {
+          "p50": 0.032257474798556146,
+          "p95": 0.16525521354805284
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.013819445200807245,
+            "p95": 0.05652169236277533
+          },
+          "mass_absolute_dex": {
+            "p50": 0.020985655404623493,
+            "p95": 0.13819197428785848
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.016678746669221978,
+        "p95": 0.07873385301041391
+      },
+      "mass_absolute_dex": {
+        "p50": 0.06993442113807646,
+        "p95": 0.4906503814836429
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.0180014834466371,
+          "p95": 0.07847707673566943
+        },
+        "mass_absolute_dex": {
+          "p50": 0.06132073175710884,
+          "p95": 0.6248746773792071
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 3.9968028886505635e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 5.3290705182007514e-14,
+          "mass_max_dex_jump": 1.1546319456101628e-14
+        }
+      ],
+      "selection_score": 2.453251907418214,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": false,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.05834754230454564,
+        "fit_predict_score": 0.008006332907825708
+      }
+    },
+    {
+      "label_feature_map": "standard",
+      "degree": 1,
+      "width_ln_tau": 1.2,
+      "term_count": 6,
+      "fitted_parameter_count": 60,
+      "stored_float_count": 89,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.010447771664198746,
+          "p95": 0.042632795573055805
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03366344627399842,
+          "p95": 0.1468715320973935
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.009112932753996439,
+            "p95": 0.054123087711439165
+          },
+          "mass_absolute_dex": {
+            "p50": 0.025371121620855197,
+            "p95": 0.1254625789842565
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.022946341075790244,
+        "p95": 0.1758924901501032
+      },
+      "mass_absolute_dex": {
+        "p50": 0.33055861315202173,
+        "p95": 1.104765972599137
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.02447171228892797,
+          "p95": 0.17655857961929455
+        },
+        "mass_absolute_dex": {
+          "p50": 0.3047257501768018,
+          "p95": 1.0744864077179133
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 2.220446049250313e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 0.0,
+          "mass_max_dex_jump": 8.881784197001252e-16
+        }
+      ],
+      "selection_score": 5.523829862995685,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": true,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.038952375296503305,
+        "fit_predict_score": 0.003542250022292137
+      }
+    },
+    {
+      "label_feature_map": "standard",
+      "degree": 2,
+      "width_ln_tau": 1.2,
+      "term_count": 21,
+      "fitted_parameter_count": 210,
+      "stored_float_count": 239,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.010447771664198746,
+          "p95": 0.042632795573055805
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03366344627399842,
+          "p95": 0.1468715320973935
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.009112932753996439,
+            "p95": 0.054123087711439165
+          },
+          "mass_absolute_dex": {
+            "p50": 0.025371121620855197,
+            "p95": 0.1254625789842565
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.019079099006342193,
+        "p95": 0.2765942615338244
+      },
+      "mass_absolute_dex": {
+        "p50": 0.11297641755865989,
+        "p95": 1.300740381060887
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.02474032991721975,
+          "p95": 0.3170400948466778
+        },
+        "mass_absolute_dex": {
+          "p50": 0.13038615911978435,
+          "p95": 3.2331132663326714
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 3.3306690738754696e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.887379141862766e-15,
+          "mass_max_dex_jump": 1.5543122344752192e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.7763568394002505e-15,
+          "mass_max_dex_jump": 8.881784197001252e-16
+        }
+      ],
+      "selection_score": 6.503701905304435,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": false,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.038952375296503305,
+        "fit_predict_score": 0.0038104578852653503
+      }
+    },
+    {
+      "label_feature_map": "physical",
+      "degree": 1,
+      "width_ln_tau": 1.2,
+      "term_count": 8,
+      "fitted_parameter_count": 80,
+      "stored_float_count": 113,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.010447771664198746,
+          "p95": 0.042632795573055805
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03366344627399842,
+          "p95": 0.1468715320973935
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.009112932753996439,
+            "p95": 0.054123087711439165
+          },
+          "mass_absolute_dex": {
+            "p50": 0.025371121620855197,
+            "p95": 0.1254625789842565
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.019647950821757576,
+        "p95": 0.1580137246025813
+      },
+      "mass_absolute_dex": {
+        "p50": 0.1605173742093282,
+        "p95": 1.2409015326179667
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.02059240440498944,
+          "p95": 0.17893591079464943
+        },
+        "mass_absolute_dex": {
+          "p50": 0.13511601343850543,
+          "p95": 1.8415026514572703
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.9984014443252818e-15,
+          "mass_max_dex_jump": 1.9984014443252818e-15
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 1.9984014443252818e-15,
+          "mass_max_dex_jump": 1.7763568394002505e-15
+        }
+      ],
+      "selection_score": 6.204507663089833,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": true,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.038952375296503305,
+        "fit_predict_score": 0.0042518749833106995
+      }
+    },
+    {
+      "label_feature_map": "physical",
+      "degree": 2,
+      "width_ln_tau": 1.2,
+      "term_count": 34,
+      "fitted_parameter_count": 340,
+      "stored_float_count": 373,
+      "oracle_representation": {
+        "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+        "temperature_relative": {
+          "p50": 0.010447771664198746,
+          "p95": 0.042632795573055805
+        },
+        "mass_absolute_dex": {
+          "p50": 0.03366344627399842,
+          "p95": 0.1468715320973935
+        },
+        "deep": {
+          "temperature_relative": {
+            "p50": 0.009112932753996439,
+            "p95": 0.054123087711439165
+          },
+          "mass_absolute_dex": {
+            "p50": 0.025371121620855197,
+            "p95": 0.1254625789842565
+          }
+        }
+      },
+      "temperature_relative": {
+        "p50": 0.015748547836712368,
+        "p95": 0.10049712338953103
+      },
+      "mass_absolute_dex": {
+        "p50": 0.07685937619622663,
+        "p95": 0.5965512241039618
+      },
+      "deep": {
+        "definition": "layers [39:75]",
+        "temperature_relative": {
+          "p50": 0.018096703276197057,
+          "p95": 0.10266077614706605
+        },
+        "mass_absolute_dex": {
+          "p50": 0.07656105175834738,
+          "p95": 0.7701213654068121
+        }
+      },
+      "invariants": {
+        "temperature_finite_positive": true,
+        "temperature_strictly_monotone": true,
+        "mass_finite_positive_strictly_monotone": true,
+        "opacity_finite_positive_and_identity": true
+      },
+      "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+      "seam_checks": [
+        {
+          "boundary_K": 5500.0,
+          "left_K": 5499.999999999999,
+          "right_K": 5500.000000000001,
+          "temperature_max_relative_jump": 1.9984014443252818e-15,
+          "mass_max_dex_jump": 1.1102230246251565e-14
+        },
+        {
+          "boundary_K": 7500.0,
+          "left_K": 7499.999999999999,
+          "right_K": 7500.000000000001,
+          "temperature_max_relative_jump": 3.552713678800501e-15,
+          "mass_max_dex_jump": 1.3100631690576847e-14
+        }
+      ],
+      "selection_score": 2.9827561205198085,
+      "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+      "offline_gate": {
+        "all_invariants": true,
+        "temperature_relative_p95_le_0p05": false,
+        "mass_dex_p95_le_0p20": false,
+        "seams_below_1e-3": true,
+        "fitted_parameters_le_200": false,
+        "all_pass": false
+      },
+      "timing_seconds": {
+        "shared_width_oracle": 0.038952375296503305,
+        "fit_predict_score": 0.004734667018055916
+      }
+    }
+  ],
+  "best_candidate": {
+    "label_feature_map": "physical",
+    "degree": 2,
+    "width_ln_tau": 0.35,
+    "term_count": 34,
+    "fitted_parameter_count": 340,
+    "stored_float_count": 373,
+    "oracle_representation": {
+      "meaning": "per-star NNLS shape floor before the label-to-parameter map",
+      "temperature_relative": {
+        "p50": 0.013337500881987985,
+        "p95": 0.05253262124738968
+      },
+      "mass_absolute_dex": {
+        "p50": 0.03502243370369862,
+        "p95": 0.17927145484600007
+      },
+      "deep": {
+        "temperature_relative": {
+          "p50": 0.020025466743549325,
+          "p95": 0.06250757381840896
+        },
+        "mass_absolute_dex": {
+          "p50": 0.024411243532794946,
+          "p95": 0.15367103457595596
+        }
+      }
+    },
+    "temperature_relative": {
+      "p50": 0.017868548826612818,
+      "p95": 0.07489131659343332
+    },
+    "mass_absolute_dex": {
+      "p50": 0.06574641820140181,
+      "p95": 0.3214225911625342
+    },
+    "deep": {
+      "definition": "layers [39:75]",
+      "temperature_relative": {
+        "p50": 0.02434056183801092,
+        "p95": 0.07527788790341139
+      },
+      "mass_absolute_dex": {
+        "p50": 0.05414535802347337,
+        "p95": 0.29971422305022183
+      }
+    },
+    "invariants": {
+      "temperature_finite_positive": true,
+      "temperature_strictly_monotone": true,
+      "mass_finite_positive_strictly_monotone": true,
+      "opacity_finite_positive_and_identity": true
+    },
+    "opacity_identity_max_absolute_error": 4.440892098500626e-16,
+    "seam_checks": [
+      {
+        "boundary_K": 5500.0,
+        "left_K": 5499.999999999999,
+        "right_K": 5500.000000000001,
+        "temperature_max_relative_jump": 1.9984014443252818e-15,
+        "mass_max_dex_jump": 1.3322676295501878e-14
+      },
+      {
+        "boundary_K": 7500.0,
+        "left_K": 7499.999999999999,
+        "right_K": 7500.000000000001,
+        "temperature_max_relative_jump": 1.887379141862766e-15,
+        "mass_max_dex_jump": 1.1102230246251565e-14
+      }
+    ],
+    "selection_score": 1.6071129558126709,
+    "selection_score_definition": "max(T_p95/0.05, m_p95_dex/0.20)",
+    "offline_gate": {
+      "all_invariants": true,
+      "temperature_relative_p95_le_0p05": false,
+      "mass_dex_p95_le_0p20": false,
+      "seams_below_1e-3": true,
+      "fitted_parameters_le_200": false,
+      "all_pass": false
+    },
+    "timing_seconds": {
+      "shared_width_oracle": 0.03310950007289648,
+      "fit_predict_score": 0.01460262481123209
+    }
+  },
+  "elapsed_seconds": 1.6821788339875638,
+  "reproducer": "PYTHONPATH=. /Users/jdli/anaconda3/bin/python -m experiments.analytic_initializer.run_cumulative_tau_probe --max-rows 2000"
+}

@@ -1,0 +1,272 @@
+{
+  "large_products_included": false,
+  "products": [
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650"
+      ],
+      "node_id": "g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825"
+      ],
+      "node_id": "g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575"
+      ],
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925"
+      ],
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250"
+      ],
+      "node_id": "g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150"
+      ],
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350"
+      ],
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050"
+      ],
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650"
+      ],
+      "node_id": "g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650",
+      "sources": [
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850"
+      ],
+      "node_id": "g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450"
+      ],
+      "node_id": "g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300"
+      ],
+      "node_id": "g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+1.75_m+0.50_a+0.00_c+0.00_x2.00_t3675"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.75_m+0.50_a+0.00_c+0.00_x2.00_t3675",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+1.75_m+0.50_a+0.00_c+0.00_x2.00_t3675",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+1.75_m+0.50_a+0.00_c+0.00_x2.00_t3675"
+      ],
+      "node_id": "g+1.75_m+0.50_a+0.00_c+0.00_x2.00_t3675",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+0.75_m-0.50_a+0.00_c+0.00_x2.00_t3750"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.75_m-0.50_a+0.00_c+0.00_x2.00_t3750",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+0.75_m-0.50_a+0.00_c+0.00_x2.00_t3750",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+0.75_m-0.50_a+0.00_c+0.00_x2.00_t3750"
+      ],
+      "node_id": "g+0.75_m-0.50_a+0.00_c+0.00_x2.00_t3750",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+0.50_m+0.50_a+0.00_c+0.00_x2.00_t3400"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+0.50_m+0.50_a+0.00_c+0.00_x2.00_t3400",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+0.50_m+0.50_a+0.00_c+0.00_x2.00_t3400",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+0.50_m+0.50_a+0.00_c+0.00_x2.00_t3400"
+      ],
+      "node_id": "g+0.50_m+0.50_a+0.00_c+0.00_x2.00_t3400",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525"
+      ],
+      "node_id": "g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_gravity_walk_v1_closeout_20260913.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175"
+      ],
+      "node_id": "g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_gravity_walk_v1_closeout_20260913.md"
+      ]
+    },
+    {
+      "available_local_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325"
+      ],
+      "expected_paths": [
+        "/Users/jdli/Project/payne-zero/results/m_star_stop_rule_v1/validate/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325",
+        "/Users/jdli/Project/payne-zero/results/m_star_sixty_budget_v1/points/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325",
+        "/Users/jdli/Project/payne-zero/results/m_star_gravity_walk_v1/points/g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325"
+      ],
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_gravity_walk_v1_closeout_20260913.md"
+      ]
+    }
+  ],
+  "retrieval": "Use the available_local_paths when present. For absent products, use the absolute result/product paths recorded in the cited closeout JSON or run the corresponding campaign driver on a synchronized Garching checkout; this package does not claim absent NPZ products are present."
+}

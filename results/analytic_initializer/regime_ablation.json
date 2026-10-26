@@ -1,0 +1,591 @@
+{
+  "candidate": "H2_standalone_low_rank_hopf_and_opacity_profile",
+  "configurations": [
+    {
+      "basis_value_count": 2880,
+      "by_effective_temperature": [
+        {
+          "convective_onset_layer_p10": 53.0,
+          "convective_onset_layer_p90": 62.0,
+          "effective_temperature_high": 5000,
+          "effective_temperature_low": 4000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 582,
+          "temperature_deep_dex_p50": 0.004320659093981938,
+          "temperature_deep_dex_p95": 0.009533230515023392
+        },
+        {
+          "convective_onset_layer_p10": 55.0,
+          "convective_onset_layer_p90": 61.0,
+          "effective_temperature_high": 5750,
+          "effective_temperature_low": 5000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 372,
+          "temperature_deep_dex_p50": 0.0044802777885273315,
+          "temperature_deep_dex_p95": 0.009643422546964372
+        },
+        {
+          "convective_onset_layer_p10": 56.0,
+          "convective_onset_layer_p90": 60.0,
+          "effective_temperature_high": 6500,
+          "effective_temperature_low": 5750,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 286,
+          "temperature_deep_dex_p50": 0.005204988656705378,
+          "temperature_deep_dex_p95": 0.017961229631209275
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7000,
+          "effective_temperature_low": 6500,
+          "no_convection_zone_fraction": 0.008849557522123894,
+          "star_count": 113,
+          "temperature_deep_dex_p50": 0.00779325783581708,
+          "temperature_deep_dex_p95": 0.022137079387689863
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7500,
+          "effective_temperature_low": 7000,
+          "no_convection_zone_fraction": 0.16521739130434782,
+          "star_count": 115,
+          "temperature_deep_dex_p50": 0.012408326456896823,
+          "temperature_deep_dex_p95": 0.08993458832341714
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 78.0,
+          "effective_temperature_high": 8000,
+          "effective_temperature_low": 7500,
+          "no_convection_zone_fraction": 0.47368421052631576,
+          "star_count": 133,
+          "temperature_deep_dex_p50": 0.011695208007517444,
+          "temperature_deep_dex_p95": 0.09037650856579534
+        },
+        {
+          "convective_onset_layer_p10": 58.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 9000,
+          "effective_temperature_low": 8000,
+          "no_convection_zone_fraction": 0.7013487475915221,
+          "star_count": 519,
+          "temperature_deep_dex_p50": 0.00818254905741611,
+          "temperature_deep_dex_p95": 0.048659678727082316
+        },
+        {
+          "convective_onset_layer_p10": 77.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 10500,
+          "effective_temperature_low": 9000,
+          "no_convection_zone_fraction": 0.85,
+          "star_count": 880,
+          "temperature_deep_dex_p50": 0.006810542726255697,
+          "temperature_deep_dex_p95": 0.014359467844157292
+        }
+      ],
+      "coefficient_count": 1680,
+      "components": 5,
+      "mass_deep_dex_p95": 0.0989255618975179,
+      "name": "baseline",
+      "peak_bin_temperature_deep_dex_p95": [
+        0.08993458832341714,
+        0.09037650856579534
+      ],
+      "peak_over_reference_ratio": 4.0825850141754705,
+      "rationale": "current H2: hard 5500/7500 K seams, degree 3, five modes",
+      "reference_bin_temperature_deep_dex_p95": 0.022137079387689863,
+      "regime_boundaries": [
+        5500.0,
+        7500.0
+      ],
+      "smoothing_width_K": 0.0,
+      "stored_constant_count": 4560,
+      "temperature_deep_dex_p50": 0.0062688057461546265,
+      "temperature_deep_dex_p95": 0.024581922574669016,
+      "temperature_surface_dex_p95": 0.010759442437735054,
+      "within_constant_budget": false,
+      "worst_peak_bin_temperature_deep_dex_p95": 0.09037650856579534
+    },
+    {
+      "basis_value_count": 2880,
+      "by_effective_temperature": [
+        {
+          "convective_onset_layer_p10": 53.0,
+          "convective_onset_layer_p90": 62.0,
+          "effective_temperature_high": 5000,
+          "effective_temperature_low": 4000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 582,
+          "temperature_deep_dex_p50": 0.005207444547003615,
+          "temperature_deep_dex_p95": 0.009930949036051113
+        },
+        {
+          "convective_onset_layer_p10": 55.0,
+          "convective_onset_layer_p90": 61.0,
+          "effective_temperature_high": 5750,
+          "effective_temperature_low": 5000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 372,
+          "temperature_deep_dex_p50": 0.004862875827232882,
+          "temperature_deep_dex_p95": 0.007525110506121967
+        },
+        {
+          "convective_onset_layer_p10": 56.0,
+          "convective_onset_layer_p90": 60.0,
+          "effective_temperature_high": 6500,
+          "effective_temperature_low": 5750,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 286,
+          "temperature_deep_dex_p50": 0.005642209182586511,
+          "temperature_deep_dex_p95": 0.015609712371724482
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7000,
+          "effective_temperature_low": 6500,
+          "no_convection_zone_fraction": 0.008849557522123894,
+          "star_count": 113,
+          "temperature_deep_dex_p50": 0.014684602543722391,
+          "temperature_deep_dex_p95": 0.05133825222472851
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7500,
+          "effective_temperature_low": 7000,
+          "no_convection_zone_fraction": 0.16521739130434782,
+          "star_count": 115,
+          "temperature_deep_dex_p50": 0.03934888594587793,
+          "temperature_deep_dex_p95": 0.0813098098680796
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 78.0,
+          "effective_temperature_high": 8000,
+          "effective_temperature_low": 7500,
+          "no_convection_zone_fraction": 0.47368421052631576,
+          "star_count": 133,
+          "temperature_deep_dex_p50": 0.03538943975540132,
+          "temperature_deep_dex_p95": 0.07805451838733166
+        },
+        {
+          "convective_onset_layer_p10": 58.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 9000,
+          "effective_temperature_low": 8000,
+          "no_convection_zone_fraction": 0.7013487475915221,
+          "star_count": 519,
+          "temperature_deep_dex_p50": 0.011481452999275277,
+          "temperature_deep_dex_p95": 0.06217875301781811
+        },
+        {
+          "convective_onset_layer_p10": 77.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 10500,
+          "effective_temperature_low": 9000,
+          "no_convection_zone_fraction": 0.85,
+          "star_count": 880,
+          "temperature_deep_dex_p50": 0.0014777295153369785,
+          "temperature_deep_dex_p95": 0.0040195425697097985
+        }
+      ],
+      "coefficient_count": 1680,
+      "components": 5,
+      "mass_deep_dex_p95": 0.10858856742374329,
+      "name": "shifted",
+      "peak_bin_temperature_deep_dex_p95": [
+        0.0813098098680796,
+        0.07805451838733166
+      ],
+      "peak_over_reference_ratio": 3.6730143323827495,
+      "rationale": "seams moved clear of the transition, everything else fixed",
+      "reference_bin_temperature_deep_dex_p95": 0.05133825222472851,
+      "regime_boundaries": [
+        6300.0,
+        8700.0
+      ],
+      "smoothing_width_K": 0.0,
+      "stored_constant_count": 4560,
+      "temperature_deep_dex_p50": 0.00448475954952654,
+      "temperature_deep_dex_p95": 0.047745517514758404,
+      "temperature_surface_dex_p95": 0.013000229802826061,
+      "within_constant_budget": false,
+      "worst_peak_bin_temperature_deep_dex_p95": 0.0813098098680796
+    },
+    {
+      "basis_value_count": 2880,
+      "by_effective_temperature": [
+        {
+          "convective_onset_layer_p10": 53.0,
+          "convective_onset_layer_p90": 62.0,
+          "effective_temperature_high": 5000,
+          "effective_temperature_low": 4000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 582,
+          "temperature_deep_dex_p50": 0.005966086941470383,
+          "temperature_deep_dex_p95": 0.014187423335815257
+        },
+        {
+          "convective_onset_layer_p10": 55.0,
+          "convective_onset_layer_p90": 61.0,
+          "effective_temperature_high": 5750,
+          "effective_temperature_low": 5000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 372,
+          "temperature_deep_dex_p50": 0.0052165993304440494,
+          "temperature_deep_dex_p95": 0.012337065110874734
+        },
+        {
+          "convective_onset_layer_p10": 56.0,
+          "convective_onset_layer_p90": 60.0,
+          "effective_temperature_high": 6500,
+          "effective_temperature_low": 5750,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 286,
+          "temperature_deep_dex_p50": 0.005738677310999751,
+          "temperature_deep_dex_p95": 0.01749063046809818
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7000,
+          "effective_temperature_low": 6500,
+          "no_convection_zone_fraction": 0.008849557522123894,
+          "star_count": 113,
+          "temperature_deep_dex_p50": 0.01728884777500994,
+          "temperature_deep_dex_p95": 0.043082951187862935
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7500,
+          "effective_temperature_low": 7000,
+          "no_convection_zone_fraction": 0.16521739130434782,
+          "star_count": 115,
+          "temperature_deep_dex_p50": 0.030291878864437294,
+          "temperature_deep_dex_p95": 0.07898506612155376
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 78.0,
+          "effective_temperature_high": 8000,
+          "effective_temperature_low": 7500,
+          "no_convection_zone_fraction": 0.47368421052631576,
+          "star_count": 133,
+          "temperature_deep_dex_p50": 0.040617424476188546,
+          "temperature_deep_dex_p95": 0.08800218899715978
+        },
+        {
+          "convective_onset_layer_p10": 58.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 9000,
+          "effective_temperature_low": 8000,
+          "no_convection_zone_fraction": 0.7013487475915221,
+          "star_count": 519,
+          "temperature_deep_dex_p50": 0.013319460674992456,
+          "temperature_deep_dex_p95": 0.05265411080438257
+        },
+        {
+          "convective_onset_layer_p10": 77.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 10500,
+          "effective_temperature_low": 9000,
+          "no_convection_zone_fraction": 0.85,
+          "star_count": 880,
+          "temperature_deep_dex_p50": 0.006766779664787226,
+          "temperature_deep_dex_p95": 0.014569258377055938
+        }
+      ],
+      "coefficient_count": 1680,
+      "components": 5,
+      "mass_deep_dex_p95": 0.11877322299129042,
+      "name": "smooth",
+      "peak_bin_temperature_deep_dex_p95": [
+        0.07898506612155376,
+        0.08800218899715978
+      ],
+      "peak_over_reference_ratio": 3.975329692592449,
+      "rationale": "same seams and same fitted constants, blended at predict time",
+      "reference_bin_temperature_deep_dex_p95": 0.043082951187862935,
+      "regime_boundaries": [
+        5500.0,
+        7500.0
+      ],
+      "smoothing_width_K": 250.0,
+      "stored_constant_count": 4560,
+      "temperature_deep_dex_p50": 0.007479058975720321,
+      "temperature_deep_dex_p95": 0.044552686850295585,
+      "temperature_surface_dex_p95": 0.010758718610958558,
+      "within_constant_budget": false,
+      "worst_peak_bin_temperature_deep_dex_p95": 0.08800218899715978
+    },
+    {
+      "basis_value_count": 4320,
+      "by_effective_temperature": [
+        {
+          "convective_onset_layer_p10": 53.0,
+          "convective_onset_layer_p90": 62.0,
+          "effective_temperature_high": 5000,
+          "effective_temperature_low": 4000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 582,
+          "temperature_deep_dex_p50": 0.0034187842224877585,
+          "temperature_deep_dex_p95": 0.008310004536145096
+        },
+        {
+          "convective_onset_layer_p10": 55.0,
+          "convective_onset_layer_p90": 61.0,
+          "effective_temperature_high": 5750,
+          "effective_temperature_low": 5000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 372,
+          "temperature_deep_dex_p50": 0.0032646065420336434,
+          "temperature_deep_dex_p95": 0.007758069465437711
+        },
+        {
+          "convective_onset_layer_p10": 56.0,
+          "convective_onset_layer_p90": 60.0,
+          "effective_temperature_high": 6500,
+          "effective_temperature_low": 5750,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 286,
+          "temperature_deep_dex_p50": 0.004716882325774385,
+          "temperature_deep_dex_p95": 0.016393031272331937
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7000,
+          "effective_temperature_low": 6500,
+          "no_convection_zone_fraction": 0.008849557522123894,
+          "star_count": 113,
+          "temperature_deep_dex_p50": 0.00868974458457572,
+          "temperature_deep_dex_p95": 0.02341824652059453
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7500,
+          "effective_temperature_low": 7000,
+          "no_convection_zone_fraction": 0.16521739130434782,
+          "star_count": 115,
+          "temperature_deep_dex_p50": 0.012876520093402455,
+          "temperature_deep_dex_p95": 0.08853826863620763
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 78.0,
+          "effective_temperature_high": 8000,
+          "effective_temperature_low": 7500,
+          "no_convection_zone_fraction": 0.47368421052631576,
+          "star_count": 133,
+          "temperature_deep_dex_p50": 0.0107564453656801,
+          "temperature_deep_dex_p95": 0.0902979001404956
+        },
+        {
+          "convective_onset_layer_p10": 58.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 9000,
+          "effective_temperature_low": 8000,
+          "no_convection_zone_fraction": 0.7013487475915221,
+          "star_count": 519,
+          "temperature_deep_dex_p50": 0.00838232458397492,
+          "temperature_deep_dex_p95": 0.04878642241963291
+        },
+        {
+          "convective_onset_layer_p10": 77.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 10500,
+          "effective_temperature_low": 9000,
+          "no_convection_zone_fraction": 0.85,
+          "star_count": 880,
+          "temperature_deep_dex_p50": 0.0065448999670150165,
+          "temperature_deep_dex_p95": 0.014113821793734748
+        }
+      ],
+      "coefficient_count": 2688,
+      "components": 8,
+      "mass_deep_dex_p95": 0.07934989667989364,
+      "name": "capacity_8",
+      "peak_bin_temperature_deep_dex_p95": [
+        0.08853826863620763,
+        0.0902979001404956
+      ],
+      "peak_over_reference_ratio": 4.079034029697209,
+      "rationale": "more depth modes, segmentation untouched",
+      "reference_bin_temperature_deep_dex_p95": 0.02341824652059453,
+      "regime_boundaries": [
+        5500.0,
+        7500.0
+      ],
+      "smoothing_width_K": 0.0,
+      "stored_constant_count": 7008,
+      "temperature_deep_dex_p50": 0.0054600542521174855,
+      "temperature_deep_dex_p95": 0.025598171479984964,
+      "temperature_surface_dex_p95": 0.00961630530951182,
+      "within_constant_budget": false,
+      "worst_peak_bin_temperature_deep_dex_p95": 0.0902979001404956
+    },
+    {
+      "basis_value_count": 6240,
+      "by_effective_temperature": [
+        {
+          "convective_onset_layer_p10": 53.0,
+          "convective_onset_layer_p90": 62.0,
+          "effective_temperature_high": 5000,
+          "effective_temperature_low": 4000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 582,
+          "temperature_deep_dex_p50": 0.0031386270847633124,
+          "temperature_deep_dex_p95": 0.008195748549447116
+        },
+        {
+          "convective_onset_layer_p10": 55.0,
+          "convective_onset_layer_p90": 61.0,
+          "effective_temperature_high": 5750,
+          "effective_temperature_low": 5000,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 372,
+          "temperature_deep_dex_p50": 0.0029082239767606044,
+          "temperature_deep_dex_p95": 0.007837269988819683
+        },
+        {
+          "convective_onset_layer_p10": 56.0,
+          "convective_onset_layer_p90": 60.0,
+          "effective_temperature_high": 6500,
+          "effective_temperature_low": 5750,
+          "no_convection_zone_fraction": 0.0,
+          "star_count": 286,
+          "temperature_deep_dex_p50": 0.004485669485766675,
+          "temperature_deep_dex_p95": 0.015902548664298966
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7000,
+          "effective_temperature_low": 6500,
+          "no_convection_zone_fraction": 0.008849557522123894,
+          "star_count": 113,
+          "temperature_deep_dex_p50": 0.008340008295319556,
+          "temperature_deep_dex_p95": 0.02289324152179989
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 59.0,
+          "effective_temperature_high": 7500,
+          "effective_temperature_low": 7000,
+          "no_convection_zone_fraction": 0.16521739130434782,
+          "star_count": 115,
+          "temperature_deep_dex_p50": 0.0125105803326937,
+          "temperature_deep_dex_p95": 0.08904600035772585
+        },
+        {
+          "convective_onset_layer_p10": 57.0,
+          "convective_onset_layer_p90": 78.0,
+          "effective_temperature_high": 8000,
+          "effective_temperature_low": 7500,
+          "no_convection_zone_fraction": 0.47368421052631576,
+          "star_count": 133,
+          "temperature_deep_dex_p50": 0.010318558105254283,
+          "temperature_deep_dex_p95": 0.09015843768372384
+        },
+        {
+          "convective_onset_layer_p10": 58.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 9000,
+          "effective_temperature_low": 8000,
+          "no_convection_zone_fraction": 0.7013487475915221,
+          "star_count": 519,
+          "temperature_deep_dex_p50": 0.008318404803818957,
+          "temperature_deep_dex_p95": 0.048807399362189315
+        },
+        {
+          "convective_onset_layer_p10": 77.0,
+          "convective_onset_layer_p90": 79.0,
+          "effective_temperature_high": 10500,
+          "effective_temperature_low": 9000,
+          "no_convection_zone_fraction": 0.85,
+          "star_count": 880,
+          "temperature_deep_dex_p50": 0.006535211470457547,
+          "temperature_deep_dex_p95": 0.014186165656041005
+        }
+      ],
+      "coefficient_count": 4032,
+      "components": 12,
+      "mass_deep_dex_p95": 0.07668023133447334,
+      "name": "capacity_12",
+      "peak_bin_temperature_deep_dex_p95": [
+        0.08904600035772585,
+        0.09015843768372384
+      ],
+      "peak_over_reference_ratio": 4.0727340813467805,
+      "rationale": "more depth modes still, segmentation untouched",
+      "reference_bin_temperature_deep_dex_p95": 0.02289324152179989,
+      "regime_boundaries": [
+        5500.0,
+        7500.0
+      ],
+      "smoothing_width_K": 0.0,
+      "stored_constant_count": 10272,
+      "temperature_deep_dex_p50": 0.005403372092277037,
+      "temperature_deep_dex_p95": 0.025142074313431233,
+      "temperature_surface_dex_p95": 0.009455353633529683,
+      "within_constant_budget": false,
+      "worst_peak_bin_temperature_deep_dex_p95": 0.09015843768372384
+    }
+  ],
+  "constant_budget": 600,
+  "corpus": {
+    "layers": 80,
+    "path": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+    "sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+    "star_count": 52199
+  },
+  "excluded_manifests": [
+    "results/reconstruction_metrics.json",
+    "results/sealed_solver_subset_20260808.json",
+    "results/sealed_audit_20260808.json",
+    "results/sealed_audit_20260811.json",
+    "results/sealed_initializer_holdout_20260812.json",
+    "results/initializer_calibration_20260812.json",
+    "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+  ],
+  "format": "payne_zero_analytic_initializer_regime_ablation_v1",
+  "gate_b": {
+    "best_any_configuration_peak_dex": 0.0813098098680796,
+    "best_capacity_peak_dex": 0.09015843768372384,
+    "best_segmentation_peak_dex": 0.0813098098680796,
+    "capacity_explains_the_peak": false,
+    "physics_closure_indicated": true,
+    "physics_indicated_threshold_dex": 0.06,
+    "repaired_threshold_dex": 0.03,
+    "segmentation_explains_the_peak": false
+  },
+  "peak_bins": [
+    [
+      7000,
+      7500
+    ],
+    [
+      7500,
+      8000
+    ]
+  ],
+  "question": "Is the 7000-8000 K deep-error peak caused by the hard temperature seams or by a missing radiative/convective closure?",
+  "reference_bin": [
+    6500,
+    7000
+  ],
+  "sample_count": 3000,
+  "sample_seed": 7,
+  "split": {
+    "excluded_count": 1060,
+    "seed": 20260816,
+    "train_count": 40911,
+    "validation_count": 10228
+  },
+  "status": "offline_diagnostic_no_solver_calls"
+}

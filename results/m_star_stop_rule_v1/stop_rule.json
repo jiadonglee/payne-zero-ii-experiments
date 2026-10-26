@@ -1,0 +1,564 @@
+{
+  "arms": {
+    "t3850_candidate": {
+      "first_stable_end": 10,
+      "segments": {
+        "0-5": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.9457630370008936e-05,
+          "stable": true,
+          "temperature_p95": 2.3212677367741e-05,
+          "tiO": {
+            "flux_continuum": 0.00036991618071457137,
+            "flux_total": 0.00022961538274232675,
+            "normalized_flux": 0.0001126531756522331
+          }
+        },
+        "10-15": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.575987913273515e-05,
+          "stable": true,
+          "temperature_p95": 1.6246962676701928e-05,
+          "tiO": {
+            "flux_continuum": 1.3252833600731699e-05,
+            "flux_total": 2.5359675982399758e-05,
+            "normalized_flux": 3.417126897709011e-05
+          }
+        },
+        "15-20": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.939248624644787e-05,
+          "stable": true,
+          "temperature_p95": 1.2709636134777002e-05,
+          "tiO": {
+            "flux_continuum": 2.5103026653057325e-05,
+            "flux_total": 1.9939089819277575e-05,
+            "normalized_flux": 4.5944297435984716e-06
+          }
+        },
+        "20-25": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.2992012351165093e-05,
+          "stable": true,
+          "temperature_p95": 1.1399472347322828e-05,
+          "tiO": {
+            "flux_continuum": 1.8728629754937293e-05,
+            "flux_total": 1.4190978406553141e-05,
+            "normalized_flux": 5.583462983349552e-06
+          }
+        },
+        "25-30": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.981673905857352e-05,
+          "stable": true,
+          "temperature_p95": 1.9737230637218184e-05,
+          "tiO": {
+            "flux_continuum": 3.1433697469925655e-05,
+            "flux_total": 2.922633471061823e-05,
+            "normalized_flux": 9.17955306278806e-06
+          }
+        },
+        "30-35": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.401242317264685e-05,
+          "stable": true,
+          "temperature_p95": 1.3279155524520221e-05,
+          "tiO": {
+            "flux_continuum": 5.922393059572788e-05,
+            "flux_total": 9.504758563570683e-05,
+            "normalized_flux": 5.364538652430362e-05
+          }
+        },
+        "35-40": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.210883987803225e-05,
+          "stable": true,
+          "temperature_p95": 1.5079834390580494e-05,
+          "tiO": {
+            "flux_continuum": 6.62906540630185e-05,
+            "flux_total": 6.920540545581314e-05,
+            "normalized_flux": 2.285169589533176e-05
+          }
+        },
+        "5-10": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.975168649497206e-05,
+          "stable": true,
+          "temperature_p95": 1.4524135304524217e-05,
+          "tiO": {
+            "flux_continuum": 9.458553774278465e-07,
+            "flux_total": 5.79740076383591e-06,
+            "normalized_flux": 6.3543000710097886e-06
+          }
+        }
+      }
+    },
+    "t3850_truth": {
+      "first_stable_end": 10,
+      "segments": {
+        "0-5": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.323438146025092e-05,
+          "stable": true,
+          "temperature_p95": 2.3850786007941155e-05,
+          "tiO": {
+            "flux_continuum": 0.0004172827510787373,
+            "flux_total": 0.00016621653742492258,
+            "normalized_flux": 0.000184524496995353
+          }
+        },
+        "10-15": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.9837314170745297e-05,
+          "stable": true,
+          "temperature_p95": 1.6363699600923934e-05,
+          "tiO": {
+            "flux_continuum": 2.982176942253763e-05,
+            "flux_total": 7.938977455404528e-06,
+            "normalized_flux": 1.830678238656791e-05
+          }
+        },
+        "15-20": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.730394745553699e-05,
+          "stable": true,
+          "temperature_p95": 1.6277053344472194e-05,
+          "tiO": {
+            "flux_continuum": 3.9332995235136316e-05,
+            "flux_total": 4.508303700255479e-05,
+            "normalized_flux": 2.0890866939016206e-05
+          }
+        },
+        "20-25": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.853901501886913e-05,
+          "stable": true,
+          "temperature_p95": 1.4894340448523023e-05,
+          "tiO": {
+            "flux_continuum": 6.061282464712364e-05,
+            "flux_total": 4.611523564841541e-05,
+            "normalized_flux": 1.2738066112016888e-05
+          }
+        },
+        "25-30": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.929939870022103e-05,
+          "stable": true,
+          "temperature_p95": 1.3870893119494433e-05,
+          "tiO": {
+            "flux_continuum": 6.586965374249872e-05,
+            "flux_total": 6.182121217916424e-05,
+            "normalized_flux": 2.0646400803236986e-05
+          }
+        },
+        "30-35": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.827077590603522e-05,
+          "stable": true,
+          "temperature_p95": 1.5281866457032287e-05,
+          "tiO": {
+            "flux_continuum": 4.549344446488159e-05,
+            "flux_total": 3.4070391517162824e-05,
+            "normalized_flux": 1.0820702952052397e-05
+          }
+        },
+        "35-40": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.053593497173156e-05,
+          "stable": true,
+          "temperature_p95": 1.7319960971590962e-05,
+          "tiO": {
+            "flux_continuum": 5.738137560084535e-05,
+            "flux_total": 3.307301379031289e-05,
+            "normalized_flux": 1.8963699901120012e-05
+          }
+        },
+        "5-10": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.121568336221681e-05,
+          "stable": true,
+          "temperature_p95": 2.460463585149683e-05,
+          "tiO": {
+            "flux_continuum": 9.136365073157386e-06,
+            "flux_total": 8.643822358301755e-05,
+            "normalized_flux": 8.169647349720588e-05
+          }
+        }
+      }
+    },
+    "t3900_candidate": {
+      "first_stable_end": 10,
+      "segments": {
+        "0-5": {
+          "gate_pass": true,
+          "mass_dex_p95": 6.239015876308149e-05,
+          "stable": true,
+          "temperature_p95": 3.0545030368469695e-05,
+          "tiO": {
+            "flux_continuum": 0.0003334713426343775,
+            "flux_total": 0.000245719820200892,
+            "normalized_flux": 0.00010919188688413017
+          }
+        },
+        "10-15": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.694866768566783e-05,
+          "stable": true,
+          "temperature_p95": 1.742039464516192e-05,
+          "tiO": {
+            "flux_continuum": 3.824218782089303e-05,
+            "flux_total": 3.709368207735401e-05,
+            "normalized_flux": 1.0068208469937723e-05
+          }
+        },
+        "15-20": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.721560092235897e-05,
+          "stable": true,
+          "temperature_p95": 1.348259049682135e-05,
+          "tiO": {
+            "flux_continuum": 5.3094078375749626e-05,
+            "flux_total": 4.9119846207836484e-05,
+            "normalized_flux": 1.243216885016274e-05
+          }
+        },
+        "20-25": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.4210689494829076e-05,
+          "stable": true,
+          "temperature_p95": 1.6323549910295793e-05,
+          "tiO": {
+            "flux_continuum": 1.9930492569718832e-05,
+            "flux_total": 1.9013605902642047e-05,
+            "normalized_flux": 6.339804676236405e-06
+          }
+        },
+        "25-30": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.4924330216858906e-05,
+          "stable": true,
+          "temperature_p95": 7.874749750186072e-06,
+          "tiO": {
+            "flux_continuum": 5.915330274241792e-06,
+            "flux_total": 1.6917470889656705e-05,
+            "normalized_flux": 2.0589530696502045e-05
+          }
+        },
+        "30-35": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.8471908612771593e-05,
+          "stable": true,
+          "temperature_p95": 1.1228897937549722e-05,
+          "tiO": {
+            "flux_continuum": 6.108332621489822e-06,
+            "flux_total": 2.1334325504605596e-05,
+            "normalized_flux": 2.4392158346708825e-05
+          }
+        },
+        "35-40": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.2844559599556326e-05,
+          "stable": true,
+          "temperature_p95": 2.0236911214937686e-05,
+          "tiO": {
+            "flux_continuum": 2.8350908000342657e-06,
+            "flux_total": 6.876380808285701e-06,
+            "normalized_flux": 5.1674037503390835e-06
+          }
+        },
+        "5-10": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.440096481148735e-05,
+          "stable": true,
+          "temperature_p95": 1.9394246437181853e-05,
+          "tiO": {
+            "flux_continuum": 9.816547808673617e-06,
+            "flux_total": 1.5036417875946018e-05,
+            "normalized_flux": 1.9973475725021395e-05
+          }
+        }
+      }
+    },
+    "t3900_truth": {
+      "first_stable_end": 10,
+      "segments": {
+        "0-5": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.286631905062732e-05,
+          "stable": true,
+          "temperature_p95": 3.195194096521406e-05,
+          "tiO": {
+            "flux_continuum": 0.00032885906160715794,
+            "flux_total": 9.257493517189451e-05,
+            "normalized_flux": 0.00023669567709427852
+          }
+        },
+        "10-15": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.7670913889600286e-05,
+          "stable": true,
+          "temperature_p95": 1.4430829950980743e-05,
+          "tiO": {
+            "flux_continuum": 6.0703467753578984e-05,
+            "flux_total": 4.3343307329899636e-05,
+            "normalized_flux": 3.546998329662099e-05
+          }
+        },
+        "15-20": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.512443309412692e-05,
+          "stable": true,
+          "temperature_p95": 1.4856539405140782e-05,
+          "tiO": {
+            "flux_continuum": 3.883381838037317e-05,
+            "flux_total": 6.081746236392373e-05,
+            "normalized_flux": 3.820716766667065e-05
+          }
+        },
+        "20-25": {
+          "gate_pass": true,
+          "mass_dex_p95": 9.687607746583503e-06,
+          "stable": true,
+          "temperature_p95": 6.996105700170084e-06,
+          "tiO": {
+            "flux_continuum": 1.511005822172402e-06,
+            "flux_total": 1.869745692503309e-05,
+            "normalized_flux": 1.960343775830875e-05
+          }
+        },
+        "25-30": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.1747008757367892e-05,
+          "stable": true,
+          "temperature_p95": 9.270497420790288e-06,
+          "tiO": {
+            "flux_continuum": 1.970932361784737e-05,
+            "flux_total": 2.502626012605625e-05,
+            "normalized_flux": 1.4013600810436344e-05
+          }
+        },
+        "30-35": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.3729025047815034e-05,
+          "stable": true,
+          "temperature_p95": 1.1638873438998077e-05,
+          "tiO": {
+            "flux_continuum": 1.2795011779158544e-05,
+            "flux_total": 3.182584186065513e-05,
+            "normalized_flux": 2.4207339055282162e-05
+          }
+        },
+        "35-40": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.715247197549007e-05,
+          "stable": true,
+          "temperature_p95": 1.7538458677480773e-05,
+          "tiO": {
+            "flux_continuum": 8.002665899559669e-06,
+            "flux_total": 1.65127142154108e-05,
+            "normalized_flux": 1.1984156056521478e-05
+          }
+        },
+        "5-10": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.996641081733919e-05,
+          "stable": true,
+          "temperature_p95": 2.0734158270865755e-05,
+          "tiO": {
+            "flux_continuum": 3.260395556986718e-05,
+            "flux_total": 0.00011592895932059954,
+            "normalized_flux": 9.561140477143404e-05
+          }
+        }
+      }
+    },
+    "t3950_candidate": {
+      "first_stable_end": 10,
+      "segments": {
+        "0-5": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.2679939800768194e-05,
+          "stable": true,
+          "temperature_p95": 2.0203301541160883e-05,
+          "tiO": {
+            "flux_continuum": 0.0003268080724050287,
+            "flux_total": 0.00028245571176977043,
+            "normalized_flux": 9.443332265945958e-05
+          }
+        },
+        "10-15": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.5132610740927776e-05,
+          "stable": true,
+          "temperature_p95": 1.5612202845878402e-05,
+          "tiO": {
+            "flux_continuum": 4.1332137081232e-05,
+            "flux_total": 2.9727222454860514e-05,
+            "normalized_flux": 1.544019680921327e-05
+          }
+        },
+        "15-20": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.199697379798639e-05,
+          "stable": true,
+          "temperature_p95": 1.5135169732606517e-05,
+          "tiO": {
+            "flux_continuum": 2.659427907509979e-05,
+            "flux_total": 6.330693011632235e-05,
+            "normalized_flux": 4.224781168526981e-05
+          }
+        },
+        "20-25": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.104179140542729e-05,
+          "stable": true,
+          "temperature_p95": 1.7942926352424322e-05,
+          "tiO": {
+            "flux_continuum": 1.0179566319992017e-05,
+            "flux_total": 2.6362447458603308e-05,
+            "normalized_flux": 3.358232601136102e-05
+          }
+        },
+        "25-30": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.266402437682615e-05,
+          "stable": true,
+          "temperature_p95": 1.1536785548228758e-05,
+          "tiO": {
+            "flux_continuum": 8.155140494380245e-07,
+            "flux_total": 1.842561518028091e-05,
+            "normalized_flux": 1.8026743784704813e-05
+          }
+        },
+        "30-35": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.1705173255437398e-05,
+          "stable": true,
+          "temperature_p95": 1.1389898473768482e-05,
+          "tiO": {
+            "flux_continuum": 3.790071300351443e-05,
+            "flux_total": 6.413752835095827e-05,
+            "normalized_flux": 3.4097746627548275e-05
+          }
+        },
+        "35-40": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.914419700656868e-05,
+          "stable": true,
+          "temperature_p95": 2.586312268099192e-05,
+          "tiO": {
+            "flux_continuum": 3.58487545428867e-05,
+            "flux_total": 5.830993255578353e-05,
+            "normalized_flux": 2.9879755721884393e-05
+          }
+        },
+        "5-10": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.7156807345197755e-05,
+          "stable": true,
+          "temperature_p95": 1.621100571571415e-05,
+          "tiO": {
+            "flux_continuum": 2.060442335634971e-05,
+            "flux_total": 1.7379405315341153e-05,
+            "normalized_flux": 1.7586394166047015e-05
+          }
+        }
+      }
+    },
+    "t3950_truth": {
+      "first_stable_end": 10,
+      "segments": {
+        "0-5": {
+          "gate_pass": true,
+          "mass_dex_p95": 4.52581212330383e-05,
+          "stable": true,
+          "temperature_p95": 3.461925929330723e-05,
+          "tiO": {
+            "flux_continuum": 0.0003258071687621114,
+            "flux_total": 0.0001869874419029718,
+            "normalized_flux": 0.0001647893330021244
+          }
+        },
+        "10-15": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.6671203612850237e-05,
+          "stable": true,
+          "temperature_p95": 1.0127005340841889e-05,
+          "tiO": {
+            "flux_continuum": 5.691009293353733e-06,
+            "flux_total": 3.0875602123679765e-05,
+            "normalized_flux": 3.4831138343016654e-05
+          }
+        },
+        "15-20": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.1987449505699316e-05,
+          "stable": true,
+          "temperature_p95": 1.4983590961023774e-05,
+          "tiO": {
+            "flux_continuum": 2.3932731795679295e-05,
+            "flux_total": 4.471519968967521e-05,
+            "normalized_flux": 2.6822347467092555e-05
+          }
+        },
+        "20-25": {
+          "gate_pass": true,
+          "mass_dex_p95": 3.896399717013832e-05,
+          "stable": true,
+          "temperature_p95": 1.6235054589477354e-05,
+          "tiO": {
+            "flux_continuum": 2.1834370406491183e-05,
+            "flux_total": 3.5206063617842054e-05,
+            "normalized_flux": 2.088282834955546e-05
+          }
+        },
+        "25-30": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.5265514950380954e-05,
+          "stable": true,
+          "temperature_p95": 1.154052354407335e-05,
+          "tiO": {
+            "flux_continuum": 4.171817469306836e-05,
+            "flux_total": 4.3497489336562075e-05,
+            "normalized_flux": 1.2532616541882646e-05
+          }
+        },
+        "30-35": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.3227193584269826e-05,
+          "stable": true,
+          "temperature_p95": 8.049118128114673e-06,
+          "tiO": {
+            "flux_continuum": 3.1872376587259405e-05,
+            "flux_total": 6.619349192309931e-05,
+            "normalized_flux": 4.347383725034071e-05
+          }
+        },
+        "35-40": {
+          "gate_pass": true,
+          "mass_dex_p95": 1.0576621044799949e-05,
+          "stable": true,
+          "temperature_p95": 1.0223315150230216e-05,
+          "tiO": {
+            "flux_continuum": 5.875240220626141e-06,
+            "flux_total": 4.2802978259587134e-05,
+            "normalized_flux": 3.866460974355501e-05
+          }
+        },
+        "5-10": {
+          "gate_pass": true,
+          "mass_dex_p95": 2.0904831958956637e-05,
+          "stable": true,
+          "temperature_p95": 1.832635794413123e-05,
+          "tiO": {
+            "flux_continuum": 4.242970214512623e-07,
+            "flux_total": 7.75132983943393e-05,
+            "normalized_flux": 7.727852021799375e-05
+          }
+        }
+      }
+    }
+  },
+  "frozen_iteration_cap": 10,
+  "segment": 5
+}

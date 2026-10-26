@@ -1,0 +1,61 @@
+{
+  "index": 3,
+  "labels": {
+    "alpha_enhancement": 0.07001396986034464,
+    "effective_temperature": 8222.523569017167,
+    "intended_outer_role": "train",
+    "log_surface_gravity": 1.6262870567746988,
+    "metallicity": -1.6224478031762881,
+    "microturbulence_km_s": 2.51129137587046,
+    "phase": "subgiant",
+    "slug": "five_label_bootstrap_000004",
+    "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+  },
+  "wavelength_nm": [
+    400,
+    900
+  ],
+  "resolution": 20000,
+  "arms": {
+    "exact_rebuild": {
+      "start_seconds": 40.67190878803376,
+      "maximum_normalized_flux_difference": 0.00010008714205256286,
+      "maximum_continuum_scaled_total_difference": 0.00018356117158583855,
+      "maximum_relative_continuum_difference": 0.0001347434591727481
+    },
+    "two_profile": {
+      "start_seconds": 40.250508398981765,
+      "maximum_normalized_flux_difference": 0.007121245578905033,
+      "maximum_continuum_scaled_total_difference": 0.007683062976790507,
+      "maximum_relative_continuum_difference": 0.002784566388836396,
+      "final_maximum_normalized_flux_difference": 0.0034766557099739637
+    },
+    "six_profile": {
+      "start_seconds": 36.838404356036335,
+      "maximum_normalized_flux_difference": 0.001531167940827749,
+      "maximum_continuum_scaled_total_difference": 0.0028788750739419987,
+      "maximum_relative_continuum_difference": 0.002833480574311431,
+      "final_maximum_normalized_flux_difference": 0.0013863426802425138
+    },
+    "nearest_0": {
+      "start_seconds": 33.98108439706266,
+      "maximum_normalized_flux_difference": 0.0898772372687357,
+      "maximum_continuum_scaled_total_difference": 0.11571897307184681,
+      "maximum_relative_continuum_difference": 0.06259599879294198
+    },
+    "nearest_1": {
+      "start_seconds": 33.202825421933085,
+      "maximum_normalized_flux_difference": 0.3262338454042743,
+      "maximum_continuum_scaled_total_difference": 0.4405387029884213,
+      "maximum_relative_continuum_difference": 0.18249771946893856
+    },
+    "grey_convective": {
+      "start_seconds": 32.6145192469703,
+      "maximum_normalized_flux_difference": 0.4486613785282904,
+      "maximum_continuum_scaled_total_difference": 0.3506565182532435,
+      "maximum_relative_continuum_difference": 0.287136407980889
+    }
+  },
+  "reference_seconds": 60.513912832015194,
+  "two_vs_six_final_maximum_normalized_flux_difference": 0.0032470887943734095
+}

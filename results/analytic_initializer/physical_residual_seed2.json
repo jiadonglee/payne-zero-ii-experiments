@@ -1,0 +1,148 @@
+{
+  "candidate": "low_dimensional_physical_residual_continuum_only",
+  "converged_count": 0,
+  "corpus": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+  "finite_count": 0,
+  "gate": {
+    "development_60": "blocked_until_a_bounded_smoke_passes",
+    "note": "prototype residual reduction is not a production result",
+    "sealed_holdout": "closed"
+  },
+  "records": [
+    {
+      "alpha_enhancement": -0.020645628397830865,
+      "converged": false,
+      "corpus_index": 2891,
+      "effective_temperature": 4398.232963880012,
+      "finite_final_state": null,
+      "iterations_completed": null,
+      "log_surface_gravity": 1.527834633558132,
+      "metallicity": -2.030733241848917,
+      "microturbulence_km_s": 3.884435469712034,
+      "seconds": 9.075906125362962,
+      "seed_diagnostics": {
+        "coarse_layer_count": 32,
+        "evaluation_count": 106,
+        "final_physical": {
+          "cumulative_tau_ratio_p95": 5.6622479547047115,
+          "finite": true,
+          "flux_ratio_median": 1.7154883505381333,
+          "flux_ratio_p95": 2.0046399981039458,
+          "local_tau_ratio_median": 0.9578921918791559,
+          "local_tau_ratio_p95": 6.431898472461098,
+          "mass_range": [
+            1.4388286423381961e-06,
+            422.3214155253901
+          ],
+          "negative_flux_layers": 0,
+          "rosseland_opacity_range": [
+            4.844814237800156e-05,
+            91.15236166242445
+          ],
+          "temperature_range": [
+            3698.4585177264107,
+            23020.561018466127
+          ]
+        },
+        "final_residual_l2": 3.2631252991833897,
+        "final_residual_rms": 0.3154582295048631,
+        "frequency_grid_stride": 256,
+        "initial_residual_l2": 17.09237527699214,
+        "initial_residual_rms": 1.6523822864730284,
+        "knot_count": 5,
+        "line_opacity": "deferred_to_unchanged_80_layer_solver",
+        "max_nfev": 8,
+        "opacity_group_count": 4,
+        "optimizer_message": "The maximum number of function evaluations is exceeded.",
+        "optimizer_status": 0,
+        "optimizer_success": false,
+        "parameter_count": 12,
+        "status": "prototype_not_production"
+      },
+      "seed_finite": true,
+      "seed_mass_range": [
+        1.4388286423381961e-06,
+        422.3214155253901
+      ],
+      "seed_monotone_mass": true,
+      "seed_monotone_temperature": true,
+      "seed_seconds": 9.075875999871641,
+      "seed_temperature_range": [
+        3698.4585177264107,
+        23020.561018466127
+      ],
+      "solver_outcome": "not_run"
+    },
+    {
+      "alpha_enhancement": 0.4804880461403933,
+      "converged": false,
+      "corpus_index": 6896,
+      "effective_temperature": 4546.417759799134,
+      "finite_final_state": null,
+      "iterations_completed": null,
+      "log_surface_gravity": 1.5931634647213406,
+      "metallicity": -1.0208536761809552,
+      "microturbulence_km_s": 2.0998249939817697,
+      "seconds": 7.899469750002027,
+      "seed_diagnostics": {
+        "coarse_layer_count": 32,
+        "evaluation_count": 106,
+        "final_physical": {
+          "cumulative_tau_ratio_p95": 3.765153234262345,
+          "finite": true,
+          "flux_ratio_median": 2.019486391821621,
+          "flux_ratio_p95": 2.795146889406675,
+          "local_tau_ratio_median": 0.9450641992383033,
+          "local_tau_ratio_p95": 4.560233384325269,
+          "mass_range": [
+            1.6360220258827928e-06,
+            198.5854503926692
+          ],
+          "negative_flux_layers": 0,
+          "rosseland_opacity_range": [
+            0.0001552528924823827,
+            28.11293651729456
+          ],
+          "temperature_range": [
+            3823.06658764119,
+            23796.16730500891
+          ]
+        },
+        "final_residual_l2": 3.4749660675404526,
+        "final_residual_rms": 0.3359376495686873,
+        "frequency_grid_stride": 256,
+        "initial_residual_l2": 15.034342253344095,
+        "initial_residual_rms": 1.4534247245108742,
+        "knot_count": 5,
+        "line_opacity": "deferred_to_unchanged_80_layer_solver",
+        "max_nfev": 8,
+        "opacity_group_count": 4,
+        "optimizer_message": "The maximum number of function evaluations is exceeded.",
+        "optimizer_status": 0,
+        "optimizer_success": false,
+        "parameter_count": 12,
+        "status": "prototype_not_production"
+      },
+      "seed_finite": true,
+      "seed_mass_range": [
+        1.6360220258827928e-06,
+        198.5854503926692
+      ],
+      "seed_monotone_mass": true,
+      "seed_monotone_temperature": true,
+      "seed_seconds": 7.899438249878585,
+      "seed_temperature_range": [
+        3823.06658764119,
+        23796.16730500891
+      ],
+      "solver_outcome": "not_run"
+    }
+  ],
+  "star_count": 2,
+  "star_indices": [
+    2891,
+    6896
+  ],
+  "status": "seed_only",
+  "timeout_count": 0
+}

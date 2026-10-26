@@ -1,0 +1,4271 @@
+{
+  "format": "payne_zero_expanded_four_initializer_comparison_v1",
+  "contract": {
+    "same_four_arms": true,
+    "same_solver": true,
+    "primary_iteration_cap": 15,
+    "spectrum_window_nm": [
+      400.0,
+      900.0
+    ],
+    "spectrum_resolution": 20000.0,
+    "threshold": 0.005,
+    "sealed_test_opened": false
+  },
+  "manifest": {
+    "path": "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json",
+    "sha256": "4d8e5587794470184dcb630baf69908d4e7b4f86e0df55fec8d4736213f4b954",
+    "star_count": 200,
+    "previous_count": 60,
+    "added_count": 140,
+    "categories": {
+      "ordinary": {
+        "count": 100,
+        "star_indices": [
+          41907,
+          50747,
+          265,
+          1292,
+          37658,
+          2737,
+          5372,
+          49572,
+          17807,
+          30595,
+          17444,
+          23393,
+          47378,
+          720,
+          19933,
+          34158,
+          4748,
+          15578,
+          18040,
+          4465,
+          43638,
+          41559,
+          19930,
+          24652,
+          42796,
+          1145,
+          26364,
+          26017,
+          51797,
+          4733,
+          31045,
+          27921,
+          12774,
+          37525,
+          34277,
+          45206,
+          33950,
+          6490,
+          48954,
+          25373,
+          39497,
+          20501,
+          9380,
+          17792,
+          17852,
+          30309,
+          2892,
+          46609,
+          49720,
+          48533,
+          7661,
+          31853,
+          18914,
+          45255,
+          42266,
+          48154,
+          45695,
+          36760,
+          47208,
+          18089,
+          33199,
+          31481,
+          36891,
+          18380,
+          49185,
+          40165,
+          17754,
+          14975,
+          46349,
+          42312,
+          29671,
+          35053,
+          40415,
+          36387,
+          7228,
+          15456,
+          43511,
+          33352,
+          21460,
+          21912,
+          45409,
+          34372,
+          47581,
+          10683,
+          26248,
+          24342,
+          2642,
+          51767,
+          51563,
+          2197,
+          28266,
+          20603,
+          45609,
+          19861,
+          41917,
+          5322,
+          27434,
+          23718,
+          49287,
+          41722
+        ]
+      },
+      "hard": {
+        "count": 50,
+        "star_indices": [
+          24958,
+          14964,
+          41526,
+          19665,
+          51322,
+          10459,
+          20620,
+          51062,
+          27477,
+          48356,
+          1025,
+          33019,
+          39143,
+          667,
+          4216,
+          29634,
+          20552,
+          36313,
+          49726,
+          12410,
+          19977,
+          13130,
+          10680,
+          19536,
+          21390,
+          46014,
+          10585,
+          29748,
+          11995,
+          18706,
+          24792,
+          40804,
+          5956,
+          18117,
+          38319,
+          28264,
+          44358,
+          4398,
+          48039,
+          28587,
+          23150,
+          1422,
+          8331,
+          17831,
+          26008,
+          15527,
+          39832,
+          18345,
+          43734,
+          33261
+        ]
+      },
+      "edge": {
+        "count": 50,
+        "star_indices": [
+          50601,
+          34897,
+          6971,
+          25648,
+          9743,
+          35353,
+          2318,
+          7474,
+          39863,
+          21112,
+          27107,
+          15630,
+          1752,
+          11863,
+          43920,
+          23898,
+          2992,
+          36474,
+          49261,
+          41644,
+          45185,
+          38553,
+          46590,
+          12242,
+          9315,
+          39767,
+          42004,
+          48562,
+          51957,
+          13362,
+          14847,
+          18219,
+          40704,
+          1338,
+          43324,
+          28020,
+          4873,
+          31916,
+          44014,
+          50086,
+          52049,
+          3871,
+          1371,
+          5395,
+          17073,
+          24944,
+          35280,
+          29823,
+          47158,
+          6833
+        ]
+      }
+    }
+  },
+  "convergence": {
+    "production_six_field": {
+      "star_count": 200,
+      "converged_count": 192,
+      "converged_fraction": 0.96,
+      "summary": {
+        "star_count": 200,
+        "converged_count": 192,
+        "converged_fraction": 0.96,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 8,
+        "failure_fraction": 0.04,
+        "converging_trial_iterations": {
+          "mean": 6.0,
+          "p50": 6.0,
+          "p75": 7.0,
+          "p90": 9.0,
+          "p95": 10.0,
+          "p99": 10.27000000000001,
+          "max": 14.0,
+          "histogram": {
+            "3": 15,
+            "4": 42,
+            "5": 33,
+            "6": 28,
+            "7": 30,
+            "8": 21,
+            "9": 9,
+            "10": 12,
+            "13": 1,
+            "14": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 6.36,
+          "p50": 6.0,
+          "p75": 8.0,
+          "p90": 10.0,
+          "p95": 10.149999999999949,
+          "p99": 15.0,
+          "max": 15.0
+        },
+        "seconds_per_star": {
+          "mean": 141.21874140322208,
+          "p50": 103.20587974693626,
+          "p75": 133.56675692496356,
+          "p90": 215.112872601673,
+          "p95": 296.2126275730315,
+          "p99": 692.1162228652393,
+          "total_hours": 7.845485633512338
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.24382309068227187,
+            "opacity_seconds": 25.421200132919477,
+            "transfer_seconds": 0.5260297356802038,
+            "finalization_seconds": 0.5562475266749971,
+            "remap_seconds": 0.002796586819458753
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.19401674134154637,
+            "opacity_seconds": 19.881574101998027,
+            "transfer_seconds": 0.5218709173665291,
+            "finalization_seconds": 0.5573926951697986,
+            "remap_seconds": 0.0027152283096324595
+          }
+        },
+        "contraction": {
+          "trajectory_count": 200,
+          "non_monotonic_fraction": 0.58,
+          "q_ratio": {
+            "geometric_mean": 0.6764530690307854,
+            "max": 108377.27491866783,
+            "p50": 0.6698545216777756,
+            "p75": 0.8862197729473418,
+            "p90": 1.1909914522024574,
+            "p95": 1.5873868294328746,
+            "p99": 2.9806035069252457
+          },
+          "first_iteration_residual": {
+            "mean": 0.006071368496681055,
+            "p50": 0.0031692450669711016,
+            "p75": 0.0045924172006222555,
+            "p90": 0.007497623861609338,
+            "p95": 0.010161711824178302,
+            "p99": 0.08639854303187047
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 10.0,
+          "tail_count": 22,
+          "tail_fraction": 0.11,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7355.444330994253,
+              "tail_mean": 7806.934150007495,
+              "tail_min": 4025.7038327022533,
+              "tail_max": 10360.412368364192
+            },
+            "log_surface_gravity": {
+              "population_mean": 3.6010597715855495,
+              "tail_mean": 4.092089150080749,
+              "tail_min": 2.552012460232005,
+              "tail_max": 5.292412266487543
+            },
+            "metallicity": {
+              "population_mean": -1.0201420224576943,
+              "tail_mean": -1.290033278484449,
+              "tail_min": -2.3277608101472733,
+              "tail_max": 0.44373677433099523
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.18094599100452463,
+              "tail_mean": 0.2185537547851898,
+              "tail_min": -0.08003559458429728,
+              "tail_max": 0.48846702200285663
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.130710004810144,
+              "tail_mean": 2.1844796805226725,
+              "tail_min": 0.5004944786519756,
+              "tail_max": 3.929833632299075
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 15,
+          "stars_already_at_floor_fraction": 0.075,
+          "total_iterations_burned": 1272,
+          "recoverable_iterations": 672,
+          "recoverable_fraction": 0.5283018867924528
+        }
+      }
+    },
+    "learned_reduced_state": {
+      "star_count": 200,
+      "converged_count": 195,
+      "converged_fraction": 0.975,
+      "summary": {
+        "star_count": 200,
+        "converged_count": 195,
+        "converged_fraction": 0.975,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 5,
+        "failure_fraction": 0.025,
+        "converging_trial_iterations": {
+          "mean": 3.6256410256410256,
+          "p50": 3.0,
+          "p75": 4.0,
+          "p90": 5.0,
+          "p95": 6.0,
+          "p99": 11.120000000000005,
+          "max": 15.0,
+          "histogram": {
+            "3": 141,
+            "4": 32,
+            "5": 9,
+            "6": 5,
+            "7": 2,
+            "9": 2,
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "15": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 3.835,
+          "p50": 3.0,
+          "p75": 4.0,
+          "p90": 5.0,
+          "p95": 7.099999999999966,
+          "p99": 15.0,
+          "max": 15.0
+        },
+        "seconds_per_star": {
+          "mean": 113.54282027006383,
+          "p50": 55.41573462844826,
+          "p75": 86.67620709759649,
+          "p90": 137.1449073298834,
+          "p95": 212.63186347531115,
+          "p99": 678.3525329488518,
+          "total_hours": 6.30793445944799
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.2679515214889643,
+            "opacity_seconds": 24.941366761656077,
+            "transfer_seconds": 0.524175784461687,
+            "finalization_seconds": 0.5569688240744772,
+            "remap_seconds": 0.002697908338252923
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.19311801618716062,
+            "opacity_seconds": 28.782311263905747,
+            "transfer_seconds": 0.5200706283761923,
+            "finalization_seconds": 0.5575014597951093,
+            "remap_seconds": 0.0026920863032065543
+          }
+        },
+        "contraction": {
+          "trajectory_count": 199,
+          "non_monotonic_fraction": 0.16080402010050251,
+          "q_ratio": {
+            "geometric_mean": 0.5416499979010895,
+            "max": 89234.00255207506,
+            "p50": 0.5400727867665154,
+            "p75": 0.790493683552735,
+            "p90": 1.0508471417491863,
+            "p95": 1.2267043098792967,
+            "p99": 3.0736419206619634
+          },
+          "first_iteration_residual": {
+            "mean": 0.003345148240940373,
+            "p50": 0.0014965773966780162,
+            "p75": 0.0025309565738265427,
+            "p90": 0.005924401180935947,
+            "p95": 0.012904590218496225,
+            "p99": 0.03703139765592363
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 5.0,
+          "tail_count": 26,
+          "tail_fraction": 0.13,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7355.444330994253,
+              "tail_mean": 8089.671663936672,
+              "tail_min": 4025.7038327022533,
+              "tail_max": 10470.328664273806
+            },
+            "log_surface_gravity": {
+              "population_mean": 3.60105977158555,
+              "tail_mean": 4.214233567282777,
+              "tail_min": 1.6321892596145218,
+              "tail_max": 5.292412266487543
+            },
+            "metallicity": {
+              "population_mean": -1.0201420224576943,
+              "tail_mean": -1.0568129920190044,
+              "tail_min": -2.4817136105015685,
+              "tail_max": 0.4937932127027542
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.18094599100452463,
+              "tail_mean": 0.23600735232095163,
+              "tail_min": -0.07629680431505355,
+              "tail_max": 0.4902296505496241
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.130710004810144,
+              "tail_mean": 1.9116077730798082,
+              "tail_min": 0.5004944786519756,
+              "tail_max": 3.479643483459285
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 141,
+          "stars_already_at_floor_fraction": 0.705,
+          "total_iterations_burned": 767,
+          "recoverable_iterations": 170,
+          "recoverable_fraction": 0.22164276401564537
+        }
+      }
+    },
+    "grey15": {
+      "star_count": 200,
+      "converged_count": 48,
+      "converged_fraction": 0.24,
+      "summary": {
+        "star_count": 200,
+        "converged_count": 48,
+        "converged_fraction": 0.24,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 152,
+        "failure_fraction": 0.76,
+        "converging_trial_iterations": {
+          "mean": 12.4375,
+          "p50": 12.5,
+          "p75": 14.0,
+          "p90": 14.300000000000004,
+          "p95": 15.0,
+          "p99": 15.0,
+          "max": 15.0,
+          "histogram": {
+            "9": 2,
+            "10": 8,
+            "11": 5,
+            "12": 9,
+            "13": 5,
+            "14": 14,
+            "15": 5
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 14.385,
+          "p50": 15.0,
+          "p75": 15.0,
+          "p90": 15.0,
+          "p95": 15.0,
+          "p99": 15.0,
+          "max": 15.0
+        },
+        "seconds_per_star": {
+          "mean": 896.237607252174,
+          "p50": 261.05859592882916,
+          "p75": 398.9829393179389,
+          "p90": 3131.601289091398,
+          "p95": 4308.233645847621,
+          "p99": 5384.48311418673,
+          "total_hours": 49.79097818067633
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.23305759055772796,
+            "opacity_seconds": 20.192349128744098,
+            "transfer_seconds": 0.5167000063159503,
+            "finalization_seconds": 0.5464083495899104,
+            "remap_seconds": 0.0021471108053810893
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.19168925034174494,
+            "opacity_seconds": 63.9626916988934,
+            "transfer_seconds": 0.5830215237063047,
+            "finalization_seconds": 0.5591724276552057,
+            "remap_seconds": 0.0026257227588588282
+          }
+        },
+        "contraction": {
+          "trajectory_count": 200,
+          "non_monotonic_fraction": 0.96,
+          "q_ratio": {
+            "geometric_mean": 0.858342975081516,
+            "max": 39246214.023687415,
+            "p50": 0.9565911903247768,
+            "p75": 1.1563300834600567,
+            "p90": 1.6470506589773073,
+            "p95": 2.361123991443229,
+            "p99": 75204.42133892723
+          },
+          "first_iteration_residual": {
+            "mean": 1.3027850352493113,
+            "p50": 1.3181345543817722,
+            "p75": 1.6850197165442116,
+            "p90": 1.9050372301706877,
+            "p95": 1.9935049957258026,
+            "p99": 2.131096388012859
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 15.0,
+          "tail_count": 157,
+          "tail_fraction": 0.785,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7355.444330994253,
+              "tail_mean": 7674.461781876933,
+              "tail_min": 4019.7616332952316,
+              "tail_max": 10497.171657074137
+            },
+            "log_surface_gravity": {
+              "population_mean": 3.6010597715855495,
+              "tail_mean": 3.5325707250047897,
+              "tail_min": 0.7020414027345937,
+              "tail_max": 5.292412266487543
+            },
+            "metallicity": {
+              "population_mean": -1.0201420224576943,
+              "tail_mean": -1.0865366403535395,
+              "tail_min": -2.4817136105015685,
+              "tail_max": 0.4937932127027542
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.18094599100452463,
+              "tail_mean": 0.1854019026081505,
+              "tail_min": -0.09867034252428222,
+              "tail_max": 0.49303209082551536
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.130710004810144,
+              "tail_mean": 2.1290756182762998,
+              "tail_min": 0.5004944786519756,
+              "tail_max": 3.9798621007475212
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 0,
+          "stars_already_at_floor_fraction": 0.0,
+          "total_iterations_burned": 2877,
+          "recoverable_iterations": 2277,
+          "recoverable_fraction": 0.7914494264859229
+        }
+      }
+    },
+    "interpolated_full_state": {
+      "star_count": 200,
+      "converged_count": 190,
+      "converged_fraction": 0.95,
+      "summary": {
+        "star_count": 200,
+        "converged_count": 190,
+        "converged_fraction": 0.95,
+        "retry_count": 0,
+        "retry_fraction": 0.0,
+        "failure_count": 10,
+        "failure_fraction": 0.05,
+        "converging_trial_iterations": {
+          "mean": 8.01578947368421,
+          "p50": 8.0,
+          "p75": 9.0,
+          "p90": 11.0,
+          "p95": 12.549999999999983,
+          "p99": 14.0,
+          "max": 15.0,
+          "histogram": {
+            "3": 3,
+            "4": 6,
+            "5": 20,
+            "6": 24,
+            "7": 31,
+            "8": 31,
+            "9": 28,
+            "10": 21,
+            "11": 11,
+            "12": 5,
+            "13": 3,
+            "14": 6,
+            "15": 1
+          }
+        },
+        "total_iterations_including_retries": {
+          "mean": 8.365,
+          "p50": 8.0,
+          "p75": 10.0,
+          "p90": 12.099999999999994,
+          "p95": 15.0,
+          "p99": 15.0,
+          "max": 15.0
+        },
+        "seconds_per_star": {
+          "mean": 211.79065366910072,
+          "p50": 137.4832372884266,
+          "p75": 185.87965887063183,
+          "p90": 258.134221809404,
+          "p95": 365.1502121491815,
+          "p99": 2137.396422052834,
+          "total_hours": 11.766147426061151
+        },
+        "stage_seconds": {
+          "first_iteration_mean": {
+            "population_seconds": 0.2807201094040647,
+            "opacity_seconds": 25.298013164028525,
+            "transfer_seconds": 0.5236610501073301,
+            "finalization_seconds": 0.5536232303408906,
+            "remap_seconds": 0.0028383956546895205
+          },
+          "later_iteration_mean": {
+            "population_seconds": 0.19354780332753732,
+            "opacity_seconds": 23.707465614946162,
+            "transfer_seconds": 0.5221941374496475,
+            "finalization_seconds": 0.5503349823119132,
+            "remap_seconds": 0.0027965730276193978
+          }
+        },
+        "contraction": {
+          "trajectory_count": 200,
+          "non_monotonic_fraction": 0.705,
+          "q_ratio": {
+            "geometric_mean": 0.6678878901561253,
+            "max": 152893.2568489657,
+            "p50": 0.6606734049833368,
+            "p75": 0.8322383365677244,
+            "p90": 1.1660343686495327,
+            "p95": 1.4892672945669538,
+            "p99": 2.592965616748735
+          },
+          "first_iteration_residual": {
+            "mean": 0.012153533201481537,
+            "p50": 0.008570268924295719,
+            "p75": 0.014172317952053587,
+            "p90": 0.02498728476952081,
+            "p95": 0.03199518211756465,
+            "p99": 0.048729704109464825
+          }
+        },
+        "tail_labels": {
+          "threshold_iterations": 12.099999999999994,
+          "tail_count": 20,
+          "tail_fraction": 0.1,
+          "labels": {
+            "effective_temperature": {
+              "population_mean": 7355.444330994253,
+              "tail_mean": 7734.754411073962,
+              "tail_min": 4025.7038327022533,
+              "tail_max": 9801.675262511439
+            },
+            "log_surface_gravity": {
+              "population_mean": 3.6010597715855495,
+              "tail_mean": 4.19031770532674,
+              "tail_min": 2.1848716569523576,
+              "tail_max": 5.292412266487543
+            },
+            "metallicity": {
+              "population_mean": -1.0201420224576943,
+              "tail_mean": -1.1115279226903823,
+              "tail_min": -2.42234955090439,
+              "tail_max": 0.4004986075841295
+            },
+            "alpha_enhancement": {
+              "population_mean": 0.18094599100452463,
+              "tail_mean": 0.2638553241638167,
+              "tail_min": -0.08003559458429728,
+              "tail_max": 0.48928745662022277
+            },
+            "microturbulence_km_s": {
+              "population_mean": 2.130710004810144,
+              "tail_mean": 2.0031033959449087,
+              "tail_min": 0.5004944786519756,
+              "tail_max": 3.479643483459285
+            }
+          }
+        },
+        "headroom": {
+          "iteration_floor": 3,
+          "stars_already_at_floor": 3,
+          "stars_already_at_floor_fraction": 0.015,
+          "total_iterations_burned": 1673,
+          "recoverable_iterations": 1073,
+          "recoverable_fraction": 0.6413628212791392
+        }
+      }
+    }
+  },
+  "subsets": {
+    "expanded200": {
+      "star_count": 200,
+      "all_four_common_count": 47,
+      "convergence": {
+        "production_six_field": {
+          "star_count": 200,
+          "converged_count": 192,
+          "converged_fraction": 0.96,
+          "summary": {
+            "star_count": 200,
+            "converged_count": 192,
+            "converged_fraction": 0.96,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 8,
+            "failure_fraction": 0.04,
+            "converging_trial_iterations": {
+              "mean": 6.0,
+              "p50": 6.0,
+              "p75": 7.0,
+              "p90": 9.0,
+              "p95": 10.0,
+              "p99": 10.27000000000001,
+              "max": 14.0,
+              "histogram": {
+                "3": 15,
+                "4": 42,
+                "5": 33,
+                "6": 28,
+                "7": 30,
+                "8": 21,
+                "9": 9,
+                "10": 12,
+                "13": 1,
+                "14": 1
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 6.36,
+              "p50": 6.0,
+              "p75": 8.0,
+              "p90": 10.0,
+              "p95": 10.149999999999949,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 141.21874140322208,
+              "p50": 103.20587974693626,
+              "p75": 133.56675692496356,
+              "p90": 215.112872601673,
+              "p95": 296.2126275730315,
+              "p99": 692.1162228652393,
+              "total_hours": 7.845485633512338
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.24382309068227187,
+                "opacity_seconds": 25.421200132919477,
+                "transfer_seconds": 0.5260297356802038,
+                "finalization_seconds": 0.5562475266749971,
+                "remap_seconds": 0.002796586819458753
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19401674134154637,
+                "opacity_seconds": 19.881574101998027,
+                "transfer_seconds": 0.5218709173665291,
+                "finalization_seconds": 0.5573926951697986,
+                "remap_seconds": 0.0027152283096324595
+              }
+            },
+            "contraction": {
+              "trajectory_count": 200,
+              "non_monotonic_fraction": 0.58,
+              "q_ratio": {
+                "geometric_mean": 0.6764530690307854,
+                "max": 108377.27491866783,
+                "p50": 0.6698545216777756,
+                "p75": 0.8862197729473418,
+                "p90": 1.1909914522024574,
+                "p95": 1.5873868294328746,
+                "p99": 2.9806035069252457
+              },
+              "first_iteration_residual": {
+                "mean": 0.006071368496681055,
+                "p50": 0.0031692450669711016,
+                "p75": 0.0045924172006222555,
+                "p90": 0.007497623861609338,
+                "p95": 0.010161711824178302,
+                "p99": 0.08639854303187047
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 10.0,
+              "tail_count": 22,
+              "tail_fraction": 0.11,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7355.444330994253,
+                  "tail_mean": 7806.934150007495,
+                  "tail_min": 4025.7038327022533,
+                  "tail_max": 10360.412368364192
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.6010597715855495,
+                  "tail_mean": 4.092089150080749,
+                  "tail_min": 2.552012460232005,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0201420224576943,
+                  "tail_mean": -1.290033278484449,
+                  "tail_min": -2.3277608101472733,
+                  "tail_max": 0.44373677433099523
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18094599100452463,
+                  "tail_mean": 0.2185537547851898,
+                  "tail_min": -0.08003559458429728,
+                  "tail_max": 0.48846702200285663
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.130710004810144,
+                  "tail_mean": 2.1844796805226725,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.929833632299075
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 15,
+              "stars_already_at_floor_fraction": 0.075,
+              "total_iterations_burned": 1272,
+              "recoverable_iterations": 672,
+              "recoverable_fraction": 0.5283018867924528
+            }
+          }
+        },
+        "learned_reduced_state": {
+          "star_count": 200,
+          "converged_count": 195,
+          "converged_fraction": 0.975,
+          "summary": {
+            "star_count": 200,
+            "converged_count": 195,
+            "converged_fraction": 0.975,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 5,
+            "failure_fraction": 0.025,
+            "converging_trial_iterations": {
+              "mean": 3.6256410256410256,
+              "p50": 3.0,
+              "p75": 4.0,
+              "p90": 5.0,
+              "p95": 6.0,
+              "p99": 11.120000000000005,
+              "max": 15.0,
+              "histogram": {
+                "3": 141,
+                "4": 32,
+                "5": 9,
+                "6": 5,
+                "7": 2,
+                "9": 2,
+                "10": 1,
+                "11": 1,
+                "13": 1,
+                "15": 1
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 3.835,
+              "p50": 3.0,
+              "p75": 4.0,
+              "p90": 5.0,
+              "p95": 7.099999999999966,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 113.54282027006383,
+              "p50": 55.41573462844826,
+              "p75": 86.67620709759649,
+              "p90": 137.1449073298834,
+              "p95": 212.63186347531115,
+              "p99": 678.3525329488518,
+              "total_hours": 6.30793445944799
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.2679515214889643,
+                "opacity_seconds": 24.941366761656077,
+                "transfer_seconds": 0.524175784461687,
+                "finalization_seconds": 0.5569688240744772,
+                "remap_seconds": 0.002697908338252923
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19311801618716062,
+                "opacity_seconds": 28.782311263905747,
+                "transfer_seconds": 0.5200706283761923,
+                "finalization_seconds": 0.5575014597951093,
+                "remap_seconds": 0.0026920863032065543
+              }
+            },
+            "contraction": {
+              "trajectory_count": 199,
+              "non_monotonic_fraction": 0.16080402010050251,
+              "q_ratio": {
+                "geometric_mean": 0.5416499979010895,
+                "max": 89234.00255207506,
+                "p50": 0.5400727867665154,
+                "p75": 0.790493683552735,
+                "p90": 1.0508471417491863,
+                "p95": 1.2267043098792967,
+                "p99": 3.0736419206619634
+              },
+              "first_iteration_residual": {
+                "mean": 0.003345148240940373,
+                "p50": 0.0014965773966780162,
+                "p75": 0.0025309565738265427,
+                "p90": 0.005924401180935947,
+                "p95": 0.012904590218496225,
+                "p99": 0.03703139765592363
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 5.0,
+              "tail_count": 26,
+              "tail_fraction": 0.13,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7355.444330994253,
+                  "tail_mean": 8089.671663936672,
+                  "tail_min": 4025.7038327022533,
+                  "tail_max": 10470.328664273806
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.60105977158555,
+                  "tail_mean": 4.214233567282777,
+                  "tail_min": 1.6321892596145218,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0201420224576943,
+                  "tail_mean": -1.0568129920190044,
+                  "tail_min": -2.4817136105015685,
+                  "tail_max": 0.4937932127027542
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18094599100452463,
+                  "tail_mean": 0.23600735232095163,
+                  "tail_min": -0.07629680431505355,
+                  "tail_max": 0.4902296505496241
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.130710004810144,
+                  "tail_mean": 1.9116077730798082,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.479643483459285
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 141,
+              "stars_already_at_floor_fraction": 0.705,
+              "total_iterations_burned": 767,
+              "recoverable_iterations": 170,
+              "recoverable_fraction": 0.22164276401564537
+            }
+          }
+        },
+        "grey15": {
+          "star_count": 200,
+          "converged_count": 48,
+          "converged_fraction": 0.24,
+          "summary": {
+            "star_count": 200,
+            "converged_count": 48,
+            "converged_fraction": 0.24,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 152,
+            "failure_fraction": 0.76,
+            "converging_trial_iterations": {
+              "mean": 12.4375,
+              "p50": 12.5,
+              "p75": 14.0,
+              "p90": 14.300000000000004,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0,
+              "histogram": {
+                "9": 2,
+                "10": 8,
+                "11": 5,
+                "12": 9,
+                "13": 5,
+                "14": 14,
+                "15": 5
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 14.385,
+              "p50": 15.0,
+              "p75": 15.0,
+              "p90": 15.0,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 896.237607252174,
+              "p50": 261.05859592882916,
+              "p75": 398.9829393179389,
+              "p90": 3131.601289091398,
+              "p95": 4308.233645847621,
+              "p99": 5384.48311418673,
+              "total_hours": 49.79097818067633
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.23305759055772796,
+                "opacity_seconds": 20.192349128744098,
+                "transfer_seconds": 0.5167000063159503,
+                "finalization_seconds": 0.5464083495899104,
+                "remap_seconds": 0.0021471108053810893
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19168925034174494,
+                "opacity_seconds": 63.9626916988934,
+                "transfer_seconds": 0.5830215237063047,
+                "finalization_seconds": 0.5591724276552057,
+                "remap_seconds": 0.0026257227588588282
+              }
+            },
+            "contraction": {
+              "trajectory_count": 200,
+              "non_monotonic_fraction": 0.96,
+              "q_ratio": {
+                "geometric_mean": 0.858342975081516,
+                "max": 39246214.023687415,
+                "p50": 0.9565911903247768,
+                "p75": 1.1563300834600567,
+                "p90": 1.6470506589773073,
+                "p95": 2.361123991443229,
+                "p99": 75204.42133892723
+              },
+              "first_iteration_residual": {
+                "mean": 1.3027850352493113,
+                "p50": 1.3181345543817722,
+                "p75": 1.6850197165442116,
+                "p90": 1.9050372301706877,
+                "p95": 1.9935049957258026,
+                "p99": 2.131096388012859
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 15.0,
+              "tail_count": 157,
+              "tail_fraction": 0.785,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7355.444330994253,
+                  "tail_mean": 7674.461781876933,
+                  "tail_min": 4019.7616332952316,
+                  "tail_max": 10497.171657074137
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.6010597715855495,
+                  "tail_mean": 3.5325707250047897,
+                  "tail_min": 0.7020414027345937,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0201420224576943,
+                  "tail_mean": -1.0865366403535395,
+                  "tail_min": -2.4817136105015685,
+                  "tail_max": 0.4937932127027542
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18094599100452463,
+                  "tail_mean": 0.1854019026081505,
+                  "tail_min": -0.09867034252428222,
+                  "tail_max": 0.49303209082551536
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.130710004810144,
+                  "tail_mean": 2.1290756182762998,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.9798621007475212
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 0,
+              "stars_already_at_floor_fraction": 0.0,
+              "total_iterations_burned": 2877,
+              "recoverable_iterations": 2277,
+              "recoverable_fraction": 0.7914494264859229
+            }
+          }
+        },
+        "interpolated_full_state": {
+          "star_count": 200,
+          "converged_count": 190,
+          "converged_fraction": 0.95,
+          "summary": {
+            "star_count": 200,
+            "converged_count": 190,
+            "converged_fraction": 0.95,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 10,
+            "failure_fraction": 0.05,
+            "converging_trial_iterations": {
+              "mean": 8.01578947368421,
+              "p50": 8.0,
+              "p75": 9.0,
+              "p90": 11.0,
+              "p95": 12.549999999999983,
+              "p99": 14.0,
+              "max": 15.0,
+              "histogram": {
+                "3": 3,
+                "4": 6,
+                "5": 20,
+                "6": 24,
+                "7": 31,
+                "8": 31,
+                "9": 28,
+                "10": 21,
+                "11": 11,
+                "12": 5,
+                "13": 3,
+                "14": 6,
+                "15": 1
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 8.365,
+              "p50": 8.0,
+              "p75": 10.0,
+              "p90": 12.099999999999994,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 211.79065366910072,
+              "p50": 137.4832372884266,
+              "p75": 185.87965887063183,
+              "p90": 258.134221809404,
+              "p95": 365.1502121491815,
+              "p99": 2137.396422052834,
+              "total_hours": 11.766147426061151
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.2807201094040647,
+                "opacity_seconds": 25.298013164028525,
+                "transfer_seconds": 0.5236610501073301,
+                "finalization_seconds": 0.5536232303408906,
+                "remap_seconds": 0.0028383956546895205
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19354780332753732,
+                "opacity_seconds": 23.707465614946162,
+                "transfer_seconds": 0.5221941374496475,
+                "finalization_seconds": 0.5503349823119132,
+                "remap_seconds": 0.0027965730276193978
+              }
+            },
+            "contraction": {
+              "trajectory_count": 200,
+              "non_monotonic_fraction": 0.705,
+              "q_ratio": {
+                "geometric_mean": 0.6678878901561253,
+                "max": 152893.2568489657,
+                "p50": 0.6606734049833368,
+                "p75": 0.8322383365677244,
+                "p90": 1.1660343686495327,
+                "p95": 1.4892672945669538,
+                "p99": 2.592965616748735
+              },
+              "first_iteration_residual": {
+                "mean": 0.012153533201481537,
+                "p50": 0.008570268924295719,
+                "p75": 0.014172317952053587,
+                "p90": 0.02498728476952081,
+                "p95": 0.03199518211756465,
+                "p99": 0.048729704109464825
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 12.099999999999994,
+              "tail_count": 20,
+              "tail_fraction": 0.1,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7355.444330994253,
+                  "tail_mean": 7734.754411073962,
+                  "tail_min": 4025.7038327022533,
+                  "tail_max": 9801.675262511439
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.6010597715855495,
+                  "tail_mean": 4.19031770532674,
+                  "tail_min": 2.1848716569523576,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0201420224576943,
+                  "tail_mean": -1.1115279226903823,
+                  "tail_min": -2.42234955090439,
+                  "tail_max": 0.4004986075841295
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18094599100452463,
+                  "tail_mean": 0.2638553241638167,
+                  "tail_min": -0.08003559458429728,
+                  "tail_max": 0.48928745662022277
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.130710004810144,
+                  "tail_mean": 2.0031033959449087,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.479643483459285
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 3,
+              "stars_already_at_floor_fraction": 0.015,
+              "total_iterations_burned": 1673,
+              "recoverable_iterations": 1073,
+              "recoverable_fraction": 0.6413628212791392
+            }
+          }
+        }
+      }
+    },
+    "previous60": {
+      "star_count": 60,
+      "all_four_common_count": 11,
+      "convergence": {
+        "production_six_field": {
+          "star_count": 60,
+          "converged_count": 58,
+          "converged_fraction": 0.9666666666666667,
+          "summary": {
+            "star_count": 60,
+            "converged_count": 58,
+            "converged_fraction": 0.9666666666666667,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 2,
+            "failure_fraction": 0.03333333333333333,
+            "converging_trial_iterations": {
+              "mean": 6.120689655172414,
+              "p50": 6.0,
+              "p75": 7.0,
+              "p90": 8.0,
+              "p95": 10.0,
+              "p99": 10.0,
+              "max": 10.0,
+              "histogram": {
+                "3": 4,
+                "4": 8,
+                "5": 13,
+                "6": 8,
+                "7": 12,
+                "8": 8,
+                "10": 5
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 6.416666666666667,
+              "p50": 6.0,
+              "p75": 7.25,
+              "p90": 10.0,
+              "p95": 10.0,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 163.20814190895763,
+              "p50": 106.63286525732838,
+              "p75": 134.809972245479,
+              "p90": 254.89002504367383,
+              "p95": 534.9361489702713,
+              "p99": 1000.009698636939,
+              "total_hours": 2.7201356984826273
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.3550415733829141,
+                "opacity_seconds": 31.25543730170466,
+                "transfer_seconds": 0.5278906603188565,
+                "finalization_seconds": 0.5574008036016797,
+                "remap_seconds": 0.0027855976329495507
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.1942902270475259,
+                "opacity_seconds": 22.602714585272164,
+                "transfer_seconds": 0.5172277781782815,
+                "finalization_seconds": 0.5569897766010119,
+                "remap_seconds": 0.0027138134507605663
+              }
+            },
+            "contraction": {
+              "trajectory_count": 60,
+              "non_monotonic_fraction": 0.6333333333333333,
+              "q_ratio": {
+                "geometric_mean": 0.6620475308197032,
+                "max": 2.9003531378188834,
+                "p50": 0.6600404486079194,
+                "p75": 0.8551764167622239,
+                "p90": 1.1570258217122216,
+                "p95": 1.3950767109736426,
+                "p99": 2.1231825449176753
+              },
+              "first_iteration_residual": {
+                "mean": 0.006207303827088656,
+                "p50": 0.002932399551848871,
+                "p75": 0.005291060375266824,
+                "p90": 0.00903910475387525,
+                "p95": 0.02169284806079473,
+                "p99": 0.053853748427492916
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 10.0,
+              "tail_count": 7,
+              "tail_fraction": 0.11666666666666667,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7650.4643362481565,
+                  "tail_mean": 8608.679724113785,
+                  "tail_min": 4025.7038327022533,
+                  "tail_max": 10159.544337115385
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.5661874502175266,
+                  "tail_mean": 4.045026670248665,
+                  "tail_min": 2.552012460232005,
+                  "tail_max": 5.258596074460062
+                },
+                "metallicity": {
+                  "population_mean": -0.88371498542691,
+                  "tail_mean": -0.7373854897862963,
+                  "tail_min": -1.8097827165281557,
+                  "tail_max": 0.44373677433099523
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18717690083861668,
+                  "tail_mean": 0.23539285811086838,
+                  "tail_min": -0.07629680431505355,
+                  "tail_max": 0.4602467340116514
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.027543489423608,
+                  "tail_mean": 2.231822000885472,
+                  "tail_min": 0.5434037901063439,
+                  "tail_max": 3.929833632299075
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 4,
+              "stars_already_at_floor_fraction": 0.06666666666666667,
+              "total_iterations_burned": 385,
+              "recoverable_iterations": 205,
+              "recoverable_fraction": 0.5324675324675324
+            }
+          }
+        },
+        "learned_reduced_state": {
+          "star_count": 60,
+          "converged_count": 57,
+          "converged_fraction": 0.95,
+          "summary": {
+            "star_count": 60,
+            "converged_count": 57,
+            "converged_fraction": 0.95,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 3,
+            "failure_fraction": 0.05,
+            "converging_trial_iterations": {
+              "mean": 3.508771929824561,
+              "p50": 3.0,
+              "p75": 4.0,
+              "p90": 4.0,
+              "p95": 5.199999999999996,
+              "p99": 8.199999999999989,
+              "max": 11.0,
+              "histogram": {
+                "3": 41,
+                "4": 11,
+                "5": 2,
+                "6": 2,
+                "11": 1
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 3.8333333333333335,
+              "p50": 3.0,
+              "p75": 4.0,
+              "p90": 5.0,
+              "p95": 6.249999999999986,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 192.0063192483581,
+              "p50": 58.98630925104953,
+              "p75": 89.48749107937329,
+              "p90": 214.8424105717801,
+              "p95": 341.0231124829732,
+              "p99": 3059.9842908314495,
+              "total_hours": 3.200105320805968
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.4467842815349163,
+                "opacity_seconds": 30.277790176074447,
+                "transfer_seconds": 0.5269073221074828,
+                "finalization_seconds": 0.5587093179366724,
+                "remap_seconds": 0.0027233108451937215
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19390355613442106,
+                "opacity_seconds": 53.606052455356156,
+                "transfer_seconds": 0.5256495825750264,
+                "finalization_seconds": 0.560520840378489,
+                "remap_seconds": 0.002659087684767985
+              }
+            },
+            "contraction": {
+              "trajectory_count": 59,
+              "non_monotonic_fraction": 0.13559322033898305,
+              "q_ratio": {
+                "geometric_mean": 0.58646935242156,
+                "max": 89234.00255207506,
+                "p50": 0.5568698249261695,
+                "p75": 0.80995874883106,
+                "p90": 1.0748148748240276,
+                "p95": 1.4430557153860193,
+                "p99": 11.30669839940846
+              },
+              "first_iteration_residual": {
+                "mean": 0.003221859970118929,
+                "p50": 0.0016353795396629532,
+                "p75": 0.0025490402888729354,
+                "p90": 0.007490614588513948,
+                "p95": 0.01411987363233581,
+                "p99": 0.021126860519903364
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 5.0,
+              "tail_count": 7,
+              "tail_fraction": 0.11666666666666667,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7650.464336248157,
+                  "tail_mean": 8119.104173257479,
+                  "tail_min": 4025.7038327022533,
+                  "tail_max": 9814.234991483405
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.566187450217526,
+                  "tail_mean": 4.602056054531845,
+                  "tail_min": 3.4782986420122803,
+                  "tail_max": 5.258596074460062
+                },
+                "metallicity": {
+                  "population_mean": -0.8837149854269098,
+                  "tail_mean": -1.19806586119897,
+                  "tail_min": -2.42234955090439,
+                  "tail_max": 0.38168215914681225
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18717690083861666,
+                  "tail_mean": 0.28388178732453495,
+                  "tail_min": -0.07629680431505355,
+                  "tail_max": 0.4902296505496241
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.0275434894236075,
+                  "tail_mean": 2.017450339622693,
+                  "tail_min": 0.5434037901063439,
+                  "tail_max": 3.0676310095695314
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 41,
+              "stars_already_at_floor_fraction": 0.6833333333333333,
+              "total_iterations_burned": 230,
+              "recoverable_iterations": 53,
+              "recoverable_fraction": 0.23043478260869565
+            }
+          }
+        },
+        "grey15": {
+          "star_count": 60,
+          "converged_count": 12,
+          "converged_fraction": 0.2,
+          "summary": {
+            "star_count": 60,
+            "converged_count": 12,
+            "converged_fraction": 0.2,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 48,
+            "failure_fraction": 0.8,
+            "converging_trial_iterations": {
+              "mean": 13.083333333333334,
+              "p50": 13.5,
+              "p75": 14.0,
+              "p90": 14.9,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0,
+              "histogram": {
+                "10": 1,
+                "12": 4,
+                "13": 1,
+                "14": 4,
+                "15": 2
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 14.616666666666667,
+              "p50": 15.0,
+              "p75": 15.0,
+              "p90": 15.0,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 968.3262281295067,
+              "p50": 271.909473774489,
+              "p75": 864.2804558724165,
+              "p90": 2896.7825822829736,
+              "p95": 3758.302434880237,
+              "p99": 5662.351445869569,
+              "total_hours": 16.13877046882511
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.2587758225776876,
+                "opacity_seconds": 21.75185560688066,
+                "transfer_seconds": 0.5157037776351596,
+                "finalization_seconds": 0.5481623825073864,
+                "remap_seconds": 0.0021973839262500404
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.1922969783125092,
+                "opacity_seconds": 68.05040581598924,
+                "transfer_seconds": 0.5579476519499198,
+                "finalization_seconds": 0.5614383569280212,
+                "remap_seconds": 0.0026599849885468674
+              }
+            },
+            "contraction": {
+              "trajectory_count": 60,
+              "non_monotonic_fraction": 0.95,
+              "q_ratio": {
+                "geometric_mean": 0.9188781555510643,
+                "max": 2282805.9469990875,
+                "p50": 0.995939963159177,
+                "p75": 1.2011543027294493,
+                "p90": 1.815846138974322,
+                "p95": 2.500638159369087,
+                "p99": 76158.64585104625
+              },
+              "first_iteration_residual": {
+                "mean": 1.3471751302402877,
+                "p50": 1.3938137067697745,
+                "p75": 1.7400572838185036,
+                "p90": 1.9883549812723214,
+                "p95": 2.078455020738212,
+                "p99": 2.142214199616816
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 15.0,
+              "tail_count": 50,
+              "tail_fraction": 0.8333333333333334,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7650.4643362481565,
+                  "tail_mean": 7899.075676486635,
+                  "tail_min": 4019.7616332952316,
+                  "tail_max": 10366.068138012157
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.5661874502175266,
+                  "tail_mean": 3.546180239404555,
+                  "tail_min": 0.8004922693507595,
+                  "tail_max": 5.283970440245378
+                },
+                "metallicity": {
+                  "population_mean": -0.88371498542691,
+                  "tail_mean": -0.9735552623940658,
+                  "tail_min": -2.42234955090439,
+                  "tail_max": 0.44373677433099523
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18717690083861668,
+                  "tail_mean": 0.17487176509442193,
+                  "tail_min": -0.09867034252428222,
+                  "tail_max": 0.4902296505496241
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.027543489423608,
+                  "tail_mean": 2.014989256128208,
+                  "tail_min": 0.5434037901063439,
+                  "tail_max": 3.929833632299075
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 0,
+              "stars_already_at_floor_fraction": 0.0,
+              "total_iterations_burned": 877,
+              "recoverable_iterations": 697,
+              "recoverable_fraction": 0.7947548460661346
+            }
+          }
+        },
+        "interpolated_full_state": {
+          "star_count": 60,
+          "converged_count": 56,
+          "converged_fraction": 0.9333333333333333,
+          "summary": {
+            "star_count": 60,
+            "converged_count": 56,
+            "converged_fraction": 0.9333333333333333,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 4,
+            "failure_fraction": 0.06666666666666667,
+            "converging_trial_iterations": {
+              "mean": 8.357142857142858,
+              "p50": 8.5,
+              "p75": 10.0,
+              "p90": 11.0,
+              "p95": 11.25,
+              "p99": 14.0,
+              "max": 14.0,
+              "histogram": {
+                "4": 1,
+                "5": 6,
+                "6": 6,
+                "7": 6,
+                "8": 9,
+                "9": 11,
+                "10": 9,
+                "11": 5,
+                "12": 1,
+                "14": 2
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 8.8,
+              "p50": 9.0,
+              "p75": 10.0,
+              "p90": 12.200000000000003,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 278.8019270389729,
+              "p50": 145.04848439409398,
+              "p75": 182.36776374664623,
+              "p90": 368.3804071625235,
+              "p95": 912.7941970265703,
+              "p99": 2582.837813487175,
+              "total_hours": 4.646698783982881
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.48777426773061355,
+                "opacity_seconds": 31.514157076063565,
+                "transfer_seconds": 0.5259868322405964,
+                "finalization_seconds": 0.5535244020322959,
+                "remap_seconds": 0.0028323694287488857
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.1910552330022582,
+                "opacity_seconds": 30.04555996884015,
+                "transfer_seconds": 0.5212326818872164,
+                "finalization_seconds": 0.5506803861502797,
+                "remap_seconds": 0.002776239982718586
+              }
+            },
+            "contraction": {
+              "trajectory_count": 60,
+              "non_monotonic_fraction": 0.7666666666666667,
+              "q_ratio": {
+                "geometric_mean": 0.6863119791527534,
+                "max": 87601.55683447116,
+                "p50": 0.6609916042615879,
+                "p75": 0.853317252575619,
+                "p90": 1.2578043193374788,
+                "p95": 1.7561421876168115,
+                "p99": 2.889944377835458
+              },
+              "first_iteration_residual": {
+                "mean": 0.011744049262996747,
+                "p50": 0.008570268924295719,
+                "p75": 0.014566759851793128,
+                "p90": 0.026210901178716956,
+                "p95": 0.031197291260260756,
+                "p99": 0.03946469722559345
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 12.200000000000003,
+              "tail_count": 6,
+              "tail_fraction": 0.1,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7650.4643362481565,
+                  "tail_mean": 7754.3802302118675,
+                  "tail_min": 4025.7038327022533,
+                  "tail_max": 9766.295101074165
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.5661874502175266,
+                  "tail_mean": 4.351677140637058,
+                  "tail_min": 2.1848716569523576,
+                  "tail_max": 5.258596074460062
+                },
+                "metallicity": {
+                  "population_mean": -0.88371498542691,
+                  "tail_mean": -1.194840804965582,
+                  "tail_min": -2.42234955090439,
+                  "tail_max": -0.37641580006005526
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.18717690083861668,
+                  "tail_mean": 0.27160829704611134,
+                  "tail_min": -0.07629680431505355,
+                  "tail_max": 0.48928745662022277
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.027543489423608,
+                  "tail_mean": 1.9922778359324,
+                  "tail_min": 0.5434037901063439,
+                  "tail_max": 2.771337863030749
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 0,
+              "stars_already_at_floor_fraction": 0.0,
+              "total_iterations_burned": 528,
+              "recoverable_iterations": 348,
+              "recoverable_fraction": 0.6590909090909091
+            }
+          }
+        }
+      }
+    },
+    "added140": {
+      "star_count": 140,
+      "all_four_common_count": 36,
+      "convergence": {
+        "production_six_field": {
+          "star_count": 140,
+          "converged_count": 134,
+          "converged_fraction": 0.9571428571428572,
+          "summary": {
+            "star_count": 140,
+            "converged_count": 134,
+            "converged_fraction": 0.9571428571428572,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 6,
+            "failure_fraction": 0.04285714285714286,
+            "converging_trial_iterations": {
+              "mean": 5.947761194029851,
+              "p50": 6.0,
+              "p75": 7.0,
+              "p90": 9.0,
+              "p95": 10.0,
+              "p99": 12.009999999999962,
+              "max": 14.0,
+              "histogram": {
+                "3": 11,
+                "4": 34,
+                "5": 20,
+                "6": 20,
+                "7": 18,
+                "8": 13,
+                "9": 9,
+                "10": 7,
+                "13": 1,
+                "14": 1
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 6.335714285714285,
+              "p50": 6.0,
+              "p75": 8.0,
+              "p90": 10.0,
+              "p95": 13.049999999999983,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 131.79471261504972,
+              "p50": 99.60802015010267,
+              "p75": 132.0234886179678,
+              "p90": 200.8822049213574,
+              "p95": 275.9628757573195,
+              "p99": 598.5173801555325,
+              "total_hours": 5.125349935029711
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.19615802666771093,
+                "opacity_seconds": 22.920812774868683,
+                "transfer_seconds": 0.5252321965493528,
+                "finalization_seconds": 0.5557532651349902,
+                "remap_seconds": 0.0028012964708198393
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19389775492328218,
+                "opacity_seconds": 18.697677640064832,
+                "transfer_seconds": 0.5238910247777481,
+                "finalization_seconds": 0.5575679944132466,
+                "remap_seconds": 0.0027158438774147428
+              }
+            },
+            "contraction": {
+              "trajectory_count": 140,
+              "non_monotonic_fraction": 0.5571428571428572,
+              "q_ratio": {
+                "geometric_mean": 0.6828524224789027,
+                "max": 108377.27491866783,
+                "p50": 0.6782222963644472,
+                "p75": 0.8919946254318964,
+                "p90": 1.218561629015314,
+                "p95": 1.6587722082115859,
+                "p99": 3.5843465411139315
+              },
+              "first_iteration_residual": {
+                "mean": 0.006013110497934941,
+                "p50": 0.0031952574330208743,
+                "p75": 0.00435192605661001,
+                "p90": 0.006270322358155083,
+                "p95": 0.008865163734963847,
+                "p99": 0.10029012148683662
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 10.0,
+              "tail_count": 15,
+              "tail_fraction": 0.10714285714285714,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7229.007185885436,
+                  "tail_mean": 7432.78621542456,
+                  "tail_min": 4286.810974183783,
+                  "tail_max": 10360.412368364192
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.6160050521718454,
+                  "tail_mean": 4.114051640669056,
+                  "tail_min": 3.210762993441792,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0786107526137447,
+                  "tail_mean": -1.5479355798769203,
+                  "tail_min": -2.3277608101472733,
+                  "tail_max": 0.4004986075841295
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.1782756010756281,
+                  "tail_mean": 0.21069550656653976,
+                  "tail_min": -0.08003559458429728,
+                  "tail_max": 0.48846702200285663
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.1749242256900883,
+                  "tail_mean": 2.1623865976867003,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.908153700019856
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 11,
+              "stars_already_at_floor_fraction": 0.07857142857142857,
+              "total_iterations_burned": 887,
+              "recoverable_iterations": 467,
+              "recoverable_fraction": 0.5264937993235626
+            }
+          }
+        },
+        "learned_reduced_state": {
+          "star_count": 140,
+          "converged_count": 138,
+          "converged_fraction": 0.9857142857142858,
+          "summary": {
+            "star_count": 140,
+            "converged_count": 138,
+            "converged_fraction": 0.9857142857142858,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 2,
+            "failure_fraction": 0.014285714285714285,
+            "converging_trial_iterations": {
+              "mean": 3.6739130434782608,
+              "p50": 3.0,
+              "p75": 4.0,
+              "p90": 5.0,
+              "p95": 6.150000000000006,
+              "p99": 11.889999999999986,
+              "max": 15.0,
+              "histogram": {
+                "3": 100,
+                "4": 21,
+                "5": 7,
+                "6": 3,
+                "7": 2,
+                "9": 2,
+                "10": 1,
+                "13": 1,
+                "15": 1
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 3.835714285714286,
+              "p50": 3.0,
+              "p75": 4.0,
+              "p90": 5.0,
+              "p95": 7.099999999999966,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 79.91560642222342,
+              "p50": 53.965244218939915,
+              "p75": 84.33064396225382,
+              "p90": 133.81500140205026,
+              "p95": 169.43356798584523,
+              "p99": 488.1637008387163,
+              "total_hours": 3.1078291386420216
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.1925862868981702,
+                "opacity_seconds": 22.692445465579762,
+                "transfer_seconds": 0.5230246364538159,
+                "finalization_seconds": 0.5562353302325521,
+                "remap_seconds": 0.002687202996042158
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19277966018972603,
+                "opacity_seconds": 18.089969340132395,
+                "transfer_seconds": 0.5176676027641001,
+                "finalization_seconds": 0.5562009205513866,
+                "remap_seconds": 0.0027062998139193886
+              }
+            },
+            "contraction": {
+              "trajectory_count": 140,
+              "non_monotonic_fraction": 0.17142857142857143,
+              "q_ratio": {
+                "geometric_mean": 0.5243603148336469,
+                "max": 3.173432964278713,
+                "p50": 0.5350061138575363,
+                "p75": 0.7694866666735382,
+                "p90": 1.0423066856343806,
+                "p95": 1.1883534605839414,
+                "p99": 1.8661661522756432
+              },
+              "first_iteration_residual": {
+                "mean": 0.0033971054407865536,
+                "p50": 0.00145490934456509,
+                "p75": 0.00242822280081381,
+                "p90": 0.0054263926232342675,
+                "p95": 0.011078685312467505,
+                "p99": 0.04264878874179574
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 5.0,
+              "tail_count": 19,
+              "tail_fraction": 0.1357142857142857,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7229.007185885436,
+                  "tail_mean": 8078.828107871111,
+                  "tail_min": 4286.810974183783,
+                  "tail_max": 10470.328664273806
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.6160050521718454,
+                  "tail_mean": 4.071351598296278,
+                  "tail_min": 1.6321892596145218,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0786107526137447,
+                  "tail_mean": -1.0047724612684905,
+                  "tail_min": -2.4817136105015685,
+                  "tail_max": 0.4937932127027542
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.1782756010756281,
+                  "tail_mean": 0.2183694025827893,
+                  "tail_min": -0.061374418757814735,
+                  "tail_max": 0.48846702200285663
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.1749242256900883,
+                  "tail_mean": 1.8726131433008506,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.479643483459285
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 100,
+              "stars_already_at_floor_fraction": 0.7142857142857143,
+              "total_iterations_burned": 537,
+              "recoverable_iterations": 117,
+              "recoverable_fraction": 0.21787709497206703
+            }
+          }
+        },
+        "grey15": {
+          "star_count": 140,
+          "converged_count": 36,
+          "converged_fraction": 0.2571428571428571,
+          "summary": {
+            "star_count": 140,
+            "converged_count": 36,
+            "converged_fraction": 0.2571428571428571,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 104,
+            "failure_fraction": 0.7428571428571429,
+            "converging_trial_iterations": {
+              "mean": 12.222222222222221,
+              "p50": 12.0,
+              "p75": 14.0,
+              "p90": 14.0,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0,
+              "histogram": {
+                "9": 2,
+                "10": 7,
+                "11": 5,
+                "12": 5,
+                "13": 4,
+                "14": 10,
+                "15": 3
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 14.285714285714286,
+              "p50": 15.0,
+              "p75": 15.0,
+              "p90": 15.0,
+              "p95": 15.0,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 865.3424840190315,
+              "p50": 252.07931698998436,
+              "p75": 348.6614588786615,
+              "p90": 3299.066124483664,
+              "p95": 4308.233645847621,
+              "p99": 5238.924317568754,
+              "total_hours": 33.652207711851226
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.2220354911206024,
+                "opacity_seconds": 19.523989209542716,
+                "transfer_seconds": 0.5171269614648606,
+                "finalization_seconds": 0.5456566211967063,
+                "remap_seconds": 0.002125565182151539
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19142230746426409,
+                "opacity_seconds": 62.16717426143787,
+                "transfer_seconds": 0.5940351544724156,
+                "finalization_seconds": 0.5581771243133292,
+                "remap_seconds": 0.002610673166571125
+              }
+            },
+            "contraction": {
+              "trajectory_count": 140,
+              "non_monotonic_fraction": 0.9642857142857143,
+              "q_ratio": {
+                "geometric_mean": 0.8325547613261132,
+                "max": 39246214.023687415,
+                "p50": 0.9333722618004177,
+                "p75": 1.1375948035847636,
+                "p90": 1.6090371024792975,
+                "p95": 2.2614776298518224,
+                "p99": 68748.00941300287
+              },
+              "first_iteration_residual": {
+                "mean": 1.2837607088246068,
+                "p50": 1.3078710631442196,
+                "p75": 1.656696460991054,
+                "p90": 1.8700325538338924,
+                "p95": 1.9369742588295285,
+                "p99": 2.065693451545523
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 15.0,
+              "tail_count": 107,
+              "tail_fraction": 0.7642857142857142,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7229.007185885436,
+                  "tail_mean": 7569.502018040623,
+                  "tail_min": 4085.250182617694,
+                  "tail_max": 10497.171657074137
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.6160050521718454,
+                  "tail_mean": 3.5262111388366755,
+                  "tail_min": 0.7020414027345937,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0786107526137447,
+                  "tail_mean": -1.1393316767832,
+                  "tail_min": -2.4817136105015685,
+                  "tail_max": 0.4937932127027542
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.1782756010756281,
+                  "tail_mean": 0.19032252761456578,
+                  "tail_min": -0.09862509975639039,
+                  "tail_max": 0.49303209082551536
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.1749242256900883,
+                  "tail_mean": 2.1823870024576517,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.9798621007475212
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 0,
+              "stars_already_at_floor_fraction": 0.0,
+              "total_iterations_burned": 2000,
+              "recoverable_iterations": 1580,
+              "recoverable_fraction": 0.79
+            }
+          }
+        },
+        "interpolated_full_state": {
+          "star_count": 140,
+          "converged_count": 134,
+          "converged_fraction": 0.9571428571428572,
+          "summary": {
+            "star_count": 140,
+            "converged_count": 134,
+            "converged_fraction": 0.9571428571428572,
+            "retry_count": 0,
+            "retry_fraction": 0.0,
+            "failure_count": 6,
+            "failure_fraction": 0.04285714285714286,
+            "converging_trial_iterations": {
+              "mean": 7.873134328358209,
+              "p50": 8.0,
+              "p75": 9.0,
+              "p90": 11.0,
+              "p95": 13.0,
+              "p99": 14.0,
+              "max": 15.0,
+              "histogram": {
+                "3": 3,
+                "4": 5,
+                "5": 14,
+                "6": 18,
+                "7": 25,
+                "8": 22,
+                "9": 17,
+                "10": 12,
+                "11": 6,
+                "12": 4,
+                "13": 3,
+                "14": 4,
+                "15": 1
+              }
+            },
+            "total_iterations_including_retries": {
+              "mean": 8.178571428571429,
+              "p50": 8.0,
+              "p75": 10.0,
+              "p90": 12.100000000000009,
+              "p95": 14.049999999999983,
+              "p99": 15.0,
+              "max": 15.0
+            },
+            "seconds_per_star": {
+              "mean": 183.07153651058408,
+              "p50": 132.36777320504189,
+              "p75": 186.18053295335267,
+              "p90": 244.47292144042441,
+              "p95": 300.70378501520025,
+              "p99": 636.1015547980682,
+              "total_hours": 7.11944864207827
+            },
+            "stage_seconds": {
+              "first_iteration_mean": {
+                "population_seconds": 0.19198261297840094,
+                "opacity_seconds": 22.63395148744208,
+                "transfer_seconds": 0.5226642863359302,
+                "finalization_seconds": 0.5536655853302883,
+                "remap_seconds": 0.002840978322949793
+              },
+              "later_iteration_mean": {
+                "population_seconds": 0.19470852264318966,
+                "opacity_seconds": 20.755994811341797,
+                "transfer_seconds": 0.522641860039914,
+                "finalization_seconds": 0.5501741375394202,
+                "remap_seconds": 0.0028060415500209697
+              }
+            },
+            "contraction": {
+              "trajectory_count": 140,
+              "non_monotonic_fraction": 0.6785714285714286,
+              "q_ratio": {
+                "geometric_mean": 0.6595201805664606,
+                "max": 152893.2568489657,
+                "p50": 0.6604410921528894,
+                "p75": 0.828673854895224,
+                "p90": 1.1343547797713975,
+                "p95": 1.3672624048936666,
+                "p99": 2.125129077473309
+              },
+              "first_iteration_residual": {
+                "mean": 0.012329026317975014,
+                "p50": 0.008550514975748278,
+                "p75": 0.014054005000848645,
+                "p90": 0.02481599044572814,
+                "p95": 0.032405870168775185,
+                "p99": 0.05929322199988471
+              }
+            },
+            "tail_labels": {
+              "threshold_iterations": 12.100000000000009,
+              "tail_count": 14,
+              "tail_fraction": 0.1,
+              "labels": {
+                "effective_temperature": {
+                  "population_mean": 7229.007185885436,
+                  "tail_mean": 7726.343345729147,
+                  "tail_min": 4286.810974183783,
+                  "tail_max": 9801.675262511439
+                },
+                "log_surface_gravity": {
+                  "population_mean": 3.6160050521718454,
+                  "tail_mean": 4.12116366162232,
+                  "tail_min": 3.4273967025389993,
+                  "tail_max": 5.292412266487543
+                },
+                "metallicity": {
+                  "population_mean": -1.0786107526137447,
+                  "tail_mean": -1.0758224017152966,
+                  "tail_min": -2.3277608101472733,
+                  "tail_max": 0.4004986075841295
+                },
+                "alpha_enhancement": {
+                  "population_mean": 0.1782756010756281,
+                  "tail_mean": 0.2605326214999762,
+                  "tail_min": -0.08003559458429728,
+                  "tail_max": 0.47264182504486063
+                },
+                "microturbulence_km_s": {
+                  "population_mean": 2.1749242256900883,
+                  "tail_mean": 2.0077429216645557,
+                  "tail_min": 0.5004944786519756,
+                  "tail_max": 3.479643483459285
+                }
+              }
+            },
+            "headroom": {
+              "iteration_floor": 3,
+              "stars_already_at_floor": 3,
+              "stars_already_at_floor_fraction": 0.02142857142857143,
+              "total_iterations_burned": 1145,
+              "recoverable_iterations": 725,
+              "recoverable_fraction": 0.6331877729257642
+            }
+          }
+        }
+      }
+    }
+  },
+  "common_star_slugs": {
+    "all_four": [
+      "t04101.2_g+4.48_m+0.47_a+0.30_x0.59",
+      "t04235.2_g+4.62_m-0.32_a+0.40_x2.87",
+      "t04260.5_g+3.77_m-0.04_a+0.38_x2.55",
+      "t04437.6_g+4.21_m-0.42_a-0.02_x1.75",
+      "t04482.9_g+4.81_m+0.05_a-0.03_x1.92",
+      "t04516.3_g+4.70_m-0.47_a+0.05_x2.09",
+      "t04555.0_g+4.04_m-0.64_a+0.30_x2.42",
+      "t04561.6_g+4.56_m+0.40_a+0.38_x1.57",
+      "t04576.9_g+4.34_m-0.12_a+0.08_x2.36",
+      "t04640.6_g+5.25_m-0.35_a+0.00_x3.92",
+      "t04649.7_g+4.46_m-0.27_a+0.09_x2.09",
+      "t04749.8_g+4.23_m-0.68_a-0.04_x1.73",
+      "t04813.6_g+4.79_m-0.17_a+0.15_x2.07",
+      "t04819.9_g+4.92_m-1.31_a+0.25_x2.23",
+      "t04923.6_g+4.08_m-0.11_a+0.32_x0.78",
+      "t04999.6_g+5.17_m-0.29_a-0.05_x1.90",
+      "t05004.6_g+4.52_m-0.33_a+0.47_x3.96",
+      "t05193.7_g+5.29_m-0.12_a-0.10_x1.39",
+      "t05197.9_g+4.70_m-0.12_a+0.47_x1.94",
+      "t05234.3_g+5.07_m-1.04_a-0.03_x3.78",
+      "t05269.9_g+5.00_m-2.07_a+0.17_x1.14",
+      "t05300.3_g+3.94_m-1.30_a+0.21_x3.50",
+      "t05324.7_g+4.19_m-1.47_a-0.07_x1.69",
+      "t05355.8_g+3.96_m-0.68_a+0.04_x2.02",
+      "t05366.8_g+4.02_m-2.10_a-0.03_x2.17",
+      "t05532.5_g+3.53_m-0.73_a+0.26_x2.48",
+      "t05555.4_g+3.88_m-1.92_a+0.33_x1.64",
+      "t05582.9_g+3.88_m-1.32_a+0.25_x1.40",
+      "t05609.0_g+4.65_m-2.24_a+0.04_x2.11",
+      "t05687.1_g+4.36_m-1.48_a+0.20_x0.52",
+      "t05748.9_g+3.74_m-1.02_a+0.33_x2.20",
+      "t05754.2_g+4.99_m-1.52_a+0.20_x1.12",
+      "t05791.1_g+3.20_m-2.19_a+0.02_x2.59",
+      "t05862.8_g+3.81_m-0.75_a+0.12_x2.29",
+      "t05876.3_g+3.62_m-1.06_a-0.07_x0.58",
+      "t08452.6_g+1.48_m-0.84_a+0.25_x3.73",
+      "t09120.4_g+2.05_m-0.19_a+0.26_x2.74",
+      "t09671.0_g+2.30_m-1.01_a-0.02_x0.79",
+      "t10158.1_g+1.50_m-2.12_a+0.31_x1.99",
+      "t10159.5_g+2.55_m-0.42_a+0.46_x2.69",
+      "t10221.3_g+2.66_m-1.77_a+0.05_x1.55",
+      "t10236.4_g+2.59_m-1.24_a+0.26_x2.17",
+      "t10366.1_g+2.44_m-2.02_a-0.10_x3.21",
+      "t10408.1_g+2.68_m-1.97_a-0.07_x3.00",
+      "t10436.8_g+1.86_m-1.33_a+0.29_x3.68",
+      "t10462.5_g+2.17_m-2.44_a+0.28_x0.68",
+      "t10469.3_g+2.42_m+0.04_a-0.02_x3.23"
+    ],
+    "previous60": [
+      "t04019.8_g+3.22_m-1.62_a+0.04_x1.21",
+      "t04025.7_g+5.12_m-0.38_a+0.46_x0.54",
+      "t04070.2_g+3.54_m-1.44_a+0.44_x2.35",
+      "t04101.2_g+4.48_m+0.47_a+0.30_x0.59",
+      "t04242.2_g+0.80_m-1.91_a+0.42_x2.25",
+      "t04329.2_g+5.28_m+0.15_a+0.26_x2.05",
+      "t04356.2_g+3.24_m-1.99_a+0.08_x2.22",
+      "t04542.4_g+3.45_m-0.99_a-0.02_x0.68",
+      "t04555.0_g+4.04_m-0.64_a+0.30_x2.42",
+      "t04561.6_g+4.56_m+0.40_a+0.38_x1.57",
+      "t04618.4_g+0.90_m-0.90_a+0.25_x3.09",
+      "t04819.9_g+4.92_m-1.31_a+0.25_x2.23",
+      "t05076.3_g+2.19_m-1.34_a-0.08_x1.03",
+      "t05114.1_g+1.04_m-2.03_a+0.38_x3.65",
+      "t05197.9_g+4.70_m-0.12_a+0.47_x1.94",
+      "t05300.3_g+3.94_m-1.30_a+0.21_x3.50",
+      "t05876.3_g+3.62_m-1.06_a-0.07_x0.58",
+      "t06397.5_g+3.90_m+0.06_a-0.10_x1.96",
+      "t06476.8_g+4.48_m-0.32_a+0.02_x1.35",
+      "t06492.1_g+3.63_m-0.79_a+0.19_x2.78",
+      "t06695.5_g+3.50_m-0.88_a+0.25_x0.57",
+      "t06737.7_g+4.62_m-0.51_a+0.02_x1.88",
+      "t06816.6_g+4.10_m+0.12_a+0.01_x2.03",
+      "t07349.5_g+4.49_m-0.40_a+0.07_x1.70",
+      "t07643.4_g+2.75_m-1.15_a+0.18_x2.41",
+      "t07767.0_g+3.36_m-0.28_a+0.12_x2.28",
+      "t07875.6_g+4.55_m-1.81_a-0.08_x1.87",
+      "t08143.4_g+2.86_m-1.89_a+0.36_x0.85",
+      "t08216.8_g+5.26_m-0.49_a+0.28_x2.71",
+      "t08237.8_g+2.18_m-1.37_a+0.49_x2.34",
+      "t08404.0_g+4.44_m-2.42_a+0.08_x2.77",
+      "t08413.2_g+3.62_m+0.24_a+0.18_x2.21",
+      "t08552.5_g+2.20_m-1.34_a+0.21_x3.15",
+      "t08553.1_g+3.34_m-0.87_a+0.13_x1.05",
+      "t08674.1_g+2.95_m-0.45_a+0.38_x2.34",
+      "t08683.0_g+2.46_m-1.09_a+0.12_x1.31",
+      "t08982.1_g+4.08_m-1.80_a+0.30_x1.46",
+      "t08984.1_g+3.77_m-1.35_a+0.10_x2.46",
+      "t09061.7_g+4.52_m-2.38_a+0.32_x2.46",
+      "t09120.4_g+2.05_m-0.19_a+0.26_x2.74",
+      "t09216.8_g+3.54_m-0.52_a-0.06_x2.35",
+      "t09360.2_g+4.24_m-0.45_a+0.00_x1.53",
+      "t09418.9_g+4.16_m-0.47_a+0.01_x2.79",
+      "t09435.6_g+4.84_m-1.30_a+0.49_x0.70",
+      "t09493.7_g+2.77_m-2.12_a+0.36_x2.82",
+      "t09766.3_g+4.55_m-0.70_a+0.40_x1.71",
+      "t09783.2_g+3.29_m-0.31_a+0.01_x1.31",
+      "t09814.2_g+3.48_m+0.38_a+0.43_x3.07",
+      "t09846.6_g+3.32_m+0.44_a-0.08_x3.08",
+      "t09860.7_g+4.35_m-0.07_a+0.36_x1.91",
+      "t09996.1_g+2.87_m-0.84_a+0.30_x3.93",
+      "t10047.4_g+4.10_m-0.79_a-0.06_x1.83",
+      "t10069.6_g+4.49_m-1.96_a+0.23_x1.59",
+      "t10140.3_g+4.64_m-1.67_a+0.30_x0.80",
+      "t10159.5_g+2.55_m-0.42_a+0.46_x2.69",
+      "t10207.6_g+3.26_m-1.19_a+0.30_x1.63",
+      "t10221.3_g+2.66_m-1.77_a+0.05_x1.55",
+      "t10356.9_g+4.45_m+0.31_a-0.06_x1.96",
+      "t10366.1_g+2.44_m-2.02_a-0.10_x3.21",
+      "t10381.9_g+1.81_m-0.18_a-0.07_x2.64"
+    ],
+    "added140": [
+      "t04085.3_g+1.76_m-2.33_a+0.33_x1.19",
+      "t04142.7_g+0.70_m-1.38_a-0.02_x3.13",
+      "t04232.9_g+0.78_m-1.58_a+0.48_x0.88",
+      "t04235.2_g+4.62_m-0.32_a+0.40_x2.87",
+      "t04260.5_g+3.77_m-0.04_a+0.38_x2.55",
+      "t04262.6_g+1.48_m-0.55_a-0.02_x2.73",
+      "t04286.8_g+5.29_m-1.83_a+0.40_x0.50",
+      "t04341.1_g+1.60_m-0.80_a+0.09_x0.80",
+      "t04394.2_g+4.89_m-2.24_a+0.46_x1.82",
+      "t04437.6_g+4.21_m-0.42_a-0.02_x1.75",
+      "t04478.6_g+1.63_m+0.49_a+0.05_x2.40",
+      "t04482.9_g+4.81_m+0.05_a-0.03_x1.92",
+      "t04516.3_g+4.70_m-0.47_a+0.05_x2.09",
+      "t04533.7_g+4.72_m-2.21_a+0.15_x1.55",
+      "t04576.9_g+4.34_m-0.12_a+0.08_x2.36",
+      "t04640.6_g+5.25_m-0.35_a+0.00_x3.92",
+      "t04642.8_g+5.10_m-0.36_a+0.32_x2.90",
+      "t04649.7_g+4.46_m-0.27_a+0.09_x2.09",
+      "t04749.8_g+4.23_m-0.68_a-0.04_x1.73",
+      "t04754.0_g+0.77_m-1.80_a+0.37_x2.63",
+      "t04756.5_g+5.21_m-1.88_a+0.05_x1.05",
+      "t04813.6_g+4.79_m-0.17_a+0.15_x2.07",
+      "t04824.1_g+0.91_m-1.75_a-0.05_x1.95",
+      "t04829.4_g+3.88_m-1.48_a+0.03_x3.47",
+      "t04835.0_g+4.67_m+0.38_a+0.35_x1.95",
+      "t04849.9_g+1.18_m-0.85_a+0.15_x2.79",
+      "t04885.5_g+1.61_m+0.01_a+0.14_x0.69",
+      "t04923.6_g+4.08_m-0.11_a+0.32_x0.78",
+      "t04929.7_g+1.79_m+0.48_a+0.44_x3.12",
+      "t04999.6_g+5.17_m-0.29_a-0.05_x1.90",
+      "t05004.6_g+4.52_m-0.33_a+0.47_x3.96",
+      "t05066.0_g+0.94_m-2.07_a+0.21_x1.39",
+      "t05107.9_g+1.98_m-1.96_a+0.23_x0.80",
+      "t05193.7_g+5.29_m-0.12_a-0.10_x1.39",
+      "t05234.3_g+5.07_m-1.04_a-0.03_x3.78",
+      "t05269.9_g+5.00_m-2.07_a+0.17_x1.14",
+      "t05324.7_g+4.19_m-1.47_a-0.07_x1.69",
+      "t05355.8_g+3.96_m-0.68_a+0.04_x2.02",
+      "t05366.8_g+4.02_m-2.10_a-0.03_x2.17",
+      "t05415.6_g+1.39_m-2.17_a+0.15_x3.70",
+      "t05532.5_g+3.53_m-0.73_a+0.26_x2.48",
+      "t05555.4_g+3.88_m-1.92_a+0.33_x1.64",
+      "t05582.9_g+3.88_m-1.32_a+0.25_x1.40",
+      "t05609.0_g+4.65_m-2.24_a+0.04_x2.11",
+      "t05687.1_g+4.36_m-1.48_a+0.20_x0.52",
+      "t05718.8_g+4.47_m+0.45_a+0.03_x1.62",
+      "t05748.9_g+3.74_m-1.02_a+0.33_x2.20",
+      "t05754.2_g+4.99_m-1.52_a+0.20_x1.12",
+      "t05791.1_g+3.20_m-2.19_a+0.02_x2.59",
+      "t05794.9_g+4.43_m-1.73_a+0.27_x0.98",
+      "t05795.7_g+4.39_m-1.50_a+0.07_x1.40",
+      "t05862.8_g+3.81_m-0.75_a+0.12_x2.29",
+      "t05944.1_g+3.99_m+0.31_a+0.06_x2.98",
+      "t05955.5_g+3.21_m+0.31_a+0.28_x2.20",
+      "t05966.6_g+4.91_m-1.75_a-0.04_x3.72",
+      "t05994.5_g+4.66_m-1.28_a+0.09_x2.99",
+      "t06168.4_g+5.12_m-2.27_a-0.03_x1.06",
+      "t06311.9_g+4.06_m+0.03_a+0.19_x1.82",
+      "t06320.5_g+3.58_m-2.23_a+0.36_x0.91",
+      "t06329.5_g+4.72_m-2.42_a+0.22_x2.58",
+      "t06342.1_g+4.73_m-2.45_a+0.36_x1.72",
+      "t06353.8_g+3.84_m+0.44_a-0.03_x2.15",
+      "t06477.7_g+3.95_m-0.22_a-0.07_x1.70",
+      "t06596.4_g+4.84_m-0.25_a-0.04_x1.60",
+      "t06695.4_g+4.31_m-1.20_a+0.33_x2.55",
+      "t06719.7_g+4.91_m-0.73_a+0.31_x0.81",
+      "t06818.5_g+5.03_m-0.02_a+0.04_x2.49",
+      "t06933.9_g+4.73_m-1.65_a+0.16_x2.18",
+      "t07105.8_g+4.61_m-0.72_a-0.04_x2.22",
+      "t07239.6_g+4.85_m-0.48_a+0.49_x3.87",
+      "t07250.2_g+3.43_m+0.20_a+0.05_x3.39",
+      "t07255.6_g+5.06_m-1.85_a+0.08_x3.02",
+      "t07298.1_g+4.76_m-0.52_a+0.30_x2.19",
+      "t07361.7_g+5.10_m-2.07_a+0.41_x3.27",
+      "t07515.7_g+2.57_m-1.48_a+0.39_x3.45",
+      "t07528.2_g+2.54_m-1.59_a+0.30_x2.27",
+      "t07721.6_g+4.46_m-1.68_a+0.41_x2.85",
+      "t07743.8_g+3.58_m-0.79_a+0.08_x0.51",
+      "t07809.1_g+5.09_m-1.57_a+0.21_x3.87",
+      "t07860.9_g+5.03_m-2.09_a+0.30_x3.36",
+      "t07897.4_g+1.72_m-2.47_a+0.05_x2.07",
+      "t08047.9_g+4.06_m-2.33_a+0.21_x3.46",
+      "t08080.7_g+3.40_m-0.53_a-0.10_x2.77",
+      "t08113.3_g+3.50_m-1.91_a+0.11_x1.06",
+      "t08128.7_g+3.68_m-0.16_a+0.47_x1.69",
+      "t08165.0_g+1.58_m-2.32_a+0.32_x2.94",
+      "t08238.5_g+4.07_m-0.94_a+0.07_x2.66",
+      "t08247.5_g+3.88_m-0.11_a+0.11_x1.92",
+      "t08372.6_g+4.53_m-0.53_a+0.25_x1.59",
+      "t08452.6_g+1.48_m-0.84_a+0.25_x3.73",
+      "t08497.9_g+4.40_m-0.37_a+0.31_x0.78",
+      "t08529.7_g+3.45_m+0.18_a+0.12_x0.94",
+      "t08581.3_g+1.58_m+0.17_a+0.19_x3.92",
+      "t08597.8_g+4.48_m-0.56_a+0.12_x1.87",
+      "t08643.1_g+3.85_m-2.41_a+0.17_x3.80",
+      "t08703.4_g+3.31_m-2.33_a+0.19_x2.05",
+      "t08729.6_g+1.07_m-0.79_a+0.43_x2.16",
+      "t08771.8_g+3.73_m-1.34_a+0.29_x1.53",
+      "t08777.8_g+2.45_m-0.08_a-0.07_x0.74",
+      "t08822.8_g+3.56_m-1.20_a+0.25_x2.36",
+      "t08888.0_g+3.10_m-2.39_a+0.29_x2.26",
+      "t08961.7_g+1.56_m-2.46_a+0.24_x3.46",
+      "t09097.8_g+2.77_m-1.32_a+0.48_x3.95",
+      "t09144.2_g+4.04_m-2.48_a+0.17_x0.73",
+      "t09259.1_g+4.19_m-1.74_a+0.39_x2.20",
+      "t09270.5_g+3.94_m-2.29_a+0.05_x1.73",
+      "t09276.1_g+2.64_m-1.82_a+0.49_x3.98",
+      "t09343.8_g+4.00_m-1.54_a+0.23_x2.96",
+      "t09400.6_g+4.13_m-0.43_a+0.10_x1.14",
+      "t09404.6_g+4.71_m+0.19_a+0.25_x0.97",
+      "t09406.3_g+3.53_m-2.05_a+0.11_x1.29",
+      "t09579.4_g+2.03_m+0.36_a+0.20_x2.60",
+      "t09618.5_g+3.90_m-2.17_a+0.39_x1.48",
+      "t09619.5_g+3.29_m-2.27_a+0.31_x2.22",
+      "t09620.2_g+4.40_m+0.01_a+0.30_x2.47",
+      "t09671.0_g+2.30_m-1.01_a-0.02_x0.79",
+      "t09689.7_g+4.23_m-0.73_a+0.06_x2.61",
+      "t09745.9_g+3.68_m+0.40_a-0.08_x2.98",
+      "t09789.1_g+3.06_m-2.06_a+0.14_x3.64",
+      "t09801.7_g+4.17_m-0.38_a+0.28_x3.48",
+      "t09806.5_g+3.42_m-0.60_a+0.18_x2.44",
+      "t09894.0_g+3.52_m-1.89_a+0.07_x3.91",
+      "t09911.3_g+3.89_m-1.51_a+0.49_x1.55",
+      "t09913.8_g+3.97_m-0.50_a+0.36_x1.74",
+      "t10006.5_g+3.45_m+0.22_a+0.31_x1.09",
+      "t10158.1_g+1.50_m-2.12_a+0.31_x1.99",
+      "t10177.4_g+3.92_m-0.37_a-0.01_x2.76",
+      "t10236.4_g+2.59_m-1.24_a+0.26_x2.17",
+      "t10360.4_g+3.29_m-2.08_a+0.14_x2.31",
+      "t10377.5_g+3.50_m+0.22_a+0.19_x2.31",
+      "t10395.9_g+4.13_m-1.76_a-0.06_x3.18",
+      "t10408.1_g+2.68_m-1.97_a-0.07_x3.00",
+      "t10436.8_g+1.86_m-1.33_a+0.29_x3.68",
+      "t10445.9_g+2.96_m-2.13_a+0.37_x2.46",
+      "t10446.0_g+3.16_m-1.87_a-0.06_x1.08",
+      "t10457.5_g+4.75_m-0.44_a+0.15_x0.56",
+      "t10462.5_g+2.17_m-2.44_a+0.28_x0.68",
+      "t10469.3_g+2.42_m+0.04_a-0.02_x3.23",
+      "t10470.3_g+2.76_m+0.48_a+0.11_x0.72",
+      "t10497.2_g+3.13_m+0.20_a+0.14_x0.94"
+    ]
+  },
+  "spectra": {
+    "expanded200": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 189,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.0013448016408524888,
+          "p95_max": 0.004483611425180899,
+          "max": 0.00884474839556515,
+          "stars_over_bar": 7,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.0014729419893186294,
+          "p95_max": 0.004878120182850902,
+          "max": 0.008704527036516328,
+          "stars_over_bar": 10,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0005522186727777157,
+          "p95_max": 0.0019563567812953147,
+          "max": 0.004475444987339726,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 48,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.019677581056834773,
+          "p95_max": 0.08047655528313165,
+          "max": 0.11584750165684399,
+          "stars_over_bar": 38,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.01966784166866141,
+          "p95_max": 0.08042479527733566,
+          "max": 0.11574007784200592,
+          "stars_over_bar": 38,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0007662910729047063,
+          "p95_max": 0.00316337746701138,
+          "max": 0.006783756718900309,
+          "stars_over_bar": 1,
+          "passes": false
+        }
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 186,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.002724189390869297,
+          "p95_max": 0.012797738646984448,
+          "max": 0.02011261196654346,
+          "stars_over_bar": 41,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.0029295132545511947,
+          "p95_max": 0.013002506321245052,
+          "max": 0.01936725322293317,
+          "stars_over_bar": 44,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0008696314879879654,
+          "p95_max": 0.003764389341087823,
+          "max": 0.007437371332429137,
+          "stars_over_bar": 6,
+          "passes": false
+        }
+      }
+    },
+    "previous60": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 56,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.0013360337744239281,
+          "p95_max": 0.00538079162730884,
+          "max": 0.00884474839556515,
+          "stars_over_bar": 4,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.0014599336724418653,
+          "p95_max": 0.005696448578893109,
+          "max": 0.008704527036516328,
+          "stars_over_bar": 4,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0005533201141613279,
+          "p95_max": 0.001918360918591383,
+          "max": 0.0029940130375616966,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 12,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.03252026581326433,
+          "p95_max": 0.09036498747807681,
+          "max": 0.11584750165684399,
+          "stars_over_bar": 10,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.03242065455814508,
+          "p95_max": 0.09038008389107585,
+          "max": 0.11574007784200592,
+          "stars_over_bar": 10,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0008363065756200751,
+          "p95_max": 0.0030796857031749635,
+          "max": 0.0033098380537251093,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 56,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.002700610031211109,
+          "p95_max": 0.0142789192763038,
+          "max": 0.01832579289322306,
+          "stars_over_bar": 14,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.003078098548769402,
+          "p95_max": 0.013921158415495679,
+          "max": 0.01936725322293317,
+          "stars_over_bar": 17,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0007618426028994047,
+          "p95_max": 0.0036312265306335067,
+          "max": 0.007437371332429137,
+          "stars_over_bar": 1,
+          "passes": false
+        }
+      }
+    },
+    "added140": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 133,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.001349279830014205,
+          "p95_max": 0.0042213897673647445,
+          "max": 0.005563305508715477,
+          "stars_over_bar": 3,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.0014759896257778985,
+          "p95_max": 0.00452329991444326,
+          "max": 0.006108724037284671,
+          "stars_over_bar": 6,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0005522186727777157,
+          "p95_max": 0.0020038421217598063,
+          "max": 0.004475444987339726,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 36,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.018851774916583436,
+          "p95_max": 0.07917233342880799,
+          "max": 0.10655511241439308,
+          "stars_over_bar": 28,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.01894572026325289,
+          "p95_max": 0.07906564942039902,
+          "max": 0.10761238066559356,
+          "stars_over_bar": 28,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0006928810671991884,
+          "p95_max": 0.002599153610622804,
+          "max": 0.006783756718900309,
+          "stars_over_bar": 1,
+          "passes": false
+        }
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 130,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.0027726212201825973,
+          "p95_max": 0.0124230150797502,
+          "max": 0.02011261196654346,
+          "stars_over_bar": 27,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.002912771467259147,
+          "p95_max": 0.012456949765450798,
+          "max": 0.01921258273171263,
+          "stars_over_bar": 27,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.000900144091594377,
+          "p95_max": 0.003984664398835335,
+          "max": 0.007349244464397309,
+          "stars_over_bar": 5,
+          "passes": false
+        }
+      }
+    },
+    "all_four_common": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 47,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.0017031299639225228,
+          "p95_max": 0.0036517464771857796,
+          "max": 0.005231306893746401,
+          "stars_over_bar": 1,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.0016195358140893496,
+          "p95_max": 0.003766498177843482,
+          "max": 0.005064565030868377,
+          "stars_over_bar": 1,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0005522186727777157,
+          "p95_max": 0.0018334181284930208,
+          "max": 0.0029541804643789947,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 47,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.01946804553775655,
+          "p95_max": 0.08063958301492209,
+          "max": 0.11584750165684399,
+          "stars_over_bar": 37,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.019480646027627217,
+          "p95_max": 0.08059468850945273,
+          "max": 0.11574007784200592,
+          "stars_over_bar": 37,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0007951766988683046,
+          "p95_max": 0.0031843004079704826,
+          "max": 0.006783756718900309,
+          "stars_over_bar": 1,
+          "passes": false
+        }
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 47,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.0024277137857996456,
+          "p95_max": 0.008434593659785886,
+          "max": 0.014080662567297786,
+          "stars_over_bar": 6,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.002515798477063413,
+          "p95_max": 0.008241115669301283,
+          "max": 0.01317215766865001,
+          "stars_over_bar": 6,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0007053768544266944,
+          "p95_max": 0.0024496628322612916,
+          "max": 0.00348632493735155,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      }
+    }
+  },
+  "final_structure": {
+    "expanded200": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 189,
+        "field_star_count": {
+          "column_mass": 189,
+          "temperature": 189,
+          "gas_pressure": 189,
+          "electron_density": 189,
+          "rosseland_opacity": 56,
+          "radiative_acceleration": 56
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0005747173772486791,
+            "p95": 0.007615426895112875,
+            "max": 0.05076206926904159
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00010042956119482582,
+            "p95": 0.0005625484126551725,
+            "max": 0.06331982515428347
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.0007368061432753703,
+            "p95": 0.00805820860589481,
+            "max": 0.13030277513321575
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0007670790605978084,
+            "p95": 0.005829764253625932,
+            "max": 0.10272722733885598
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.0009175642963709929,
+            "p95": 0.007931657398100311,
+            "max": 0.06697804395626461
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.0010035133036005168,
+            "p95": 0.01516608508384005,
+            "max": 118.69962444852085
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 48,
+        "field_star_count": {
+          "column_mass": 48,
+          "temperature": 48,
+          "gas_pressure": 48,
+          "electron_density": 48,
+          "rosseland_opacity": 12,
+          "radiative_acceleration": 12
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0012189538191980653,
+            "p95": 0.11892008878856405,
+            "max": 0.8893322849411143
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00032763649351852386,
+            "p95": 0.019190183189818216,
+            "max": 0.04281711357819118
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.001509934815826064,
+            "p95": 0.13471688784841873,
+            "max": 1.4660011835306044
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0021928905092511997,
+            "p95": 0.13319520811294758,
+            "max": 0.8522037376281366
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.002055249403403403,
+            "p95": 0.143192023132642,
+            "max": 0.5858929888054005
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.0017975269896807538,
+            "p95": 0.30291891224431533,
+            "max": 3.9166057059253836
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 186,
+        "field_star_count": {
+          "column_mass": 186,
+          "temperature": 186,
+          "gas_pressure": 186,
+          "electron_density": 186,
+          "rosseland_opacity": 56,
+          "radiative_acceleration": 56
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0009887219461588437,
+            "p95": 0.0219691001707189,
+            "max": 0.2504555372963262
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00016413530548486932,
+            "p95": 0.0011787686428941008,
+            "max": 0.06977209456113087
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.0013053319443783185,
+            "p95": 0.02392118015369462,
+            "max": 0.25542415558614384
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.001339241865487395,
+            "p95": 0.012225143579381467,
+            "max": 0.15983717766125505
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.0013982220917096722,
+            "p95": 0.019383991116852992,
+            "max": 0.20506268643399772
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.0014020495134908048,
+            "p95": 0.031500679722281204,
+            "max": 1.4886161156206692
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      }
+    },
+    "previous60": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 56,
+        "field_star_count": {
+          "column_mass": 56,
+          "temperature": 56,
+          "gas_pressure": 56,
+          "electron_density": 56,
+          "rosseland_opacity": 56,
+          "radiative_acceleration": 56
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0006057712585356145,
+            "p95": 0.008998460317606828,
+            "max": 0.0328193727747319
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00010055522439644804,
+            "p95": 0.0005449039544951795,
+            "max": 0.06331982515428347
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.00075447660306871,
+            "p95": 0.009266784538172153,
+            "max": 0.0339648481990914
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0006979423792303763,
+            "p95": 0.006060091812384894,
+            "max": 0.0617768734226436
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.0009175642963709929,
+            "p95": 0.007931657398100311,
+            "max": 0.06697804395626461
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.0010035133036005168,
+            "p95": 0.01516608508384005,
+            "max": 118.69962444852085
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 12,
+        "field_star_count": {
+          "column_mass": 12,
+          "temperature": 12,
+          "gas_pressure": 12,
+          "electron_density": 12,
+          "rosseland_opacity": 12,
+          "radiative_acceleration": 12
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0011909151387373695,
+            "p95": 0.1469180672360675,
+            "max": 0.571870586436126
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00038227600551343777,
+            "p95": 0.026076205998777156,
+            "max": 0.04281711357819118
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.001322417075063198,
+            "p95": 0.22607233412242514,
+            "max": 1.0149074810665222
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.002206321852126436,
+            "p95": 0.18200090884697484,
+            "max": 0.721620914310817
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.002055249403403403,
+            "p95": 0.143192023132642,
+            "max": 0.5858929888054005
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.0017975269896807538,
+            "p95": 0.30291891224431533,
+            "max": 3.9166057059253836
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 56,
+        "field_star_count": {
+          "column_mass": 56,
+          "temperature": 56,
+          "gas_pressure": 56,
+          "electron_density": 56,
+          "rosseland_opacity": 56,
+          "radiative_acceleration": 56
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0009357770182402136,
+            "p95": 0.0236126272135761,
+            "max": 0.18804230810008082
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00015712942135048813,
+            "p95": 0.001332310331195297,
+            "max": 0.02280337523527276
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.0012260594898563237,
+            "p95": 0.026117149046593728,
+            "max": 0.20602982412328652
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0012300065038370889,
+            "p95": 0.014764239508803295,
+            "max": 0.15983717766125505
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.0013982220917096722,
+            "p95": 0.019383991116852992,
+            "max": 0.20506268643399772
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.0014020495134908048,
+            "p95": 0.031500679722281204,
+            "max": 1.4886161156206692
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      }
+    },
+    "added140": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 133,
+        "field_star_count": {
+          "column_mass": 133,
+          "temperature": 133,
+          "gas_pressure": 133,
+          "electron_density": 133,
+          "rosseland_opacity": 0,
+          "radiative_acceleration": 0
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0005557932245990882,
+            "p95": 0.007069171822774528,
+            "max": 0.05076206926904159
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00010034025777949651,
+            "p95": 0.0005686221494829224,
+            "max": 0.055741730075221874
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.000728870577767271,
+            "p95": 0.007517772595929687,
+            "max": 0.13030277513321575
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0007917859657240456,
+            "p95": 0.005774180347589821,
+            "max": 0.10272722733885598
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 36,
+        "field_star_count": {
+          "column_mass": 36,
+          "temperature": 36,
+          "gas_pressure": 36,
+          "electron_density": 36,
+          "rosseland_opacity": 0,
+          "radiative_acceleration": 0
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0012252176616429633,
+            "p95": 0.10655495430561662,
+            "max": 0.8893322849411143
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.0003178194856376937,
+            "p95": 0.01630843251714888,
+            "max": 0.042425614972433134
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.001548293482461549,
+            "p95": 0.12354673189869447,
+            "max": 1.4660011835306044
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0021851964990693418,
+            "p95": 0.11446456158075835,
+            "max": 0.8522037376281366
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 130,
+        "field_star_count": {
+          "column_mass": 130,
+          "temperature": 130,
+          "gas_pressure": 130,
+          "electron_density": 130,
+          "rosseland_opacity": 0,
+          "radiative_acceleration": 0
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.001014379655284503,
+            "p95": 0.021168204298549,
+            "max": 0.2504555372963262
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.0001675158562306489,
+            "p95": 0.0011227096365078006,
+            "max": 0.06977209456113087
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.0013376809180276616,
+            "p95": 0.022733648076046244,
+            "max": 0.25542415558614384
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0013983200054381584,
+            "p95": 0.011452251058562396,
+            "max": 0.128839457223755
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      }
+    },
+    "all_four_common": {
+      "learned_reduced_state": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 47,
+        "field_star_count": {
+          "column_mass": 47,
+          "temperature": 47,
+          "gas_pressure": 47,
+          "electron_density": 47,
+          "rosseland_opacity": 11,
+          "radiative_acceleration": 11
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.000329710472764394,
+            "p95": 0.005004936832726678,
+            "max": 0.019617334041694967
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 9.807066909983675e-05,
+            "p95": 0.0005840478256291299,
+            "max": 0.004486954078322114
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.00047302338710741854,
+            "p95": 0.005156211208097229,
+            "max": 0.025188690498871402
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0008331134214554226,
+            "p95": 0.005794986142715786,
+            "max": 0.02329339023139454
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.0005244863700071267,
+            "p95": 0.005555311713659038,
+            "max": 0.01927626738797017
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.0003300621259770178,
+            "p95": 0.019512850477389546,
+            "max": 0.09803220035778176
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "grey15": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 47,
+        "field_star_count": {
+          "column_mass": 47,
+          "temperature": 47,
+          "gas_pressure": 47,
+          "electron_density": 47,
+          "rosseland_opacity": 11,
+          "radiative_acceleration": 11
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0011917529044437325,
+            "p95": 0.12055722490020726,
+            "max": 0.8893322849411143
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.0003270242504844756,
+            "p95": 0.017604860999303196,
+            "max": 0.042425614972433134
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.0015081593372756608,
+            "p95": 0.13146132007315905,
+            "max": 1.4660011835306044
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.002201617019628621,
+            "p95": 0.1301897649545233,
+            "max": 0.8522037376281366
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.002112054108657113,
+            "p95": 0.14796531468219357,
+            "max": 0.5858929888054005
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.001552691235642387,
+            "p95": 0.44255486372206054,
+            "max": 3.9166057059253836
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      },
+      "interpolated_full_state": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 47,
+        "field_star_count": {
+          "column_mass": 47,
+          "temperature": 47,
+          "gas_pressure": 47,
+          "electron_density": 47,
+          "rosseland_opacity": 11,
+          "radiative_acceleration": 11
+        },
+        "fields": {
+          "column_mass": {
+            "metric": "absolute_dex",
+            "median": 0.0005748960386482427,
+            "p95": 0.006641589375354611,
+            "max": 0.16263185211359676
+          },
+          "temperature": {
+            "metric": "absolute_dex",
+            "median": 0.00014119945117507804,
+            "p95": 0.0009619157279129758,
+            "max": 0.0037421488947773085
+          },
+          "gas_pressure": {
+            "metric": "absolute_dex",
+            "median": 0.0007926995052245367,
+            "p95": 0.007370614358089042,
+            "max": 0.1843299089396857
+          },
+          "electron_density": {
+            "metric": "absolute_dex",
+            "median": 0.0012275652655437952,
+            "p95": 0.008851736455626822,
+            "max": 0.042781873010142135
+          },
+          "rosseland_opacity": {
+            "metric": "absolute_dex",
+            "median": 0.0006971024958026817,
+            "p95": 0.007968934651415393,
+            "max": 0.03484700979062616
+          },
+          "radiative_acceleration": {
+            "metric": "floored_normalized",
+            "median": 0.00038878027809513197,
+            "p95": 0.011751432199401899,
+            "max": 0.06133333333333326
+          }
+        },
+        "note": "The reusable two-field and six-field campaign saved structured product fields but not rosseland_opacity or radiative_acceleration; those two fields are reported only when both sides have full solver profiles."
+      }
+    }
+  },
+  "previous_report": {
+    "path": "results/atmosphere_interpolation_benchmark_20260813/four_initializer_comparison.json",
+    "sha256": "901d58da7629aeb1ca57d7d86b5b7603b2708268b32fae4a285147b8d0ff8675",
+    "convergence": {
+      "production_six_field": {
+        "star_count": 60,
+        "converged_count": 58,
+        "converged_fraction": 0.9666666666666667,
+        "summary": {
+          "star_count": 60,
+          "converged_count": 58,
+          "converged_fraction": 0.9666666666666667,
+          "retry_count": 0,
+          "retry_fraction": 0.0,
+          "failure_count": 2,
+          "failure_fraction": 0.03333333333333333,
+          "converging_trial_iterations": {
+            "mean": 6.120689655172414,
+            "p50": 6.0,
+            "p75": 7.0,
+            "p90": 8.0,
+            "p95": 10.0,
+            "p99": 10.0,
+            "max": 10.0,
+            "histogram": {
+              "3": 4,
+              "4": 8,
+              "5": 13,
+              "6": 8,
+              "7": 12,
+              "8": 8,
+              "10": 5
+            }
+          },
+          "total_iterations_including_retries": {
+            "mean": 6.416666666666667,
+            "p50": 6.0,
+            "p75": 7.25,
+            "p90": 10.0,
+            "p95": 10.0,
+            "p99": 15.0,
+            "max": 15.0
+          },
+          "seconds_per_star": {
+            "mean": 166.92749133072795,
+            "p50": 109.1023835807573,
+            "p75": 143.94674448715523,
+            "p90": 261.170089732809,
+            "p95": 506.0969048663042,
+            "p99": 1023.8714860716622,
+            "total_hours": 2.7821248555121323
+          },
+          "stage_seconds": {
+            "first_iteration_mean": {
+              "population_seconds": 0.5010076842814063,
+              "opacity_seconds": 32.4189933288532,
+              "transfer_seconds": 0.5512232051463798,
+              "finalization_seconds": 0.561863650730811,
+              "remap_seconds": 0.002926086688724657
+            },
+            "later_iteration_mean": {
+              "population_seconds": 0.2006919494830072,
+              "opacity_seconds": 22.97521576836705,
+              "transfer_seconds": 0.527309477908107,
+              "finalization_seconds": 0.5567054603778973,
+              "remap_seconds": 0.00275889112542455
+            }
+          },
+          "contraction": {
+            "trajectory_count": 60,
+            "non_monotonic_fraction": 0.6333333333333333,
+            "q_ratio": {
+              "geometric_mean": 0.6620475308197032,
+              "max": 2.9003531378188834,
+              "p50": 0.6600404486079194,
+              "p75": 0.8551764167622239,
+              "p90": 1.1570258217122216,
+              "p95": 1.3950767109736426,
+              "p99": 2.1231825449176753
+            },
+            "first_iteration_residual": {
+              "mean": 0.006207303827088656,
+              "p50": 0.002932399551848871,
+              "p75": 0.005291060375266824,
+              "p90": 0.00903910475387525,
+              "p95": 0.02169284806079473,
+              "p99": 0.053853748427492916
+            }
+          },
+          "tail_labels": {
+            "threshold_iterations": 10.0,
+            "tail_count": 7,
+            "tail_fraction": 0.11666666666666667,
+            "labels": {
+              "effective_temperature": {
+                "population_mean": 7650.4643362481565,
+                "tail_mean": 8608.679724113785,
+                "tail_min": 4025.7038327022533,
+                "tail_max": 10159.544337115385
+              },
+              "log_surface_gravity": {
+                "population_mean": 3.5661874502175266,
+                "tail_mean": 4.045026670248665,
+                "tail_min": 2.552012460232005,
+                "tail_max": 5.258596074460062
+              },
+              "metallicity": {
+                "population_mean": -0.88371498542691,
+                "tail_mean": -0.7373854897862963,
+                "tail_min": -1.8097827165281557,
+                "tail_max": 0.44373677433099523
+              },
+              "alpha_enhancement": {
+                "population_mean": 0.18717690083861668,
+                "tail_mean": 0.23539285811086838,
+                "tail_min": -0.07629680431505355,
+                "tail_max": 0.4602467340116514
+              },
+              "microturbulence_km_s": {
+                "population_mean": 2.027543489423608,
+                "tail_mean": 2.231822000885472,
+                "tail_min": 0.5434037901063439,
+                "tail_max": 3.929833632299075
+              }
+            }
+          },
+          "headroom": {
+            "iteration_floor": 3,
+            "stars_already_at_floor": 4,
+            "stars_already_at_floor_fraction": 0.06666666666666667,
+            "total_iterations_burned": 385,
+            "recoverable_iterations": 205,
+            "recoverable_fraction": 0.5324675324675324
+          }
+        }
+      },
+      "learned_reduced_state": {
+        "star_count": 60,
+        "converged_count": 57,
+        "converged_fraction": 0.95,
+        "summary": {
+          "star_count": 60,
+          "converged_count": 57,
+          "converged_fraction": 0.95,
+          "retry_count": 0,
+          "retry_fraction": 0.0,
+          "failure_count": 3,
+          "failure_fraction": 0.05,
+          "converging_trial_iterations": {
+            "mean": 3.508771929824561,
+            "p50": 3.0,
+            "p75": 4.0,
+            "p90": 4.0,
+            "p95": 5.199999999999996,
+            "p99": 8.199999999999989,
+            "max": 11.0,
+            "histogram": {
+              "3": 41,
+              "4": 11,
+              "5": 2,
+              "6": 2,
+              "11": 1
+            }
+          },
+          "total_iterations_including_retries": {
+            "mean": 3.8333333333333335,
+            "p50": 3.0,
+            "p75": 4.0,
+            "p90": 5.0,
+            "p95": 6.249999999999986,
+            "p99": 15.0,
+            "max": 15.0
+          },
+          "seconds_per_star": {
+            "mean": 190.15697381531353,
+            "p50": 58.39231300354004,
+            "p75": 79.58304666692857,
+            "p90": 201.22885422036057,
+            "p95": 339.44019756102915,
+            "p99": 3076.4148017664183,
+            "total_hours": 3.1692828969218922
+          },
+          "stage_seconds": {
+            "first_iteration_mean": {
+              "population_seconds": 0.1915726885120621,
+              "opacity_seconds": 28.6694661968435,
+              "transfer_seconds": 0.5193192327032023,
+              "finalization_seconds": 0.5547455228644155,
+              "remap_seconds": 0.0027184217252721223
+            },
+            "later_iteration_mean": {
+              "population_seconds": 0.19240571790761504,
+              "opacity_seconds": 53.93203154165701,
+              "transfer_seconds": 0.5224020634178748,
+              "finalization_seconds": 0.5577695979791208,
+              "remap_seconds": 0.0026689152102590654
+            }
+          },
+          "contraction": {
+            "trajectory_count": 59,
+            "non_monotonic_fraction": 0.13559322033898305,
+            "q_ratio": {
+              "geometric_mean": 0.58646935242156,
+              "max": 89234.00255207506,
+              "p50": 0.5568698249261695,
+              "p75": 0.80995874883106,
+              "p90": 1.0748148748240276,
+              "p95": 1.4430557153860193,
+              "p99": 11.30669839940846
+            },
+            "first_iteration_residual": {
+              "mean": 0.003221859970118929,
+              "p50": 0.0016353795396629532,
+              "p75": 0.0025490402888729354,
+              "p90": 0.007490614588513948,
+              "p95": 0.01411987363233581,
+              "p99": 0.021126860519903364
+            }
+          },
+          "tail_labels": {
+            "threshold_iterations": 5.0,
+            "tail_count": 7,
+            "tail_fraction": 0.11666666666666667,
+            "labels": {
+              "effective_temperature": {
+                "population_mean": 7650.4643362481565,
+                "tail_mean": 8119.104173257479,
+                "tail_min": 4025.7038327022533,
+                "tail_max": 9814.234991483405
+              },
+              "log_surface_gravity": {
+                "population_mean": 3.5661874502175266,
+                "tail_mean": 4.602056054531845,
+                "tail_min": 3.4782986420122803,
+                "tail_max": 5.258596074460062
+              },
+              "metallicity": {
+                "population_mean": -0.88371498542691,
+                "tail_mean": -1.19806586119897,
+                "tail_min": -2.42234955090439,
+                "tail_max": 0.38168215914681225
+              },
+              "alpha_enhancement": {
+                "population_mean": 0.18717690083861668,
+                "tail_mean": 0.28388178732453495,
+                "tail_min": -0.07629680431505355,
+                "tail_max": 0.4902296505496241
+              },
+              "microturbulence_km_s": {
+                "population_mean": 2.027543489423608,
+                "tail_mean": 2.017450339622693,
+                "tail_min": 0.5434037901063439,
+                "tail_max": 3.0676310095695314
+              }
+            }
+          },
+          "headroom": {
+            "iteration_floor": 3,
+            "stars_already_at_floor": 41,
+            "stars_already_at_floor_fraction": 0.6833333333333333,
+            "total_iterations_burned": 230,
+            "recoverable_iterations": 53,
+            "recoverable_fraction": 0.23043478260869565
+          }
+        }
+      },
+      "grey15": {
+        "star_count": 60,
+        "converged_count": 12,
+        "converged_fraction": 0.2,
+        "summary": {
+          "star_count": 60,
+          "converged_count": 12,
+          "converged_fraction": 0.2,
+          "retry_count": 0,
+          "retry_fraction": 0.0,
+          "failure_count": 48,
+          "failure_fraction": 0.8,
+          "converging_trial_iterations": {
+            "mean": 13.083333333333334,
+            "p50": 13.5,
+            "p75": 14.0,
+            "p90": 14.9,
+            "p95": 15.0,
+            "p99": 15.0,
+            "max": 15.0,
+            "histogram": {
+              "10": 1,
+              "12": 4,
+              "13": 1,
+              "14": 4,
+              "15": 2
+            }
+          },
+          "total_iterations_including_retries": {
+            "mean": 14.616666666666667,
+            "p50": 15.0,
+            "p75": 15.0,
+            "p90": 15.0,
+            "p95": 15.0,
+            "p99": 15.0,
+            "max": 15.0
+          },
+          "seconds_per_star": {
+            "mean": 968.3262281295067,
+            "p50": 271.909473774489,
+            "p75": 864.2804558724165,
+            "p90": 2896.7825822829736,
+            "p95": 3758.302434880237,
+            "p99": 5662.351445869569,
+            "total_hours": 16.13877046882511
+          },
+          "stage_seconds": {
+            "first_iteration_mean": {
+              "population_seconds": 0.2587758225776876,
+              "opacity_seconds": 21.75185560688066,
+              "transfer_seconds": 0.5157037776351596,
+              "finalization_seconds": 0.5481623825073864,
+              "remap_seconds": 0.0021973839262500404
+            },
+            "later_iteration_mean": {
+              "population_seconds": 0.1922969783125092,
+              "opacity_seconds": 68.05040581598924,
+              "transfer_seconds": 0.5579476519499198,
+              "finalization_seconds": 0.5614383569280212,
+              "remap_seconds": 0.0026599849885468674
+            }
+          },
+          "contraction": {
+            "trajectory_count": 60,
+            "non_monotonic_fraction": 0.95,
+            "q_ratio": {
+              "geometric_mean": 0.9188781555510643,
+              "max": 2282805.9469990875,
+              "p50": 0.995939963159177,
+              "p75": 1.2011543027294493,
+              "p90": 1.815846138974322,
+              "p95": 2.500638159369087,
+              "p99": 76158.64585104625
+            },
+            "first_iteration_residual": {
+              "mean": 1.3471751302402877,
+              "p50": 1.3938137067697745,
+              "p75": 1.7400572838185036,
+              "p90": 1.9883549812723214,
+              "p95": 2.078455020738212,
+              "p99": 2.142214199616816
+            }
+          },
+          "tail_labels": {
+            "threshold_iterations": 15.0,
+            "tail_count": 50,
+            "tail_fraction": 0.8333333333333334,
+            "labels": {
+              "effective_temperature": {
+                "population_mean": 7650.4643362481565,
+                "tail_mean": 7899.075676486635,
+                "tail_min": 4019.7616332952316,
+                "tail_max": 10366.068138012157
+              },
+              "log_surface_gravity": {
+                "population_mean": 3.5661874502175266,
+                "tail_mean": 3.546180239404555,
+                "tail_min": 0.8004922693507595,
+                "tail_max": 5.283970440245378
+              },
+              "metallicity": {
+                "population_mean": -0.88371498542691,
+                "tail_mean": -0.9735552623940658,
+                "tail_min": -2.42234955090439,
+                "tail_max": 0.44373677433099523
+              },
+              "alpha_enhancement": {
+                "population_mean": 0.18717690083861668,
+                "tail_mean": 0.17487176509442193,
+                "tail_min": -0.09867034252428222,
+                "tail_max": 0.4902296505496241
+              },
+              "microturbulence_km_s": {
+                "population_mean": 2.027543489423608,
+                "tail_mean": 2.014989256128208,
+                "tail_min": 0.5434037901063439,
+                "tail_max": 3.929833632299075
+              }
+            }
+          },
+          "headroom": {
+            "iteration_floor": 3,
+            "stars_already_at_floor": 0,
+            "stars_already_at_floor_fraction": 0.0,
+            "total_iterations_burned": 877,
+            "recoverable_iterations": 697,
+            "recoverable_fraction": 0.7947548460661346
+          }
+        }
+      },
+      "interpolated_full_state": {
+        "star_count": 60,
+        "converged_count": 56,
+        "converged_fraction": 0.9333333333333333,
+        "summary": {
+          "star_count": 60,
+          "converged_count": 56,
+          "converged_fraction": 0.9333333333333333,
+          "retry_count": 0,
+          "retry_fraction": 0.0,
+          "failure_count": 4,
+          "failure_fraction": 0.06666666666666667,
+          "converging_trial_iterations": {
+            "mean": 8.357142857142858,
+            "p50": 8.5,
+            "p75": 10.0,
+            "p90": 11.0,
+            "p95": 11.25,
+            "p99": 14.0,
+            "max": 14.0,
+            "histogram": {
+              "4": 1,
+              "5": 6,
+              "6": 6,
+              "7": 6,
+              "8": 9,
+              "9": 11,
+              "10": 9,
+              "11": 5,
+              "12": 1,
+              "14": 2
+            }
+          },
+          "total_iterations_including_retries": {
+            "mean": 8.8,
+            "p50": 9.0,
+            "p75": 10.0,
+            "p90": 12.200000000000003,
+            "p95": 15.0,
+            "p99": 15.0,
+            "max": 15.0
+          },
+          "seconds_per_star": {
+            "mean": 277.1593264862662,
+            "p50": 143.41743606491946,
+            "p75": 179.771528514917,
+            "p90": 367.98876925134164,
+            "p95": 903.9738240777515,
+            "p99": 2583.487143707742,
+            "total_hours": 4.619322108104437
+          },
+          "stage_seconds": {
+            "first_iteration_mean": {
+              "population_seconds": 0.5170574527699501,
+              "opacity_seconds": 29.955125942849556,
+              "transfer_seconds": 0.5246425037815546,
+              "finalization_seconds": 0.5581292743406568,
+              "remap_seconds": 0.0028021450930585464
+            },
+            "later_iteration_mean": {
+              "population_seconds": 0.19191763802574804,
+              "opacity_seconds": 30.024247179755097,
+              "transfer_seconds": 0.5211903582333038,
+              "finalization_seconds": 0.5549182717501321,
+              "remap_seconds": 0.002730638569849742
+            }
+          },
+          "contraction": {
+            "trajectory_count": 60,
+            "non_monotonic_fraction": 0.7666666666666667,
+            "q_ratio": {
+              "geometric_mean": 0.6863119791527534,
+              "max": 87601.55683447116,
+              "p50": 0.6609916042615879,
+              "p75": 0.853317252575619,
+              "p90": 1.2578043193374788,
+              "p95": 1.7561421876168115,
+              "p99": 2.889944377835458
+            },
+            "first_iteration_residual": {
+              "mean": 0.011744049262996747,
+              "p50": 0.008570268924295719,
+              "p75": 0.014566759851793128,
+              "p90": 0.026210901178716956,
+              "p95": 0.031197291260260756,
+              "p99": 0.03946469722559345
+            }
+          },
+          "tail_labels": {
+            "threshold_iterations": 12.200000000000003,
+            "tail_count": 6,
+            "tail_fraction": 0.1,
+            "labels": {
+              "effective_temperature": {
+                "population_mean": 7650.4643362481565,
+                "tail_mean": 7754.3802302118675,
+                "tail_min": 4025.7038327022533,
+                "tail_max": 9766.295101074165
+              },
+              "log_surface_gravity": {
+                "population_mean": 3.5661874502175266,
+                "tail_mean": 4.351677140637058,
+                "tail_min": 2.1848716569523576,
+                "tail_max": 5.258596074460062
+              },
+              "metallicity": {
+                "population_mean": -0.88371498542691,
+                "tail_mean": -1.194840804965582,
+                "tail_min": -2.42234955090439,
+                "tail_max": -0.37641580006005526
+              },
+              "alpha_enhancement": {
+                "population_mean": 0.18717690083861668,
+                "tail_mean": 0.27160829704611134,
+                "tail_min": -0.07629680431505355,
+                "tail_max": 0.48928745662022277
+              },
+              "microturbulence_km_s": {
+                "population_mean": 2.027543489423608,
+                "tail_mean": 1.9922778359324,
+                "tail_min": 0.5434037901063439,
+                "tail_max": 2.771337863030749
+              }
+            }
+          },
+          "headroom": {
+            "iteration_floor": 3,
+            "stars_already_at_floor": 0,
+            "stars_already_at_floor_fraction": 0.0,
+            "total_iterations_burned": 528,
+            "recoverable_iterations": 348,
+            "recoverable_fraction": 0.6590909090909091
+          }
+        }
+      }
+    },
+    "all_four_common_count": 11,
+    "spectra": {
+      "interpolation_vs_six": {
+        "reference": "production_six_field",
+        "candidate": "interpolated_full_state",
+        "star_count": 11,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.002216733804615789,
+          "p95_max": 0.0055980188532136765,
+          "max": 0.006115982651742069,
+          "stars_over_bar": 2,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.002515798477063413,
+          "p95_max": 0.00517312010528924,
+          "max": 0.005249305077251098,
+          "stars_over_bar": 2,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0004848859488207433,
+          "p95_max": 0.002288693329805381,
+          "max": 0.00348632493735155,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "interpolation_vs_two": {
+        "reference": "learned_reduced_state",
+        "candidate": "interpolated_full_state",
+        "star_count": 11,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.0015116827302433106,
+          "p95_max": 0.004878107808872351,
+          "max": 0.005236354573377122,
+          "stars_over_bar": 1,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.001466089884350687,
+          "p95_max": 0.004814585614188632,
+          "max": 0.004959592012322174,
+          "stars_over_bar": 0,
+          "passes": true
+        },
+        "flux_continuum": {
+          "median_max": 0.00048400432601479487,
+          "p95_max": 0.001953976038594697,
+          "max": 0.0032061675180313463,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "interpolation_vs_grey15": {
+        "reference": "grey15",
+        "candidate": "interpolated_full_state",
+        "star_count": 11,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.024535215495144896,
+          "p95_max": 0.09218092218195299,
+          "max": 0.1149148387873003,
+          "stars_over_bar": 9,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.024494973512896426,
+          "p95_max": 0.09218825049716947,
+          "max": 0.11492924048507241,
+          "stars_over_bar": 9,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0007667820602614158,
+          "p95_max": 0.0020672559616610386,
+          "max": 0.002909680354152746,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "two_vs_six": {
+        "reference": "production_six_field",
+        "candidate": "learned_reduced_state",
+        "star_count": 11,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.0011773979516370714,
+          "p95_max": 0.004310829978422269,
+          "max": 0.005231306893746401,
+          "stars_over_bar": 1,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.0015182565804386572,
+          "p95_max": 0.004212000721755453,
+          "max": 0.005064565030868377,
+          "stars_over_bar": 1,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0005159309308050587,
+          "p95_max": 0.0013378580638202945,
+          "max": 0.0015782428658684378,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      },
+      "grey15_vs_six": {
+        "reference": "production_six_field",
+        "candidate": "grey15",
+        "star_count": 11,
+        "bar": 0.005,
+        "normalized_flux": {
+          "median_max": 0.019887116575912994,
+          "p95_max": 0.09268157967614657,
+          "max": 0.11584750165684399,
+          "stars_over_bar": 9,
+          "passes": false
+        },
+        "flux_total": {
+          "median_max": 0.0198550373096956,
+          "p95_max": 0.09268553788661497,
+          "max": 0.11574007784200592,
+          "stars_over_bar": 9,
+          "passes": false
+        },
+        "flux_continuum": {
+          "median_max": 0.0008774364523718457,
+          "p95_max": 0.003100608644134068,
+          "max": 0.0033098380537251093,
+          "stars_over_bar": 0,
+          "passes": true
+        }
+      }
+    }
+  },
+  "record_counts": {
+    "production_six_field": 200,
+    "learned_reduced_state": 200,
+    "grey15": 200,
+    "interpolated_full_state": 200
+  }
+}

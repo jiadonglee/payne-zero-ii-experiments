@@ -1,0 +1,1065 @@
+{
+  "case": "A",
+  "deep_layers": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+  ],
+  "effective_temperature_K": 3500.0,
+  "initial_control": "/nexus/posix0/MIA-astro-env/hxr/jdli/payne-zero-mstar-resume-20260919/results/m_star_trial_comparison_20260920/controls_A/arrays/a_alpha_0p0.npz",
+  "inner_loop": "S3 (8 passes, frozen mask)",
+  "iterations": [
+    {
+      "R_raw_deep_max": 0.8127182313651136,
+      "R_raw_deep_mean_abs": 0.4107849606776034,
+      "R_raw_full_max": 0.8127182313651136,
+      "R_smoothed_deep_max": 0.5296500544567574,
+      "dT_max_abs_K": 130.48113070897034,
+      "inner_loop_diagnostics": {},
+      "iteration": 0,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.0620897422127447,
+          "adiabatic_gradient": 0.19152226964415062,
+          "convection_on": true,
+          "heat_capacity": 468345434.11762345,
+          "log_temperature_pressure_gradient": 0.21852239720768724
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.1634490174012875,
+          "adiabatic_gradient": 0.20515192635756277,
+          "convection_on": true,
+          "heat_capacity": 421663748.8040635,
+          "log_temperature_pressure_gradient": 0.23405839471852377
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.1181994629728653,
+          "adiabatic_gradient": 0.22081627975609244,
+          "convection_on": true,
+          "heat_capacity": 377635155.49431354,
+          "log_temperature_pressure_gradient": 0.24928050116836392
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.0441690686351368,
+          "adiabatic_gradient": 0.237347384223208,
+          "convection_on": true,
+          "heat_capacity": 339559952.2118567,
+          "log_temperature_pressure_gradient": 0.2647311103907927
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.2133137429940462,
+          "adiabatic_gradient": 0.2556643116709364,
+          "convection_on": true,
+          "heat_capacity": 305089209.6628791,
+          "log_temperature_pressure_gradient": 0.28609575849319563
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.2264052018803697,
+          "adiabatic_gradient": 0.2757754536279953,
+          "convection_on": true,
+          "heat_capacity": 274260679.0973901,
+          "log_temperature_pressure_gradient": 0.30651390319117694
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.1143424178975068,
+          "adiabatic_gradient": 0.29611021011275246,
+          "convection_on": true,
+          "heat_capacity": 248600067.74317393,
+          "log_temperature_pressure_gradient": 0.3247861283286135
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.0279440829515285,
+          "adiabatic_gradient": 0.3157702134069063,
+          "convection_on": true,
+          "heat_capacity": 227716260.78470033,
+          "log_temperature_pressure_gradient": 0.34250653414389953
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.4431936314267322,
+          "adiabatic_gradient": 0.33304865595014294,
+          "convection_on": true,
+          "heat_capacity": 211829565.30143183,
+          "log_temperature_pressure_gradient": 0.36560219895710483
+        },
+        "76": {
+          "Hconv_raw_over_target": 0.9329377469590092,
+          "adiabatic_gradient": 0.34761381972204924,
+          "convection_on": true,
+          "heat_capacity": 199858639.86928034,
+          "log_temperature_pressure_gradient": 0.3710289489611011
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.068216896446637,
+          "adiabatic_gradient": 0.3568561135159737,
+          "convection_on": true,
+          "heat_capacity": 192768354.15426993,
+          "log_temperature_pressure_gradient": 0.38120605724422346
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.1767221977114908,
+          "adiabatic_gradient": 0.3635647789595862,
+          "convection_on": true,
+          "heat_capacity": 187803214.78756186,
+          "log_temperature_pressure_gradient": 0.3881631951521037
+        },
+        "79": {
+          "Hconv_raw_over_target": 0.8096869249804611,
+          "adiabatic_gradient": 0.3667535668609559,
+          "convection_on": true,
+          "heat_capacity": 185299588.6477509,
+          "log_temperature_pressure_gradient": 0.3848480426317891
+        }
+      },
+      "run_id": "a_pchip_s3_it00",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.8194758467347231,
+      "R_raw_deep_mean_abs": 0.40128706819389937,
+      "R_raw_full_max": 0.8194758467347231,
+      "R_smoothed_deep_max": 0.5370929258203821,
+      "dT_max_abs_K": 22.306330856148634,
+      "inner_loop_diagnostics": {},
+      "iteration": 1,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.0867144697470144,
+          "adiabatic_gradient": 0.19853703122858632,
+          "convection_on": true,
+          "heat_capacity": 442933852.67966944,
+          "log_temperature_pressure_gradient": 0.22707724991406844
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.1225556189269912,
+          "adiabatic_gradient": 0.21293261268467595,
+          "convection_on": true,
+          "heat_capacity": 397986875.6560677,
+          "log_temperature_pressure_gradient": 0.24233857433302902
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.1348919650396116,
+          "adiabatic_gradient": 0.22949340755999345,
+          "convection_on": true,
+          "heat_capacity": 356217813.211688,
+          "log_temperature_pressure_gradient": 0.2594197756925624
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.1182899495404226,
+          "adiabatic_gradient": 0.24776671954412974,
+          "convection_on": true,
+          "heat_capacity": 319056582.90464723,
+          "log_temperature_pressure_gradient": 0.27766298794083094
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.1152403548734846,
+          "adiabatic_gradient": 0.26695527555131815,
+          "convection_on": true,
+          "heat_capacity": 286916005.1912519,
+          "log_temperature_pressure_gradient": 0.29691270713411355
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.1006290541011479,
+          "adiabatic_gradient": 0.2870353445110808,
+          "convection_on": true,
+          "heat_capacity": 259233794.25621557,
+          "log_temperature_pressure_gradient": 0.3166688516557783
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.0507443129822815,
+          "adiabatic_gradient": 0.3072734764986972,
+          "convection_on": true,
+          "heat_capacity": 236174781.00567955,
+          "log_temperature_pressure_gradient": 0.335701594949797
+        },
+        "74": {
+          "Hconv_raw_over_target": 0.9770811780164718,
+          "adiabatic_gradient": 0.3260289124154119,
+          "convection_on": true,
+          "heat_capacity": 217949613.87923485,
+          "log_temperature_pressure_gradient": 0.3525014417056669
+        },
+        "75": {
+          "Hconv_raw_over_target": 0.9258344192262785,
+          "adiabatic_gradient": 0.3418908920532518,
+          "convection_on": true,
+          "heat_capacity": 204396255.93873107,
+          "log_temperature_pressure_gradient": 0.36652286711232424
+        },
+        "76": {
+          "Hconv_raw_over_target": 0.8702563219732796,
+          "adiabatic_gradient": 0.3537108343859593,
+          "convection_on": true,
+          "heat_capacity": 195121013.2441705,
+          "log_temperature_pressure_gradient": 0.3762410063479892
+        },
+        "77": {
+          "Hconv_raw_over_target": 0.8023888078376341,
+          "adiabatic_gradient": 0.36160782103234407,
+          "convection_on": true,
+          "heat_capacity": 189214328.4344188,
+          "log_temperature_pressure_gradient": 0.3817912378296543
+        },
+        "78": {
+          "Hconv_raw_over_target": 0.6898004250424179,
+          "adiabatic_gradient": 0.3661968389258579,
+          "convection_on": true,
+          "heat_capacity": 185752137.89450008,
+          "log_temperature_pressure_gradient": 0.3833869678322266
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.2815114676920332,
+          "adiabatic_gradient": 0.36820263542302123,
+          "convection_on": true,
+          "heat_capacity": 184098344.2331215,
+          "log_temperature_pressure_gradient": 0.3926361560800229
+        }
+      },
+      "run_id": "a_pchip_s3_it01",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.8109270487604483,
+      "R_raw_deep_mean_abs": 0.4157550404830192,
+      "R_raw_full_max": 0.8109270487604483,
+      "R_smoothed_deep_max": 0.5547995209534573,
+      "dT_max_abs_K": 22.948068041627266,
+      "inner_loop_diagnostics": {},
+      "iteration": 2,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.2353747929964913,
+          "adiabatic_gradient": 0.19831987943301874,
+          "convection_on": true,
+          "heat_capacity": 443636168.54890627,
+          "log_temperature_pressure_gradient": 0.2295471282334022
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.2913604150843223,
+          "adiabatic_gradient": 0.21297159669934307,
+          "convection_on": true,
+          "heat_capacity": 397856011.49379414,
+          "log_temperature_pressure_gradient": 0.24545768580686128
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.3559182953204885,
+          "adiabatic_gradient": 0.22978779258893575,
+          "convection_on": true,
+          "heat_capacity": 355490271.94195765,
+          "log_temperature_pressure_gradient": 0.2637414405384302
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.4809137207493668,
+          "adiabatic_gradient": 0.24841343479260902,
+          "convection_on": true,
+          "heat_capacity": 317747684.02011925,
+          "log_temperature_pressure_gradient": 0.2848078603677746
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.5284694457227255,
+          "adiabatic_gradient": 0.2681001357843831,
+          "convection_on": true,
+          "heat_capacity": 285025274.9767481,
+          "log_temperature_pressure_gradient": 0.3055126539455363
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.4659723660777677,
+          "adiabatic_gradient": 0.28880752114508884,
+          "convection_on": true,
+          "heat_capacity": 257045290.285306,
+          "log_temperature_pressure_gradient": 0.32518934159608126
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.3923502979759386,
+          "adiabatic_gradient": 0.30941987714543356,
+          "convection_on": true,
+          "heat_capacity": 233937585.19736862,
+          "log_temperature_pressure_gradient": 0.34423116418609584
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.3029081331269323,
+          "adiabatic_gradient": 0.32826890718845897,
+          "convection_on": true,
+          "heat_capacity": 215876851.40754217,
+          "log_temperature_pressure_gradient": 0.3608239884524768
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.2273200128440807,
+          "adiabatic_gradient": 0.3438120855488968,
+          "convection_on": true,
+          "heat_capacity": 202785375.81581345,
+          "log_temperature_pressure_gradient": 0.3739687750072751
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.1606821861772048,
+          "adiabatic_gradient": 0.35528182699892086,
+          "convection_on": true,
+          "heat_capacity": 193900829.52344823,
+          "log_temperature_pressure_gradient": 0.3829720453985215
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.076962677872811,
+          "adiabatic_gradient": 0.362644302284802,
+          "convection_on": true,
+          "heat_capacity": 188428342.19351876,
+          "log_temperature_pressure_gradient": 0.3875572828413948
+        },
+        "78": {
+          "Hconv_raw_over_target": 0.9631536152945406,
+          "adiabatic_gradient": 0.36693465086082927,
+          "convection_on": true,
+          "heat_capacity": 185233226.78590304,
+          "log_temperature_pressure_gradient": 0.3887289864555223
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.725316531030662,
+          "adiabatic_gradient": 0.36858104920852175,
+          "convection_on": true,
+          "heat_capacity": 183763029.0200994,
+          "log_temperature_pressure_gradient": 0.39879414414454184
+        }
+      },
+      "run_id": "a_pchip_s3_it02",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.7862408731473318,
+      "R_raw_deep_mean_abs": 0.4182400861238377,
+      "R_raw_full_max": 0.7862408731473318,
+      "R_smoothed_deep_max": 0.557413321933979,
+      "dT_max_abs_K": 5.169343665932502,
+      "inner_loop_diagnostics": {},
+      "iteration": 3,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.2712109815810462,
+          "adiabatic_gradient": 0.1974812453002553,
+          "convection_on": true,
+          "heat_capacity": 446535216.87733763,
+          "log_temperature_pressure_gradient": 0.22923556589077967
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.3259884809227884,
+          "adiabatic_gradient": 0.21201813355319957,
+          "convection_on": true,
+          "heat_capacity": 400498583.2639511,
+          "log_temperature_pressure_gradient": 0.24501157333884277
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.3639424241829001,
+          "adiabatic_gradient": 0.22877620420180522,
+          "convection_on": true,
+          "heat_capacity": 357878802.7439914,
+          "log_temperature_pressure_gradient": 0.2628059556160189
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.4095912841515186,
+          "adiabatic_gradient": 0.24719114550266238,
+          "convection_on": true,
+          "heat_capacity": 319914106.2953997,
+          "log_temperature_pressure_gradient": 0.282343846548146
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.452010813911807,
+          "adiabatic_gradient": 0.26682415795605735,
+          "convection_on": true,
+          "heat_capacity": 286986941.35078907,
+          "log_temperature_pressure_gradient": 0.30289997426131055
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.4655353040039891,
+          "adiabatic_gradient": 0.28756803487628446,
+          "convection_on": true,
+          "heat_capacity": 258617595.3688283,
+          "log_temperature_pressure_gradient": 0.3238756266803422
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.4520406926440594,
+          "adiabatic_gradient": 0.3083147061357357,
+          "convection_on": true,
+          "heat_capacity": 235104606.91725013,
+          "log_temperature_pressure_gradient": 0.3440704846877683
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.4040643472460292,
+          "adiabatic_gradient": 0.32735849218023444,
+          "convection_on": true,
+          "heat_capacity": 216697535.98779666,
+          "log_temperature_pressure_gradient": 0.36156680322812196
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.312936309758245,
+          "adiabatic_gradient": 0.343235072997672,
+          "convection_on": true,
+          "heat_capacity": 203301809.68920234,
+          "log_temperature_pressure_gradient": 0.3748107464612974
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.296256283155501,
+          "adiabatic_gradient": 0.35473255768544537,
+          "convection_on": true,
+          "heat_capacity": 194317132.05173618,
+          "log_temperature_pressure_gradient": 0.3845942048031272
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.4253743166987212,
+          "adiabatic_gradient": 0.36229461052765877,
+          "convection_on": true,
+          "heat_capacity": 188686131.03314793,
+          "log_temperature_pressure_gradient": 0.3924300601368022
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.3546468614280947,
+          "adiabatic_gradient": 0.3666729623616486,
+          "convection_on": true,
+          "heat_capacity": 185396124.5616148,
+          "log_temperature_pressure_gradient": 0.3941864012692455
+        },
+        "79": {
+          "Hconv_raw_over_target": 2.0248511109387843,
+          "adiabatic_gradient": 0.36854844157911676,
+          "convection_on": true,
+          "heat_capacity": 183829840.10310513,
+          "log_temperature_pressure_gradient": 0.40241872858029754
+        }
+      },
+      "run_id": "a_pchip_s3_it03",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.7819355759029907,
+      "R_raw_deep_mean_abs": 0.4179260527187551,
+      "R_raw_full_max": 0.7819355759029907,
+      "R_smoothed_deep_max": 0.5584854907763172,
+      "dT_max_abs_K": 1.5356948320932133,
+      "inner_loop_diagnostics": {},
+      "iteration": 4,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.2970935344076902,
+          "adiabatic_gradient": 0.19773106288764317,
+          "convection_on": true,
+          "heat_capacity": 445541752.38887334,
+          "log_temperature_pressure_gradient": 0.23006205315227415
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.3003152435064,
+          "adiabatic_gradient": 0.21234881023060365,
+          "convection_on": true,
+          "heat_capacity": 399649300.3518379,
+          "log_temperature_pressure_gradient": 0.24507787067604508
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.3277034984061606,
+          "adiabatic_gradient": 0.2291072384357316,
+          "convection_on": true,
+          "heat_capacity": 357236374.90381235,
+          "log_temperature_pressure_gradient": 0.26269013562863935
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.376027307446762,
+          "adiabatic_gradient": 0.24745769502480075,
+          "convection_on": true,
+          "heat_capacity": 319441371.496207,
+          "log_temperature_pressure_gradient": 0.2822068676637087
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.4096682821583544,
+          "adiabatic_gradient": 0.2670531242501045,
+          "convection_on": true,
+          "heat_capacity": 286655718.95792526,
+          "log_temperature_pressure_gradient": 0.3025741958830461
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.4196128570198912,
+          "adiabatic_gradient": 0.2877496600182528,
+          "convection_on": true,
+          "heat_capacity": 258381354.3411854,
+          "log_temperature_pressure_gradient": 0.3234372133079284
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.3942235285681095,
+          "adiabatic_gradient": 0.3084508577757872,
+          "convection_on": true,
+          "heat_capacity": 234950914.79355037,
+          "log_temperature_pressure_gradient": 0.34338076425552144
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.3484187651132071,
+          "adiabatic_gradient": 0.32744352393389853,
+          "convection_on": true,
+          "heat_capacity": 216606532.0653615,
+          "log_temperature_pressure_gradient": 0.360856606772201
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.28559838553218,
+          "adiabatic_gradient": 0.3432868850687375,
+          "convection_on": true,
+          "heat_capacity": 203240254.6977277,
+          "log_temperature_pressure_gradient": 0.37452334594948067
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.2280160922609729,
+          "adiabatic_gradient": 0.3547752296763649,
+          "convection_on": true,
+          "heat_capacity": 194273159.91190094,
+          "log_temperature_pressure_gradient": 0.38367289435401714
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.1337087631542422,
+          "adiabatic_gradient": 0.3623172351017573,
+          "convection_on": true,
+          "heat_capacity": 188657166.407159,
+          "log_temperature_pressure_gradient": 0.388264855861642
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.0254854603250791,
+          "adiabatic_gradient": 0.36667222932274335,
+          "convection_on": true,
+          "heat_capacity": 185399368.56270915,
+          "log_temperature_pressure_gradient": 0.3895728649318087
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.751207828166044,
+          "adiabatic_gradient": 0.3685301127676575,
+          "convection_on": true,
+          "heat_capacity": 183837598.3537289,
+          "log_temperature_pressure_gradient": 0.3993434099837649
+        }
+      },
+      "run_id": "a_pchip_s3_it04",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.7772282354373716,
+      "R_raw_deep_mean_abs": 0.4209280550160554,
+      "R_raw_full_max": 0.7772282354373716,
+      "R_smoothed_deep_max": 0.56093121520786,
+      "dT_max_abs_K": 5.7476546016641805,
+      "inner_loop_diagnostics": {},
+      "iteration": 5,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.3416647978221268,
+          "adiabatic_gradient": 0.19737450823830097,
+          "convection_on": true,
+          "heat_capacity": 446558981.02407634,
+          "log_temperature_pressure_gradient": 0.23036859533658485
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.3914964049446625,
+          "adiabatic_gradient": 0.21208551313943266,
+          "convection_on": true,
+          "heat_capacity": 400416137.49003714,
+          "log_temperature_pressure_gradient": 0.24627158989681072
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.4317270049660065,
+          "adiabatic_gradient": 0.22886477565958363,
+          "convection_on": true,
+          "heat_capacity": 357742470.7041404,
+          "log_temperature_pressure_gradient": 0.2641518510027062
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.4650961295064857,
+          "adiabatic_gradient": 0.24728584298478895,
+          "convection_on": true,
+          "heat_capacity": 319757218.4563431,
+          "log_temperature_pressure_gradient": 0.28351385911257393
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.4950562784266617,
+          "adiabatic_gradient": 0.26693376069781066,
+          "convection_on": true,
+          "heat_capacity": 286812925.02939093,
+          "log_temperature_pressure_gradient": 0.3038926179512776
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.4921450601671702,
+          "adiabatic_gradient": 0.2877193899167707,
+          "convection_on": true,
+          "heat_capacity": 258418562.55742988,
+          "log_temperature_pressure_gradient": 0.32464753679429326
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.4632693342285872,
+          "adiabatic_gradient": 0.308491487352842,
+          "convection_on": true,
+          "heat_capacity": 234910062.28348407,
+          "log_temperature_pressure_gradient": 0.344612656720163
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.4266684972088364,
+          "adiabatic_gradient": 0.3275215020870938,
+          "convection_on": true,
+          "heat_capacity": 216528754.8202752,
+          "log_temperature_pressure_gradient": 0.36226822598613206
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.4254331721056248,
+          "adiabatic_gradient": 0.3433946507821815,
+          "convection_on": true,
+          "heat_capacity": 203155556.9470123,
+          "log_temperature_pressure_gradient": 0.376913853964382
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.4215228559688113,
+          "adiabatic_gradient": 0.35488793337273683,
+          "convection_on": true,
+          "heat_capacity": 194189054.11240053,
+          "log_temperature_pressure_gradient": 0.38681978315292864
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.3396636885799444,
+          "adiabatic_gradient": 0.3624355447775595,
+          "convection_on": true,
+          "heat_capacity": 188588333.9745282,
+          "log_temperature_pressure_gradient": 0.3915187375489642
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.186378299532565,
+          "adiabatic_gradient": 0.3667827222077448,
+          "convection_on": true,
+          "heat_capacity": 185341496.72454232,
+          "log_temperature_pressure_gradient": 0.39210348543062
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.8848224345109843,
+          "adiabatic_gradient": 0.3685918426565803,
+          "convection_on": true,
+          "heat_capacity": 183791196.881073,
+          "log_temperature_pressure_gradient": 0.4010650507398737
+        }
+      },
+      "run_id": "a_pchip_s3_it05",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.7743538143275225,
+      "R_raw_deep_mean_abs": 0.4205126965338729,
+      "R_raw_full_max": 0.7743538143275225,
+      "R_smoothed_deep_max": 0.5596613962922369,
+      "dT_max_abs_K": 0.942171840399169,
+      "inner_loop_diagnostics": {},
+      "iteration": 6,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.301504683803108,
+          "adiabatic_gradient": 0.19749427494414634,
+          "convection_on": true,
+          "heat_capacity": 446385729.71535426,
+          "log_temperature_pressure_gradient": 0.2298654767207545
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.363790826367367,
+          "adiabatic_gradient": 0.2120550406529094,
+          "convection_on": true,
+          "heat_capacity": 400430500.8906368,
+          "log_temperature_pressure_gradient": 0.2458020999812035
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.4161737184915968,
+          "adiabatic_gradient": 0.2287689454340364,
+          "convection_on": true,
+          "heat_capacity": 357835254.1197574,
+          "log_temperature_pressure_gradient": 0.2638101655678623
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.4458350057663178,
+          "adiabatic_gradient": 0.24725420208413043,
+          "convection_on": true,
+          "heat_capacity": 319887319.9873695,
+          "log_temperature_pressure_gradient": 0.2831765642556202
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.4876784541681933,
+          "adiabatic_gradient": 0.2668131387269994,
+          "convection_on": true,
+          "heat_capacity": 286983338.61422414,
+          "log_temperature_pressure_gradient": 0.30365782600496516
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.4928390144323818,
+          "adiabatic_gradient": 0.2875385866012697,
+          "convection_on": true,
+          "heat_capacity": 258586676.8512449,
+          "log_temperature_pressure_gradient": 0.32448387050619065
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.4749887717756653,
+          "adiabatic_gradient": 0.30826439284860535,
+          "convection_on": true,
+          "heat_capacity": 235049084.45602298,
+          "log_temperature_pressure_gradient": 0.34458543847249934
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.4251331065384072,
+          "adiabatic_gradient": 0.3274276714229671,
+          "convection_on": true,
+          "heat_capacity": 216648080.7640983,
+          "log_temperature_pressure_gradient": 0.362166534020325
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.3831227265622932,
+          "adiabatic_gradient": 0.34327562064979766,
+          "convection_on": true,
+          "heat_capacity": 203243009.00646695,
+          "log_temperature_pressure_gradient": 0.3761472898858741
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.3522897203554356,
+          "adiabatic_gradient": 0.35479057003264447,
+          "convection_on": true,
+          "heat_capacity": 194271441.34898388,
+          "log_temperature_pressure_gradient": 0.38569294305239815
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.2620489076609482,
+          "adiabatic_gradient": 0.36233831910249337,
+          "convection_on": true,
+          "heat_capacity": 188648039.7840584,
+          "log_temperature_pressure_gradient": 0.39030480440354703
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.098320560795442,
+          "adiabatic_gradient": 0.36669620394692115,
+          "convection_on": true,
+          "heat_capacity": 185387971.6574807,
+          "log_temperature_pressure_gradient": 0.3907630146049033
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.7768678752658733,
+          "adiabatic_gradient": 0.3685246260167973,
+          "convection_on": true,
+          "heat_capacity": 183813968.55991745,
+          "log_temperature_pressure_gradient": 0.3997726716116827
+        }
+      },
+      "run_id": "a_pchip_s3_it06",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.7719643440729301,
+      "R_raw_deep_mean_abs": 0.4213944246931647,
+      "R_raw_full_max": 0.7719643440729301,
+      "R_smoothed_deep_max": 0.5616444464312657,
+      "dT_max_abs_K": 2.2836145331648368,
+      "inner_loop_diagnostics": {},
+      "iteration": 7,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.3403643664060676,
+          "adiabatic_gradient": 0.19733147032750095,
+          "convection_on": true,
+          "heat_capacity": 447019987.34926134,
+          "log_temperature_pressure_gradient": 0.23028815512516765
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.3992141325438927,
+          "adiabatic_gradient": 0.21186292556989667,
+          "convection_on": true,
+          "heat_capacity": 400917314.36449426,
+          "log_temperature_pressure_gradient": 0.24614472671102774
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.4470191711374092,
+          "adiabatic_gradient": 0.228569699945043,
+          "convection_on": true,
+          "heat_capacity": 358252242.3346631,
+          "log_temperature_pressure_gradient": 0.2640728951689197
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.4836086725546875,
+          "adiabatic_gradient": 0.24703988083430647,
+          "convection_on": true,
+          "heat_capacity": 320196939.6840979,
+          "log_temperature_pressure_gradient": 0.28354771788142247
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.517144595421673,
+          "adiabatic_gradient": 0.26660811185955113,
+          "convection_on": true,
+          "heat_capacity": 287213019.03421557,
+          "log_temperature_pressure_gradient": 0.3039064006422392
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.5128570116979323,
+          "adiabatic_gradient": 0.2874409409464353,
+          "convection_on": true,
+          "heat_capacity": 258747740.73524672,
+          "log_temperature_pressure_gradient": 0.32469743740780366
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.49600760057614,
+          "adiabatic_gradient": 0.3081554758654739,
+          "convection_on": true,
+          "heat_capacity": 235173492.66703162,
+          "log_temperature_pressure_gradient": 0.3448066365940844
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.4562885337312108,
+          "adiabatic_gradient": 0.32732205200730513,
+          "convection_on": true,
+          "heat_capacity": 216731266.51945084,
+          "log_temperature_pressure_gradient": 0.3625564795150032
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.416979439449459,
+          "adiabatic_gradient": 0.34317525873841404,
+          "convection_on": true,
+          "heat_capacity": 203286585.5720017,
+          "log_temperature_pressure_gradient": 0.3765781096799089
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.382003711727817,
+          "adiabatic_gradient": 0.3547626525566837,
+          "convection_on": true,
+          "heat_capacity": 194301675.52187866,
+          "log_temperature_pressure_gradient": 0.38611830021138704
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.2997498249272808,
+          "adiabatic_gradient": 0.3623092237918699,
+          "convection_on": true,
+          "heat_capacity": 188658576.52704573,
+          "log_temperature_pressure_gradient": 0.39083419368831696
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.1519293932257317,
+          "adiabatic_gradient": 0.36671026649905764,
+          "convection_on": true,
+          "heat_capacity": 185396640.41640973,
+          "log_temperature_pressure_gradient": 0.39155987364529427
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.8582144311337243,
+          "adiabatic_gradient": 0.36852897883630953,
+          "convection_on": true,
+          "heat_capacity": 183814469.52480027,
+          "log_temperature_pressure_gradient": 0.4007367616748332
+        }
+      },
+      "run_id": "a_pchip_s3_it07",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.7712982631752545,
+      "R_raw_deep_mean_abs": 0.421813232682679,
+      "R_raw_full_max": 0.7712982631752545,
+      "R_smoothed_deep_max": 0.5605590552586908,
+      "dT_max_abs_K": 0.6967375152598834,
+      "inner_loop_diagnostics": {},
+      "iteration": 8,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.3345649543851124,
+          "adiabatic_gradient": 0.197254889593141,
+          "convection_on": true,
+          "heat_capacity": 446962763.51847565,
+          "log_temperature_pressure_gradient": 0.23012554573144625
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.3661228482947578,
+          "adiabatic_gradient": 0.2119018089814348,
+          "convection_on": true,
+          "heat_capacity": 400866357.53783476,
+          "log_temperature_pressure_gradient": 0.2456590960068826
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.4112971430982977,
+          "adiabatic_gradient": 0.22859688714957,
+          "convection_on": true,
+          "heat_capacity": 358288787.521668,
+          "log_temperature_pressure_gradient": 0.2635232493007725
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.4528278875457368,
+          "adiabatic_gradient": 0.2470253276539654,
+          "convection_on": true,
+          "heat_capacity": 320298370.583433,
+          "log_temperature_pressure_gradient": 0.2830294599639459
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.4921730864389562,
+          "adiabatic_gradient": 0.2665527912334603,
+          "convection_on": true,
+          "heat_capacity": 287364100.3933027,
+          "log_temperature_pressure_gradient": 0.3034366359445103
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.5043875129046158,
+          "adiabatic_gradient": 0.28725387597781127,
+          "convection_on": true,
+          "heat_capacity": 258901288.7265709,
+          "log_temperature_pressure_gradient": 0.3243589304423292
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.4815467137898122,
+          "adiabatic_gradient": 0.30806480442557466,
+          "convection_on": true,
+          "heat_capacity": 235308208.766508,
+          "log_temperature_pressure_gradient": 0.34447298772064555
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.4429349180351907,
+          "adiabatic_gradient": 0.3272274647541978,
+          "convection_on": true,
+          "heat_capacity": 216847940.68852702,
+          "log_temperature_pressure_gradient": 0.3622406353422439
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.407510443303501,
+          "adiabatic_gradient": 0.343094841719042,
+          "convection_on": true,
+          "heat_capacity": 203377276.45538175,
+          "log_temperature_pressure_gradient": 0.37634545703181965
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.3787381979411915,
+          "adiabatic_gradient": 0.35469713952613796,
+          "convection_on": true,
+          "heat_capacity": 194369172.82892022,
+          "log_temperature_pressure_gradient": 0.3860024160422177
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.301985869737506,
+          "adiabatic_gradient": 0.3622641872460595,
+          "convection_on": true,
+          "heat_capacity": 188701933.1885347,
+          "log_temperature_pressure_gradient": 0.3908234148821018
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.150597130788578,
+          "adiabatic_gradient": 0.36667219191601363,
+          "convection_on": true,
+          "heat_capacity": 185422745.31585795,
+          "log_temperature_pressure_gradient": 0.3915058165829555
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.8422805695192557,
+          "adiabatic_gradient": 0.3685447537423618,
+          "convection_on": true,
+          "heat_capacity": 183836284.30793563,
+          "log_temperature_pressure_gradient": 0.40057562452099177
+        }
+      },
+      "run_id": "a_pchip_s3_it08",
+      "target_integrated_eddington_flux": 677050990.1403744
+    },
+    {
+      "R_raw_deep_max": 0.7702627643314969,
+      "R_raw_deep_mean_abs": 0.42220665865610507,
+      "R_raw_full_max": 0.7702627643314969,
+      "R_smoothed_deep_max": 0.5609114008004871,
+      "dT_max_abs_K": 1.2013915954921686,
+      "inner_loop_diagnostics": {},
+      "iteration": 9,
+      "layers": {
+        "67": {
+          "Hconv_raw_over_target": 1.3412382570026833,
+          "adiabatic_gradient": 0.19710943574062717,
+          "convection_on": true,
+          "heat_capacity": 447530047.932398,
+          "log_temperature_pressure_gradient": 0.23004014483368934
+        },
+        "68": {
+          "Hconv_raw_over_target": 1.3961805254502542,
+          "adiabatic_gradient": 0.21176653618268895,
+          "convection_on": true,
+          "heat_capacity": 401337238.7635553,
+          "log_temperature_pressure_gradient": 0.2459686566614148
+        },
+        "69": {
+          "Hconv_raw_over_target": 1.4479037321930388,
+          "adiabatic_gradient": 0.2284490786917837,
+          "convection_on": true,
+          "heat_capacity": 358635323.7233356,
+          "log_temperature_pressure_gradient": 0.2639357309016168
+        },
+        "70": {
+          "Hconv_raw_over_target": 1.4807320957159384,
+          "adiabatic_gradient": 0.24689776796602522,
+          "convection_on": true,
+          "heat_capacity": 320550459.72252035,
+          "log_temperature_pressure_gradient": 0.283326394718518
+        },
+        "71": {
+          "Hconv_raw_over_target": 1.5141777781630328,
+          "adiabatic_gradient": 0.26644199278149167,
+          "convection_on": true,
+          "heat_capacity": 287535056.789462,
+          "log_temperature_pressure_gradient": 0.3036593290108032
+        },
+        "72": {
+          "Hconv_raw_over_target": 1.520079788811123,
+          "adiabatic_gradient": 0.28715551847711374,
+          "convection_on": true,
+          "heat_capacity": 259031021.5697196,
+          "log_temperature_pressure_gradient": 0.32449397089693455
+        },
+        "73": {
+          "Hconv_raw_over_target": 1.5013699464163015,
+          "adiabatic_gradient": 0.30797810976645124,
+          "convection_on": true,
+          "heat_capacity": 235399712.55787063,
+          "log_temperature_pressure_gradient": 0.34469098099185497
+        },
+        "74": {
+          "Hconv_raw_over_target": 1.4617786081776307,
+          "adiabatic_gradient": 0.3271622513847281,
+          "convection_on": true,
+          "heat_capacity": 216906310.46464422,
+          "log_temperature_pressure_gradient": 0.36246515547268043
+        },
+        "75": {
+          "Hconv_raw_over_target": 1.4239589791512883,
+          "adiabatic_gradient": 0.3430553462945366,
+          "convection_on": true,
+          "heat_capacity": 203411643.99909616,
+          "log_temperature_pressure_gradient": 0.3765539772778506
+        },
+        "76": {
+          "Hconv_raw_over_target": 1.3952016280490764,
+          "adiabatic_gradient": 0.3546775074473197,
+          "convection_on": true,
+          "heat_capacity": 194389555.5496214,
+          "log_temperature_pressure_gradient": 0.3862235108166354
+        },
+        "77": {
+          "Hconv_raw_over_target": 1.3195567976097695,
+          "adiabatic_gradient": 0.36225744090914413,
+          "convection_on": true,
+          "heat_capacity": 188713321.21447116,
+          "log_temperature_pressure_gradient": 0.39106567587734925
+        },
+        "78": {
+          "Hconv_raw_over_target": 1.176591288669528,
+          "adiabatic_gradient": 0.3666675867392329,
+          "convection_on": true,
+          "heat_capacity": 185428833.46222955,
+          "log_temperature_pressure_gradient": 0.3918694806730683
+        },
+        "79": {
+          "Hconv_raw_over_target": 1.8845492271703386,
+          "adiabatic_gradient": 0.3685197180234346,
+          "convection_on": true,
+          "heat_capacity": 183833652.7066812,
+          "log_temperature_pressure_gradient": 0.40103573092332456
+        }
+      },
+      "run_id": "a_pchip_s3_it09",
+      "target_integrated_eddington_flux": 677050990.1403744
+    }
+  ],
+  "metrics_definition": "primary = mean|R_raw| over layers 67-79; reference arms are the 20260921 S0-style pchip trajectories for the same origins",
+  "scheme": "pchip"
+}

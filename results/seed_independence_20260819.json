@@ -1,0 +1,785 @@
+{
+  "stars": {
+    "2651": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 56.852119833696634,
+          "gas_pressure_max_dex_vs_reference": 7.1688626088750595e-06,
+          "electron_density_max_dex_vs_reference": 7.058676233739902e-06,
+          "rosseland_opacity_max_dex_vs_reference": 6.341037123158699e-06,
+          "radiative_acceleration_max_rel_vs_reference": 1.409839009912631e-05,
+          "worst_dex_vs_reference": 7.1688626088750595e-06
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 55.15943545801565,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 38.42765258299187,
+          "gas_pressure_max_dex_vs_reference": 3.3891746786807175e-06,
+          "electron_density_max_dex_vs_reference": 3.3071308269683186e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.8551954756039777e-06,
+          "radiative_acceleration_max_rel_vs_reference": 6.321786025461099e-06,
+          "worst_dex_vs_reference": 3.3891746786807175e-06
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 44.056078833993524,
+          "gas_pressure_max_dex_vs_reference": 7.876147361418617e-06,
+          "electron_density_max_dex_vs_reference": 7.731853429504554e-06,
+          "rosseland_opacity_max_dex_vs_reference": 6.924877334890667e-06,
+          "radiative_acceleration_max_rel_vs_reference": 1.543063233524854e-05,
+          "worst_dex_vs_reference": 7.876147361418617e-06
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 27.65203612484038,
+          "gas_pressure_max_dex_vs_reference": 1.4818848002029483e-06,
+          "electron_density_max_dex_vs_reference": 1.4450041962987825e-06,
+          "rosseland_opacity_max_dex_vs_reference": 1.2371158686352857e-06,
+          "radiative_acceleration_max_rel_vs_reference": 2.7601500634743055e-06,
+          "worst_dex_vs_reference": 1.4818848002029483e-06
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.051831500139087,
+          "gas_pressure_max_dex_vs_reference": 2.561731601069539e-06,
+          "electron_density_max_dex_vs_reference": 2.4964464699905875e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.12272080246656e-06,
+          "radiative_acceleration_max_rel_vs_reference": 4.781409671533817e-06,
+          "worst_dex_vs_reference": 2.561731601069539e-06
+        }
+      },
+      "pass": true
+    },
+    "6751": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 42.52345966687426,
+          "gas_pressure_max_dex_vs_reference": 0.00013043928351574863,
+          "electron_density_max_dex_vs_reference": 0.00012978830389975826,
+          "rosseland_opacity_max_dex_vs_reference": 9.493951773861808e-05,
+          "radiative_acceleration_max_rel_vs_reference": 0.00022217190181593398,
+          "worst_dex_vs_reference": 0.00013043928351574863
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 24.125505041331053,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 39.345102792140096,
+          "gas_pressure_max_dex_vs_reference": 4.083279304034626e-05,
+          "electron_density_max_dex_vs_reference": 4.0656246762083015e-05,
+          "rosseland_opacity_max_dex_vs_reference": 2.9722082061728328e-05,
+          "radiative_acceleration_max_rel_vs_reference": 7.114243309957623e-05,
+          "worst_dex_vs_reference": 4.083279304034626e-05
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.716353584080935,
+          "gas_pressure_max_dex_vs_reference": 0.00014502579459163556,
+          "electron_density_max_dex_vs_reference": 0.00014425395478312453,
+          "rosseland_opacity_max_dex_vs_reference": 0.00010545145335461026,
+          "radiative_acceleration_max_rel_vs_reference": 0.00022453202255851525,
+          "worst_dex_vs_reference": 0.00014502579459163556
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 31.685934209264815,
+          "gas_pressure_max_dex_vs_reference": 2.26202119937291e-05,
+          "electron_density_max_dex_vs_reference": 2.2481920026962143e-05,
+          "rosseland_opacity_max_dex_vs_reference": 1.6397798430572985e-05,
+          "radiative_acceleration_max_rel_vs_reference": 3.7859838487840315e-05,
+          "worst_dex_vs_reference": 2.26202119937291e-05
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 25.169277250301093,
+          "gas_pressure_max_dex_vs_reference": 6.06693392990465e-05,
+          "electron_density_max_dex_vs_reference": 6.025830834488488e-05,
+          "rosseland_opacity_max_dex_vs_reference": 4.3891680993696225e-05,
+          "radiative_acceleration_max_rel_vs_reference": 0.00010835567940077719,
+          "worst_dex_vs_reference": 6.06693392990465e-05
+        }
+      },
+      "pass": false
+    },
+    "8543": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 23.68522254191339,
+          "gas_pressure_max_dex_vs_reference": 1.0169642905566434e-12,
+          "electron_density_max_dex_vs_reference": 3.728771602595771e-08,
+          "rosseland_opacity_max_dex_vs_reference": 9.538775103123953e-09,
+          "radiative_acceleration_max_rel_vs_reference": 2.5362334985254016e-09,
+          "worst_dex_vs_reference": 3.728771602595771e-08
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 41.10853470908478,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 27.59655895922333,
+          "gas_pressure_max_dex_vs_reference": 4.878764059412788e-12,
+          "electron_density_max_dex_vs_reference": 1.8436407955846335e-07,
+          "rosseland_opacity_max_dex_vs_reference": 4.715770973717781e-08,
+          "radiative_acceleration_max_rel_vs_reference": 7.637521630748161e-09,
+          "worst_dex_vs_reference": 1.8436407955846335e-07
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 23.236204874701798,
+          "gas_pressure_max_dex_vs_reference": 1.127098414599459e-12,
+          "electron_density_max_dex_vs_reference": 3.6787671575666536e-08,
+          "rosseland_opacity_max_dex_vs_reference": 9.420469737619896e-09,
+          "radiative_acceleration_max_rel_vs_reference": 2.3752713266356577e-09,
+          "worst_dex_vs_reference": 3.6787671575666536e-08
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 30.754722042009234,
+          "gas_pressure_max_dex_vs_reference": 4.9613646524448995e-12,
+          "electron_density_max_dex_vs_reference": 8.291281972105935e-08,
+          "rosseland_opacity_max_dex_vs_reference": 2.1188827137308408e-08,
+          "radiative_acceleration_max_rel_vs_reference": 3.2351604881562977e-09,
+          "worst_dex_vs_reference": 8.291281972105935e-08
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 33.26667616609484,
+          "gas_pressure_max_dex_vs_reference": 5.901057420487632e-12,
+          "electron_density_max_dex_vs_reference": 8.980037335959423e-08,
+          "rosseland_opacity_max_dex_vs_reference": 2.515874175657018e-08,
+          "radiative_acceleration_max_rel_vs_reference": 4.730778756138536e-09,
+          "worst_dex_vs_reference": 8.980037335959423e-08
+        }
+      },
+      "pass": true
+    },
+    "17256": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 184.58537083305418,
+          "gas_pressure_max_dex_vs_reference": 2.6645352591003757e-15,
+          "electron_density_max_dex_vs_reference": 1.1646736908232924e-08,
+          "rosseland_opacity_max_dex_vs_reference": 9.686349278226203e-09,
+          "radiative_acceleration_max_rel_vs_reference": 4.69618488028995e-09,
+          "worst_dex_vs_reference": 1.1646736908232924e-08
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 164.4646239997819,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 143.4421066250652,
+          "gas_pressure_max_dex_vs_reference": 8.881784197001252e-16,
+          "electron_density_max_dex_vs_reference": 2.2507862240672694e-09,
+          "rosseland_opacity_max_dex_vs_reference": 1.8568173665300947e-09,
+          "radiative_acceleration_max_rel_vs_reference": 5.022370791585026e-10,
+          "worst_dex_vs_reference": 2.2507862240672694e-09
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 191.06963166687638,
+          "gas_pressure_max_dex_vs_reference": 4.440892098500626e-15,
+          "electron_density_max_dex_vs_reference": 1.559756235280929e-08,
+          "rosseland_opacity_max_dex_vs_reference": 1.3093443218537004e-08,
+          "radiative_acceleration_max_rel_vs_reference": 3.7579013023625805e-09,
+          "worst_dex_vs_reference": 1.559756235280929e-08
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 186.5701500000432,
+          "gas_pressure_max_dex_vs_reference": 2.220446049250313e-14,
+          "electron_density_max_dex_vs_reference": 7.203314389414572e-08,
+          "rosseland_opacity_max_dex_vs_reference": 7.022205261719705e-08,
+          "radiative_acceleration_max_rel_vs_reference": 4.470137087885958e-08,
+          "worst_dex_vs_reference": 7.203314389414572e-08
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 153.6108746668324,
+          "gas_pressure_max_dex_vs_reference": 2.7533531010703882e-14,
+          "electron_density_max_dex_vs_reference": 8.576784615854649e-08,
+          "rosseland_opacity_max_dex_vs_reference": 6.856661927123753e-08,
+          "radiative_acceleration_max_rel_vs_reference": 1.8328708850943474e-08,
+          "worst_dex_vs_reference": 8.576784615854649e-08
+        }
+      },
+      "pass": true
+    },
+    "24657": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 38.2300145002082,
+          "gas_pressure_max_dex_vs_reference": 3.4638958368304884e-14,
+          "electron_density_max_dex_vs_reference": 1.2873517363232168e-08,
+          "rosseland_opacity_max_dex_vs_reference": 5.28396482124549e-09,
+          "radiative_acceleration_max_rel_vs_reference": 2.257816724972463e-09,
+          "worst_dex_vs_reference": 1.2873517363232168e-08
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.636041707824916,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.419665709137917,
+          "gas_pressure_max_dex_vs_reference": 6.776801342311956e-13,
+          "electron_density_max_dex_vs_reference": 2.1132171212912e-07,
+          "rosseland_opacity_max_dex_vs_reference": 8.612815882713676e-08,
+          "radiative_acceleration_max_rel_vs_reference": 2.281214616771356e-08,
+          "worst_dex_vs_reference": 2.1132171212912e-07
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.2739272499457,
+          "gas_pressure_max_dex_vs_reference": 7.105427357601002e-14,
+          "electron_density_max_dex_vs_reference": 1.8776386667695988e-08,
+          "rosseland_opacity_max_dex_vs_reference": 7.719682226792202e-09,
+          "radiative_acceleration_max_rel_vs_reference": 2.500434891862261e-09,
+          "worst_dex_vs_reference": 1.8776386667695988e-08
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.559511666651815,
+          "gas_pressure_max_dex_vs_reference": 7.673861546209082e-13,
+          "electron_density_max_dex_vs_reference": 2.2202009830607494e-07,
+          "rosseland_opacity_max_dex_vs_reference": 9.044326088059051e-08,
+          "radiative_acceleration_max_rel_vs_reference": 1.2946975771854413e-08,
+          "worst_dex_vs_reference": 2.2202009830607494e-07
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.74151587486267,
+          "gas_pressure_max_dex_vs_reference": 8.952838470577262e-13,
+          "electron_density_max_dex_vs_reference": 2.595660184567805e-07,
+          "rosseland_opacity_max_dex_vs_reference": 1.0583458820434544e-07,
+          "radiative_acceleration_max_rel_vs_reference": 1.4638656642514428e-08,
+          "worst_dex_vs_reference": 2.595660184567805e-07
+        }
+      },
+      "pass": true
+    },
+    "25033": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 31.11360429180786,
+          "gas_pressure_max_dex_vs_reference": 2.8253088601992715e-06,
+          "electron_density_max_dex_vs_reference": 2.7178103074732007e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.1228925745075955e-06,
+          "radiative_acceleration_max_rel_vs_reference": 4.328381655295872e-06,
+          "worst_dex_vs_reference": 2.8253088601992715e-06
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 31.765592665877193,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 32.55112220812589,
+          "gas_pressure_max_dex_vs_reference": 1.1737767660058296e-06,
+          "electron_density_max_dex_vs_reference": 1.1198540779133737e-06,
+          "rosseland_opacity_max_dex_vs_reference": 8.696249603756812e-07,
+          "radiative_acceleration_max_rel_vs_reference": 1.8789502749736093e-06,
+          "worst_dex_vs_reference": 1.1737767660058296e-06
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 32.03938141698018,
+          "gas_pressure_max_dex_vs_reference": 3.0645153392683255e-06,
+          "electron_density_max_dex_vs_reference": 2.932390255949713e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.2893884915609064e-06,
+          "radiative_acceleration_max_rel_vs_reference": 4.587058529991732e-06,
+          "worst_dex_vs_reference": 3.0645153392683255e-06
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 31.021646375302225,
+          "gas_pressure_max_dex_vs_reference": 5.332011876468812e-07,
+          "electron_density_max_dex_vs_reference": 5.095899666685e-07,
+          "rosseland_opacity_max_dex_vs_reference": 4.220789450171125e-07,
+          "radiative_acceleration_max_rel_vs_reference": 8.884852863608282e-07,
+          "worst_dex_vs_reference": 5.332011876468812e-07
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 34.97836708277464,
+          "gas_pressure_max_dex_vs_reference": 1.0178310332342733e-06,
+          "electron_density_max_dex_vs_reference": 9.72487580241932e-07,
+          "rosseland_opacity_max_dex_vs_reference": 7.576724255775602e-07,
+          "radiative_acceleration_max_rel_vs_reference": 1.5661862356387618e-06,
+          "worst_dex_vs_reference": 1.0178310332342733e-06
+        }
+      },
+      "pass": true
+    },
+    "25066": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 30.633800082840025,
+          "gas_pressure_max_dex_vs_reference": 4.440892098500626e-15,
+          "electron_density_max_dex_vs_reference": 5.760210086691586e-10,
+          "rosseland_opacity_max_dex_vs_reference": 3.25780735721537e-10,
+          "radiative_acceleration_max_rel_vs_reference": 2.1995316185893433e-10,
+          "worst_dex_vs_reference": 5.760210086691586e-10
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.998805292416364,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.785438541788608,
+          "gas_pressure_max_dex_vs_reference": 1.0835776720341528e-13,
+          "electron_density_max_dex_vs_reference": 2.5192811392571457e-08,
+          "rosseland_opacity_max_dex_vs_reference": 1.4044500895593615e-08,
+          "radiative_acceleration_max_rel_vs_reference": 5.010810731751435e-09,
+          "worst_dex_vs_reference": 2.5192811392571457e-08
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.553202459122986,
+          "gas_pressure_max_dex_vs_reference": 1.7763568394002505e-14,
+          "electron_density_max_dex_vs_reference": 5.4875428645573265e-09,
+          "rosseland_opacity_max_dex_vs_reference": 3.0625963987063187e-09,
+          "radiative_acceleration_max_rel_vs_reference": 5.016246382328052e-10,
+          "worst_dex_vs_reference": 5.4875428645573265e-09
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.625539334025234,
+          "gas_pressure_max_dex_vs_reference": 3.4283687000424834e-13,
+          "electron_density_max_dex_vs_reference": 9.9474755543838e-08,
+          "rosseland_opacity_max_dex_vs_reference": 5.5331013992798717e-08,
+          "radiative_acceleration_max_rel_vs_reference": 7.64911155208542e-09,
+          "worst_dex_vs_reference": 9.9474755543838e-08
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.99526166683063,
+          "gas_pressure_max_dex_vs_reference": 3.765876499528531e-13,
+          "electron_density_max_dex_vs_reference": 1.1790524290233861e-07,
+          "rosseland_opacity_max_dex_vs_reference": 6.559429910346637e-08,
+          "radiative_acceleration_max_rel_vs_reference": 1.0046478322074653e-08,
+          "worst_dex_vs_reference": 1.1790524290233861e-07
+        }
+      },
+      "pass": true
+    },
+    "33980": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 33.08916337508708,
+          "gas_pressure_max_dex_vs_reference": 2.6525985150627207e-06,
+          "electron_density_max_dex_vs_reference": 2.515486208665152e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.08348581554052e-06,
+          "radiative_acceleration_max_rel_vs_reference": 3.9318352301516285e-06,
+          "worst_dex_vs_reference": 2.6525985150627207e-06
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.64053920796141,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 31.752617875114083,
+          "gas_pressure_max_dex_vs_reference": 1.0990663605880968e-06,
+          "electron_density_max_dex_vs_reference": 1.052139987578471e-06,
+          "rosseland_opacity_max_dex_vs_reference": 9.384586615590607e-07,
+          "radiative_acceleration_max_rel_vs_reference": 4.068603486635017e-06,
+          "worst_dex_vs_reference": 1.0990663605880968e-06
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 32.40089799975976,
+          "gas_pressure_max_dex_vs_reference": 2.635146219454043e-06,
+          "electron_density_max_dex_vs_reference": 2.4973181709242454e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.0676434987487724e-06,
+          "radiative_acceleration_max_rel_vs_reference": 3.878928686236673e-06,
+          "worst_dex_vs_reference": 2.635146219454043e-06
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 31.96957879094407,
+          "gas_pressure_max_dex_vs_reference": 4.729955498383731e-07,
+          "electron_density_max_dex_vs_reference": 4.5278267357673485e-07,
+          "rosseland_opacity_max_dex_vs_reference": 3.943970190434243e-07,
+          "radiative_acceleration_max_rel_vs_reference": 8.861995531560875e-07,
+          "worst_dex_vs_reference": 4.729955498383731e-07
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 30.216920082923025,
+          "gas_pressure_max_dex_vs_reference": 6.965644514522751e-07,
+          "electron_density_max_dex_vs_reference": 6.601236268721777e-07,
+          "rosseland_opacity_max_dex_vs_reference": 5.484973353286904e-07,
+          "radiative_acceleration_max_rel_vs_reference": 1.0205809560526981e-06,
+          "worst_dex_vs_reference": 6.965644514522751e-07
+        }
+      },
+      "pass": true
+    },
+    "40012": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 26.16623591678217,
+          "gas_pressure_max_dex_vs_reference": 1.228132634034651e-05,
+          "electron_density_max_dex_vs_reference": 1.1933097633587408e-05,
+          "rosseland_opacity_max_dex_vs_reference": 1.0657254672086225e-05,
+          "radiative_acceleration_max_rel_vs_reference": 2.2933726426026024e-05,
+          "worst_dex_vs_reference": 1.228132634034651e-05
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 26.710841916967183,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 26.328192916233093,
+          "gas_pressure_max_dex_vs_reference": 4.024861577356376e-06,
+          "electron_density_max_dex_vs_reference": 3.966748648664975e-06,
+          "rosseland_opacity_max_dex_vs_reference": 3.598618472322457e-06,
+          "radiative_acceleration_max_rel_vs_reference": 7.93453453963487e-06,
+          "worst_dex_vs_reference": 4.024861577356376e-06
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 26.025122667197138,
+          "gas_pressure_max_dex_vs_reference": 1.2671615531090197e-05,
+          "electron_density_max_dex_vs_reference": 1.2298032636692824e-05,
+          "rosseland_opacity_max_dex_vs_reference": 1.1230283740615299e-05,
+          "radiative_acceleration_max_rel_vs_reference": 2.3816895237131765e-05,
+          "worst_dex_vs_reference": 1.2671615531090197e-05
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 25.490228000096977,
+          "gas_pressure_max_dex_vs_reference": 2.182181651821935e-06,
+          "electron_density_max_dex_vs_reference": 2.14204544590757e-06,
+          "rosseland_opacity_max_dex_vs_reference": 1.9303072922305375e-06,
+          "radiative_acceleration_max_rel_vs_reference": 4.247084771863278e-06,
+          "worst_dex_vs_reference": 2.182181651821935e-06
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 25.362816084176302,
+          "gas_pressure_max_dex_vs_reference": 3.3322771315624777e-06,
+          "electron_density_max_dex_vs_reference": 3.281979696012627e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.970194359241951e-06,
+          "radiative_acceleration_max_rel_vs_reference": 6.493822356970239e-06,
+          "worst_dex_vs_reference": 3.3322771315624777e-06
+        }
+      },
+      "pass": true
+    },
+    "40213": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 30.36845958326012,
+          "gas_pressure_max_dex_vs_reference": 4.00818169765671e-08,
+          "electron_density_max_dex_vs_reference": 1.4830047945224578e-07,
+          "rosseland_opacity_max_dex_vs_reference": 2.578676236986155e-07,
+          "radiative_acceleration_max_rel_vs_reference": 9.590468762549761e-08,
+          "worst_dex_vs_reference": 2.578676236986155e-07
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.492469917051494,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.08733725035563,
+          "gas_pressure_max_dex_vs_reference": 4.2166887226358085e-07,
+          "electron_density_max_dex_vs_reference": 4.3506896574285747e-07,
+          "rosseland_opacity_max_dex_vs_reference": 7.914104211970141e-07,
+          "radiative_acceleration_max_rel_vs_reference": 3.8017434884999173e-07,
+          "worst_dex_vs_reference": 7.914104211970141e-07
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 29.544087917078286,
+          "gas_pressure_max_dex_vs_reference": 3.365557965651078e-08,
+          "electron_density_max_dex_vs_reference": 1.1920294440415091e-07,
+          "rosseland_opacity_max_dex_vs_reference": 2.0852383841862832e-07,
+          "radiative_acceleration_max_rel_vs_reference": 6.87137828234877e-08,
+          "worst_dex_vs_reference": 2.0852383841862832e-07
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.89461995800957,
+          "gas_pressure_max_dex_vs_reference": 1.414449721792721e-07,
+          "electron_density_max_dex_vs_reference": 7.464965534609291e-08,
+          "rosseland_opacity_max_dex_vs_reference": 7.108357635843277e-08,
+          "radiative_acceleration_max_rel_vs_reference": 1.3619430314096007e-07,
+          "worst_dex_vs_reference": 1.414449721792721e-07
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 28.930397084448487,
+          "gas_pressure_max_dex_vs_reference": 2.3773299773210965e-08,
+          "electron_density_max_dex_vs_reference": 1.255849113590557e-08,
+          "rosseland_opacity_max_dex_vs_reference": 2.4505176110523053e-08,
+          "radiative_acceleration_max_rel_vs_reference": 1.3106013307288913e-08,
+          "worst_dex_vs_reference": 2.4505176110523053e-08
+        }
+      },
+      "pass": true
+    },
+    "40696": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 26.702185834292322,
+          "gas_pressure_max_dex_vs_reference": 0.0005569862891936506,
+          "electron_density_max_dex_vs_reference": 0.0005495843100611353,
+          "rosseland_opacity_max_dex_vs_reference": 0.0003971294530933367,
+          "radiative_acceleration_max_rel_vs_reference": 0.0008545270575577422,
+          "worst_dex_vs_reference": 0.0005569862891936506
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 26.401506916619837,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 27.76724920840934,
+          "gas_pressure_max_dex_vs_reference": 0.00029206113828483815,
+          "electron_density_max_dex_vs_reference": 0.0002848988402011088,
+          "rosseland_opacity_max_dex_vs_reference": 0.00020483138492841113,
+          "radiative_acceleration_max_rel_vs_reference": 0.0004297756299173162,
+          "worst_dex_vs_reference": 0.00029206113828483815
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 24.258537041023374,
+          "gas_pressure_max_dex_vs_reference": 0.0006852109825714603,
+          "electron_density_max_dex_vs_reference": 0.0006802537210361947,
+          "rosseland_opacity_max_dex_vs_reference": 0.0004865989341443777,
+          "radiative_acceleration_max_rel_vs_reference": 0.00105061119992754,
+          "worst_dex_vs_reference": 0.0006852109825714603
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 25.412505541928113,
+          "gas_pressure_max_dex_vs_reference": 0.0001733991815202618,
+          "electron_density_max_dex_vs_reference": 0.00017104034791692868,
+          "rosseland_opacity_max_dex_vs_reference": 0.00012358319262337214,
+          "radiative_acceleration_max_rel_vs_reference": 0.0002675224722984933,
+          "worst_dex_vs_reference": 0.0001733991815202618
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 26.912523000035435,
+          "gas_pressure_max_dex_vs_reference": 0.0004387963624887803,
+          "electron_density_max_dex_vs_reference": 0.00043535318592979877,
+          "rosseland_opacity_max_dex_vs_reference": 0.00031106041923253946,
+          "radiative_acceleration_max_rel_vs_reference": 0.0006808707175119555,
+          "worst_dex_vs_reference": 0.0004387963624887803
+        }
+      },
+      "pass": false
+    },
+    "45017": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 91.34361466718838,
+          "gas_pressure_max_dex_vs_reference": 3.703704010149522e-13,
+          "electron_density_max_dex_vs_reference": 4.631335315252727e-10,
+          "rosseland_opacity_max_dex_vs_reference": 2.039359792149753e-10,
+          "radiative_acceleration_max_rel_vs_reference": 7.449963520657147e-11,
+          "worst_dex_vs_reference": 4.631335315252727e-10
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 92.48983154213056,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 88.16983070923015,
+          "gas_pressure_max_dex_vs_reference": 3.5473846082823e-12,
+          "electron_density_max_dex_vs_reference": 4.928924823843772e-09,
+          "rosseland_opacity_max_dex_vs_reference": 2.125072562364494e-09,
+          "radiative_acceleration_max_rel_vs_reference": 4.124313925443117e-10,
+          "worst_dex_vs_reference": 4.928924823843772e-09
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 74.46948724985123,
+          "gas_pressure_max_dex_vs_reference": 4.2588155224621005e-13,
+          "electron_density_max_dex_vs_reference": 4.6205528292375675e-10,
+          "rosseland_opacity_max_dex_vs_reference": 2.0352852736493787e-10,
+          "radiative_acceleration_max_rel_vs_reference": 7.344684901166403e-11,
+          "worst_dex_vs_reference": 4.6205528292375675e-10
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 72.33263124991208,
+          "gas_pressure_max_dex_vs_reference": 3.375077994860476e-12,
+          "electron_density_max_dex_vs_reference": 2.7358826315548868e-09,
+          "rosseland_opacity_max_dex_vs_reference": 1.1665979293695727e-09,
+          "radiative_acceleration_max_rel_vs_reference": 8.447039070838577e-10,
+          "worst_dex_vs_reference": 2.7358826315548868e-09
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 4,
+          "seconds": 77.4412879999727,
+          "gas_pressure_max_dex_vs_reference": 4.433342581933175e-12,
+          "electron_density_max_dex_vs_reference": 3.115209423754095e-09,
+          "rosseland_opacity_max_dex_vs_reference": 1.3700487411227869e-09,
+          "radiative_acceleration_max_rel_vs_reference": 6.793029093139041e-10,
+          "worst_dex_vs_reference": 3.115209423754095e-09
+        }
+      },
+      "pass": true
+    }
+  },
+  "pass": false
+}

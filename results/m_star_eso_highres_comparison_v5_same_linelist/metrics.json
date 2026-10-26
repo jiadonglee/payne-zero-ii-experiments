@@ -1,0 +1,384 @@
+{
+  "atmosphere_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/dwarf/g+5.00_m+0.00_a+0.00_c+0.00_x1.00/t3750/products/primary/t03750.0_g+5.00_m+0.00_a+0.00_x1.00.npz",
+  "common_projection": {
+    "instrument": {
+      "broadening_sigma_km_s": 0.0,
+      "custom_lsf_kernel_pixels": null,
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "input_pixels": 2045,
+      "last_seconds": 0.0008628750074421987,
+      "name": "generic_observed_spectrum",
+      "output_pixels": 750,
+      "radial_velocity_km_s": -0.6918215629,
+      "resolving_power": 80000.0,
+      "velocity_step_km_s": 0.49965368029149165
+    },
+    "order": "native total/continuum -> Gray rotation -> constant-R Gaussian LSF -> observed pixels",
+    "rotation": {
+      "device": "cpu",
+      "dtype": "torch.float64",
+      "limb_darkening": 0.6,
+      "maximum_vsini_km_s": 7.1124722692,
+      "profile": "Gray linear-limb-darkened rotation",
+      "velocity_step_km_s": 0.49965368029149165
+    }
+  },
+  "continuum_nuisance": "each synthesizer independently gets model*(a+b*x)",
+  "experiment": "same atomic transitions in native Payne-Zero and Korg",
+  "fixed_nuisance": {
+    "fit_status": "frozen from v3",
+    "instrument_resolving_power": 80000.0,
+    "residual_rv_km_s": -0.6918215629,
+    "vsini_km_s": 7.1124722692
+  },
+  "giant_used": false,
+  "line_identity": {
+    "common_species_support": "atomic ion stages I-III, supported by both synthesizers",
+    "damping_interpretation": "PZ normalized gamma fields were inverted with the same 12.5664*nu factor used by PZ; Korg stores the recovered gamma values, but applies its own density and temperature scaling.",
+    "excluded_higher_ion_stage_count": 25,
+    "fields": {
+      "E_lower_eV": {
+        "exact_array_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "maximum_relative_difference": 0.0,
+        "tolerance": {
+          "atol": 1e-14,
+          "rtol": 2e-15
+        },
+        "within_tolerance": true
+      },
+      "atomic_number": {
+        "exact_array_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "maximum_relative_difference": 0.0,
+        "tolerance": {
+          "atol": 0.0,
+          "rtol": 0.0
+        },
+        "within_tolerance": true
+      },
+      "gamma_rad_s": {
+        "exact_array_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "maximum_relative_difference": 0.0,
+        "tolerance": {
+          "atol": 0.0,
+          "rtol": 2e-15
+        },
+        "within_tolerance": true
+      },
+      "gamma_stark_s": {
+        "exact_array_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "maximum_relative_difference": 0.0,
+        "tolerance": {
+          "atol": 0.0,
+          "rtol": 2e-15
+        },
+        "within_tolerance": true
+      },
+      "gamma_vdw_s": {
+        "exact_array_equal": false,
+        "maximum_absolute_difference": 5.293955920339377e-23,
+        "maximum_relative_difference": 2.2476067595321574e-16,
+        "tolerance": {
+          "atol": 0.0,
+          "rtol": 2e-15
+        },
+        "within_tolerance": true
+      },
+      "ion_stage": {
+        "exact_array_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "maximum_relative_difference": 0.0,
+        "tolerance": {
+          "atol": 0.0,
+          "rtol": 0.0
+        },
+        "within_tolerance": true
+      },
+      "loggf": {
+        "exact_array_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "maximum_relative_difference": 0.0,
+        "tolerance": {
+          "atol": 1e-14,
+          "rtol": 0.0
+        },
+        "within_tolerance": true
+      },
+      "wavelength_nm": {
+        "exact_array_equal": false,
+        "maximum_absolute_difference": 1.1368683772161603e-13,
+        "maximum_relative_difference": 1.8478610854799624e-16,
+        "tolerance": {
+          "atol": 2e-13,
+          "rtol": 0.0
+        },
+        "within_tolerance": true
+      }
+    },
+    "korg_input_line_count": 2072,
+    "korg_internal_reference_lines": "enabled only for the anchored tau5000 reference opacity; they do not enter target-window line opacity",
+    "korg_used_line_count": 2072,
+    "pz_metal_transition_count": 2072,
+    "pz_source_metal_count_before_common_species_support": 2097,
+    "transition_identity": true
+  },
+  "metrics": {
+    "korg": {
+      "ca_i_line_diagnostic": {
+        "center_air_A": 6162.158754006095,
+        "center_velocity_relative_6162p173_km_s": -0.6930739415278779,
+        "fwhm_km_s": 29.286803538736446,
+        "half_depth_flux": 0.3438246631679348
+      },
+      "continuum_coefficients_a_b": [
+        0.930744444784817,
+        -0.05700852588172964
+      ],
+      "mad": 0.0578956651105903,
+      "median_signed": 0.022698355262860126,
+      "p95_absolute": 0.15057849820887947,
+      "rms": 0.08140449769451451
+    },
+    "native_payne_zero": {
+      "ca_i_line_diagnostic": {
+        "center_air_A": 6162.15844605319,
+        "center_velocity_relative_6162p173_km_s": -0.7080559873140959,
+        "fwhm_km_s": 29.08691459342113,
+        "half_depth_flux": 0.3317081412566777
+      },
+      "continuum_coefficients_a_b": [
+        0.9724781747766944,
+        -0.036942789667490414
+      ],
+      "mad": 0.06233724591738482,
+      "median_signed": 0.027507653691388523,
+      "p95_absolute": 0.1549447657416206,
+      "rms": 0.08506605157252813
+    },
+    "noise_rms": 0.02581813247561644,
+    "observation": {
+      "ca_i_line_diagnostic": {
+        "center_air_A": 6162.161877277753,
+        "center_velocity_relative_6162p173_km_s": -0.5411253857977488,
+        "fwhm_km_s": 17.16690739367354,
+        "half_depth_flux": 0.3797584251489088
+      }
+    },
+    "prediction_rms_difference": 0.016964636541183697,
+    "residual_correlation": 0.9796146785486257
+  },
+  "observation": {
+    "catalogue_rv_km_s_applied_as_common_fixed_shift": 12.6,
+    "date_obs": "2001-03-09T04:17:07.929",
+    "dec_deg": -52.96126,
+    "error_column_present": true,
+    "flux_calibration": "Calibrated",
+    "instrument": "VLT/UVES",
+    "n_good_pixels_full_spectrum": 211441,
+    "n_pixels": 352500,
+    "object": "IC2391-0096",
+    "observation_block_id": 200105380,
+    "path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/observations/IC2391-0096_R80k.fits",
+    "pixel_mask_used": "PIXMASK == 1 and QUALITY == 0",
+    "primary_flux_unit": "erg/cm^2/s/ang",
+    "program_id": "266.D-5655(A)",
+    "ra_deg": 130.864945,
+    "spectral_resolution": 80000.0,
+    "table_column_units": {
+      "ERROR": null,
+      "FLUX": null,
+      "PIXMASK": null,
+      "QUALITY": null,
+      "WAVE": null
+    },
+    "wavelength_axis_header": "AWAV",
+    "wavelength_max_A": 10249.98,
+    "wavelength_min_A": 3200.0,
+    "wavelength_system": "air (CTYPE1=AWAV)"
+  },
+  "remaining_model_differences": [
+    "equation of state and electron-density treatment",
+    "partition functions and ionization equilibrium",
+    "molecular equilibrium",
+    "continuum opacity",
+    "intrinsic thermal and pressure broadening, line opacity, and radiative transfer",
+    "Korg planar remapping of the PZ column-mass structure"
+  ],
+  "sampling": {
+    "korg_interpolated_to_native_log_grid_before_common_broadening": true,
+    "korg_raw_step_A": 0.002,
+    "native_r_grid": 600000.0,
+    "wavelength_projection": "observed air pixels converted to vacuum"
+  },
+  "solver_campaign_success_rate_used": false,
+  "target": "IC2391-0096",
+  "tio": {
+    "common_projection": {
+      "instrument": {
+        "broadening_sigma_km_s": 0.0,
+        "custom_lsf_kernel_pixels": null,
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "input_pixels": 2342,
+        "last_seconds": 0.0017887079884530976,
+        "name": "generic_observed_spectrum",
+        "output_pixels": 1001,
+        "radial_velocity_km_s": -0.6918215629,
+        "resolving_power": 80000.0,
+        "velocity_step_km_s": 0.4996536802917191
+      },
+      "order": "native total/continuum -> Gray rotation -> constant-R Gaussian LSF -> observed pixels",
+      "rotation": {
+        "device": "cpu",
+        "dtype": "torch.float64",
+        "limb_darkening": 0.6,
+        "maximum_vsini_km_s": 7.1124722692,
+        "profile": "Gray linear-limb-darkened rotation",
+        "velocity_step_km_s": 0.4996536802917191
+      }
+    },
+    "line_identity": {
+      "fields": {
+        "E_lower_eV": {
+          "maximum_absolute_difference": 0.0,
+          "tolerance": {
+            "atol": 1e-14,
+            "rtol": 2e-15
+          },
+          "within_tolerance": true
+        },
+        "gamma_rad_s": {
+          "maximum_absolute_difference": 0.0,
+          "tolerance": {
+            "atol": 0.0,
+            "rtol": 2e-15
+          },
+          "within_tolerance": true
+        },
+        "gamma_stark_s": {
+          "maximum_absolute_difference": 0.0,
+          "tolerance": {
+            "atol": 0.0,
+            "rtol": 2e-15
+          },
+          "within_tolerance": true
+        },
+        "gamma_vdw_s": {
+          "maximum_absolute_difference": 1.0587911840678754e-22,
+          "tolerance": {
+            "atol": 0.0,
+            "rtol": 2e-15
+          },
+          "within_tolerance": true
+        },
+        "ion_stage": {
+          "maximum_absolute_difference": 0.0,
+          "tolerance": {
+            "exact": true
+          },
+          "within_tolerance": true
+        },
+        "kind": {
+          "maximum_absolute_difference": 0.0,
+          "tolerance": {
+            "exact": true
+          },
+          "within_tolerance": true
+        },
+        "loggf": {
+          "maximum_absolute_difference": 0.0,
+          "tolerance": {
+            "atol": 2e-14,
+            "rtol": 0.0
+          },
+          "within_tolerance": true
+        },
+        "source_species_code": {
+          "maximum_absolute_difference": 0.0,
+          "tolerance": {
+            "exact": true
+          },
+          "within_tolerance": true
+        },
+        "wavelength_nm": {
+          "maximum_absolute_difference": 1.1368683772161603e-13,
+          "tolerance": {
+            "atol": 2e-13,
+            "rtol": 0.0
+          },
+          "within_tolerance": true
+        }
+      },
+      "identity_label": "matched-transition list, not identical line list, because isotope identity is absent from PZ compiled records",
+      "korg_atomic_line_count": 2434,
+      "korg_input_line_count": 406724,
+      "korg_molecular_line_count": 404290,
+      "korg_used_line_count": 406724,
+      "matched_transition_fields": true
+    },
+    "metrics": {
+      "korg": {
+        "continuum_coefficients_a_b": [
+          1.10848065146092,
+          0.019799059316256154
+        ],
+        "mad": 0.025200279628931344,
+        "median_signed": 0.001115064558790957,
+        "p95_absolute": 0.07281051521654702,
+        "rms": 0.03826992144724561
+      },
+      "native_payne_zero": {
+        "continuum_coefficients_a_b": [
+          1.215821761253136,
+          0.008545599094680074
+        ],
+        "mad": 0.0249651314763909,
+        "median_signed": 0.0026539678990789017,
+        "p95_absolute": 0.07224451459260395,
+        "rms": 0.03907387087285512,
+        "synthesis_seconds": 7.72599337498832
+      },
+      "noise_rms": 0.029164235030602722,
+      "prediction_rms_difference": 0.017135579922636784,
+      "residual_correlation": 0.9022120772713584
+    },
+    "scope": "same compiled transition centers, aggregate species codes, isotope-adjusted loggf, lower energies, and damping parameters; isotope labels cannot be reconstructed from the compiled PZ records",
+    "transition_inventory": {
+      "atomic_count": 2434,
+      "isotope_identity_available": false,
+      "isotope_note": "compiled PZ records retain isotope-adjusted gf but aggregate isotopologues into one molecular species code",
+      "molecular_count": 404290,
+      "molecular_species_counts": {
+        "240": 23,
+        "246": 39,
+        "258": 154,
+        "264": 22,
+        "270": 277,
+        "300": 103,
+        "324": 30427,
+        "342": 31,
+        "366": 353897,
+        "372": 18994,
+        "492": 323
+      },
+      "total_count": 406724
+    },
+    "window": {
+      "hi": 6670.0,
+      "label": "TiO-rich",
+      "lo": 6650.0,
+      "name": "tio_6650"
+    }
+  },
+  "tio_status": "completed_matched_transition_list",
+  "window": {
+    "hi": 6170.0,
+    "label": "Ca I",
+    "lo": 6155.0,
+    "name": "ca_i_6162"
+  }
+}

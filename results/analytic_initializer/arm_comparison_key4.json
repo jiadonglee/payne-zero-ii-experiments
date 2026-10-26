@@ -1,0 +1,167 @@
+{
+  "analytic_converged_count": 0,
+  "comparison_scope": "requested_subset",
+  "format": "payne_zero_analytic_initializer_arm_comparison_v1",
+  "gate_a": {
+    "hard_tail_is_solver_side": true,
+    "known_problem_indices": [
+      11206,
+      13265,
+      33356,
+      34042
+    ],
+    "production_first_trial_also_fails": [
+      11206,
+      13265,
+      33356
+    ],
+    "production_first_trial_also_fails_count": 3,
+    "threshold_count": 2
+  },
+  "iterations_where_both_converged": {
+    "analytic_faster_count": 0,
+    "analytic_minus_production_mean": null,
+    "analytic_slower_count": 0,
+    "star_count": 0,
+    "tied_count": 0
+  },
+  "known_problem_stars": [
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 11206,
+      "effective_temperature": 7451.8277972832,
+      "log_surface_gravity": 4.00085592703927,
+      "metallicity": -2.324233352249324,
+      "production_converged_with_retry": false,
+      "production_first_trial_converged": false,
+      "production_first_trial_iterations": 15,
+      "production_iterations": null,
+      "production_outcome": "not_converged"
+    },
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 13265,
+      "effective_temperature": 6492.588159828216,
+      "log_surface_gravity": 1.6591220418002655,
+      "metallicity": -0.3533005819611694,
+      "production_converged_with_retry": false,
+      "production_first_trial_converged": false,
+      "production_first_trial_iterations": 15,
+      "production_iterations": null,
+      "production_outcome": "not_converged"
+    },
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 33356,
+      "effective_temperature": 4362.761065716525,
+      "log_surface_gravity": 5.063913142744261,
+      "metallicity": -1.1769771889382774,
+      "production_converged_with_retry": false,
+      "production_first_trial_converged": false,
+      "production_first_trial_iterations": 15,
+      "production_iterations": null,
+      "production_outcome": "not_converged"
+    },
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 34042,
+      "effective_temperature": 7069.261000573546,
+      "log_surface_gravity": 3.7066109136211205,
+      "metallicity": -1.8887018801456679,
+      "production_converged_with_retry": true,
+      "production_first_trial_converged": true,
+      "production_first_trial_iterations": 8,
+      "production_iterations": 8,
+      "production_outcome": "converged"
+    }
+  ],
+  "paired_test": {
+    "analytic_only_converged": 0,
+    "exact_mcnemar_two_sided_p": 1.0,
+    "note": "Meaningful only over an unbiased draw. On a subset chosen because the analytic arm failed there, this test is conditioned on the outcome and must not be read as a rate comparison.",
+    "production_only_converged": 1
+  },
+  "policy": {
+    "iterations_per_trial": 15,
+    "note": "The paired comparison uses the production arm's first trial, which matches the analytic arm's single-trial budget. The two-trial rate is reported alongside because the four-initializer benchmark is defined against it."
+  },
+  "production_first_trial_converged_count": 1,
+  "production_with_retry_converged_count": 1,
+  "records": [
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 11206,
+      "effective_temperature": 7451.8277972832,
+      "log_surface_gravity": 4.00085592703927,
+      "metallicity": -2.324233352249324,
+      "production_converged_with_retry": false,
+      "production_first_trial_converged": false,
+      "production_first_trial_iterations": 15,
+      "production_iterations": null,
+      "production_outcome": "not_converged"
+    },
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 13265,
+      "effective_temperature": 6492.588159828216,
+      "log_surface_gravity": 1.6591220418002655,
+      "metallicity": -0.3533005819611694,
+      "production_converged_with_retry": false,
+      "production_first_trial_converged": false,
+      "production_first_trial_iterations": 15,
+      "production_iterations": null,
+      "production_outcome": "not_converged"
+    },
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 33356,
+      "effective_temperature": 4362.761065716525,
+      "log_surface_gravity": 5.063913142744261,
+      "metallicity": -1.1769771889382774,
+      "production_converged_with_retry": false,
+      "production_first_trial_converged": false,
+      "production_first_trial_iterations": 15,
+      "production_iterations": null,
+      "production_outcome": "not_converged"
+    },
+    {
+      "analytic_converged": false,
+      "analytic_iterations": 15,
+      "analytic_outcome": "not_converged",
+      "corpus_index": 34042,
+      "effective_temperature": 7069.261000573546,
+      "log_surface_gravity": 3.7066109136211205,
+      "metallicity": -1.8887018801456679,
+      "production_converged_with_retry": true,
+      "production_first_trial_converged": true,
+      "production_first_trial_iterations": 8,
+      "production_iterations": 8,
+      "production_outcome": "converged"
+    }
+  ],
+  "sources": {
+    "analytic": [
+      "results/analytic_initializer/h2_solver_funnel60.jsonl",
+      "results/analytic_initializer/gate_a_analytic_remaining.json"
+    ],
+    "production": [
+      "results/analytic_initializer/gate_a_production_key4.json"
+    ]
+  },
+  "star_count": 4,
+  "status": "paired_real_solver_comparison"
+}

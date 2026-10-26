@@ -1,0 +1,136 @@
+{
+  "stars": {
+    "6751": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 56.94868599995971,
+          "gas_pressure_max_dex_vs_reference": 2.237303162488935e-05,
+          "electron_density_max_dex_vs_reference": 2.2138969647755857e-05,
+          "rosseland_opacity_max_dex_vs_reference": 1.6033628624151364e-05,
+          "radiative_acceleration_max_rel_vs_reference": 4.25317425702013e-05,
+          "worst_dex_vs_reference": 2.237303162488935e-05
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 31.73046762496233,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 30.86666337493807,
+          "gas_pressure_max_dex_vs_reference": 8.703107849949987e-06,
+          "electron_density_max_dex_vs_reference": 8.62219759767413e-06,
+          "rosseland_opacity_max_dex_vs_reference": 6.261239588911671e-06,
+          "radiative_acceleration_max_rel_vs_reference": 1.4743060411925773e-05,
+          "worst_dex_vs_reference": 8.703107849949987e-06
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 30.750907791778445,
+          "gas_pressure_max_dex_vs_reference": 2.2910536136677706e-05,
+          "electron_density_max_dex_vs_reference": 2.2659138096514653e-05,
+          "rosseland_opacity_max_dex_vs_reference": 1.6395698865051545e-05,
+          "radiative_acceleration_max_rel_vs_reference": 3.307648184941664e-05,
+          "worst_dex_vs_reference": 2.2910536136677706e-05
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 30.025465416722,
+          "gas_pressure_max_dex_vs_reference": 3.3776273573593585e-06,
+          "electron_density_max_dex_vs_reference": 3.3399489041130437e-06,
+          "rosseland_opacity_max_dex_vs_reference": 2.2801845350750582e-06,
+          "radiative_acceleration_max_rel_vs_reference": 2.523336796888606e-05,
+          "worst_dex_vs_reference": 3.3776273573593585e-06
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 31.058999832719564,
+          "gas_pressure_max_dex_vs_reference": 1.1659763306859361e-05,
+          "electron_density_max_dex_vs_reference": 1.154190927721288e-05,
+          "rosseland_opacity_max_dex_vs_reference": 7.861570520656391e-06,
+          "radiative_acceleration_max_rel_vs_reference": 1.5198976427069422e-05,
+          "worst_dex_vs_reference": 1.1659763306859361e-05
+        }
+      },
+      "pass": true
+    },
+    "40696": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 31.67956908373162,
+          "gas_pressure_max_dex_vs_reference": 0.00014063065270275565,
+          "electron_density_max_dex_vs_reference": 0.0001396438788425769,
+          "rosseland_opacity_max_dex_vs_reference": 9.727649149399165e-05,
+          "radiative_acceleration_max_rel_vs_reference": 0.0002096994109893739,
+          "worst_dex_vs_reference": 0.00014063065270275565
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 31.690164250321686,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 32.4805852919817,
+          "gas_pressure_max_dex_vs_reference": 6.275846015291187e-05,
+          "electron_density_max_dex_vs_reference": 6.24276873590901e-05,
+          "rosseland_opacity_max_dex_vs_reference": 4.422797171468873e-05,
+          "radiative_acceleration_max_rel_vs_reference": 9.685236140583575e-05,
+          "worst_dex_vs_reference": 6.275846015291187e-05
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 30.853460291400552,
+          "gas_pressure_max_dex_vs_reference": 0.00017256361598838588,
+          "electron_density_max_dex_vs_reference": 0.0001714571432742673,
+          "rosseland_opacity_max_dex_vs_reference": 0.00011632331102526261,
+          "radiative_acceleration_max_rel_vs_reference": 0.00025935437554266234,
+          "worst_dex_vs_reference": 0.00017256361598838588
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 32.04817937500775,
+          "gas_pressure_max_dex_vs_reference": 4.815000393443292e-05,
+          "electron_density_max_dex_vs_reference": 4.785992255484928e-05,
+          "rosseland_opacity_max_dex_vs_reference": 3.2289045579822484e-05,
+          "radiative_acceleration_max_rel_vs_reference": 7.079652282366868e-05,
+          "worst_dex_vs_reference": 4.815000393443292e-05
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 5,
+          "seconds": 31.160743167158216,
+          "gas_pressure_max_dex_vs_reference": 0.0001242488175487999,
+          "electron_density_max_dex_vs_reference": 0.00012319280803829713,
+          "rosseland_opacity_max_dex_vs_reference": 8.17761646289411e-05,
+          "radiative_acceleration_max_rel_vs_reference": 0.00018440633002892473,
+          "worst_dex_vs_reference": 0.0001242488175487999
+        }
+      },
+      "pass": false
+    }
+  },
+  "pass": false,
+  "sync_passes": 4
+}

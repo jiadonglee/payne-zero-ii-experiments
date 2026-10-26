@@ -1,0 +1,60 @@
+{
+  "HD219215": {
+    "catalogue_rv_km_s_applied_as_common_fixed_shift": 1.9,
+    "date_obs": "2002-11-06T23:55:59.984",
+    "dec_deg": -6.04934,
+    "error_column_present": true,
+    "flux_calibration": "Calibrated",
+    "instrument": "VLT/UVES",
+    "n_good_pixels_full_spectrum": 236896,
+    "n_pixels": 352500,
+    "object": "HD219215",
+    "observation_block_id": 200108136,
+    "path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/observations/HD219215_R80k.fits",
+    "pixel_mask_used": "PIXMASK == 1 and QUALITY == 0",
+    "primary_flux_unit": "erg/cm^2/s/ang",
+    "program_id": "266.D-5655(A)",
+    "ra_deg": 348.57987,
+    "spectral_resolution": 80000.0,
+    "table_column_units": {
+      "ERROR": null,
+      "FLUX": null,
+      "PIXMASK": null,
+      "QUALITY": null,
+      "WAVE": null
+    },
+    "wavelength_axis_header": "AWAV",
+    "wavelength_max_A": 10249.98,
+    "wavelength_min_A": 3200.0,
+    "wavelength_system": "air (CTYPE1=AWAV)"
+  },
+  "IC2391-0096": {
+    "catalogue_rv_km_s_applied_as_common_fixed_shift": 12.6,
+    "date_obs": "2001-03-09T04:17:07.929",
+    "dec_deg": -52.96126,
+    "error_column_present": true,
+    "flux_calibration": "Calibrated",
+    "instrument": "VLT/UVES",
+    "n_good_pixels_full_spectrum": 211441,
+    "n_pixels": 352500,
+    "object": "IC2391-0096",
+    "observation_block_id": 200105380,
+    "path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/observations/IC2391-0096_R80k.fits",
+    "pixel_mask_used": "PIXMASK == 1 and QUALITY == 0",
+    "primary_flux_unit": "erg/cm^2/s/ang",
+    "program_id": "266.D-5655(A)",
+    "ra_deg": 130.864945,
+    "spectral_resolution": 80000.0,
+    "table_column_units": {
+      "ERROR": null,
+      "FLUX": null,
+      "PIXMASK": null,
+      "QUALITY": null,
+      "WAVE": null
+    },
+    "wavelength_axis_header": "AWAV",
+    "wavelength_max_A": 10249.98,
+    "wavelength_min_A": 3200.0,
+    "wavelength_system": "air (CTYPE1=AWAV)"
+  }
+}

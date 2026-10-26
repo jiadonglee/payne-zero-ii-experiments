@@ -1,0 +1,182 @@
+{
+  "candidate": "H3_local_positive_log_opacity_then_hydrostatic_mass_integral",
+  "corpus": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+  "corpus_sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+  "excluded_count": 1060,
+  "excluded_manifests": [
+    "results/reconstruction_metrics.json",
+    "results/sealed_solver_subset_20260808.json",
+    "results/sealed_audit_20260808.json",
+    "results/sealed_audit_20260811.json",
+    "results/sealed_initializer_holdout_20260812.json",
+    "results/initializer_calibration_20260812.json",
+    "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+  ],
+  "fits": {
+    "2": {
+      "coefficient_count": 135,
+      "constants_if_three_smooth_regimes": 135,
+      "fit": {
+        "coefficient_count": 135.0,
+        "term_count": 45.0,
+        "training_p95_dex": 0.16658885222750391,
+        "training_rmse_dex": 0.08790412969955516,
+        "training_row_count": 120000.0
+      },
+      "hard": {
+        "invariants": {
+          "nonfinite_mass_profiles": 0,
+          "nonfinite_temperature_profiles": 0,
+          "nonmonotone_mass_profiles": 0,
+          "nonpositive_mass_profiles": 0,
+          "nonpositive_temperature_profiles": 0
+        },
+        "mass_using_P_equals_gm_and_truth_T": {
+          "max_dex": 11.25213642982777,
+          "p50_dex": 1.3921438421850845,
+          "p95_dex": 8.544662911555616,
+          "rmse_dex": 3.8004087233164765
+        },
+        "mass_using_truth_P_T": {
+          "max_dex": 0.5926100575453441,
+          "p50_dex": 0.032375509486488485,
+          "p95_dex": 0.120303598469849,
+          "rmse_dex": 0.06046875628829934
+        },
+        "opacity": {
+          "max_dex": 0.9084068245148148,
+          "p50_dex": 0.04105472802230714,
+          "p95_dex": 0.17218004866146502,
+          "rmse_dex": 0.08987192721599783
+        },
+        "self_consistent_opacity": {
+          "max_dex": 13.962620721450874,
+          "p50_dex": 1.327526185587335,
+          "p95_dex": 10.70183252640966,
+          "rmse_dex": 4.588228223558602
+        }
+      },
+      "smooth": {
+        "invariants": {
+          "nonfinite_mass_profiles": 0,
+          "nonfinite_temperature_profiles": 0,
+          "nonmonotone_mass_profiles": 0,
+          "nonpositive_mass_profiles": 0,
+          "nonpositive_temperature_profiles": 0
+        },
+        "mass_using_P_equals_gm_and_truth_T": {
+          "max_dex": 11.25213642982777,
+          "p50_dex": 1.3921438421850845,
+          "p95_dex": 8.544662911555616,
+          "rmse_dex": 3.8004087233164765
+        },
+        "mass_using_truth_P_T": {
+          "max_dex": 0.5945041822946635,
+          "p50_dex": 0.0332540141926404,
+          "p95_dex": 0.11726303533382067,
+          "rmse_dex": 0.05963483989262723
+        },
+        "opacity": {
+          "max_dex": 0.817062686202887,
+          "p50_dex": 0.04103916728001916,
+          "p95_dex": 0.17095858551699544,
+          "rmse_dex": 0.0871433663322469
+        },
+        "self_consistent_opacity": {
+          "max_dex": 13.962620721450874,
+          "p50_dex": 1.327526185587335,
+          "p95_dex": 10.70183252640966,
+          "rmse_dex": 4.588228223558602
+        }
+      },
+      "term_count": 45
+    },
+    "3": {
+      "coefficient_count": 495,
+      "constants_if_three_smooth_regimes": 495,
+      "fit": {
+        "coefficient_count": 495.0,
+        "term_count": 165.0,
+        "training_p95_dex": 0.07514561556067215,
+        "training_rmse_dex": 0.03921794674979893,
+        "training_row_count": 120000.0
+      },
+      "hard": {
+        "invariants": {
+          "nonfinite_mass_profiles": 0,
+          "nonfinite_temperature_profiles": 0,
+          "nonmonotone_mass_profiles": 0,
+          "nonpositive_mass_profiles": 0,
+          "nonpositive_temperature_profiles": 0
+        },
+        "mass_using_P_equals_gm_and_truth_T": {
+          "max_dex": 11.69865143740518,
+          "p50_dex": 3.064939012669451,
+          "p95_dex": 10.230595013045042,
+          "rmse_dex": 5.733109436013825
+        },
+        "mass_using_truth_P_T": {
+          "max_dex": 0.5457122184350245,
+          "p50_dex": 0.013464911406445845,
+          "p95_dex": 0.056711117281948095,
+          "rmse_dex": 0.029854558333946214
+        },
+        "opacity": {
+          "max_dex": 0.7998354495585946,
+          "p50_dex": 0.01811241259200419,
+          "p95_dex": 0.08034765921410343,
+          "rmse_dex": 0.04193906946612075
+        },
+        "self_consistent_opacity": {
+          "max_dex": 11.69797976930175,
+          "p50_dex": 4.244295765265182,
+          "p95_dex": 10.069085048380769,
+          "rmse_dex": 5.799418469985154
+        }
+      },
+      "smooth": {
+        "invariants": {
+          "nonfinite_mass_profiles": 0,
+          "nonfinite_temperature_profiles": 0,
+          "nonmonotone_mass_profiles": 0,
+          "nonpositive_mass_profiles": 0,
+          "nonpositive_temperature_profiles": 0
+        },
+        "mass_using_P_equals_gm_and_truth_T": {
+          "max_dex": 11.69865143740518,
+          "p50_dex": 3.064939012669451,
+          "p95_dex": 10.230595013045042,
+          "rmse_dex": 5.733109436013825
+        },
+        "mass_using_truth_P_T": {
+          "max_dex": 0.5809070267625194,
+          "p50_dex": 0.01359783329139383,
+          "p95_dex": 0.05725281747470267,
+          "rmse_dex": 0.02993099668386192
+        },
+        "opacity": {
+          "max_dex": 2.956717583942082,
+          "p50_dex": 0.01837350836260182,
+          "p95_dex": 0.08136772375394878,
+          "rmse_dex": 0.0429470110339947
+        },
+        "self_consistent_opacity": {
+          "max_dex": 11.69797976930175,
+          "p50_dex": 4.244295765265182,
+          "p95_dex": 10.069085048380769,
+          "rmse_dex": 5.799418469985154
+        }
+      },
+      "term_count": 165
+    }
+  },
+  "seed": 20260816,
+  "smooth_width_K": 250.0,
+  "temperature_boundaries_K": [
+    5500.0,
+    7500.0
+  ],
+  "train_count": 40911,
+  "validation_count": 10228,
+  "validation_probe_star_count": 1200
+}

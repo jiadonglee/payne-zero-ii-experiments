@@ -1,0 +1,418 @@
+{
+ "what": "Frequency-grid decimation error budget: how much kappa_nu frequency resolution the converged atmosphere needs.",
+ "metric": "convergence.deep_layer_relative_temperature_change between the stride-N and stride-1 converged temperature, against the production threshold 0.0005.",
+ "star_count": 12,
+ "largest_free_stride_histogram": {
+  "1": 6,
+  "2": 5,
+  "4": 1
+ },
+ "displacement_slope_per_unit_stride": {
+  "median": 0.00024235401429430046,
+  "min": 0.00011602607772258773,
+  "max": 0.0003722234542432515
+ },
+ "stars": [
+  {
+   "row": 10,
+   "stratum": "cool",
+   "labels": {
+    "effective_temperature": 4000.0,
+    "log_surface_gravity": 5.0,
+    "metallicity": 0.0,
+    "alpha_enhancement": 0.0,
+    "microturbulence_km_s": 1.0
+   },
+   "iterations_by_stride": {
+    "1": 10,
+    "2": 10,
+    "4": 10,
+    "8": 10
+   },
+   "iteration_count_changed_by_stride": false,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.0011997016957945002,
+    "4": 0.0011374431278436533,
+    "8": 0.002432385475183903
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 2.3994033915890003,
+    "4": 2.2748862556873064,
+    "8": 4.864770950367806
+   },
+   "displacement_slope_per_unit_stride": 0.0003143840441004147,
+   "largest_free_stride": 1,
+   "summary_sha256": "f76701a8c15b2e4215234fc890f8a68033d4df48074ccf92fe39d02b66fd90df"
+  },
+  {
+   "row": 11,
+   "stratum": "cool",
+   "labels": {
+    "effective_temperature": 4200.0,
+    "log_surface_gravity": 1.5,
+    "metallicity": 0.0,
+    "alpha_enhancement": 0.0,
+    "microturbulence_km_s": 2.0
+   },
+   "iterations_by_stride": {
+    "1": 4,
+    "2": 4,
+    "4": 4,
+    "8": 4
+   },
+   "iteration_count_changed_by_stride": false,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.0003912765913631965,
+    "4": 0.0004366918168803883,
+    "8": 0.0009219510789709507
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 0.782553182726393,
+    "4": 0.8733836337607767,
+    "8": 1.8439021579419015
+   },
+   "displacement_slope_per_unit_stride": 0.000117915822404947,
+   "largest_free_stride": 4,
+   "summary_sha256": "138dcad3ad85a5ff3c33d2091492a019be2044bcf9f3e18f37344cc696feb8f0"
+  },
+  {
+   "row": 12,
+   "stratum": "cool",
+   "labels": {
+    "effective_temperature": 4000.0,
+    "log_surface_gravity": 2.0,
+    "metallicity": -1.0,
+    "alpha_enhancement": 0.3,
+    "microturbulence_km_s": 2.0
+   },
+   "iterations_by_stride": {
+    "1": 6,
+    "2": 6,
+    "4": 6,
+    "8": 6
+   },
+   "iteration_count_changed_by_stride": false,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.000337562238037587,
+    "4": 0.0007598356503629814,
+    "8": 0.0007539654313962845
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 0.675124476075174,
+    "4": 1.5196713007259628,
+    "8": 1.507930862792569
+   },
+   "displacement_slope_per_unit_stride": 0.00011602607772258773,
+   "largest_free_stride": 2,
+   "summary_sha256": "eb735c4d1a70b5f4491a78fc50be02b6a5fb06a0e6a770db7c1938feffe9088d"
+  },
+  {
+   "row": 1,
+   "stratum": "hot",
+   "labels": {
+    "effective_temperature": 9000.0,
+    "log_surface_gravity": 4.0,
+    "metallicity": 0.0,
+    "alpha_enhancement": 0.0,
+    "microturbulence_km_s": 2.0
+   },
+   "iterations_by_stride": {
+    "1": 7,
+    "2": 6,
+    "4": 6,
+    "8": 6
+   },
+   "iteration_count_changed_by_stride": true,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.00031225393032666945,
+    "4": 0.0006158093114614081,
+    "8": 0.001425321382561691
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 0.6245078606533389,
+    "4": 1.2316186229228163,
+    "8": 2.850642765123382
+   },
+   "displacement_slope_per_unit_stride": 0.0001725037638927678,
+   "largest_free_stride": 2,
+   "summary_sha256": "740cf1c5ba8c0afea7e61bb69de2edece1d6b76150120e5a9583330850174492"
+  },
+  {
+   "row": 2,
+   "stratum": "hot",
+   "labels": {
+    "effective_temperature": 10000.0,
+    "log_surface_gravity": 4.5,
+    "metallicity": -1.0,
+    "alpha_enhancement": 0.0,
+    "microturbulence_km_s": 2.0
+   },
+   "iterations_by_stride": {
+    "1": 6,
+    "2": 7,
+    "4": 7,
+    "8": 5
+   },
+   "iteration_count_changed_by_stride": true,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.0008663082528599986,
+    "4": 0.0009685230024213075,
+    "8": 0.0008717146507769117
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 1.7326165057199971,
+    "4": 1.937046004842615,
+    "8": 1.7434293015538234
+   },
+   "displacement_slope_per_unit_stride": 0.00014976697287643476,
+   "largest_free_stride": 1,
+   "summary_sha256": "616fa1165d8c6185524223c7357fbfc6ebfaaefa27e88ae0fcfd91034dbde0cc"
+  },
+  {
+   "row": 3,
+   "stratum": "hot",
+   "labels": {
+    "effective_temperature": 8000.0,
+    "log_surface_gravity": 3.0,
+    "metallicity": -2.0,
+    "alpha_enhancement": 0.3,
+    "microturbulence_km_s": 2.0
+   },
+   "iterations_by_stride": {
+    "1": 6,
+    "2": 7,
+    "4": 6,
+    "8": 7
+   },
+   "iteration_count_changed_by_stride": true,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.000950807406945485,
+    "4": 0.0006856466115032235,
+    "8": 0.0011510164719790554
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 1.90161481389097,
+    "4": 1.371293223006447,
+    "8": 2.302032943958111
+   },
+   "displacement_slope_per_unit_stride": 0.00016490872661590838,
+   "largest_free_stride": 1,
+   "summary_sha256": "39223f6ab994e513b91f699fb65f78fe05e06d1d2d0d8449023fc38a93584cfe"
+  },
+  {
+   "row": 4,
+   "stratum": "solar",
+   "labels": {
+    "effective_temperature": 5777.0,
+    "log_surface_gravity": 4.44,
+    "metallicity": 0.0,
+    "alpha_enhancement": 0.0,
+    "microturbulence_km_s": 1.0
+   },
+   "iterations_by_stride": {
+    "1": 4,
+    "2": 4,
+    "4": 4,
+    "8": 4
+   },
+   "iteration_count_changed_by_stride": false,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.00042858017510564225,
+    "4": 0.0006762468300929455,
+    "8": 0.0020681213860634325
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 0.8571603502112844,
+    "4": 1.352493660185891,
+    "8": 4.136242772126865
+   },
+   "displacement_slope_per_unit_stride": 0.0002393704614177443,
+   "largest_free_stride": 2,
+   "summary_sha256": "a30f8201a0d7756c94de59fce20be10703c5d46add6b25882e9922aa2fd10107"
+  },
+  {
+   "row": 5,
+   "stratum": "solar",
+   "labels": {
+    "effective_temperature": 6200.0,
+    "log_surface_gravity": 4.2,
+    "metallicity": -0.5,
+    "alpha_enhancement": 0.2,
+    "microturbulence_km_s": 1.5
+   },
+   "iterations_by_stride": {
+    "1": 4,
+    "2": 4,
+    "4": 4,
+    "8": 4
+   },
+   "iteration_count_changed_by_stride": false,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.001836210062431142,
+    "4": 0.001863463866483593,
+    "8": 0.0020276388834206426
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 3.6724201248622843,
+    "4": 3.726927732967186,
+    "8": 4.055277766841285
+   },
+   "displacement_slope_per_unit_stride": 0.0003255641268828784,
+   "largest_free_stride": 1,
+   "summary_sha256": "8a9ceb5c59d2285e5ec962e6e0f227a96c8020fc16235e143ee156eb448b6090"
+  },
+  {
+   "row": 6,
+   "stratum": "solar",
+   "labels": {
+    "effective_temperature": 5500.0,
+    "log_surface_gravity": 4.5,
+    "metallicity": -1.5,
+    "alpha_enhancement": 0.4,
+    "microturbulence_km_s": 1.0
+   },
+   "iterations_by_stride": {
+    "1": 4,
+    "2": 3,
+    "4": 3,
+    "8": 3
+   },
+   "iteration_count_changed_by_stride": true,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.000749476468643147,
+    "4": 0.001920021186440638,
+    "8": 0.0027609665591730357
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 1.498952937286294,
+    "4": 3.8400423728812756,
+    "8": 5.521933118346071
+   },
+   "displacement_slope_per_unit_stride": 0.0003722234542432515,
+   "largest_free_stride": 1,
+   "summary_sha256": "fba17f11250b8afd4c643b824d75c7cd25c87cbbef1b2f2914d628d5620ca184"
+  },
+  {
+   "row": 7,
+   "stratum": "giant",
+   "labels": {
+    "effective_temperature": 4800.0,
+    "log_surface_gravity": 2.5,
+    "metallicity": 0.0,
+    "alpha_enhancement": 0.0,
+    "microturbulence_km_s": 1.8
+   },
+   "iterations_by_stride": {
+    "1": 4,
+    "2": 4,
+    "4": 3,
+    "8": 5
+   },
+   "iteration_count_changed_by_stride": true,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.00040174760206897734,
+    "4": 0.0007514460968492008,
+    "8": 0.0020998845063521505
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 0.8034952041379547,
+    "4": 1.5028921936984014,
+    "8": 4.199769012704301
+   },
+   "displacement_slope_per_unit_stride": 0.00024533756717085665,
+   "largest_free_stride": 2,
+   "summary_sha256": "19277bcf28a82ce4f84ceff74bd4c5b52c42ec2ac56e63622598af2ba94a8220"
+  },
+  {
+   "row": 8,
+   "stratum": "giant",
+   "labels": {
+    "effective_temperature": 4500.0,
+    "log_surface_gravity": 1.5,
+    "metallicity": -0.5,
+    "alpha_enhancement": 0.3,
+    "microturbulence_km_s": 2.0
+   },
+   "iterations_by_stride": {
+    "1": 4,
+    "2": 4,
+    "4": 4,
+    "8": 3
+   },
+   "iteration_count_changed_by_stride": true,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.0002898744620599331,
+    "4": 0.0007973733583488828,
+    "8": 0.0022461060497921442
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 0.5797489241198661,
+    "4": 1.5947467166977656,
+    "8": 4.492212099584289
+   },
+   "displacement_slope_per_unit_stride": 0.0002587867947125303,
+   "largest_free_stride": 2,
+   "summary_sha256": "5aedea71ba1227261145e67fa2f64539c976991da4bc36ddc439869dad445b45"
+  },
+  {
+   "row": 9,
+   "stratum": "giant",
+   "labels": {
+    "effective_temperature": 5000.0,
+    "log_surface_gravity": 2.0,
+    "metallicity": -2.0,
+    "alpha_enhancement": 0.4,
+    "microturbulence_km_s": 2.0
+   },
+   "iterations_by_stride": {
+    "1": 5,
+    "2": 5,
+    "4": 5,
+    "8": 4
+   },
+   "iteration_count_changed_by_stride": true,
+   "displacement_by_stride": {
+    "1": 0.0,
+    "2": 0.0008572653236176225,
+    "4": 0.001684028195443501,
+    "8": 0.0019491770141494497
+   },
+   "displacement_over_threshold_by_stride": {
+    "1": 0.0,
+    "2": 1.7145306472352448,
+    "4": 3.368056390887002,
+    "8": 3.898354028298899
+   },
+   "displacement_slope_per_unit_stride": 0.00028623880407386713,
+   "largest_free_stride": 1,
+   "summary_sha256": "ca48ee87a8ce3f0dccc6174b529c4e3993f591aa9884287a1e7198bff3c328bb"
+  }
+ ],
+ "limits": [
+  "Temperature yardstick only. The pre-registered criterion is spectral (3.44e-3 median fixed-point width) and needs synthesis from the reduced state through reduced_state/reconstruct.py; not run.",
+  "No timing is reported: wall clock was not reproducible in this campaign (same star, bit-identical physics, 1.68-2.41x apart).",
+  "Stratification is by effective temperature, which the data does not support as the axis that separates the budget."
+ ]
+}

@@ -1,0 +1,691 @@
+{
+  "arms": [
+    "grey",
+    "physical_residual"
+  ],
+  "candidate": "physical_residual_32_to_80_handoff_audit",
+  "development_60": "blocked_until_handoff_audit_is_finite_and_paired",
+  "indices": [
+    2891,
+    6896
+  ],
+  "records": [
+    {
+      "alpha_enhancement": -0.020645628397830865,
+      "arm": "grey",
+      "converged": false,
+      "corpus_index": 2891,
+      "effective_temperature": 4398.232963880012,
+      "final_mass_range": [
+        0.00285342014,
+        104.046543
+      ],
+      "final_temperature_range": [
+        3686.2,
+        10160.0
+      ],
+      "finite_final_state": true,
+      "handoff_state_acceptable": true,
+      "iterations_completed": 1,
+      "log_surface_gravity": 1.527834633558132,
+      "metallicity": -2.030733241848917,
+      "microturbulence_km_s": 3.884435469712034,
+      "positive_temperature_mass": true,
+      "seconds": 76.54345327289775,
+      "seed_mass_range": [
+        3.922121859303894e-07,
+        2941.176470588235
+      ],
+      "seed_monotone_mass": true,
+      "seed_monotone_temperature": true,
+      "seed_seconds": 0.004849649034440517,
+      "seed_source": "analytic_grey",
+      "seed_temperature_range": [
+        3698.458517726413,
+        23020.561018466116
+      ],
+      "solver_diagnostics": {
+        "after_iteration_hooks": {
+          "1": {
+            "continuum_absorption": {
+              "finite": true,
+              "max": 22625916.23922031,
+              "min": 8.910383175279145e-10,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "continuum_scattering": {
+              "finite": true,
+              "max": 0.3168934416536244,
+              "min": 2.017924556661241e-06,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "electron_density": {
+              "finite": true,
+              "max": 1.5373545717141872e+16,
+              "min": 61687.00859603819,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "frequency_count": 30000,
+            "iteration": 1,
+            "layer_count": 80,
+            "line_slab": {
+              "finite": true,
+              "max": 9146878.0,
+              "min": 0.0,
+              "positive_count": 1454060,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "mass_density": {
+              "finite": true,
+              "max": 3.2654770499839466e-08,
+              "min": 5.329074360779536e-17,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "selected_line_count": 123158,
+            "temperature": {
+              "finite": true,
+              "max": 23020.6,
+              "min": 3698.5,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            }
+          }
+        },
+        "all_layer_relative_temperature_change": 0.5586542991505616,
+        "consecutive_converged_iterations": 0,
+        "convection_enabled": true,
+        "deep_layer_relative_temperature_change": 0.7342016095821241,
+        "detailed_line_enabled": true,
+        "enable_convergence_stop": true,
+        "frequency_count": 30000,
+        "frequency_start_index": 0,
+        "frequency_stop_index": 30000,
+        "iteration_timings": [
+          {
+            "all_layer_relative_temperature_change": 0.5586542991505616,
+            "convergence_seconds": 2.1571293473243713e-05,
+            "deep_layer_relative_temperature_change": 0.7342016095821241,
+            "finalization_seconds": 0.4132213261909783,
+            "iteration": 1,
+            "maximum_absolute_flux_error_percent": 369.30292562684946,
+            "median_absolute_flux_error_percent": 365.90038064939307,
+            "opacity_seconds": 74.07451832620427,
+            "p95_absolute_flux_error_percent": 367.041891899051,
+            "population_seconds": 1.8352240077219903,
+            "prepare_iteration_seconds": 2.100784331560135e-05,
+            "remap_seconds": 0.0012774430215358734,
+            "total_seconds": 76.51406579324976,
+            "transfer_seconds": 0.1825599679723382
+          }
+        ],
+        "layer_count": 80,
+        "line_selection_enabled": true,
+        "maximum_absolute_flux_error_percent": 369.30292562684946,
+        "maximum_all_layer_relative_temperature_change": null,
+        "maximum_deep_layer_relative_temperature_change": 0.0005,
+        "median_absolute_flux_error_percent": 365.90038064939307,
+        "minimum_iterations_before_convergence": 3,
+        "molecules_enabled": true,
+        "opacity_frequency_grid_stride": 1,
+        "p95_absolute_flux_error_percent": 367.041891899051,
+        "required_consecutive_converged_iterations": 1,
+        "setup_seconds": 0.0003181737847626209,
+        "supported_branch": "one_iteration_molecules_line_opacity",
+        "temperature_correction_damping": 0.5,
+        "total_seconds": 76.514696481172
+      },
+      "solver_outcome": "one_iteration_complete",
+      "solver_seconds": 76.51711216615513,
+      "temperature_correction_damping": 0.5,
+      "warning_count": 0,
+      "warning_types": []
+    },
+    {
+      "alpha_enhancement": -0.020645628397830865,
+      "arm": "physical_residual",
+      "converged": false,
+      "corpus_index": 2891,
+      "effective_temperature": 4398.232963880012,
+      "final_mass_range": [
+        0.00279413191,
+        445.243496
+      ],
+      "final_temperature_range": [
+        3656.8,
+        5922.7
+      ],
+      "finite_final_state": true,
+      "handoff_state_acceptable": true,
+      "iterations_completed": 1,
+      "log_surface_gravity": 1.527834633558132,
+      "metallicity": -2.030733241848917,
+      "microturbulence_km_s": 3.884435469712034,
+      "positive_temperature_mass": true,
+      "seconds": 16.84502553101629,
+      "seed_diagnostics": {
+        "coarse_layer_count": 32,
+        "evaluation_count": 94,
+        "final_physical": {
+          "cumulative_tau_ratio_p95": 9.08268056725664,
+          "finite": true,
+          "flux_ratio_median": 1.6579053087402045,
+          "flux_ratio_p95": 1.8655546393684157,
+          "local_tau_ratio_median": 0.959977740704308,
+          "local_tau_ratio_p95": 10.266071061857048,
+          "mass_range": [
+            8.286501482770882e-06,
+            447.591811546974
+          ],
+          "negative_flux_layers": 0,
+          "rosseland_opacity_range": [
+            4.8408057721691835e-05,
+            95.0830081776786
+          ],
+          "temperature_range": [
+            3698.4585177264107,
+            23020.561018466127
+          ]
+        },
+        "final_residual_l2": 3.5759268244360425,
+        "final_residual_rms": 0.3456978943339508,
+        "frequency_grid_stride": 256,
+        "initial_residual_l2": 17.092375276992144,
+        "initial_residual_rms": 1.6523822864730284,
+        "knot_count": 5,
+        "line_opacity": "deferred_to_unchanged_80_layer_solver",
+        "max_nfev": 8,
+        "opacity_group_count": 4,
+        "optimizer_message": "The maximum number of function evaluations is exceeded.",
+        "optimizer_status": 0,
+        "optimizer_success": false,
+        "parameter_count": 12,
+        "status": "prototype_not_production"
+      },
+      "seed_mass_range": [
+        8.286501482770882e-06,
+        447.591811546974
+      ],
+      "seed_monotone_mass": true,
+      "seed_monotone_temperature": true,
+      "seed_seconds": 11.12873110268265,
+      "seed_source": "low_dimensional_physical_residual",
+      "seed_temperature_range": [
+        3698.4585177264107,
+        23020.561018466127
+      ],
+      "solver_diagnostics": {
+        "after_iteration_hooks": {
+          "1": {
+            "continuum_absorption": {
+              "finite": true,
+              "max": 8366455.745387772,
+              "min": 2.3119463122957215e-09,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "continuum_scattering": {
+              "finite": true,
+              "max": 0.3201373788620895,
+              "min": 2.57168304220062e-07,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "electron_density": {
+              "finite": true,
+              "max": 3530232155729445.0,
+              "min": 284579.7588820155,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "frequency_count": 30000,
+            "iteration": 1,
+            "layer_count": 80,
+            "line_slab": {
+              "finite": true,
+              "max": 10989100.0,
+              "min": 0.0,
+              "positive_count": 1771457,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "mass_density": {
+              "finite": true,
+              "max": 3.3185166219779436e-08,
+              "min": 1.128383586865311e-15,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "selected_line_count": 123158,
+            "temperature": {
+              "finite": true,
+              "max": 23020.6,
+              "min": 3698.5,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            }
+          }
+        },
+        "all_layer_relative_temperature_change": 0.7427237960105247,
+        "consecutive_converged_iterations": 0,
+        "convection_enabled": true,
+        "deep_layer_relative_temperature_change": 1.7149829617501946,
+        "detailed_line_enabled": true,
+        "enable_convergence_stop": true,
+        "frequency_count": 30000,
+        "frequency_start_index": 0,
+        "frequency_stop_index": 30000,
+        "iteration_timings": [
+          {
+            "all_layer_relative_temperature_change": 0.7427237960105247,
+            "convergence_seconds": 1.896033063530922e-05,
+            "deep_layer_relative_temperature_change": 1.7149829617501946,
+            "finalization_seconds": 0.35225687408819795,
+            "iteration": 1,
+            "maximum_absolute_flux_error_percent": 25831.74933970053,
+            "median_absolute_flux_error_percent": 59.07429966858095,
+            "opacity_seconds": 5.145091844722629,
+            "p95_absolute_flux_error_percent": 16983.858815581767,
+            "population_seconds": 0.12754690693691373,
+            "prepare_iteration_seconds": 2.116011455655098e-05,
+            "remap_seconds": 0.0019372603856027126,
+            "total_seconds": 5.706174365244806,
+            "transfer_seconds": 0.07367548998445272
+          }
+        ],
+        "layer_count": 80,
+        "line_selection_enabled": true,
+        "maximum_absolute_flux_error_percent": 25831.74933970053,
+        "maximum_all_layer_relative_temperature_change": null,
+        "maximum_deep_layer_relative_temperature_change": 0.0005,
+        "median_absolute_flux_error_percent": 59.07429966858095,
+        "minimum_iterations_before_convergence": 3,
+        "molecules_enabled": true,
+        "opacity_frequency_grid_stride": 1,
+        "p95_absolute_flux_error_percent": 16983.858815581767,
+        "required_consecutive_converged_iterations": 1,
+        "setup_seconds": 0.00010342104360461235,
+        "supported_branch": "one_iteration_molecules_line_opacity",
+        "temperature_correction_damping": 0.5,
+        "total_seconds": 5.706580199301243
+      },
+      "solver_outcome": "one_iteration_complete",
+      "solver_seconds": 5.71591743407771,
+      "temperature_correction_damping": 0.5,
+      "warning_count": 0,
+      "warning_types": []
+    },
+    {
+      "alpha_enhancement": 0.4804880461403933,
+      "arm": "grey",
+      "converged": false,
+      "corpus_index": 6896,
+      "effective_temperature": 4546.417759799134,
+      "final_mass_range": [
+        0.00121514714,
+        93.9394189
+      ],
+      "final_temperature_range": [
+        3786.8,
+        10264.7
+      ],
+      "finite_final_state": true,
+      "handoff_state_acceptable": true,
+      "iterations_completed": 1,
+      "log_surface_gravity": 1.5931634647213406,
+      "metallicity": -1.0208536761809552,
+      "microturbulence_km_s": 2.0998249939817697,
+      "positive_temperature_mass": true,
+      "seconds": 4.92033972684294,
+      "seed_mass_range": [
+        3.922121859303894e-07,
+        2941.176470588235
+      ],
+      "seed_monotone_mass": true,
+      "seed_monotone_temperature": true,
+      "seed_seconds": 0.0011015110649168491,
+      "seed_source": "analytic_grey",
+      "seed_temperature_range": [
+        3823.066587641187,
+        23796.167305008912
+      ],
+      "solver_diagnostics": {
+        "after_iteration_hooks": {
+          "1": {
+            "continuum_absorption": {
+              "finite": true,
+              "max": 8983437.265525725,
+              "min": 2.772535496130665e-09,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "continuum_scattering": {
+              "finite": true,
+              "max": 0.5759454583100271,
+              "min": 8.797926034191097e-06,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "electron_density": {
+              "finite": true,
+              "max": 1.7312316510056622e+16,
+              "min": 134710.67724382726,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "frequency_count": 30000,
+            "iteration": 1,
+            "layer_count": 80,
+            "line_slab": {
+              "finite": true,
+              "max": 11156749312.0,
+              "min": 0.0,
+              "positive_count": 1887143,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "mass_density": {
+              "finite": true,
+              "max": 3.679242419599853e-08,
+              "min": 5.99656421554979e-17,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "selected_line_count": 122968,
+            "temperature": {
+              "finite": true,
+              "max": 23796.2,
+              "min": 3823.1,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            }
+          }
+        },
+        "all_layer_relative_temperature_change": 0.5686424417095589,
+        "consecutive_converged_iterations": 0,
+        "convection_enabled": true,
+        "deep_layer_relative_temperature_change": 0.7783100336209621,
+        "detailed_line_enabled": true,
+        "enable_convergence_stop": true,
+        "frequency_count": 30000,
+        "frequency_start_index": 0,
+        "frequency_stop_index": 30000,
+        "iteration_timings": [
+          {
+            "all_layer_relative_temperature_change": 0.5686424417095589,
+            "convergence_seconds": 1.6240868717432022e-05,
+            "deep_layer_relative_temperature_change": 0.7783100336209621,
+            "finalization_seconds": 0.3627727711573243,
+            "iteration": 1,
+            "maximum_absolute_flux_error_percent": 312.15775417937243,
+            "median_absolute_flux_error_percent": 307.27493950587166,
+            "opacity_seconds": 4.353874601889402,
+            "p95_absolute_flux_error_percent": 308.9685405676242,
+            "population_seconds": 0.13112975424155593,
+            "prepare_iteration_seconds": 1.8159858882427216e-05,
+            "remap_seconds": 0.00138846505433321,
+            "total_seconds": 4.912020521238446,
+            "transfer_seconds": 0.05678594717755914
+          }
+        ],
+        "layer_count": 80,
+        "line_selection_enabled": true,
+        "maximum_absolute_flux_error_percent": 312.15775417937243,
+        "maximum_all_layer_relative_temperature_change": null,
+        "maximum_deep_layer_relative_temperature_change": 0.0005,
+        "median_absolute_flux_error_percent": 307.27493950587166,
+        "minimum_iterations_before_convergence": 3,
+        "molecules_enabled": true,
+        "opacity_frequency_grid_stride": 1,
+        "p95_absolute_flux_error_percent": 308.9685405676242,
+        "required_consecutive_converged_iterations": 1,
+        "setup_seconds": 0.00010652188211679459,
+        "supported_branch": "one_iteration_molecules_line_opacity",
+        "temperature_correction_damping": 0.5,
+        "total_seconds": 4.912392416037619
+      },
+      "solver_outcome": "one_iteration_complete",
+      "solver_seconds": 4.918795550707728,
+      "temperature_correction_damping": 0.5,
+      "warning_count": 0,
+      "warning_types": []
+    },
+    {
+      "alpha_enhancement": 0.4804880461403933,
+      "arm": "physical_residual",
+      "converged": false,
+      "corpus_index": 6896,
+      "effective_temperature": 4546.417759799134,
+      "final_mass_range": [
+        0.00119377902,
+        180.959393
+      ],
+      "final_temperature_range": [
+        -70.6,
+        -8.3
+      ],
+      "finite_final_state": true,
+      "handoff_state_acceptable": false,
+      "iterations_completed": 1,
+      "log_surface_gravity": 1.5931634647213406,
+      "metallicity": -1.0208536761809552,
+      "microturbulence_km_s": 2.0998249939817697,
+      "positive_temperature_mass": false,
+      "seconds": 19.89567257789895,
+      "seed_diagnostics": {
+        "coarse_layer_count": 32,
+        "evaluation_count": 94,
+        "final_physical": {
+          "cumulative_tau_ratio_p95": 4.933494672586757,
+          "finite": true,
+          "flux_ratio_median": 1.923403610604602,
+          "flux_ratio_p95": 2.383116055869971,
+          "local_tau_ratio_median": 0.9302940993751925,
+          "local_tau_ratio_p95": 5.929103111488059,
+          "mass_range": [
+            1.4776205110636905e-06,
+            211.3654731390174
+          ],
+          "negative_flux_layers": 0,
+          "rosseland_opacity_range": [
+            0.00015489206796028977,
+            29.424481418801346
+          ],
+          "temperature_range": [
+            3823.0665876411895,
+            23796.16730500891
+          ]
+        },
+        "final_residual_l2": 3.54454886115465,
+        "final_residual_rms": 0.34266447212834517,
+        "frequency_grid_stride": 256,
+        "initial_residual_l2": 15.034342253344095,
+        "initial_residual_rms": 1.4534247245108742,
+        "knot_count": 5,
+        "line_opacity": "deferred_to_unchanged_80_layer_solver",
+        "max_nfev": 8,
+        "opacity_group_count": 4,
+        "optimizer_message": "The maximum number of function evaluations is exceeded.",
+        "optimizer_status": 0,
+        "optimizer_success": false,
+        "parameter_count": 12,
+        "status": "prototype_not_production"
+      },
+      "seed_mass_range": [
+        1.4776205110636905e-06,
+        211.3654731390174
+      ],
+      "seed_monotone_mass": true,
+      "seed_monotone_temperature": true,
+      "seed_seconds": 12.36603029537946,
+      "seed_source": "low_dimensional_physical_residual",
+      "seed_temperature_range": [
+        3823.0665876411895,
+        23796.16730500891
+      ],
+      "solver_diagnostics": {
+        "after_iteration_hooks": {
+          "1": {
+            "continuum_absorption": {
+              "finite": true,
+              "max": 1643971.087476286,
+              "min": 3.61061278811216e-09,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "continuum_scattering": {
+              "finite": true,
+              "max": 0.5761747886006103,
+              "min": 4.812735246147607e-06,
+              "positive_count": 2400000,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "electron_density": {
+              "finite": true,
+              "max": 1765370822739089.2,
+              "min": 263240.46826577163,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "frequency_count": 30000,
+            "iteration": 1,
+            "layer_count": 80,
+            "line_slab": {
+              "finite": true,
+              "max": 11466535936.0,
+              "min": 0.0,
+              "positive_count": 2125681,
+              "shape": [
+                80,
+                30000
+              ]
+            },
+            "mass_density": {
+              "finite": true,
+              "max": 1.2819399702750386e-08,
+              "min": 2.264397305705287e-16,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            },
+            "selected_line_count": 122968,
+            "temperature": {
+              "finite": true,
+              "max": 23796.2,
+              "min": 3823.1,
+              "positive_count": 80,
+              "shape": [
+                80
+              ]
+            }
+          }
+        },
+        "all_layer_relative_temperature_change": 1.0184578378301197,
+        "consecutive_converged_iterations": 0,
+        "convection_enabled": true,
+        "deep_layer_relative_temperature_change": 1506.2191323507966,
+        "detailed_line_enabled": true,
+        "enable_convergence_stop": true,
+        "frequency_count": 30000,
+        "frequency_start_index": 0,
+        "frequency_stop_index": 30000,
+        "iteration_timings": [
+          {
+            "all_layer_relative_temperature_change": 1.0184578378301197,
+            "convergence_seconds": 2.967100590467453e-05,
+            "deep_layer_relative_temperature_change": 1506.2191323507966,
+            "finalization_seconds": 0.3592989379540086,
+            "iteration": 1,
+            "maximum_absolute_flux_error_percent": 1727.7786235582503,
+            "median_absolute_flux_error_percent": 69.88037984492559,
+            "opacity_seconds": 6.936137811746448,
+            "p95_absolute_flux_error_percent": 1117.9151056462133,
+            "population_seconds": 0.1527186636812985,
+            "prepare_iteration_seconds": 1.9039027392864227e-05,
+            "remap_seconds": 0.0018947678618133068,
+            "total_seconds": 7.508342026267201,
+            "transfer_seconds": 0.05271093640476465
+          }
+        ],
+        "layer_count": 80,
+        "line_selection_enabled": true,
+        "maximum_absolute_flux_error_percent": 1727.7786235582503,
+        "maximum_all_layer_relative_temperature_change": null,
+        "maximum_deep_layer_relative_temperature_change": 0.0005,
+        "median_absolute_flux_error_percent": 69.88037984492559,
+        "minimum_iterations_before_convergence": 3,
+        "molecules_enabled": true,
+        "opacity_frequency_grid_stride": 1,
+        "p95_absolute_flux_error_percent": 1117.9151056462133,
+        "required_consecutive_converged_iterations": 1,
+        "setup_seconds": 0.00010394072160124779,
+        "supported_branch": "one_iteration_molecules_line_opacity",
+        "temperature_correction_damping": 0.5,
+        "total_seconds": 7.50871042907238
+      },
+      "solver_outcome": "one_iteration_complete",
+      "solver_seconds": 7.529265727847815,
+      "temperature_correction_damping": 0.5,
+      "warning_count": 0,
+      "warning_types": []
+    }
+  ],
+  "sealed_holdout": "closed",
+  "status": "one_exact_iteration_audit",
+  "temperature_correction_damping": 0.5
+}

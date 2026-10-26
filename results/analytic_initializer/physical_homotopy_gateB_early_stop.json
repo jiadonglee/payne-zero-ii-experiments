@@ -1,0 +1,130 @@
+{
+  "candidate": "32_layer_4_group_physical_homotopy_continuum_only",
+  "converged_count": 0,
+  "corpus": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+  "error_count": 0,
+  "finite_count": 1,
+  "gate": {
+    "development_60": "blocked_until_smoke_passes",
+    "required_first_trial_convergence": "11/12",
+    "sealed_holdout": "closed",
+    "stopped_early_reason": "timeout_violates_gate"
+  },
+  "jsonl": "results/analytic_initializer/physical_homotopy_gateB_early_stop.jsonl",
+  "records": [
+    {
+      "alpha_enhancement": -0.020645628397830865,
+      "converged": false,
+      "corpus_index": 2891,
+      "deep_layer_relative_temperature_change": 0.03152588233094799,
+      "effective_temperature": 4398.232963880012,
+      "finite_final_state": true,
+      "iterations_completed": 15,
+      "log_surface_gravity": 1.527834633558132,
+      "metallicity": -2.030733241848917,
+      "microturbulence_km_s": 3.884435469712034,
+      "seconds": 52.99904216686264,
+      "seed_diagnostics": {
+        "coarse_layer_count": 32,
+        "damping": 0.5,
+        "frequency_grid_stride": 256,
+        "line_opacity": "deferred_to_unchanged_80_layer_solver",
+        "opacity_group_count": 4,
+        "physical_evaluations": 4,
+        "stage_updates": 2,
+        "status": "pilot_not_production",
+        "updates": [
+          {
+            "adiabatic_gradient_median": 0.0,
+            "convective_layers": 0,
+            "flux_ratio_median": 2.185808364955874,
+            "flux_ratio_p95": 113.41826115083205,
+            "frequency_samples": 119,
+            "logarithmic_gradient_median": 0.0,
+            "maximum_abs_log10_mass_step": 0.0,
+            "maximum_abs_log10_temperature_step": 0.125,
+            "negative_flux_layers": 0,
+            "opacity_groups": 4,
+            "stage": "radiative",
+            "update": 1
+          },
+          {
+            "adiabatic_gradient_median": 0.0,
+            "convective_layers": 0,
+            "flux_ratio_median": 1.4382933086660812,
+            "flux_ratio_p95": 47.17941116506398,
+            "frequency_samples": 119,
+            "logarithmic_gradient_median": 0.0,
+            "maximum_abs_log10_mass_step": 0.0,
+            "maximum_abs_log10_temperature_step": 0.125,
+            "negative_flux_layers": 0,
+            "opacity_groups": 4,
+            "stage": "radiative",
+            "update": 2
+          },
+          {
+            "adiabatic_gradient_median": 0.39767865030805016,
+            "convective_layers": 1,
+            "flux_ratio_median": 1.5761980320422295,
+            "flux_ratio_p95": 17.984666469132037,
+            "frequency_samples": 119,
+            "logarithmic_gradient_median": 0.0044967281525315405,
+            "maximum_abs_log10_mass_step": 0.5,
+            "maximum_abs_log10_temperature_step": 0.125,
+            "negative_flux_layers": 0,
+            "opacity_groups": 4,
+            "stage": "convective",
+            "update": 1
+          },
+          {
+            "adiabatic_gradient_median": 0.39738499751134715,
+            "convective_layers": 2,
+            "flux_ratio_median": 0.8821062843920442,
+            "flux_ratio_p95": 5.931873833164774,
+            "frequency_samples": 119,
+            "logarithmic_gradient_median": 0.0021811341532149884,
+            "maximum_abs_log10_mass_step": 0.5,
+            "maximum_abs_log10_temperature_step": 0.125,
+            "negative_flux_layers": 1,
+            "opacity_groups": 4,
+            "stage": "convective",
+            "update": 2
+          }
+        ]
+      },
+      "seed_finite": true,
+      "seed_mass_range": [
+        1.240283833613477e-06,
+        9300.816647554055
+      ],
+      "seed_monotone_mass": true,
+      "seed_seconds": 1.93512591579929,
+      "seed_temperature_range": [
+        3075.8089458825425,
+        7279.740583323843
+      ],
+      "solver_outcome": "not_converged",
+      "solver_seconds": 51.06156879058108
+    },
+    {
+      "alpha_enhancement": 0.4804880461403933,
+      "converged": false,
+      "corpus_index": 6896,
+      "effective_temperature": 4546.417759799134,
+      "finite_final_state": false,
+      "iterations_completed": null,
+      "log_surface_gravity": 1.5931634647213406,
+      "metallicity": -1.0208536761809552,
+      "microturbulence_km_s": 2.0998249939817697,
+      "seconds": 120.0,
+      "solver_outcome": "timeout"
+    }
+  ],
+  "star_count": 2,
+  "star_indices": [
+    2891,
+    6896
+  ],
+  "status": "gate_failed_early_stop",
+  "timeout_count": 1
+}

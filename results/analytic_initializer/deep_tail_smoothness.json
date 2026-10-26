@@ -1,0 +1,58 @@
+{
+  "format": "payne_zero_deep_tail_smoothness_v1",
+  "question": "Is the deep 7000-8000 K convective-tail residual a smooth function of the five labels within the 600-constant budget?",
+  "corpus_path": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+  "corpus_sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+  "split_seed": 20260816,
+  "excluded_manifests_used": [
+    "results/reconstruction_metrics.json",
+    "results/sealed_solver_subset_20260808.json",
+    "results/sealed_audit_20260808.json",
+    "results/sealed_audit_20260811.json",
+    "results/sealed_initializer_holdout_20260812.json",
+    "results/initializer_calibration_20260812.json",
+    "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+  ],
+  "excluded_star_count": 1060,
+  "validation_count": 10228,
+  "degree": 3,
+  "constant_count": 392,
+  "result_all_validation": {
+    "n": 10228,
+    "p50": 0.006000766923966339,
+    "p95": 0.028894676386313982,
+    "max": 0.31140117004951096,
+    "7000-7500": {
+      "n": 386,
+      "p50": 0.01397839424036107,
+      "p95": 0.10998946156629397
+    },
+    "7500-8000": {
+      "n": 482,
+      "p50": 0.011767372307204926,
+      "p95": 0.09021974195693526
+    }
+  },
+  "result_7000_8000_band": {
+    "n": 868,
+    "p50": 0.012306305807337825,
+    "p95": 0.10066823188775666,
+    "max": 0.31140117004951096,
+    "7000-7500": {
+      "n": 386,
+      "p50": 0.01397839424036107,
+      "p95": 0.10998946156629397
+    },
+    "7500-8000": {
+      "n": 482,
+      "p50": 0.011767372307204926,
+      "p95": 0.09021974195693526
+    }
+  },
+  "targets": {
+    "gate1_deep_p95": 0.02,
+    "plan_oracle_veto_threshold_dex": 0.015
+  },
+  "reproducer": "experiments/analytic_initializer/run_deep_tail_smoothness.py",
+  "date": "2026-08-16"
+}

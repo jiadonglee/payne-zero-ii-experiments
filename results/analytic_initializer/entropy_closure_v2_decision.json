@@ -1,0 +1,18 @@
+{
+  "format": "payne_zero_entropy_closure_v2_decision",
+  "date": "2026-08-17",
+  "status": "family_vetoed_by_representation_oracle",
+  "gate": "oracle",
+  "threshold_dex": 0.015,
+  "oracle": {
+    "representation_p95_dex": 0.09896843982423102,
+    "representation_7000_7500_p95_dex": 0.09683527077895823,
+    "representation_7500_8000_p95_dex": 0.08632752693205967,
+    "physics_trigger_p95_dex": 0.13153468221808956
+  },
+  "failure_mode": "deep near-isothermal tail gradient (~0.002-0.006) lies below grad_ad floor (0.10) and below grad_rad tail (~0.3); the dual-crossing family has no lever to represent it, and the exit bump is a single-width logistic, not a sustained sub-radiative floor.",
+  "pre_registered_response": "closure-family representation failure -> veto family; no alternative activated; no retuning; production default initializer unchanged; 200-star blind test stays closed.",
+  "production_unchanged": true,
+  "blind200_opened": false,
+  "model_spec_sha256": "2073c9723ad3fd0482dd8b311d29c793d4fea563b8a049a232689a3ade7abe95"
+}

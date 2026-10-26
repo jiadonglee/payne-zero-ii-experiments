@@ -1,0 +1,614 @@
+{
+  "comparison_scope": "one 6650-6670 A molecular/TiO-rich GALAH DR3 window",
+  "primary_comparison": "full GALAH line list; no-TiO and atomic-only are sensitivity controls",
+  "targets": {
+    "HD219215": {
+      "adopted_labels": {
+        "alpha": 0.0,
+        "carbon": 0.0,
+        "logg": 1.5,
+        "metallicity": 0.0,
+        "teff_K": 3900.0,
+        "vmic_km_s": 2.0
+      },
+      "atmospheres": {
+        "marcs": {
+          "line_modes": {
+            "atomic_only": {
+              "continuum_coefficients_a_b": [
+                0.9302174979445733,
+                0.057647572112724935
+              ],
+              "metrics": {
+                "mad": 0.05526022225711735,
+                "median_signed": 0.0027822315199657055,
+                "p95_absolute": 0.1755817066369665,
+                "rms": 0.08343636938673452
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "marcs",
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "atomic_only",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.17267799377441406,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "full": {
+              "continuum_coefficients_a_b": [
+                1.0515454998784912,
+                0.049291311618920454
+              ],
+              "metrics": {
+                "mad": 0.04531107516985433,
+                "median_signed": -0.00022560874524468755,
+                "p95_absolute": 0.14077404206654426,
+                "rms": 0.06974597436414373
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "marcs",
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "full",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.35802412033081055,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "no_tio": {
+              "continuum_coefficients_a_b": [
+                0.9598249890994436,
+                0.0581941677505735
+              ],
+              "metrics": {
+                "mad": 0.05172902732771481,
+                "median_signed": 0.0009081967103906907,
+                "p95_absolute": 0.16484088299685748,
+                "rms": 0.08030849372490532
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "marcs",
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "no_tio",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.16426706314086914,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            }
+          },
+          "molecular_sensitivity": {
+            "median_full_minus_atomic": -0.10699882119681714,
+            "median_full_minus_no_tio": -0.07903001826481504,
+            "p95_absolute_full_minus_atomic": 0.158567564217988,
+            "p95_absolute_full_minus_no_tio": 0.10557946574065141,
+            "rms_full_minus_atomic": 0.11066449552550404,
+            "rms_full_minus_no_tio": 0.08098060158975474,
+            "rms_no_tio_minus_atomic": 0.03437853400436348
+          }
+        },
+        "payne_zero": {
+          "line_modes": {
+            "atomic_only": {
+              "continuum_coefficients_a_b": [
+                0.9297541597476507,
+                0.05757934068295141
+              ],
+              "metrics": {
+                "mad": 0.055197819912332025,
+                "median_signed": 0.002738346048897944,
+                "p95_absolute": 0.17539642347583806,
+                "rms": 0.08335498449204022
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "payne_zero",
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "atomic_only",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.3793058395385742,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "full": {
+              "continuum_coefficients_a_b": [
+                1.0412627374552033,
+                0.05014483718069567
+              ],
+              "metrics": {
+                "mad": 0.04569476388577637,
+                "median_signed": -0.0004058201818733509,
+                "p95_absolute": 0.14178671500248152,
+                "rms": 0.07068868696637695
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "payne_zero",
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "full",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.5959200859069824,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "no_tio": {
+              "continuum_coefficients_a_b": [
+                0.9601842586042124,
+                0.058050211440481905
+              ],
+              "metrics": {
+                "mad": 0.051809982830398504,
+                "median_signed": 0.001059850666146167,
+                "p95_absolute": 0.16455126654750332,
+                "rms": 0.08023972584716944
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "payne_zero",
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "no_tio",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.23981404304504395,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            }
+          },
+          "molecular_sensitivity": {
+            "median_full_minus_atomic": -0.0983955554485495,
+            "median_full_minus_no_tio": -0.07037409830308283,
+            "p95_absolute_full_minus_atomic": 0.1508868637017555,
+            "p95_absolute_full_minus_no_tio": 0.09454260433263507,
+            "rms_full_minus_atomic": 0.10303183795381858,
+            "rms_full_minus_no_tio": 0.07230059497517013,
+            "rms_no_tio_minus_atomic": 0.035403025138085624
+          }
+        }
+      },
+      "class": "M giant",
+      "continuum_nuisance": "model * (a + b*x), equal-weight least squares",
+      "label_delta_adopted_minus_source": {
+        "alpha": -0.529,
+        "logg": 0.674,
+        "metallicity": 0.097,
+        "teff_K": 29.0
+      },
+      "median_snr": 158.7564099148783,
+      "n_pixels": 1000,
+      "normalization": "observed local 95th percentile",
+      "role": "label_mismatch_diagnostic",
+      "scientific_verdict": "cannot_determine",
+      "source_errors": {
+        "alpha": 0.084,
+        "logg": 0.176,
+        "metallicity": 0.11,
+        "teff_K": 39.0
+      },
+      "source_labels": {
+        "alpha": 0.529,
+        "logg": 0.826,
+        "metallicity": -0.097,
+        "teff_K": 3871.0
+      },
+      "spectral_type": "M1.5III",
+      "summary": {
+        "continuum_adjusted_full_model_rms_difference": 0.00200795466821733,
+        "delta_rms_pz_minus_marcs": 0.00094271260223322,
+        "marcs_full_rms": 0.06974597436414373,
+        "marcs_other_molecular_sensitivity_rms": 0.03437853400436348,
+        "marcs_sensitivity_rms": 0.11066449552550404,
+        "marcs_tio_sensitivity_rms": 0.08098060158975474,
+        "payne_zero_full_rms": 0.07068868696637695,
+        "payne_zero_other_molecular_sensitivity_rms": 0.035403025138085624,
+        "payne_zero_sensitivity_rms": 0.10303183795381858,
+        "payne_zero_tio_sensitivity_rms": 0.07230059497517013
+      }
+    },
+    "IC2391-0096": {
+      "adopted_labels": {
+        "alpha": 0.0,
+        "carbon": 0.0,
+        "logg": 5.0,
+        "metallicity": 0.0,
+        "teff_K": 3750.0,
+        "vmic_km_s": 1.0
+      },
+      "atmospheres": {
+        "marcs": {
+          "line_modes": {
+            "atomic_only": {
+              "continuum_coefficients_a_b": [
+                0.9226773408848532,
+                0.041771079459669215
+              ],
+              "metrics": {
+                "mad": 0.03785733825856541,
+                "median_signed": 0.0036699882371791226,
+                "p95_absolute": 0.11617024405411092,
+                "rms": 0.05975529933921488
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "marcs",
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "atomic_only",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 9.185297966003418,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "full": {
+              "continuum_coefficients_a_b": [
+                1.2360445609477735,
+                0.01728017474088167
+              ],
+              "metrics": {
+                "mad": 0.036377175684606744,
+                "median_signed": 0.002199052790193168,
+                "p95_absolute": 0.09927869190551353,
+                "rms": 0.05191759343393235
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "marcs",
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "full",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.590264081954956,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "no_tio": {
+              "continuum_coefficients_a_b": [
+                0.9362184546239057,
+                0.04853901947200675
+              ],
+              "metrics": {
+                "mad": 0.03946242929391153,
+                "median_signed": 0.0017554197174549646,
+                "p95_absolute": 0.12063619411303861,
+                "rms": 0.05988614524185253
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "marcs",
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "no_tio",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.28078293800354004,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            }
+          },
+          "molecular_sensitivity": {
+            "median_full_minus_atomic": -0.24573331775388585,
+            "median_full_minus_no_tio": -0.23130373403624704,
+            "p95_absolute_full_minus_atomic": 0.30074044388109245,
+            "p95_absolute_full_minus_no_tio": 0.28959175994164177,
+            "rms_full_minus_atomic": 0.2505403404791326,
+            "rms_full_minus_no_tio": 0.23657828288815616,
+            "rms_no_tio_minus_atomic": 0.02046066070474167
+          }
+        },
+        "payne_zero": {
+          "line_modes": {
+            "atomic_only": {
+              "continuum_coefficients_a_b": [
+                0.9222987090566969,
+                0.04144041656211008
+              ],
+              "metrics": {
+                "mad": 0.03773776931601036,
+                "median_signed": 0.0036630413888787405,
+                "p95_absolute": 0.11547611472402575,
+                "rms": 0.05961104117451174
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "payne_zero",
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "atomic_only",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.26210808753967285,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "full": {
+              "continuum_coefficients_a_b": [
+                1.1853818772708533,
+                0.02169974923409867
+              ],
+              "metrics": {
+                "mad": 0.03643547655515056,
+                "median_signed": 0.003187494044824657,
+                "p95_absolute": 0.10246759453949306,
+                "rms": 0.05198914163840235
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "payne_zero",
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "full",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.5535438060760498,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            },
+            "no_tio": {
+              "continuum_coefficients_a_b": [
+                0.9345917045588193,
+                0.04763312062263395
+              ],
+              "metrics": {
+                "mad": 0.03919044265256444,
+                "median_signed": 0.0018354221393365178,
+                "p95_absolute": 0.1196665511267635,
+                "rms": 0.059610012439684154
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atmosphere": "payne_zero",
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "global_atomic_line_count": 19206,
+                "global_molecular_line_count": 287794,
+                "global_tio_line_count": 236552,
+                "global_total_line_count": 307000,
+                "line_mode": "no_tio",
+                "linelist": "Korg GALAH DR3 HDF5",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "padded_window_molecular_line_count": 9088,
+                "padded_window_tio_line_count": 8373,
+                "padded_window_total_line_count": 9469,
+                "resolution": 80000.0,
+                "seconds": 0.267941951751709,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "tio_6650"
+              }
+            }
+          },
+          "molecular_sensitivity": {
+            "median_full_minus_atomic": -0.21472254768953114,
+            "median_full_minus_no_tio": -0.20181358788713777,
+            "p95_absolute_full_minus_atomic": 0.26557636367262016,
+            "p95_absolute_full_minus_no_tio": 0.25464961624570603,
+            "rms_full_minus_atomic": 0.21952149152289074,
+            "rms_full_minus_no_tio": 0.2067985413489579,
+            "rms_no_tio_minus_atomic": 0.018756276853728854
+          }
+        }
+      },
+      "class": "M dwarf",
+      "continuum_nuisance": "model * (a + b*x), equal-weight least squares",
+      "label_delta_adopted_minus_source": {
+        "alpha": -0.0995,
+        "logg": 0.050200000000000244,
+        "metallicity": -0.0391,
+        "teff_K": 22.0
+      },
+      "median_snr": 31.07668455452811,
+      "n_pixels": 1001,
+      "normalization": "observed local 95th percentile",
+      "role": "primary_nearest_node_diagnostic",
+      "scientific_verdict": "cannot_determine",
+      "source_errors": {
+        "alpha": 0.03,
+        "logg": 0.03,
+        "metallicity": 0.03,
+        "teff_K": 37.0
+      },
+      "source_labels": {
+        "alpha": 0.0995,
+        "logg": 4.9498,
+        "metallicity": 0.0391,
+        "teff_K": 3728.0
+      },
+      "spectral_type": "M0-5? (ESO UVES-POP table)",
+      "summary": {
+        "continuum_adjusted_full_model_rms_difference": 0.0031032956404271027,
+        "delta_rms_pz_minus_marcs": 7.154820446999416e-05,
+        "marcs_full_rms": 0.05191759343393235,
+        "marcs_other_molecular_sensitivity_rms": 0.02046066070474167,
+        "marcs_sensitivity_rms": 0.2505403404791326,
+        "marcs_tio_sensitivity_rms": 0.23657828288815616,
+        "payne_zero_full_rms": 0.05198914163840235,
+        "payne_zero_other_molecular_sensitivity_rms": 0.018756276853728854,
+        "payne_zero_sensitivity_rms": 0.21952149152289074,
+        "payne_zero_tio_sensitivity_rms": 0.2067985413489579
+      }
+    }
+  }
+}

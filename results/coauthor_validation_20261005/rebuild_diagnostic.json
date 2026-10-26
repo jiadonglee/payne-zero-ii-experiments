@@ -1,0 +1,58 @@
+{
+  "index": 8,
+  "family": "cno8",
+  "role": "post-hoc pressure-synchronization diagnostic; excluded from fixed-cap test counts",
+  "labels": {
+    "absolute_abundances_relative_to_hydrogen_by_atomic_number": {
+      "6": -1.6384943601022246,
+      "7": -1.649558353575617,
+      "8": -1.663255124482391
+    },
+    "absolute_cno_abundances_relative_to_hydrogen": {
+      "carbon": -1.6384943601022246,
+      "nitrogen": -1.649558353575617,
+      "oxygen": -1.663255124482391
+    },
+    "alpha_enhancement": 0.4871118025918999,
+    "carbon_enhancement": -0.09293281231971301,
+    "chemistry_design_index": 8,
+    "effective_temperature": 8433.773256721157,
+    "identity_sha256": "0d5264912fe2060807b8a6b0ee9a0c1c633ec17eebc1bcbde1e275585e9b1672",
+    "intended_outer_role": "release_pool",
+    "log_surface_gravity": 0.8364900494589552,
+    "metallicity": -1.5455615477825115,
+    "microturbulence_km_s": 3.940461001827283,
+    "nitrogen_enhancement": -0.1039968057931056,
+    "oxygen_enhancement": -0.11769357669987957,
+    "parent_group_id": "p5_464f6dd3b08563884390c78c9491277557d0d3ddedaa5754e037410e5262b8f6",
+    "parent_identity_sha256": "464f6dd3b08563884390c78c9491277557d0d3ddedaa5754e037410e5262b8f6",
+    "parent_pack_index": 8,
+    "parent_profile_sha256": "4fd987ff37f82b3560ae5e5b7ae1564b46ec05430f7f68a50de9bf04b2524e91",
+    "parent_slug": "five_label_bootstrap_wave11_008844",
+    "parent_source_row_index": 29540,
+    "phase": "subgiant",
+    "record_kind": "chemistry_child",
+    "slug": "cno8_0d5264912fe2060807b8",
+    "source": "conditional_cno_latin_hypercube_v1",
+    "absolute_abundance_offsets": {
+      "6": -1.6384943601022246,
+      "7": -1.649558353575617,
+      "8": -1.663255124482391
+    }
+  },
+  "pressure_tolerance_dex": 0.001,
+  "maximum_evaluations": 16,
+  "evaluations": 10,
+  "pressure_change_dex": [
+    0.7775996476917091,
+    0.1705335009456801,
+    0.04707938102514109,
+    0.02243860595521352,
+    0.00791870747835599,
+    0.003263516138954259,
+    0.0022045461931357035,
+    0.0015118329832399802,
+    0.0011216752767932991,
+    0.0007508593243752415
+  ]
+}

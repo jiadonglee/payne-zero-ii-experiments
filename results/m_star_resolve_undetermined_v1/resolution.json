@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "emulator_frozen": 40,
+      "logg": 2.0,
+      "metallicity": 0.0,
+      "node_id": "g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+      "reference_frozen": null,
+      "remedy": "seeded_reference",
+      "teff_K": 3250.0,
+      "verdict": "undetermined"
+    },
+    {
+      "cross_temperature_p95": 0.0006747731176845384,
+      "cross_tio": {
+        "flux_continuum": 8.045379541594479e-05,
+        "flux_total": 4.211299821724618e-06,
+        "normalized_flux": 6.238234702627549e-06
+      },
+      "emulator_frozen": 55,
+      "logg": 2.0,
+      "metallicity": 0.5,
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050",
+      "reference_frozen": 30,
+      "remedy": "seeded_reference",
+      "teff_K": 3050.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_temperature_p95": 0.0013689563624468555,
+      "cross_tio": {
+        "flux_continuum": 0.00010666008344244195,
+        "flux_total": 0.00019764376957471673,
+        "normalized_flux": 0.00012778725917161893
+      },
+      "emulator_frozen": 50,
+      "logg": 0.5,
+      "metallicity": -0.5,
+      "node_id": "g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850",
+      "reference_frozen": 25,
+      "remedy": "seeded_reference",
+      "teff_K": 3850.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_temperature_p95": 0.0008490098429473542,
+      "cross_tio": {
+        "flux_continuum": 7.235535296424681e-05,
+        "flux_total": 1.7679283654474995e-05,
+        "normalized_flux": 2.0648016620813947e-05
+      },
+      "emulator_frozen": 40,
+      "logg": 1.5,
+      "metallicity": -0.5,
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150",
+      "reference_frozen": 60,
+      "remedy": "longer_budget",
+      "teff_K": 3150.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_temperature_p95": 0.0018892005314273166,
+      "cross_tio": {
+        "flux_continuum": 0.00011391957358989381,
+        "flux_total": 9.915579213749642e-05,
+        "normalized_flux": 9.611015253157759e-05
+      },
+      "emulator_frozen": 45,
+      "logg": 0.75,
+      "metallicity": 0.5,
+      "node_id": "g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300",
+      "reference_frozen": 85,
+      "remedy": "longer_budget",
+      "teff_K": 3300.0,
+      "verdict": "pass"
+    }
+  ]
+}

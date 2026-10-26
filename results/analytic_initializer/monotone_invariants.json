@@ -1,0 +1,268 @@
+{
+  "format": "payne_zero_monotone_invariants_v1",
+  "date": "2026-08-17",
+  "question": "Can the emulator-free H2 warm start be made physically well formed -- positive opacity, monotone mass, positive and monotone temperature, and bounded support -- without losing the accuracy that carried its first-trial convergence parity?",
+  "answer": "Yes. All four invariants now hold by construction for every corpus row, and the guard refuses labels outside the fitted box. The cost is 0.00043 in held-out temperature p95 (0.0197 to 0.0201).",
+  "corpus": {
+    "path": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+    "sha256": "092cf3c4a0c6075c2dde05803bec62b1d0eb6ec36d5794fe400870c505b44284",
+    "rows": 52199,
+    "layers": 80
+  },
+  "split": {
+    "seed": 20260816,
+    "train": 40911,
+    "validation": 10228,
+    "excluded": 1060,
+    "manifests": [
+      "results/reconstruction_metrics.json",
+      "results/sealed_solver_subset_20260808.json",
+      "results/sealed_audit_20260808.json",
+      "results/sealed_audit_20260811.json",
+      "results/sealed_initializer_holdout_20260812.json",
+      "results/initializer_calibration_20260812.json",
+      "results/four_initializer_benchmark_expanded_20260814/expanded200_manifest.json"
+    ]
+  },
+  "closure": {
+    "degree": 3,
+    "components": 5
+  },
+  "baseline_asset": {
+    "path": "results/analytic_initializer/h2_profile_parameters_v1.npz",
+    "sha256": "3b4af7280d128fd4337d00a59620f0c5dc7418effbe7041abed60a9a8df8e9c7",
+    "note": "the H2 constants the recorded 60-star funnel ran on"
+  },
+  "defect_being_fixed": {
+    "corpus_rows": 52199,
+    "baseline_non_monotone_rows": 858,
+    "truth_non_monotone_rows": 65,
+    "spurious_inversion_rows": 858,
+    "spurious_fraction": 0.016437096496101457,
+    "worst_layer_step_K": -121.68935456572217
+  },
+  "invariants": {
+    "baseline_full_corpus": {
+      "rows": 52199,
+      "opacity_positive": true,
+      "temperature_positive_rows": 52199,
+      "temperature_monotone_rows": 51341,
+      "mass_monotone_rows": 52199,
+      "all_four_rows": 51341
+    },
+    "monotone_full_corpus": {
+      "rows": 52199,
+      "opacity_positive": true,
+      "temperature_positive_rows": 52199,
+      "temperature_monotone_rows": 52199,
+      "mass_monotone_rows": 52199,
+      "all_four_rows": 52199
+    }
+  },
+  "accuracy_held_out": {
+    "baseline": {
+      "temperature_relative": {
+        "p50": 0.0032275216116896543,
+        "p95": 0.019716992422802507,
+        "p99": 0.06075332595770939,
+        "max": 1.8023070595685229
+      },
+      "temperature_relative_surface": {
+        "p50": 0.0028135403800769176,
+        "p95": 0.011390420494710018,
+        "p99": 0.02028392876752217,
+        "max": 0.1498849904686832
+      },
+      "temperature_relative_deep": {
+        "p50": 0.0033699664500209114,
+        "p95": 0.019575599245596882,
+        "p99": 0.059453631832614005,
+        "max": 1.0451606327845786
+      },
+      "mass_dex": {
+        "p50": 0.01915804526946996,
+        "p95": 0.08691314477476063,
+        "p99": 0.16567657661545218,
+        "max": 2.0270107787926763
+      }
+    },
+    "monotone_adopted_constants": {
+      "temperature_relative": {
+        "p50": 0.0032409580816160077,
+        "p95": 0.020122165723855244,
+        "p99": 0.06170432191744369,
+        "max": 1.8023070595685238
+      },
+      "temperature_relative_surface": {
+        "p50": 0.002825286704432939,
+        "p95": 0.011649884140966068,
+        "p99": 0.021893525965771928,
+        "max": 0.1498849904686821
+      },
+      "temperature_relative_deep": {
+        "p50": 0.003387920841687153,
+        "p95": 0.019909098421738654,
+        "p99": 0.06046904406013955,
+        "max": 1.0451606327845795
+      },
+      "mass_dex": {
+        "p50": 0.01915804526946996,
+        "p95": 0.08691314477476063,
+        "p99": 0.16567657661545218,
+        "max": 2.0270107787926763
+      }
+    },
+    "monotone_refitted_constants": {
+      "temperature_relative": {
+        "p50": 0.0032409580816160077,
+        "p95": 0.020122165723855244,
+        "p99": 0.06170432191744369,
+        "max": 1.8023070595685238
+      },
+      "temperature_relative_surface": {
+        "p50": 0.002825286704432939,
+        "p95": 0.011649884140966068,
+        "p99": 0.021893525965771928,
+        "max": 0.1498849904686821
+      },
+      "temperature_relative_deep": {
+        "p50": 0.003387920841687153,
+        "p95": 0.019909098421738654,
+        "p99": 0.06046904406013955,
+        "max": 1.0451606327845795
+      },
+      "mass_dex": {
+        "p50": 0.01915804526946996,
+        "p95": 0.08691314477476063,
+        "p99": 0.16567657661545218,
+        "max": 2.0270107787926763
+      }
+    }
+  },
+  "deep_error_by_effective_temperature": [
+    {
+      "effective_temperature_low": 4000,
+      "effective_temperature_high": 4500,
+      "rows": 897,
+      "baseline_deep_p95": 0.014667684183269967,
+      "monotone_deep_p95": 0.014667684183270111
+    },
+    {
+      "effective_temperature_low": 4500,
+      "effective_temperature_high": 5500,
+      "rows": 1917,
+      "baseline_deep_p95": 0.00959058756470501,
+      "monotone_deep_p95": 0.009592502353521432
+    },
+    {
+      "effective_temperature_low": 5500,
+      "effective_temperature_high": 6500,
+      "rows": 1326,
+      "baseline_deep_p95": 0.017081552868644156,
+      "monotone_deep_p95": 0.01708155286864413
+    },
+    {
+      "effective_temperature_low": 6500,
+      "effective_temperature_high": 7000,
+      "rows": 411,
+      "baseline_deep_p95": 0.023305281862731786,
+      "monotone_deep_p95": 0.023305281862729954
+    },
+    {
+      "effective_temperature_low": 7000,
+      "effective_temperature_high": 7500,
+      "rows": 386,
+      "baseline_deep_p95": 0.06845249015498614,
+      "monotone_deep_p95": 0.06845249015498381
+    },
+    {
+      "effective_temperature_low": 7500,
+      "effective_temperature_high": 8000,
+      "rows": 482,
+      "baseline_deep_p95": 0.06776073151149156,
+      "monotone_deep_p95": 0.06752389400481856
+    },
+    {
+      "effective_temperature_low": 8000,
+      "effective_temperature_high": 9000,
+      "rows": 1790,
+      "baseline_deep_p95": 0.02946463484961359,
+      "monotone_deep_p95": 0.029464634849614292
+    },
+    {
+      "effective_temperature_low": 9000,
+      "effective_temperature_high": 10500,
+      "rows": 3019,
+      "baseline_deep_p95": 0.01792361102329175,
+      "monotone_deep_p95": 0.018858433629968748
+    }
+  ],
+  "support_guard": {
+    "lower": {
+      "effective_temperature": 4000.15429878351,
+      "log_surface_gravity": 0.700040232272339,
+      "metallicity": -2.4999790324137567,
+      "alpha_enhancement": -0.0999991269801129,
+      "microturbulence_km_s": 0.5000096246308909
+    },
+    "upper": {
+      "effective_temperature": 10499.779414483175,
+      "log_surface_gravity": 5.29977164081082,
+      "metallicity": 0.49993615049277906,
+      "alpha_enhancement": 0.4999955710615622,
+      "microturbulence_km_s": 3.9999384366050057
+    },
+    "probes": [
+      {
+        "labels": {
+          "effective_temperature": 12000.0,
+          "log_surface_gravity": 4.0,
+          "metallicity": -1.0,
+          "alpha_enhancement": 0.2,
+          "microturbulence_km_s": 1.0
+        },
+        "rejected": true,
+        "message": "labels are outside the fitted analytic support: effective_temperature in [12000, 12000] outside [4000.15, 10499.8]",
+        "unguarded_peak_temperature_K": 62543.04705701521
+      },
+      {
+        "labels": {
+          "effective_temperature": 3000.0,
+          "log_surface_gravity": 2.0,
+          "metallicity": -3.5,
+          "alpha_enhancement": 0.0,
+          "microturbulence_km_s": 1.0
+        },
+        "rejected": true,
+        "message": "labels are outside the fitted analytic support: effective_temperature in [3000, 3000] outside [4000.15, 10499.8], metallicity in [-3.5, -3.5] outside [-2.49998, 0.499936]",
+        "unguarded_peak_temperature_K": 6135.990987812051
+      }
+    ]
+  },
+  "rejected_alternative": {
+    "design": "fit log10 of the per-interval ln T increment directly",
+    "temperature_relative": {
+      "p50": 0.008616305025917648,
+      "p95": 0.05994398172785037,
+      "p99": 0.14847554752747755,
+      "max": 3.96754248494008
+    },
+    "temperature_relative_deep": {
+      "p50": 0.01285333502206798,
+      "p95": 0.0696998623599703,
+      "p99": 0.13935252447954524,
+      "max": 0.9446763936044016
+    },
+    "temperature_monotone_rows": 10228,
+    "rows": 10228,
+    "verdict": "rejected: monotone but three times less accurate, because least squares balances each increment independently while the profile is their cumulative sum"
+  },
+  "stored_float_count": 4591,
+  "budget_note": "The compactness budget of 600 stored floats is a separate step and is not addressed here; this asset is the same size as H2.",
+  "reproducer": "PYTHONPATH=. python3 -m experiments.analytic_initializer.run_monotone_invariants",
+  "asset": {
+    "path": "results/analytic_initializer/monotone_profile_parameters_v1.npz",
+    "sha256": "ae94b0b55f55477c8e16f4b8d750319c6af45c11b005c3fc79da9fabb5423a23",
+    "round_trip_exact": true
+  }
+}

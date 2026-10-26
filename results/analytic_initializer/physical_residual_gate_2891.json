@@ -1,0 +1,32 @@
+{
+  "candidate": "low_dimensional_physical_residual_continuum_only",
+  "converged_count": 0,
+  "corpus": "source_data_files/atmosphere_emulator/five_label/strict_truth_52199.npz",
+  "finite_count": 0,
+  "gate": {
+    "development_60": "blocked_until_a_bounded_smoke_passes",
+    "note": "prototype residual reduction is not a production result",
+    "sealed_holdout": "closed"
+  },
+  "records": [
+    {
+      "alpha_enhancement": -0.020645628397830865,
+      "converged": false,
+      "corpus_index": 2891,
+      "effective_temperature": 4398.232963880012,
+      "finite_final_state": false,
+      "iterations_completed": null,
+      "log_surface_gravity": 1.527834633558132,
+      "metallicity": -2.030733241848917,
+      "microturbulence_km_s": 3.884435469712034,
+      "seconds": 120.0,
+      "solver_outcome": "timeout"
+    }
+  ],
+  "star_count": 1,
+  "star_indices": [
+    2891
+  ],
+  "status": "smoke_not_production",
+  "timeout_count": 1
+}

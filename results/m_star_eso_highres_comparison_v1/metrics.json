@@ -1,0 +1,427 @@
+{
+  "comparison_scope": "two atomic-dominated windows; no TiO; no broad-band ranking",
+  "targets": {
+    "HD219215": {
+      "adopted_labels": {
+        "alpha": 0.0,
+        "carbon": 0.0,
+        "logg": 1.5,
+        "metallicity": 0.0,
+        "teff_K": 3900.0,
+        "vmic_km_s": 2.0
+      },
+      "class": "M giant",
+      "label_delta_adopted_minus_source": {
+        "alpha": -0.529,
+        "logg": 0.674,
+        "metallicity": 0.097,
+        "teff_K": 29.0
+      },
+      "normalized_label_distance": 2.989124453748957,
+      "payne_zero_physical_diagnostics": {
+        "case_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/giant/g+1.50_m+0.00_a+0.00_c+0.00_x2.00/t3900/case.json",
+        "primary_flux_error_percent": {
+          "maximum": 2.8023943544246497,
+          "median": 0.00783376579121822,
+          "p95": 0.8010476612428928
+        },
+        "primary_path_consistency": {
+          "available": true,
+          "column_mass_dex": {
+            "max": 0.001899185838932116,
+            "median": 3.916446952323405e-05,
+            "p95": 0.0007560909901737072
+          },
+          "passes": true,
+          "temperature_relative": {
+            "max": 0.0005865326991979107,
+            "median": 3.8294850420138616e-05,
+            "p95": 0.0004756443351604424
+          }
+        },
+        "status": "training_eligible",
+        "training_eligible": true
+      },
+      "product_url": "https://data.voxastro.org/uves-pop/model_spec/merged_221115/HD219215_R80k.fits.gz",
+      "role": "label_mismatch_diagnostic",
+      "rv_error_km_s": 1.02,
+      "rv_km_s": 1.9,
+      "scientific_verdict": "cannot_determine",
+      "source_errors": {
+        "alpha": 0.084,
+        "logg": 0.176,
+        "metallicity": 0.11,
+        "teff_K": 39.0
+      },
+      "source_labels": {
+        "alpha": 0.529,
+        "logg": 0.826,
+        "metallicity": -0.097,
+        "teff_K": 3871.0
+      },
+      "spectral_type": "M1.5III",
+      "vsini_km_s": 10.4,
+      "windows": {
+        "ca_i_6162": {
+          "continuum_adjusted_model_rms_difference": 0.003452602854595875,
+          "continuum_nuisance": "model * (a + b*x), equal-weight least squares",
+          "delta_rms_payne_zero_minus_marcs": -0.00017918282961831844,
+          "median_snr": 164.1865191892136,
+          "models": {
+            "marcs": {
+              "continuum_coefficients_a_b": [
+                0.8927273594485203,
+                -0.0834267760858753
+              ],
+              "metrics": {
+                "mad": 0.06205212718069136,
+                "median_signed": 0.02631456735785692,
+                "p95_absolute": 0.1867849711183455,
+                "rms": 0.09688403296603698
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "model": "marcs",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 0.13734698295593262,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "ca_i_6162"
+              }
+            },
+            "payne_zero": {
+              "continuum_coefficients_a_b": [
+                0.8910544180560638,
+                -0.08403285965570563
+              ],
+              "metrics": {
+                "mad": 0.06230778151993868,
+                "median_signed": 0.024980084923659662,
+                "p95_absolute": 0.18495118518975773,
+                "rms": 0.09670485013641866
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "model": "payne_zero",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 0.20613908767700195,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "ca_i_6162"
+              }
+            }
+          },
+          "n_pixels": 750,
+          "normalization": "observed local 95th percentile"
+        },
+        "mg_b": {
+          "continuum_adjusted_model_rms_difference": 0.0032688478148653077,
+          "continuum_nuisance": "model * (a + b*x), equal-weight least squares",
+          "delta_rms_payne_zero_minus_marcs": -9.704770316826261e-05,
+          "median_snr": 98.50338511040985,
+          "models": {
+            "marcs": {
+              "continuum_coefficients_a_b": [
+                0.8644767246698241,
+                -0.04174172763159986
+              ],
+              "metrics": {
+                "mad": 0.1160234908739424,
+                "median_signed": 0.038611247197252424,
+                "p95_absolute": 0.31121129172729617,
+                "rms": 0.16317011356317374
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "model": "marcs",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 0.18075203895568848,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "mg_b"
+              }
+            },
+            "payne_zero": {
+              "continuum_coefficients_a_b": [
+                0.860064911626277,
+                -0.04267111171883366
+              ],
+              "metrics": {
+                "mad": 0.11621521231699888,
+                "median_signed": 0.0369811523424296,
+                "p95_absolute": 0.3139378053542095,
+                "rms": 0.16307306586000547
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "giant",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 1.5,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 2.0,
+                "model": "payne_zero",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 0.2407820224761963,
+                "target": "HD219215",
+                "teff_K": 3900.0,
+                "vsini_km_s": 10.4,
+                "wavelength_system": "air",
+                "window": "mg_b"
+              }
+            }
+          },
+          "n_pixels": 1500,
+          "normalization": "observed local 95th percentile"
+        }
+      }
+    },
+    "IC2391-0096": {
+      "adopted_labels": {
+        "alpha": 0.0,
+        "carbon": 0.0,
+        "logg": 5.0,
+        "metallicity": 0.0,
+        "teff_K": 3750.0,
+        "vmic_km_s": 1.0
+      },
+      "class": "M dwarf",
+      "label_delta_adopted_minus_source": {
+        "alpha": -0.0995,
+        "logg": 0.050200000000000244,
+        "metallicity": -0.0391,
+        "teff_K": 22.0
+      },
+      "normalized_label_distance": 0.5586605856868732,
+      "payne_zero_physical_diagnostics": {
+        "case_path": "/Users/jdli/Project/payne-zero/results/m_star_emulator_v1r2_marcs100/cases/dwarf/g+5.00_m+0.00_a+0.00_c+0.00_x1.00/t3750/case.json",
+        "primary_flux_error_percent": {
+          "maximum": 10.514202707060349,
+          "median": 0.04940340578199247,
+          "p95": 1.6713691599354596
+        },
+        "primary_path_consistency": {
+          "available": true,
+          "column_mass_dex": {
+            "max": 0.005198977405051153,
+            "median": 4.9100379705846464e-05,
+            "p95": 0.0015798323397541376
+          },
+          "passes": true,
+          "temperature_relative": {
+            "max": 0.00046542295310874325,
+            "median": 3.3574626809783264e-05,
+            "p95": 0.0002230688340071453
+          }
+        },
+        "status": "training_eligible",
+        "training_eligible": true
+      },
+      "product_url": "https://data.voxastro.org/uves-pop/model_spec/merged_221115/IC2391-0096_R80k.fits.gz",
+      "role": "primary_nearest_node_diagnostic",
+      "rv_error_km_s": 0.38,
+      "rv_km_s": 12.6,
+      "scientific_verdict": "cannot_determine",
+      "source_errors": {
+        "alpha": 0.03,
+        "logg": 0.03,
+        "metallicity": 0.03,
+        "teff_K": 37.0
+      },
+      "source_labels": {
+        "alpha": 0.0995,
+        "logg": 4.9498,
+        "metallicity": 0.0391,
+        "teff_K": 3728.0
+      },
+      "spectral_type": "M0-5? (ESO UVES-POP table)",
+      "vsini_km_s": 21.07,
+      "windows": {
+        "ca_i_6162": {
+          "continuum_adjusted_model_rms_difference": 0.0019578205349705343,
+          "continuum_nuisance": "model * (a + b*x), equal-weight least squares",
+          "delta_rms_payne_zero_minus_marcs": -0.00043008367529012714,
+          "median_snr": 28.351982745993965,
+          "models": {
+            "marcs": {
+              "continuum_coefficients_a_b": [
+                0.9943049182748774,
+                -0.04334440343404066
+              ],
+              "metrics": {
+                "mad": 0.06418254625453482,
+                "median_signed": 0.007958622657946585,
+                "p95_absolute": 0.16784738999072246,
+                "rms": 0.09175304140343968
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "model": "marcs",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 0.25894999504089355,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "ca_i_6162"
+              }
+            },
+            "payne_zero": {
+              "continuum_coefficients_a_b": [
+                0.9881449281290742,
+                -0.044548093189004385
+              ],
+              "metrics": {
+                "mad": 0.06443969342804368,
+                "median_signed": 0.008577222697616294,
+                "p95_absolute": 0.16626634946792634,
+                "rms": 0.09132295772814955
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "model": "payne_zero",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 0.2568080425262451,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "ca_i_6162"
+              }
+            }
+          },
+          "n_pixels": 750,
+          "normalization": "observed local 95th percentile"
+        },
+        "mg_b": {
+          "continuum_adjusted_model_rms_difference": 0.0011744588971480717,
+          "continuum_nuisance": "model * (a + b*x), equal-weight least squares",
+          "delta_rms_payne_zero_minus_marcs": 2.407556469022354e-05,
+          "median_snr": 14.298876912543502,
+          "models": {
+            "marcs": {
+              "continuum_coefficients_a_b": [
+                0.9263317338109169,
+                -0.027011747182991555
+              ],
+              "metrics": {
+                "mad": 0.12647298423752565,
+                "median_signed": 0.04432323112035744,
+                "p95_absolute": 0.29764561036184883,
+                "rms": 0.16618008785499117
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "model": "marcs",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 9.477729797363281,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "mg_b"
+              }
+            },
+            "payne_zero": {
+              "continuum_coefficients_a_b": [
+                0.9266655400608663,
+                -0.02685827474157104
+              ],
+              "metrics": {
+                "mad": 0.12659105179978253,
+                "median_signed": 0.04356182229035266,
+                "p95_absolute": 0.29735518453100085,
+                "rms": 0.1662041634196814
+              },
+              "synthesis_metadata": {
+                "alpha_enhancement": 0.0,
+                "atomic_line_count": 36157,
+                "carbon_enhancement": 0.0,
+                "class": "dwarf",
+                "geometry": "planar",
+                "linelist": "Korg VALD solar atomic-only",
+                "logg": 5.0,
+                "metallicity": 0.0,
+                "microturbulence_km_s": 1.0,
+                "model": "payne_zero",
+                "molecular_line_count": 0,
+                "resolution": 80000.0,
+                "seconds": 0.4241349697113037,
+                "target": "IC2391-0096",
+                "teff_K": 3750.0,
+                "vsini_km_s": 21.07,
+                "wavelength_system": "air",
+                "window": "mg_b"
+              }
+            }
+          },
+          "n_pixels": 1500,
+          "normalization": "observed local 95th percentile"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "catalogue": {
+    "cds_id": "J/ApJS/266/11",
+    "local_table": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/sources/borisov2023_table6.dat",
+    "name": "Borisov et al. 2023 Table 6"
+  },
+  "eso_program": "266.D-5655(A)",
+  "official_eso_pages_saved": [
+    "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/sources/eso_uvespop_field_stars.html",
+    "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/sources/eso_uvespop_ic2391.html",
+    "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/sources/eso_uvespop_legend.html",
+    "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/sources/eso_uves_flag.txt"
+  ],
+  "paper_lookup": {
+    "database": "arXiv export API",
+    "endpoint": "https://export.arxiv.org/api/query?search_query=all:%22UVES-POP%22&start=0&max_results=20&sortBy=relevance&sortOrder=descending",
+    "raw_response": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v1/sources/arxiv_uves_pop_atom.xml"
+  },
+  "papers": [
+    {
+      "arxiv": "1802.03570",
+      "title": "The recalibration of the UVES-POP stellar spectral library",
+      "url": "https://arxiv.org/abs/1802.03570"
+    },
+    {
+      "arxiv": "2211.09130",
+      "doi": "10.3847/1538-4365/acc321",
+      "title": "New Generation Stellar Spectral Libraries in the Optical and Near-Infrared I",
+      "url": "https://arxiv.org/abs/2211.09130"
+    }
+  ],
+  "selected_products": {
+    "HD219215": "https://data.voxastro.org/uves-pop/model_spec/merged_221115/HD219215_R80k.fits.gz",
+    "IC2391-0096": "https://data.voxastro.org/uves-pop/model_spec/merged_221115/IC2391-0096_R80k.fits.gz"
+  }
+}

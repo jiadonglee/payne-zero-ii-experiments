@@ -1,0 +1,70 @@
+{
+  "date_utc": "2026-08-11",
+  "holdout_manifest": "results/sealed_audit_20260811.json",
+  "holdout_manifest_sha256": "a5f239b30ef637d21f16b9644ddc74bc22fbc227302d6af3774529150a3a284d",
+  "candidate_frozen_before_opening": true,
+  "post_blind_tuning_performed": false,
+  "overall_pass": false,
+  "profile": {
+    "report": "results/solver_in_loop_k1_qualified_tail3_profile_rescue_v4/blind200/profile_gate.json",
+    "report_sha256": "96d63bb5c52ea0bb084eb1b66d5de59874e485fd174e42da90808f47737a8691",
+    "passed": false,
+    "temperature_pointwise_p95": 0.0033804065570876727,
+    "temperature_pointwise_limit": 0.00374,
+    "column_mass_pointwise_p95_dex": 0.026563041705438165,
+    "column_mass_pointwise_limit_dex": 0.0152,
+    "temperature_blowout_stars": 6,
+    "column_mass_blowout_stars": 18,
+    "union_blowout_stars": 19
+  },
+  "solver": {
+    "candidate_report": "results/solver_in_loop_k1_qualified_tail3_profile_rescue_v4/blind200/solver/convergence_metrics_learned_physical_ensemble.json",
+    "candidate_report_sha256": "7409f2efd0408435ffe2b1d9632cf4778ae7deb8c701f5e9c8ccf979286e3826",
+    "production_report": "results/solver_in_loop_k1_qualified_tail3_profile_rescue_v4/blind200/production_solver/convergence_metrics_production_baseline.json",
+    "production_report_sha256": "5a8e32b06372a5fa1763e2292d154f49579a4f6b34cb32b3fe60561abf741ede",
+    "candidate": {
+      "requested": 200,
+      "reconstruction_failures": 1,
+      "solver_reported_converged": 193,
+      "nonfinite_product_failures_misreported_as_converged": 1,
+      "usable_products": 192,
+      "usable_fraction": 0.96,
+      "mean_iterations_among_solver_reported_converged": 4.155440414507772,
+      "p90_iterations": 7.0,
+      "p95_iterations": 8.0,
+      "non_monotonic_fraction": 0.271356783919598
+    },
+    "production": {
+      "requested": 200,
+      "solver_reported_converged": 193,
+      "usable_products": 193,
+      "usable_fraction": 0.965,
+      "mean_iterations_among_converged": 5.689119170984456,
+      "p90_iterations": 8.0,
+      "p95_iterations": 9.0,
+      "non_monotonic_fraction": 0.53
+    },
+    "paired_usable_products": {
+      "stars": 189,
+      "candidate_mean_iterations": 4.137566137566138,
+      "production_mean_iterations": 5.682539682539683,
+      "candidate_faster": 137,
+      "same": 32,
+      "candidate_slower": 20
+    }
+  },
+  "spectra": {
+    "report": "results/solver_in_loop_k1_qualified_tail3_profile_rescue_v4/blind200/spectral_gate.json",
+    "report_sha256": "7d9759b6a50cd96b3b76058022ee52c88adbc7e37d3931fd9e4a450512c83319",
+    "passed": false,
+    "paired_stars": 189,
+    "bar": 0.005,
+    "normalized_flux_max": 0.014188315038874522,
+    "normalized_flux_stars_over_bar": 25,
+    "total_flux_max": 0.015229313609306513,
+    "total_flux_stars_over_bar": 24,
+    "continuum_flux_max": 0.006248627427646519,
+    "continuum_flux_stars_over_bar": 1
+  },
+  "conclusion": "The frozen candidate is faster when it works, but it does not generalize well enough for production: profile accuracy, usable solve rate, and spectral fidelity all fail the independent blind gate."
+}

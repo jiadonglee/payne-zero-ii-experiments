@@ -1,0 +1,294 @@
+{
+  "delta_rms_definition": "RMS(observation-PayneZero) minus RMS(observation-MARCS); negative favors PZ",
+  "experiment": "shared RV offset and shared Korg rotational broadening fitted jointly to PZ and MARCS in Ca I",
+  "fit_window": "Ca I 6155-6170 A",
+  "frozen_evaluation_windows": [
+    "Ca I 6155-6170 A",
+    "TiO-rich 6650-6670 A"
+  ],
+  "instrument_resolution": 80000.0,
+  "targets": {
+    "HD219215": {
+      "adopted_labels": {
+        "alpha": 0.0,
+        "carbon": 0.0,
+        "logg": 1.5,
+        "metallicity": 0.0,
+        "teff_K": 3900.0,
+        "vmic_km_s": 2.0
+      },
+      "catalogue_rv_km_s": 1.9,
+      "catalogue_vsini_km_s": 10.4,
+      "class": "M giant",
+      "label_delta_adopted_minus_source": {
+        "alpha": -0.529,
+        "logg": 0.674,
+        "metallicity": 0.097,
+        "teff_K": 29.0
+      },
+      "role": "label_mismatch_diagnostic",
+      "shared_nuisance_from_ca_i": {
+        "bounds": {
+          "rv_offset_km_s": [
+            -8.0,
+            8.0
+          ],
+          "vsini_km_s": [
+            0.0,
+            40.0
+          ]
+        },
+        "joint_equal_model_mse": 0.009259632990013339,
+        "optimizer_message": "Optimization terminated successfully.",
+        "optimizer_success": true,
+        "rv_offset_km_s": 0.17748838825938001,
+        "vsini_km_s": 9.343798894777093
+      },
+      "source_labels": {
+        "alpha": 0.529,
+        "logg": 0.826,
+        "metallicity": -0.097,
+        "teff_K": 3871.0
+      },
+      "target": "HD219215",
+      "windows": {
+        "ca_i_6162": {
+          "ca_i_6162_line_diagnostic": {
+            "definition": "half depth around Ca I 6162.173 A using a 1.6 A local interval; center from a three-pixel parabola",
+            "fixed_catalogue_nuisance_reference": {
+              "marcs": {
+                "center_air_A": 6162.173141830408,
+                "center_velocity_relative_6162p173_km_s": 0.006900112478506197,
+                "fwhm_km_s": 25.80137896775779,
+                "half_depth_flux": 0.4701393885067378
+              },
+              "payne_zero": {
+                "center_air_A": 6162.17312899461,
+                "center_velocity_relative_6162p173_km_s": 0.006275645189481135,
+                "fwhm_km_s": 25.01470471095336,
+                "half_depth_flux": 0.469237060592229
+              }
+            },
+            "marcs": {
+              "center_air_A": 6162.1767714317075,
+              "center_offset_obs_minus_model_km_s": -0.29416262404686017,
+              "center_velocity_relative_6162p173_km_s": 0.18348183049406358,
+              "fwhm_km_s": 24.952743316416502,
+              "half_depth_flux": 0.4604315502087794
+            },
+            "observation": {
+              "center_air_A": 6162.1707249788,
+              "center_velocity_relative_6162p173_km_s": -0.11068079355279659,
+              "fwhm_km_s": 20.122527091322834,
+              "half_depth_flux": 0.454155884958112
+            },
+            "payne_zero": {
+              "center_air_A": 6162.17675888293,
+              "center_offset_obs_minus_model_km_s": -0.29355212044678014,
+              "center_velocity_relative_6162p173_km_s": 0.18287132689398358,
+              "fwhm_km_s": 24.124494146598842,
+              "half_depth_flux": 0.4585941691735046
+            }
+          },
+          "continuum_nuisance": "each atmosphere gets model*(a+b*x), same rule and order",
+          "delta_rms_pz_minus_marcs": -0.00014429605653208666,
+          "marcs": {
+            "continuum_coefficients_a_b": [
+              0.8912514760907617,
+              -0.08471559351816178
+            ],
+            "mad": 0.06034610713541749,
+            "median_signed": 0.029919126216930103,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/HD219215_ca_i_6162_marcs.h5",
+            "p95_absolute": 0.18505334646094973,
+            "rms": 0.09629910778838398
+          },
+          "median_snr": 164.1865191892136,
+          "n_pixels": 750,
+          "normalization": "observed local 95th percentile",
+          "payne_zero": {
+            "continuum_coefficients_a_b": [
+              0.889564658440395,
+              -0.085329357844883
+            ],
+            "mad": 0.06019227956508294,
+            "median_signed": 0.030089207273202523,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/HD219215_ca_i_6162_payne_zero.h5",
+            "p95_absolute": 0.1847383822836249,
+            "rms": 0.09615481173185189
+          }
+        },
+        "tio_6650": {
+          "continuum_nuisance": "each atmosphere gets model*(a+b*x), same rule and order",
+          "delta_rms_pz_minus_marcs": 0.0010387479730365468,
+          "marcs": {
+            "continuum_coefficients_a_b": [
+              1.0511056642725907,
+              0.04884912352440483
+            ],
+            "mad": 0.042864462801735725,
+            "median_signed": -0.0001507442836343187,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/HD219215_tio_6650_marcs.h5",
+            "p95_absolute": 0.13659329279790264,
+            "rms": 0.06871792777474149
+          },
+          "median_snr": 158.7564099148783,
+          "n_pixels": 1000,
+          "normalization": "observed local 95th percentile",
+          "payne_zero": {
+            "continuum_coefficients_a_b": [
+              1.0408238809261043,
+              0.049692191274832986
+            ],
+            "mad": 0.04327803685680359,
+            "median_signed": -0.0012962383165082692,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/HD219215_tio_6650_payne_zero.h5",
+            "p95_absolute": 0.13771047397191555,
+            "rms": 0.06975667574777804
+          }
+        }
+      }
+    },
+    "IC2391-0096": {
+      "adopted_labels": {
+        "alpha": 0.0,
+        "carbon": 0.0,
+        "logg": 5.0,
+        "metallicity": 0.0,
+        "teff_K": 3750.0,
+        "vmic_km_s": 1.0
+      },
+      "catalogue_rv_km_s": 12.6,
+      "catalogue_vsini_km_s": 21.07,
+      "class": "M dwarf",
+      "label_delta_adopted_minus_source": {
+        "alpha": -0.0995,
+        "logg": 0.050200000000000244,
+        "metallicity": -0.0391,
+        "teff_K": 22.0
+      },
+      "role": "primary_nearest_node_diagnostic",
+      "shared_nuisance_from_ca_i": {
+        "bounds": {
+          "rv_offset_km_s": [
+            -8.0,
+            8.0
+          ],
+          "vsini_km_s": [
+            0.0,
+            40.0
+          ]
+        },
+        "joint_equal_model_mse": 0.00689396025029446,
+        "optimizer_message": "Optimization terminated successfully.",
+        "optimizer_success": true,
+        "rv_offset_km_s": -0.6918215629274679,
+        "vsini_km_s": 7.112472269211374
+      },
+      "source_labels": {
+        "alpha": 0.0995,
+        "logg": 4.9498,
+        "metallicity": 0.0391,
+        "teff_K": 3728.0
+      },
+      "target": "IC2391-0096",
+      "windows": {
+        "ca_i_6162": {
+          "ca_i_6162_line_diagnostic": {
+            "definition": "half depth around Ca I 6162.173 A using a 1.6 A local interval; center from a three-pixel parabola",
+            "fixed_catalogue_nuisance_reference": {
+              "marcs": {
+                "center_air_A": 6162.173517941191,
+                "center_velocity_relative_6162p173_km_s": 0.02519806935003568,
+                "fwhm_km_s": 41.45914185030293,
+                "half_depth_flux": 0.3351854079501655
+              },
+              "payne_zero": {
+                "center_air_A": 6162.173524707718,
+                "center_velocity_relative_6162p173_km_s": 0.025527263942648357,
+                "fwhm_km_s": 41.159898079397834,
+                "half_depth_flux": 0.3359337995469245
+              }
+            },
+            "marcs": {
+              "center_air_A": 6162.158917529432,
+              "center_offset_obs_minus_model_km_s": 0.14399307259642402,
+              "center_velocity_relative_6162p173_km_s": -0.6851184583941728,
+              "fwhm_km_s": 31.10667989967255,
+              "half_depth_flux": 0.300790878383546
+            },
+            "observation": {
+              "center_air_A": 6162.161877277753,
+              "center_velocity_relative_6162p173_km_s": -0.5411253857977488,
+              "fwhm_km_s": 17.16690739367354,
+              "half_depth_flux": 0.3797584251489088
+            },
+            "payne_zero": {
+              "center_air_A": 6162.158908441673,
+              "center_offset_obs_minus_model_km_s": 0.14443519614692746,
+              "center_velocity_relative_6162p173_km_s": -0.6855605819446763,
+              "fwhm_km_s": 30.225094499487653,
+              "half_depth_flux": 0.2990225942607575
+            }
+          },
+          "continuum_nuisance": "each atmosphere gets model*(a+b*x), same rule and order",
+          "delta_rms_pz_minus_marcs": -0.0005290283883317703,
+          "marcs": {
+            "continuum_coefficients_a_b": [
+              0.9905671791337,
+              -0.04833587157594804
+            ],
+            "mad": 0.06244551306893453,
+            "median_signed": 0.0210760184614594,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/IC2391-0096_ca_i_6162_marcs.h5",
+            "p95_absolute": 0.1512992451752619,
+            "rms": 0.08329396850127033
+          },
+          "median_snr": 28.351982745993965,
+          "n_pixels": 750,
+          "normalization": "observed local 95th percentile",
+          "payne_zero": {
+            "continuum_coefficients_a_b": [
+              0.9844198550942431,
+              -0.04963496827301498
+            ],
+            "mad": 0.062208323680168015,
+            "median_signed": 0.02136336124854521,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/IC2391-0096_ca_i_6162_payne_zero.h5",
+            "p95_absolute": 0.15035870742563417,
+            "rms": 0.08276494011293856
+          }
+        },
+        "tio_6650": {
+          "continuum_nuisance": "each atmosphere gets model*(a+b*x), same rule and order",
+          "delta_rms_pz_minus_marcs": -0.002183099809449869,
+          "marcs": {
+            "continuum_coefficients_a_b": [
+              1.2332792626422928,
+              0.015397579164885015
+            ],
+            "mad": 0.033303665395175264,
+            "median_signed": 0.004219306065257444,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/IC2391-0096_tio_6650_marcs.h5",
+            "p95_absolute": 0.08919919427508527,
+            "rms": 0.046158339480206395
+          },
+          "median_snr": 31.07668455452811,
+          "n_pixels": 1001,
+          "normalization": "observed local 95th percentile",
+          "payne_zero": {
+            "continuum_coefficients_a_b": [
+              1.183330115045025,
+              0.020179879399163946
+            ],
+            "mad": 0.03256493997334453,
+            "median_signed": 0.002752025690458626,
+            "model_path": "/Users/jdli/Project/payne-zero/results/m_star_eso_highres_comparison_v3_shared_nuisance/models/spectra/IC2391-0096_tio_6650_payne_zero.h5",
+            "p95_absolute": 0.0843950204899524,
+            "rms": 0.043975239670756526
+          }
+        }
+      }
+    }
+  }
+}

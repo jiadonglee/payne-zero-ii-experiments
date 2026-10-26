@@ -1,0 +1,78 @@
+{
+  "format": "payne_zero_entropy_convergence_retest_v1",
+  "date": "2026-08-18",
+  "plan": "notes/entropy_closure_convergence_retest.md",
+  "question": "Does the dual-crossing entropy (polytrope) closure reach convergence parity, judged on the solver rather than on dex?",
+  "verdict": "vetoed on the convergence criterion",
+  "verdict_basis": "Pre-registered rule: pass requires >=52/60 first-trial convergence. 44 of 60 stars ran before the job was stopped; 16 converged. The maximum still reachable is 16+16=32/60, below 52, so the decision is arithmetically settled and the remaining 16 stars cannot change it. Stopping here is an early stop on a determined outcome, not an early stop on an unfavourable trend.",
+  "pre_registered_rule": {
+    "pass": "first-trial >=52/60 AND median iterations <=10",
+    "veto": "first-trial <52/60 OR median iterations >12",
+    "source": "section 2.2 of the plan"
+  },
+  "run": {
+    "stars_planned": 60,
+    "stars_run": 44,
+    "per_star_timeout_seconds": 180,
+    "outcomes": {
+      "timeout": 26,
+      "converged": 16,
+      "not_converged": 2
+    },
+    "converged": 16,
+    "max_reachable_of_60": 32,
+    "median_iterations_on_converged": 8.5,
+    "iteration_range_on_converged": [
+      6,
+      14
+    ]
+  },
+  "failure_is_regime_localised": {
+    "note": "The closure passes only where it does not fire. Above 8000 K there is little convection in the modelled range, so the closure degenerates to the parity profile and every star converges. Wherever convection actually engages it destroys the start. Note 5500-7000 K fails 13/13 -- a regime the original v1/v2 work never examined, having been scoped to 7000-8000 K.",
+    "by_effective_temperature": [
+      {
+        "low": 4000,
+        "high": 5500,
+        "stars": 14,
+        "timeouts": 11,
+        "converged": 1
+      },
+      {
+        "low": 5500,
+        "high": 7000,
+        "stars": 13,
+        "timeouts": 13,
+        "converged": 0
+      },
+      {
+        "low": 7000,
+        "high": 8000,
+        "stars": 3,
+        "timeouts": 2,
+        "converged": 1
+      },
+      {
+        "low": 8000,
+        "high": 10500,
+        "stars": 14,
+        "timeouts": 0,
+        "converged": 14
+      }
+    ]
+  },
+  "offline_context": {
+    "hybrid_temperature_relative_p95": 0.562,
+    "parity_temperature_relative_p95": 0.02,
+    "note": "24x worse offline; the funnel was run anyway because the whole premise of the retest is that offline dex does not predict convergence."
+  },
+  "why_the_family_is_capped": {
+    "control_ladder_mean_deep_max_abs_dlnT": {
+      "truth_gradient_truth_pressure_trapezoid": 0.0118,
+      "truth_gradient_predicted_pressure": 0.2323,
+      "predicted_radiative_gradient": 2.8951,
+      "parity_no_integration_at_all": 0.0678
+    },
+    "conclusion": "Integrating any gradient in a predicted ln P coordinate is capped near 0.232 even with a perfect gradient, because the quadrature weights are differences of a predicted quantity. Parity, which never integrates, is at 0.068. The route is structurally disadvantaged independently of the closure physics."
+  },
+  "reproducer": "PYTHONPATH=. NUMBA_THREADING_LAYER=workqueue .venv/bin/python -m experiments.analytic_initializer.run_h2_solver_funnel --arm entropy --count 60 --per-star-timeout 180"
+}

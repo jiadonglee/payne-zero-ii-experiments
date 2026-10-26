@@ -1,0 +1,252 @@
+{
+  "git_commit_at_export": "34fe0e9eaab6eb93962b4a8be12745ad26049e08",
+  "input_identity_hash": "8c8ce1202512a337eb47504034ba0fc050c9fb8a389108e94b36f86eaf8dc350",
+  "labels": [
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 2.0,
+      "metallicity": -0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ],
+      "teff_K": 3650.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 1.5,
+      "metallicity": 0.0,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ],
+      "teff_K": 3825.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 2.5,
+      "metallicity": -1.0,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ],
+      "teff_K": 3575.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 2.0,
+      "metallicity": 0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ],
+      "teff_K": 3925.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 2.0,
+      "metallicity": 0.0,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ],
+      "teff_K": 3250.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 1.5,
+      "metallicity": -0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ],
+      "teff_K": 3150.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 2.5,
+      "metallicity": -1.0,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ],
+      "teff_K": 3350.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 2.0,
+      "metallicity": 0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ],
+      "teff_K": 3050.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 0.75,
+      "metallicity": 0.0,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650",
+      "sources": [
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ],
+      "teff_K": 3650.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 0.5,
+      "metallicity": -0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ],
+      "teff_K": 3850.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 1.0,
+      "metallicity": -1.0,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450",
+      "sources": [
+        "notes/m_star_stop_rule_v1_closeout_20260909.md",
+        "notes/m_star_stop_rule_v1_revalidation_closeout_20260911.md"
+      ],
+      "teff_K": 3450.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "original_twelve",
+      "logg": 0.75,
+      "metallicity": 0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300",
+      "sources": [
+        "notes/m_star_resolve_undetermined_closeout_20260912.md"
+      ],
+      "teff_K": 3300.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "reproduction_six",
+      "logg": 1.75,
+      "metallicity": 0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+1.75_m+0.50_a+0.00_c+0.00_x2.00_t3675",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md"
+      ],
+      "teff_K": 3675.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "reproduction_six",
+      "logg": 0.75,
+      "metallicity": -0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+0.75_m-0.50_a+0.00_c+0.00_x2.00_t3750",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md"
+      ],
+      "teff_K": 3750.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "reproduction_six",
+      "logg": 0.5,
+      "metallicity": 0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+0.50_m+0.50_a+0.00_c+0.00_x2.00_t3400",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md"
+      ],
+      "teff_K": 3400.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "reproduction_six",
+      "logg": 2.25,
+      "metallicity": -1.0,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.25_m-1.00_a+0.00_c+0.00_x2.00_t3525",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_gravity_walk_v1_closeout_20260913.md"
+      ],
+      "teff_K": 3525.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "reproduction_six",
+      "logg": 2.25,
+      "metallicity": 0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+2.25_m+0.50_a+0.00_c+0.00_x2.00_t3175",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_gravity_walk_v1_closeout_20260913.md"
+      ],
+      "teff_K": 3175.0
+    },
+    {
+      "alpha_enhancement": 0.0,
+      "carbon_enhancement": 0.0,
+      "cohort": "reproduction_six",
+      "logg": 1.5,
+      "metallicity": -0.5,
+      "microturbulence_km_s": 2.0,
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3325",
+      "sources": [
+        "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+        "notes/m_star_gravity_walk_v1_closeout_20260913.md"
+      ],
+      "teff_K": 3325.0
+    }
+  ],
+  "ledger_id": "m_star_dual_path_validation_v1",
+  "source_snapshot": "closeouts through 2026-09-13; numbers are from repository records, not a fresh solve of this GitHub snapshot"
+}

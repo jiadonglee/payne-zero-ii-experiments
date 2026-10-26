@@ -1,0 +1,18 @@
+{
+  "campaign": "m_star_interpolated_mt_seed_v1",
+  "frozen": true,
+  "gate_hash": "ae0d384e9f2a0c97d5a3325275b3fc024e903c8aec61dd4857f5a49fe7bde69b",
+  "protocol_hash": "6be8b7d4eeb0d96bdd00cccc7888340e6e3855773e16205a8d54c50a714336c3",
+  "source": {
+    "gate_hash": "0e6373aea49474d944f5eadeac2589edef0b264882467a2aeedc0bfc992379c7",
+    "path": "/nexus/posix0/MIA-astro-env/hxr/jdli/payne-zero-mstar-emulator-v1-20260831/results/m_star_emulator_v1r2_marcs100/flux_gate.json",
+    "sha256": "9103be1f10ad6df6fe3731847086965bca7a09e79a661f133cad77417163f296"
+  },
+  "status": "pass",
+  "thresholds": {
+    "maximum_absolute_flux_error_percent": 23.151468755609834,
+    "median_absolute_flux_error_percent": 0.23421537419224742,
+    "p95_absolute_flux_error_percent": 9.557343255085982
+  },
+  "thresholds_refit": false
+}

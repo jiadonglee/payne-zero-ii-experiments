@@ -1,0 +1,40 @@
+{
+  "counts_from_successful_reader": {
+    "atomic": 19206,
+    "molecular": 287794,
+    "tio": 236552,
+    "total": 307000
+  },
+  "derived_no_tio_counts": {
+    "molecular": 51242,
+    "padded_window_molecular": 715,
+    "padded_window_total": 1096,
+    "total": 70448
+  },
+  "excluded_large_pointer_route": {
+    "eschwenke_bin": {
+      "lfs_declared_bytes": 22621208,
+      "working_tree_bytes": 133
+    },
+    "reason": "Git LFS pointers only; not needed because the bundled GALAH HDF5 is executable now",
+    "schwenke_bin": {
+      "lfs_declared_bytes": 603911984,
+      "working_tree_bytes": 134
+    }
+  },
+  "file_size_bytes": 2652174,
+  "is_real_hdf5": true,
+  "local_source": "/Users/jdli/Project/jorg/Korg.jl-1.0.1/data/linelists/GALAH_DR3/galah_dr3_linelist.h5",
+  "padded_synthesis_window_counts": {
+    "molecular": 9088,
+    "range_air_A": [
+      6645.0,
+      6675.0
+    ],
+    "tio": 8373,
+    "total": 9469
+  },
+  "reader": "Korg.get_GALAH_DR3_linelist() in Korg 1.0.1",
+  "species_name_note": "Korg canonicalizes TiO as OTi",
+  "validation_boundary": "Line-format/readability, no-TiO ablation, and measured spectral sensitivity verified; TiO completeness and oscillator-strength accuracy not audited"
+}

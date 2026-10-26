@@ -1,0 +1,16 @@
+{
+  "source_file": "SDSS_MARCS_atmospheres.h5",
+  "native_layer_count": 56,
+  "target_layer_count": 80,
+  "source_code": "experiments/reduced_state_emulator/marcs_h5.py",
+  "conversion": "Pgas = ntot*kB*T; m = Pgas/g; uniform log(m), PCHIP in log(T)",
+  "input_fields": [
+    "temperature",
+    "ln_electron_number_density",
+    "ln_total_number_density",
+    "tau_5000",
+    "asinh_height"
+  ],
+  "depth_coordinate": "log_mass",
+  "protocol": "results/m_star_emulator_v1r2_marcs100/protocol.json"
+}

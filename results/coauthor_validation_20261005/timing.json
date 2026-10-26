@@ -1,0 +1,161 @@
+{
+  "host": "Node-07",
+  "batch_size": 1,
+  "threads": 8,
+  "device": "cpu",
+  "dtype": "network float32; physics float64",
+  "warmup_excluded": true,
+  "selection": "eight evenly spaced temperature ranks in the fixed test set",
+  "rows": [
+    {
+      "index": 11240,
+      "labels": {
+        "alpha_enhancement": 0.3369769626674106,
+        "effective_temperature": 4000.6176583104607,
+        "intended_outer_role": "train",
+        "log_surface_gravity": 4.725845829893121,
+        "metallicity": 0.34929995088068955,
+        "microturbulence_km_s": 2.323737057900586,
+        "phase": "dwarf",
+        "slug": "five_label_bootstrap_wave4_003336",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.0006784958485513926,
+      "rebuild_seconds": 16.479589208960533,
+      "rebuild_evaluations": 1,
+      "iteration_seconds": 16.5143840610981
+    },
+    {
+      "index": 36389,
+      "labels": {
+        "alpha_enhancement": 0.05149611111448507,
+        "effective_temperature": 4770.24936407596,
+        "intended_outer_role": "train",
+        "log_surface_gravity": 1.752819908960276,
+        "metallicity": -0.37465564554644093,
+        "microturbulence_km_s": 1.2265482990073608,
+        "phase": "subgiant",
+        "slug": "five_label_bootstrap_wave14_006005",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.0006424932274967432,
+      "rebuild_seconds": 7.182895669713616,
+      "rebuild_evaluations": 1,
+      "iteration_seconds": 7.409787870012224
+    },
+    {
+      "index": 17111,
+      "labels": {
+        "alpha_enhancement": 0.3347817832954567,
+        "effective_temperature": 5580.329118693954,
+        "intended_outer_role": "train",
+        "log_surface_gravity": 4.244664415495768,
+        "metallicity": -2.1026689452483804,
+        "microturbulence_km_s": 2.524032682694435,
+        "phase": "subgiant",
+        "slug": "five_label_bootstrap_wave6_007410",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.0006540548335760832,
+      "rebuild_seconds": 4.198974248953164,
+      "rebuild_evaluations": 1,
+      "iteration_seconds": 4.1818997683003545
+    },
+    {
+      "index": 26724,
+      "labels": {
+        "alpha_enhancement": -0.043389744617315665,
+        "effective_temperature": 6781.1714407423215,
+        "intended_outer_role": "train",
+        "log_surface_gravity": 4.81595428919776,
+        "metallicity": -0.6169038431568974,
+        "microturbulence_km_s": 0.8426394493268442,
+        "phase": "dwarf",
+        "slug": "five_label_bootstrap_wave10_007490",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.0006525155249983072,
+      "rebuild_seconds": 4.6237489227205515,
+      "rebuild_evaluations": 1,
+      "iteration_seconds": 4.600012226961553
+    },
+    {
+      "index": 11781,
+      "labels": {
+        "alpha_enhancement": 0.36162167981957916,
+        "effective_temperature": 8265.172071092868,
+        "intended_outer_role": "train",
+        "log_surface_gravity": 4.029656183883656,
+        "metallicity": -1.6031387743161811,
+        "microturbulence_km_s": 2.908195173968739,
+        "phase": "subgiant",
+        "slug": "five_label_bootstrap_wave4_005742",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.0006329347193241119,
+      "rebuild_seconds": 12.6906195320189,
+      "rebuild_evaluations": 3,
+      "iteration_seconds": 4.276397621259093
+    },
+    {
+      "index": 22526,
+      "labels": {
+        "alpha_enhancement": 0.1591743783948579,
+        "effective_temperature": 8991.797170819904,
+        "intended_outer_role": "validation",
+        "log_surface_gravity": 3.5090525555490197,
+        "metallicity": -0.4168423025472592,
+        "microturbulence_km_s": 2.6197406015970444,
+        "phase": "subgiant",
+        "slug": "five_label_bootstrap_wave8_009946",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.0006483964435756207,
+      "rebuild_seconds": 11.336147967725992,
+      "rebuild_evaluations": 3,
+      "iteration_seconds": 3.9155515311285853
+    },
+    {
+      "index": 3950,
+      "labels": {
+        "alpha_enhancement": 0.460322668386707,
+        "effective_temperature": 9735.737344576013,
+        "intended_outer_role": "train",
+        "log_surface_gravity": 3.1225681334982367,
+        "metallicity": -0.11315632365028039,
+        "microturbulence_km_s": 1.119920669646732,
+        "phase": "subgiant",
+        "slug": "five_label_bootstrap_007305",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.000639712829142809,
+      "rebuild_seconds": 11.595024061389267,
+      "rebuild_evaluations": 3,
+      "iteration_seconds": 3.7901710281148553
+    },
+    {
+      "index": 33574,
+      "labels": {
+        "alpha_enhancement": 0.48756606241394307,
+        "effective_temperature": 10499.015064061587,
+        "intended_outer_role": "train",
+        "log_surface_gravity": 3.6485786703853815,
+        "metallicity": 0.20516773373412356,
+        "microturbulence_km_s": 1.0480756435316172,
+        "phase": "subgiant",
+        "slug": "five_label_bootstrap_wave13_004835",
+        "source": "scrambled_latin_hypercube_rank_coupled_hr_v1"
+      },
+      "network_seconds": 0.0006521182414144278,
+      "rebuild_seconds": 12.295307198539376,
+      "rebuild_evaluations": 3,
+      "iteration_seconds": 3.926215399056673
+    }
+  ],
+  "network_median_seconds": 0.0006502573424950242,
+  "rebuild_median_seconds": 11.46558601455763,
+  "iteration_median_seconds": 4.229148694779724,
+  "completed": 8,
+  "expected": 8,
+  "paired_rebuild_iteration_ratio_median": 1.9501600428283932
+}

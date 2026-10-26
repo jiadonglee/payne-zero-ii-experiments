@@ -1,0 +1,48 @@
+{
+  "date_utc": "2026-08-19",
+  "holdout_manifest": "results/sealed_audit_20260811.json",
+  "note": "Clean-rerun diagnostic: identical frozen candidate and prediction as the 2026-08-11 blind run; only the reconstruction seed changed (physical default instead of six-field emulator). The audit set was already opened on 2026-08-11, so this is an open-set confirmation, not a new blind claim.",
+  "reconstruction_seed": "physical",
+  "profile": {
+    "temperature_relative_p50": 0.00036643908336644285,
+    "temperature_relative_p95": 0.0033804065570876727,
+    "column_mass_dex_p50": 0.002879708554277882,
+    "column_mass_dex_p95": 0.026563041705438165
+  },
+  "reconstruction": {
+    "requested_count": 200,
+    "synchronized_count": 198,
+    "failure_count": 2,
+    "max_synchronizations": 8,
+    "pressure_tolerance_dex": 0.001
+  },
+  "solver": {
+    "converged_fraction": 0.9595959595959596,
+    "mean_iterations": 4.105263157894737,
+    "p90_iterations": 7.0,
+    "non_monotonic_fraction": 0.2676767676767677
+  },
+  "spectra": {
+    "gated_star_count": 188,
+    "all_pass": false,
+    "normalized_flux": {
+      "max_over_stars": 0.01418826228125536,
+      "median_over_stars": 0.0020278158264113444,
+      "stars_over_bar": 25,
+      "passes": false
+    },
+    "flux_total": {
+      "max_over_stars": 0.015205883221293385,
+      "median_over_stars": 0.0021282999420675526,
+      "stars_over_bar": 23,
+      "passes": false
+    },
+    "flux_continuum": {
+      "max_over_stars": 0.006201734552250228,
+      "median_over_stars": 0.0006918147841896822,
+      "stars_over_bar": 1,
+      "passes": false
+    }
+  },
+  "conclusion": "Seed independence holds at production scale: solver and spectral metrics reproduce the 2026-08-11 emulator-seeded blind run to within O(1e-6) relative on max deviations; the gate outcomes are unchanged and remain driven by the network (m,T) prediction accuracy, not the reconstruction seed."
+}

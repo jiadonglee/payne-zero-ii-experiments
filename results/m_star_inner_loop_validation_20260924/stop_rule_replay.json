@@ -1,0 +1,665 @@
+{
+  "dev g+4.50_m+0 t3200": {
+    "recorded_iterations": 30,
+    "stop_iteration": {
+      "K1": 30,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 30,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0007996577464819135,
+      0.0005538078367996193,
+      0.0007004902191165866,
+      0.00045208851599658597
+    ],
+    "last_p95": [
+      0.3222915731392163,
+      0.3079000686136465,
+      0.30141774467292387,
+      0.29935931442105324
+    ]
+  },
+  "dev g+4.50_m+0 t3300": {
+    "recorded_iterations": 39,
+    "stop_iteration": {
+      "K1": 39,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 39,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0009146374778705797,
+      0.0005600637854832393,
+      0.0006951828982151038,
+      0.0004916695122460585
+    ],
+    "last_p95": [
+      0.5613509979339615,
+      0.4274817931728733,
+      0.3887238039729265,
+      0.34939804438930144
+    ]
+  },
+  "dev g+4.50_m+0 t3400": {
+    "recorded_iterations": 37,
+    "stop_iteration": {
+      "K1": 37,
+      "K2": null,
+      "K3": null,
+      "K1_improving": null,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0007349906508344605,
+      0.0016400757309065752,
+      0.001651735450131893,
+      0.00048139749984132756
+    ],
+    "last_p95": [
+      0.334841246505155,
+      0.32100507718744364,
+      0.32668902330536714,
+      0.33254133676373987
+    ]
+  },
+  "dev g+4.50_m+0 t3500": {
+    "recorded_iterations": 29,
+    "stop_iteration": {
+      "K1": 29,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 29,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0010025108694127881,
+      0.0007432884791034728,
+      0.0006270555771223421,
+      0.0004647556972192268
+    ],
+    "last_p95": [
+      0.45035677497416887,
+      0.3757764222193043,
+      0.3169025763422917,
+      0.2965429996048628
+    ]
+  },
+  "dev g+4.50_m-0 t3600": {
+    "recorded_iterations": 43,
+    "stop_iteration": {
+      "K1": 43,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 43,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0008568810996210399,
+      0.0008641640308389018,
+      0.0006657461198314072,
+      0.00047390426753089965
+    ],
+    "last_p95": [
+      1.2485864251755932,
+      1.2132926425456803,
+      1.1341211217708727,
+      0.6671182271536371
+    ]
+  },
+  "val g+4.50_m+0_t3400 primary": {
+    "recorded_iterations": 12,
+    "stop_iteration": {
+      "K1": 12,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 12,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0006602638357972047,
+      0.0008060687419773628,
+      0.0009502102112597484,
+      0.0002181299104573087
+    ],
+    "last_p95": [
+      4.96664063812174,
+      2.914574912220223,
+      1.4050549125209504,
+      0.9523620721784974
+    ]
+  },
+  "val g+4.50_m+0_t3400 reference_start": {
+    "recorded_iterations": 7,
+    "stop_iteration": {
+      "K1": 7,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 7,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0016972427254688797,
+      0.001412160290893677,
+      0.0006861352454794353,
+      0.00034836915804124704
+    ],
+    "last_p95": [
+      0.9207558484842004,
+      0.7202463841779846,
+      0.9125033510761971,
+      0.586577351629575
+    ]
+  },
+  "val g+4.50_m+0_t3600 primary": {
+    "recorded_iterations": 60,
+    "stop_iteration": {
+      "K1": null,
+      "K2": null,
+      "K3": null,
+      "K1_improving": null,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.011682039800099376,
+      0.011485505488693568,
+      0.011676849806300444,
+      0.011503683430219605
+    ],
+    "last_p95": [
+      3.098069295886244,
+      2.9028227469935524,
+      3.0785361519549825,
+      2.9193918411045283
+    ]
+  },
+  "val g+4.50_m+0_t3600 reference_start": {
+    "recorded_iterations": 60,
+    "stop_iteration": {
+      "K1": null,
+      "K2": null,
+      "K3": null,
+      "K1_improving": null,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.02673920972270915,
+      0.021984436113649544,
+      0.015251005542951822,
+      0.014728928128544799
+    ],
+    "last_p95": [
+      9.700866574163998,
+      7.169584833551882,
+      5.709979103391833,
+      4.565015794631244
+    ]
+  },
+  "val g+4.50_m-1_t3800 primary": {
+    "recorded_iterations": 24,
+    "stop_iteration": {
+      "K1": 24,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 24,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0012643192972379292,
+      0.0010173052718988795,
+      0.0006252582773304272,
+      0.0003472547646802497
+    ],
+    "last_p95": [
+      1.86513964678278,
+      0.791151940268126,
+      0.3953144501791194,
+      0.31541470921171844
+    ]
+  },
+  "val g+4.50_m-1_t3800 reference_start": {
+    "recorded_iterations": 7,
+    "stop_iteration": {
+      "K1": 7,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 7,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0010909176703487937,
+      0.0006147543443344366,
+      0.0016209689219442434,
+      0.0003827085907677933
+    ],
+    "last_p95": [
+      4.456671836919459,
+      2.2328635288410514,
+      1.2437531744546995,
+      0.6899276832291475
+    ]
+  },
+  "val g+4.75_m+0_t3750 primary": {
+    "recorded_iterations": 13,
+    "stop_iteration": {
+      "K1": 13,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 13,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.001975117481675953,
+      0.0011850720922416443,
+      0.0006834442810648369,
+      0.0003579283822102165
+    ],
+    "last_p95": [
+      0.39424137174603546,
+      0.3807034991425151,
+      0.28196370718662916,
+      0.2423161131520213
+    ]
+  },
+  "val g+4.75_m+0_t3750 reference_start": {
+    "recorded_iterations": 3,
+    "stop_iteration": {
+      "K1": 3,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 3,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0001687369785513216,
+      0.0005701263025615713,
+      0.00024164982668473377
+    ],
+    "last_p95": [
+      5.1787911857445845,
+      2.6968886911056242,
+      1.432463462620524
+    ]
+  },
+  "val g+4.75_m+0_t3800 primary": {
+    "recorded_iterations": 8,
+    "stop_iteration": {
+      "K1": 8,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 8,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.001790386631141023,
+      0.0010478741345859163,
+      0.0007168560002111051,
+      0.0003407653379996602
+    ],
+    "last_p95": [
+      2.0695631540947366,
+      1.053968416990346,
+      0.5656080417787976,
+      0.45553791263769317
+    ]
+  },
+  "val g+4.75_m+0_t3800 reference_start": {
+    "recorded_iterations": 3,
+    "stop_iteration": {
+      "K1": 3,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 3,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      8.513422818916806e-05,
+      0.002440662583887733,
+      0.0004520655834668687
+    ],
+    "last_p95": [
+      3.4150567834126635,
+      1.6787448210741307,
+      0.90403381497148
+    ]
+  },
+  "val g+4.75_m+0_t3850 primary": {
+    "recorded_iterations": 8,
+    "stop_iteration": {
+      "K1": 8,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 8,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0028205156991377147,
+      0.0008027130622522495,
+      0.0011294702279947182,
+      0.00042351949303520204
+    ],
+    "last_p95": [
+      4.092244498860207,
+      9.686232547479914,
+      2.408587912915741,
+      1.1685401206550843
+    ]
+  },
+  "val g+4.75_m+0_t3850 reference_start": {
+    "recorded_iterations": 7,
+    "stop_iteration": {
+      "K1": 7,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 7,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0008427445824688177,
+      0.0007596151603935883,
+      0.0005815607768983637,
+      0.0004626872573037012
+    ],
+    "last_p95": [
+      0.5790908637736171,
+      0.4029234184438372,
+      0.391694434784074,
+      0.3614512514405547
+    ]
+  },
+  "val g+4.75_m+0_t3900 primary": {
+    "recorded_iterations": 8,
+    "stop_iteration": {
+      "K1": 8,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 8,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0017028081104064113,
+      0.0007621962893557368,
+      0.000891934576883013,
+      0.00033357969790551476
+    ],
+    "last_p95": [
+      0.8337379309434318,
+      0.4445865267798094,
+      0.37926316151371314,
+      0.2508436294799456
+    ]
+  },
+  "val g+4.75_m+0_t3900 reference_start": {
+    "recorded_iterations": 6,
+    "stop_iteration": {
+      "K1": 6,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 6,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0010032932845316805,
+      0.0017556536789794437,
+      0.001297504699171959,
+      0.0004361173934345248
+    ],
+    "last_p95": [
+      0.49258913513038405,
+      0.3553332060646697,
+      0.3079926425174712,
+      0.2795614219383319
+    ]
+  },
+  "val g+4.75_m+0_t3950 primary": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 10,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 10,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0013937994588594756,
+      0.0005815255928350115,
+      0.0010535779820412274,
+      0.00042816525642992465
+    ],
+    "last_p95": [
+      0.4636527747317288,
+      0.3942513583386153,
+      0.3609835615639635,
+      0.3421310923413686
+    ]
+  },
+  "val g+4.75_m+0_t3950 reference_start": {
+    "recorded_iterations": 8,
+    "stop_iteration": {
+      "K1": 8,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 8,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0006141322085192178,
+      0.0007242579252416812,
+      0.0007599674258569622,
+      0.00016860689034885683
+    ],
+    "last_p95": [
+      0.5971155771176784,
+      0.4899829868462289,
+      0.3086129170877888,
+      0.23571894737157842
+    ]
+  },
+  "val g+4.75_m+0_t4000 primary": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 10,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 10,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0015594316026615658,
+      0.0005570619108241332,
+      0.0010254176853965106,
+      0.000339966720161069
+    ],
+    "last_p95": [
+      0.33031160443628776,
+      0.4762757839927439,
+      0.29552727434613785,
+      0.25925711944724306
+    ]
+  },
+  "val g+4.75_m+0_t4000 reference_start": {
+    "recorded_iterations": 5,
+    "stop_iteration": {
+      "K1": 5,
+      "K2": null,
+      "K3": null,
+      "K1_improving": 5,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.00424121105320849,
+      0.002673821252365567,
+      0.0006739536007516619,
+      0.00035655760772299776
+    ],
+    "last_p95": [
+      1.0856211352275071,
+      0.9223718048493799,
+      0.6285307595728512,
+      0.5219506965216505
+    ]
+  },
+  "cont g+4.50_m-1_t3800 primary": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 3,
+      "K2": 4,
+      "K3": 5,
+      "K1_improving": 3,
+      "K2_improving": 4,
+      "K3_improving": 5
+    },
+    "last_all_layer_changes": [
+      4.644857942211002e-05,
+      4.627409144727897e-05,
+      4.467280598717936e-05,
+      4.357077785083375e-05
+    ],
+    "last_p95": [
+      0.21173154256755186,
+      0.2001031661779088,
+      0.20212066412578414,
+      0.20390072749545074
+    ]
+  },
+  "cont g+4.50_m-1_t3800 reference_start": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 5,
+      "K2": 6,
+      "K3": 7,
+      "K1_improving": 8,
+      "K2_improving": 9,
+      "K3_improving": 10
+    },
+    "last_all_layer_changes": [
+      0.00032789689384050193,
+      8.534740967111127e-05,
+      0.00012061257701894517,
+      4.9343808384968664e-05
+    ],
+    "last_p95": [
+      0.4696180050847131,
+      0.3655102379706379,
+      0.23403461906949313,
+      0.21758456893909772
+    ]
+  },
+  "cont g+4.75_m+0_t3850 primary": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 3,
+      "K2": 4,
+      "K3": 5,
+      "K1_improving": 3,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.0007775804271996979,
+      0.0007584626446199314,
+      0.0006718880440049813,
+      0.0006027105686244942
+    ],
+    "last_p95": [
+      1.6605900357939256,
+      1.7676587123310523,
+      1.7672695006986887,
+      1.475850593560823
+    ]
+  },
+  "cont g+4.75_m+0_t3850 reference_start": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 3,
+      "K2": 4,
+      "K3": 5,
+      "K1_improving": 7,
+      "K2_improving": null,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.00021492778913658573,
+      0.00012891796720823542,
+      0.00012450425011176482,
+      0.00010995434370282194
+    ],
+    "last_p95": [
+      0.4987059074941828,
+      0.5300965470576529,
+      0.5461670904141714,
+      0.5378586207860167
+    ]
+  },
+  "cont g+4.75_m+0_t4000 primary": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 6,
+      "K2": 7,
+      "K3": 8,
+      "K1_improving": 8,
+      "K2_improving": 9,
+      "K3_improving": 10
+    },
+    "last_all_layer_changes": [
+      0.00018871275133521212,
+      0.00012936744651128698,
+      0.00010767726885832108,
+      7.682831755502125e-05
+    ],
+    "last_p95": [
+      0.4054512651530384,
+      0.3771662771473546,
+      0.33400809935282955,
+      0.28395911143360186
+    ]
+  },
+  "cont g+4.75_m+0_t4000 reference_start": {
+    "recorded_iterations": 10,
+    "stop_iteration": {
+      "K1": 3,
+      "K2": 4,
+      "K3": 5,
+      "K1_improving": 3,
+      "K2_improving": 6,
+      "K3_improving": null
+    },
+    "last_all_layer_changes": [
+      0.00011118102229206223,
+      0.00011562767805510329,
+      0.00017697458430472016,
+      0.00018537112354770238
+    ],
+    "last_p95": [
+      0.2441451705984758,
+      0.2503424434035335,
+      0.44068060489239175,
+      0.40230054880080207
+    ]
+  }
+}

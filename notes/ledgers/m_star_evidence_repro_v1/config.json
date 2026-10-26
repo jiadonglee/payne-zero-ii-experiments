@@ -1,0 +1,25 @@
+{
+  "config_hash": "b59df5e812d09cf4cf608d0762e4a2b6464b820b95fd0c9ae77c848957be4532",
+  "emulator_budget": 60,
+  "emulator_campaign_cap": 90,
+  "fixed_labels": {
+    "alpha_enhancement": 0.0,
+    "carbon_enhancement": 0.0,
+    "microturbulence_km_s": 2.0
+  },
+  "protocol_sources": [
+    "notes/m_star_stop_rule_v1_closeout_20260909.md",
+    "notes/m_star_sixty_budget_v1_closeout_20260913.md",
+    "notes/m_star_gravity_walk_v1_closeout_20260913.md"
+  ],
+  "reference_budget": 240,
+  "reference_relax_cap": 120,
+  "spectral_gate_max": 0.005,
+  "stop_rule": {
+    "consecutive_segments": 2,
+    "mass_dex_p95": 0.001,
+    "segment_length": 5,
+    "temperature_p95": 0.0001,
+    "tio_max_change": 0.0005
+  }
+}

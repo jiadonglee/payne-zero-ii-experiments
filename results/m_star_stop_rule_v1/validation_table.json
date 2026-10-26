@@ -1,0 +1,234 @@
+{
+  "campaign": "m_star_stop_rule_v1",
+  "rows": [
+    {
+      "cross_structure": {
+        "mass_dex_p95": 9.955941262183022e-05,
+        "temperature_p95": 0.0004564501575933186
+      },
+      "cross_tio": {
+        "flux_continuum": 0.00014389147101402674,
+        "flux_total": 0.00010880180044810663,
+        "normalized_flux": 3.666255140138963e-05
+      },
+      "emulator_frozen_iteration": 25,
+      "emulator_original_stop": 3,
+      "logg": 2.0,
+      "metallicity": -0.5,
+      "node_id": "g+2.00_m-0.50_a+0.00_c+0.00_x2.00_t3650",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 30,
+      "reference_original_stop": 11,
+      "reference_unstable": false,
+      "teff_K": 3650.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_structure": {
+        "mass_dex_p95": 0.0007363571737691643,
+        "temperature_p95": 0.0009047776983218398
+      },
+      "cross_tio": {
+        "flux_continuum": 2.5309452189642953e-05,
+        "flux_total": 5.170913878107073e-05,
+        "normalized_flux": 3.979166772316578e-05
+      },
+      "emulator_frozen_iteration": 20,
+      "emulator_original_stop": 4,
+      "logg": 1.5,
+      "metallicity": 0.0,
+      "node_id": "g+1.50_m+0.00_a+0.00_c+0.00_x2.00_t3825",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 30,
+      "reference_original_stop": 14,
+      "reference_unstable": false,
+      "teff_K": 3825.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_structure": {
+        "mass_dex_p95": 0.00020247462233482502,
+        "temperature_p95": 0.0002497278061168402
+      },
+      "cross_tio": {
+        "flux_continuum": 1.0271436475806141e-05,
+        "flux_total": 0.00010213929413151432,
+        "normalized_flux": 0.00010734355228758652
+      },
+      "emulator_frozen_iteration": 25,
+      "emulator_original_stop": 3,
+      "logg": 2.5,
+      "metallicity": -1.0,
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3575",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 30,
+      "reference_original_stop": 13,
+      "reference_unstable": false,
+      "teff_K": 3575.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_structure": {
+        "mass_dex_p95": 0.00017179694675257816,
+        "temperature_p95": 0.0008898036781213502
+      },
+      "cross_tio": {
+        "flux_continuum": 6.511414963870167e-05,
+        "flux_total": 7.332157258905806e-05,
+        "normalized_flux": 3.8932302583782885e-05
+      },
+      "emulator_frozen_iteration": 25,
+      "emulator_original_stop": 5,
+      "logg": 2.0,
+      "metallicity": 0.5,
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3925",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 35,
+      "reference_original_stop": 18,
+      "reference_unstable": false,
+      "teff_K": 3925.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_structure": null,
+      "cross_tio": null,
+      "emulator_frozen_iteration": null,
+      "emulator_original_stop": 6,
+      "logg": 2.0,
+      "metallicity": 0.0,
+      "node_id": "g+2.00_m+0.00_a+0.00_c+0.00_x2.00_t3250",
+      "reference_diverged": null,
+      "reference_frozen_iteration": null,
+      "reference_original_stop": null,
+      "reference_unstable": true,
+      "teff_K": 3250.0,
+      "verdict": "undetermined"
+    },
+    {
+      "cross_structure": null,
+      "cross_tio": null,
+      "emulator_frozen_iteration": null,
+      "emulator_original_stop": 13,
+      "logg": 1.5,
+      "metallicity": -0.5,
+      "node_id": "g+1.50_m-0.50_a+0.00_c+0.00_x2.00_t3150",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 60,
+      "reference_original_stop": 33,
+      "reference_unstable": false,
+      "teff_K": 3150.0,
+      "verdict": "undetermined"
+    },
+    {
+      "cross_structure": {
+        "mass_dex_p95": 0.0006165783322387374,
+        "temperature_p95": 0.0006154396507027035
+      },
+      "cross_tio": {
+        "flux_continuum": 0.00036850389761565856,
+        "flux_total": 0.000639291871361708,
+        "normalized_flux": 0.0007655432501005865
+      },
+      "emulator_frozen_iteration": 30,
+      "emulator_original_stop": 6,
+      "logg": 2.5,
+      "metallicity": -1.0,
+      "node_id": "g+2.50_m-1.00_a+0.00_c+0.00_x2.00_t3350",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 60,
+      "reference_original_stop": 15,
+      "reference_unstable": false,
+      "teff_K": 3350.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_structure": null,
+      "cross_tio": null,
+      "emulator_frozen_iteration": null,
+      "emulator_original_stop": 22,
+      "logg": 2.0,
+      "metallicity": 0.5,
+      "node_id": "g+2.00_m+0.50_a+0.00_c+0.00_x2.00_t3050",
+      "reference_diverged": null,
+      "reference_frozen_iteration": null,
+      "reference_original_stop": null,
+      "reference_unstable": true,
+      "teff_K": 3050.0,
+      "verdict": "undetermined"
+    },
+    {
+      "cross_structure": {
+        "mass_dex_p95": 0.00104115752309335,
+        "temperature_p95": 0.0039117679600472344
+      },
+      "cross_tio": {
+        "flux_continuum": 0.00024207550899107093,
+        "flux_total": 0.00030638607480514403,
+        "normalized_flux": 0.00018604938477623234
+      },
+      "emulator_frozen_iteration": 25,
+      "emulator_original_stop": 6,
+      "logg": 0.75,
+      "metallicity": 0.0,
+      "node_id": "g+0.75_m+0.00_a+0.00_c+0.00_x2.00_t3650",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 125,
+      "reference_original_stop": 45,
+      "reference_unstable": false,
+      "teff_K": 3650.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_structure": null,
+      "cross_tio": null,
+      "emulator_frozen_iteration": null,
+      "emulator_original_stop": 4,
+      "logg": 0.5,
+      "metallicity": -0.5,
+      "node_id": "g+0.50_m-0.50_a+0.00_c+0.00_x2.00_t3850",
+      "reference_diverged": null,
+      "reference_frozen_iteration": null,
+      "reference_original_stop": null,
+      "reference_unstable": true,
+      "teff_K": 3850.0,
+      "verdict": "undetermined"
+    },
+    {
+      "cross_structure": {
+        "mass_dex_p95": 0.0006924120478455586,
+        "temperature_p95": 0.0018781396920423282
+      },
+      "cross_tio": {
+        "flux_continuum": 4.824199057169613e-05,
+        "flux_total": 2.608075315317194e-05,
+        "normalized_flux": 4.195180266353127e-05
+      },
+      "emulator_frozen_iteration": 25,
+      "emulator_original_stop": 4,
+      "logg": 1.0,
+      "metallicity": -1.0,
+      "node_id": "g+1.00_m-1.00_a+0.00_c+0.00_x2.00_t3450",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 50,
+      "reference_original_stop": 16,
+      "reference_unstable": false,
+      "teff_K": 3450.0,
+      "verdict": "pass"
+    },
+    {
+      "cross_structure": null,
+      "cross_tio": null,
+      "emulator_frozen_iteration": null,
+      "emulator_original_stop": 14,
+      "logg": 0.75,
+      "metallicity": 0.5,
+      "node_id": "g+0.75_m+0.50_a+0.00_c+0.00_x2.00_t3300",
+      "reference_diverged": null,
+      "reference_frozen_iteration": 85,
+      "reference_original_stop": 31,
+      "reference_unstable": false,
+      "teff_K": 3300.0,
+      "verdict": "undetermined"
+    }
+  ]
+}

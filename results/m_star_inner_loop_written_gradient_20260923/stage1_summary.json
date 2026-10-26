@@ -1,0 +1,273 @@
+{
+  "V0_max_abs_stage_deep_mean_R_raw_difference": 8.119521888172443e-08,
+  "V0_max_abs_stage_temperature_difference_K": 1.1288018868071958e-05,
+  "V0_holds": true,
+  "arms": {
+    "S3": {
+      "frozen_deep_mean_abs_R_raw": {
+        "correction_native_grid": 0.8588884065809034,
+        "inner_loop_exit": 0.8588884065809034,
+        "inner_pass_00": 0.8127997519318819,
+        "inner_pass_01": 0.7766215492386083,
+        "inner_pass_02": 0.8549173781128219,
+        "inner_pass_03": 0.855355067209027,
+        "inner_pass_04": 0.8590813017527295,
+        "inner_pass_05": 0.8587797437204763,
+        "inner_pass_06": 0.8589023274856878,
+        "inner_pass_07": 0.858884472855645,
+        "inner_pass_08": 0.8588884065809034,
+        "iteration_input": 0.8127997519318819,
+        "post_inner_recompute": 0.8588884065809034,
+        "standard_grid_remap": 0.8588884065809034
+      },
+      "pass1_delta_T_K_deep": [
+        6.214171762502701,
+        6.623089727255319,
+        7.167278765519768,
+        7.764815183662904,
+        8.548577342995486,
+        9.337792362444816,
+        10.265553151770291,
+        11.326976512881629,
+        12.346083412514417,
+        13.232650901736633,
+        13.631473772763457,
+        13.700008760111814,
+        13.08975004831791
+      ],
+      "P1_pass1_cools_all_deep_layers": false,
+      "inner_delta_T_K_deep": [
+        5.016591531310041,
+        5.555838599218987,
+        6.243271074288714,
+        7.069514294726105,
+        8.137120247948587,
+        9.314517350935603,
+        10.723404335820305,
+        12.331840351200299,
+        14.011300030253551,
+        15.592917503635363,
+        16.700273679264683,
+        17.328465794049407,
+        17.081856210145816
+      ],
+      "correction_delta_T_K_deep": [
+        -4.5333297952993235,
+        -5.073339626137567,
+        -5.7342244625970125,
+        -6.532468443972903,
+        -7.507209653231257,
+        -8.60790610134427,
+        -9.884038457697898,
+        -11.308336522111858,
+        -12.67046640458193,
+        -13.731844881683173,
+        -14.191171283906442,
+        -14.099272483003915,
+        -14.270727051168251
+      ],
+      "P2_exit_frozen_deep_mean_abs_R_raw": 0.8588884065809034,
+      "P2_holds": false,
+      "P3_max_abs_correction_over_inner_deep": 0.9241387156232677,
+      "P3_holds": false,
+      "remap_minus_input_delta_T_K_deep_same_index": [
+        -0.2552648761884484,
+        -0.29991082193919283,
+        -0.3658439560304032,
+        -0.40397576169470995,
+        -0.4299534208194018,
+        -0.46902475659135234,
+        -0.5183031107035276,
+        -0.6126512295913926,
+        -0.7023265005036592,
+        -0.7665296468230736,
+        -0.8667129734285481,
+        -0.9485724565047349,
+        -1.0383184441534468
+      ],
+      "per_pass_frozen_deep_mean_abs_R_raw": [
+        0.8127997519318819,
+        0.7766215492386083,
+        0.8549173781128219,
+        0.855355067209027,
+        0.8590813017527295,
+        0.8587797437204763,
+        0.8589023274856878,
+        0.858884472855645,
+        0.8588884065809034
+      ],
+      "rederivation_matches_all_passes": true,
+      "reeval": [
+        {
+          "stage": "control_anchor",
+          "deep_max_abs_R_smoothed": 0.8080536481101748,
+          "matches_recorded_control": true
+        },
+        {
+          "stage": "iteration_input",
+          "full_physics_deep_mean_abs_R_raw": 0.8127997519318819,
+          "full_physics_deep_max_abs_R_raw": 1.749375642933631,
+          "full_physics_deep_max_abs_R_smoothed": 1.449987093726352,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.8127997519318819
+        },
+        {
+          "stage": "inner_pass_01",
+          "full_physics_deep_mean_abs_R_raw": 0.6612035754098801,
+          "full_physics_deep_max_abs_R_raw": 1.253618987416845,
+          "full_physics_deep_max_abs_R_smoothed": 1.019916509349105,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.7766215492386083
+        },
+        {
+          "stage": "inner_pass_08",
+          "full_physics_deep_mean_abs_R_raw": 0.7316234735353231,
+          "full_physics_deep_max_abs_R_raw": 1.2570603153616742,
+          "full_physics_deep_max_abs_R_smoothed": 1.0421277962005313,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.8588884065809034
+        },
+        {
+          "stage": "standard_grid_remap",
+          "full_physics_deep_mean_abs_R_raw": 0.8184113792747048,
+          "full_physics_deep_max_abs_R_raw": 1.770083786482998,
+          "full_physics_deep_max_abs_R_smoothed": 1.463883763453957,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.8588884065809034
+        }
+      ],
+      "G1_remap_full_physics_deep_mean_abs_R_raw": 0.8184113792747048,
+      "G1_input_full_physics_deep_mean_abs_R_raw": 0.8127997519318819,
+      "G1_holds": false
+    },
+    "S3w": {
+      "frozen_deep_mean_abs_R_raw": {
+        "correction_native_grid": 0.013672619440144463,
+        "inner_loop_exit": 0.013672619440144463,
+        "inner_pass_00": 0.8127997519318819,
+        "inner_pass_01": 0.30501092982996464,
+        "inner_pass_02": 0.04850511032507454,
+        "inner_pass_03": 0.020528735570384433,
+        "inner_pass_04": 0.017178384003615797,
+        "inner_pass_05": 0.015619630486188429,
+        "inner_pass_06": 0.014804779497240163,
+        "inner_pass_07": 0.014119810213295315,
+        "inner_pass_08": 0.013672619440144463,
+        "iteration_input": 0.8127997519318819,
+        "post_inner_recompute": 0.013672619440144463,
+        "standard_grid_remap": 0.013672619440144463
+      },
+      "pass1_delta_T_K_deep": [
+        -26.349430556439074,
+        -28.608674506006537,
+        -31.093132833564596,
+        -33.99979806675492,
+        -37.4049877772959,
+        -41.26821229640427,
+        -45.972970842218274,
+        -51.32984838552147,
+        -57.5697952263381,
+        -64.52699806567489,
+        -71.91507810987605,
+        -79.5517551594603,
+        -89.21099086648519
+      ],
+      "P1_pass1_cools_all_deep_layers": true,
+      "inner_delta_T_K_deep": [
+        -22.21846451606507,
+        -25.25548386311948,
+        -27.995714441133714,
+        -31.619892384417653,
+        -36.055584034721505,
+        -41.08602805303781,
+        -47.60226239073927,
+        -54.28769593274592,
+        -63.88848226857135,
+        -72.44068027541744,
+        -84.88945954870451,
+        -94.12240348908745,
+        -106.10404735613247
+      ],
+      "correction_delta_T_K_deep": [
+        -1.1298531360789639,
+        -1.1332366626593284,
+        -1.135267306303831,
+        -1.137009706721983,
+        -1.135930543880022,
+        -1.1430691337263852,
+        -1.1528729405581544,
+        -1.1394266205625172,
+        -1.1385736499514678,
+        -1.155948273825743,
+        -1.1520183960883514,
+        -1.1469299073532966,
+        -1.150186956692778
+      ],
+      "P2_exit_frozen_deep_mean_abs_R_raw": 0.013672619440144463,
+      "P2_holds": true,
+      "P3_max_abs_correction_over_inner_deep": 0.05085199003117534,
+      "P3_holds": true,
+      "remap_minus_input_delta_T_K_deep_same_index": [
+        -24.071415014984268,
+        -27.143969576310155,
+        -29.98017328143669,
+        -33.66208484775143,
+        -38.207038947533874,
+        -43.352341190381594,
+        -50.04399859410296,
+        -56.98079131693976,
+        -66.9425187251154,
+        -76.08003847766395,
+        -89.18139213224822,
+        -99.24159272210181,
+        -110.84370759585272
+      ],
+      "per_pass_frozen_deep_mean_abs_R_raw": [
+        0.8127997519318819,
+        0.30501092982996464,
+        0.04850511032507454,
+        0.020528735570384433,
+        0.017178384003615797,
+        0.015619630486188429,
+        0.014804779497240163,
+        0.014119810213295315,
+        0.013672619440144463
+      ],
+      "rederivation_matches_all_passes": true,
+      "reeval": [
+        {
+          "stage": "control_anchor",
+          "deep_max_abs_R_smoothed": 0.8080536481101748,
+          "matches_recorded_control": true
+        },
+        {
+          "stage": "iteration_input",
+          "full_physics_deep_mean_abs_R_raw": 0.8127997519318819,
+          "full_physics_deep_max_abs_R_raw": 1.749375642933631,
+          "full_physics_deep_max_abs_R_smoothed": 1.449987093726352,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.8127997519318819
+        },
+        {
+          "stage": "inner_pass_01",
+          "full_physics_deep_mean_abs_R_raw": 0.8847995033684666,
+          "full_physics_deep_max_abs_R_raw": 1.377953169854331,
+          "full_physics_deep_max_abs_R_smoothed": 1.288383374860998,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.30501092982996464
+        },
+        {
+          "stage": "inner_pass_08",
+          "full_physics_deep_mean_abs_R_raw": 0.579757467160796,
+          "full_physics_deep_max_abs_R_raw": 1.122398834926095,
+          "full_physics_deep_max_abs_R_smoothed": 1.0338951146714133,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.013672619440144463
+        },
+        {
+          "stage": "standard_grid_remap",
+          "full_physics_deep_mean_abs_R_raw": 0.6166983606921425,
+          "full_physics_deep_max_abs_R_raw": 1.1908136385291954,
+          "full_physics_deep_max_abs_R_smoothed": 1.086014954621478,
+          "frozen_field_deep_mean_abs_R_raw_from_capture": 0.013672619440144463
+        }
+      ],
+      "G1_remap_full_physics_deep_mean_abs_R_raw": 0.6166983606921425,
+      "G1_input_full_physics_deep_mean_abs_R_raw": 0.8127997519318819,
+      "G1_holds": true
+    }
+  }
+}

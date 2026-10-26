@@ -1,0 +1,136 @@
+{
+  "stars": {
+    "6751": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 61.691905374638736,
+          "gas_pressure_max_dex_vs_reference": 1.922232357287612e-06,
+          "electron_density_max_dex_vs_reference": 1.8811537234597608e-06,
+          "rosseland_opacity_max_dex_vs_reference": 1.2632026549219688e-06,
+          "radiative_acceleration_max_rel_vs_reference": 2.5056537809947962e-05,
+          "worst_dex_vs_reference": 1.922232357287612e-06
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 35.89019487518817,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 37.05864412523806,
+          "gas_pressure_max_dex_vs_reference": 4.653815022237495e-07,
+          "electron_density_max_dex_vs_reference": 4.553277470620287e-07,
+          "rosseland_opacity_max_dex_vs_reference": 3.605235660009143e-07,
+          "radiative_acceleration_max_rel_vs_reference": 4.1726006096153015e-05,
+          "worst_dex_vs_reference": 4.653815022237495e-07
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 38.516059749759734,
+          "gas_pressure_max_dex_vs_reference": 2.3056438154256398e-06,
+          "electron_density_max_dex_vs_reference": 2.2590556305601694e-06,
+          "rosseland_opacity_max_dex_vs_reference": 1.3658394932003493e-06,
+          "radiative_acceleration_max_rel_vs_reference": 3.5196792200404695e-05,
+          "worst_dex_vs_reference": 2.3056438154256398e-06
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 37.846487500239164,
+          "gas_pressure_max_dex_vs_reference": 9.362050172878611e-07,
+          "electron_density_max_dex_vs_reference": 9.290204374678979e-07,
+          "rosseland_opacity_max_dex_vs_reference": 7.154708820400479e-07,
+          "radiative_acceleration_max_rel_vs_reference": 5.0753219304514314e-05,
+          "worst_dex_vs_reference": 9.362050172878611e-07
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 38.508854374755174,
+          "gas_pressure_max_dex_vs_reference": 8.127730661833255e-07,
+          "electron_density_max_dex_vs_reference": 7.936583248380202e-07,
+          "rosseland_opacity_max_dex_vs_reference": 5.254760525041924e-07,
+          "radiative_acceleration_max_rel_vs_reference": 2.5623155672374394e-05,
+          "worst_dex_vs_reference": 8.127730661833255e-07
+        }
+      },
+      "pass": true
+    },
+    "40696": {
+      "arms": {
+        "emulator_seed": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 38.19273900007829,
+          "gas_pressure_max_dex_vs_reference": 3.337008447767964e-05,
+          "electron_density_max_dex_vs_reference": 3.303193749992772e-05,
+          "rosseland_opacity_max_dex_vs_reference": 2.126663183223132e-05,
+          "radiative_acceleration_max_rel_vs_reference": 4.8798245026921336e-05,
+          "worst_dex_vs_reference": 3.337008447767964e-05
+        },
+        "physical_seed": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 38.16107804188505,
+          "gas_pressure_max_dex_vs_reference": 0.0,
+          "electron_density_max_dex_vs_reference": 0.0,
+          "rosseland_opacity_max_dex_vs_reference": 0.0,
+          "radiative_acceleration_max_rel_vs_reference": 0.0,
+          "worst_dex_vs_reference": 0.0
+        },
+        "physical_ne_1e-6": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 38.34621908282861,
+          "gas_pressure_max_dex_vs_reference": 1.2917520759270218e-05,
+          "electron_density_max_dex_vs_reference": 1.280778433532248e-05,
+          "rosseland_opacity_max_dex_vs_reference": 8.229112436003438e-06,
+          "radiative_acceleration_max_rel_vs_reference": 1.8725688886347483e-05,
+          "worst_dex_vs_reference": 1.2917520759270218e-05
+        },
+        "physical_ne_1e-2": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 37.31249779090285,
+          "gas_pressure_max_dex_vs_reference": 4.078216037117777e-05,
+          "electron_density_max_dex_vs_reference": 4.0356536638697094e-05,
+          "rosseland_opacity_max_dex_vs_reference": 2.5964758425200962e-05,
+          "radiative_acceleration_max_rel_vs_reference": 5.9766071623451144e-05,
+          "worst_dex_vs_reference": 4.078216037117777e-05
+        },
+        "physical_p_x0.5": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 37.62607358302921,
+          "gas_pressure_max_dex_vs_reference": 1.113487719051065e-05,
+          "electron_density_max_dex_vs_reference": 1.1019286221269908e-05,
+          "rosseland_opacity_max_dex_vs_reference": 7.054270794656925e-06,
+          "radiative_acceleration_max_rel_vs_reference": 1.62695898097145e-05,
+          "worst_dex_vs_reference": 1.113487719051065e-05
+        },
+        "physical_p_x2": {
+          "synchronized": true,
+          "n_evaluations": 6,
+          "seconds": 37.500833082944155,
+          "gas_pressure_max_dex_vs_reference": 2.7922470306807057e-05,
+          "electron_density_max_dex_vs_reference": 2.7619256453448315e-05,
+          "rosseland_opacity_max_dex_vs_reference": 1.777013096485036e-05,
+          "radiative_acceleration_max_rel_vs_reference": 4.104941309089867e-05,
+          "worst_dex_vs_reference": 2.7922470306807057e-05
+        }
+      },
+      "pass": true
+    }
+  },
+  "pass": true,
+  "sync_passes": 5
+}

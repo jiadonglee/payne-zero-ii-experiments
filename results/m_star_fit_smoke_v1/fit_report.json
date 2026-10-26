@@ -1,0 +1,48 @@
+{
+  "best_fit": {
+    "chi2_reduced": 1.0089060645799512,
+    "teff": 3750.0
+  },
+  "campaign": "m_star_fit_smoke_v1",
+  "grid_size": 4,
+  "library": [
+    3750.0,
+    3800.0,
+    3850.0,
+    3900.0
+  ],
+  "mock_source": 3750.0,
+  "passed": true,
+  "recovery_deltas": {
+    "teff_K": 0.0
+  },
+  "resolution": 20000.0,
+  "snr_per_pixel": 100.0,
+  "top5": [
+    {
+      "chi2_reduced": 1.0089060645799512,
+      "teff": 3750.0
+    },
+    {
+      "chi2_reduced": 52.08741711296905,
+      "teff": 3800.0
+    },
+    {
+      "chi2_reduced": 208.57489523223202,
+      "teff": 3850.0
+    },
+    {
+      "chi2_reduced": 453.56159449797025,
+      "teff": 3900.0
+    }
+  ],
+  "true_labels": {
+    "logg": 2.0,
+    "metallicity": 0.0,
+    "teff": 3750.0
+  },
+  "window_nm": [
+    640.0,
+    680.0
+  ]
+}

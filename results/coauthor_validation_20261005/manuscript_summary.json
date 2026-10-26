@@ -1,0 +1,872 @@
+{
+  "families": {
+    "five_label": {
+      "family": "five_label",
+      "host": "Node-01",
+      "expected": 5000,
+      "completed": 5000,
+      "iteration_cap": 15,
+      "minimum_iterations": 3,
+      "stop_deep_relative_temperature": 0.0005,
+      "arms": {
+        "two_profile": {
+          "total": 5000,
+          "converged": 4849,
+          "failed": 151,
+          "mean_iterations": 4.846153846153846,
+          "median_iterations": 5.0,
+          "errors": [
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.098e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.460e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.857e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.143e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.702e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.178e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.519e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.967e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.043e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.880e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.937e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.729e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.747e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.937e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.514e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.032e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.516e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.434e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.411e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.304e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.921e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.115e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.054e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.190e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.502e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.161e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 9.193e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.935e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 8.329e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.215e-03 dex"
+          ]
+        },
+        "six_profile": {
+          "total": 5000,
+          "converged": 4905,
+          "failed": 95,
+          "mean_iterations": 5.054230377166157,
+          "median_iterations": 4.0,
+          "errors": []
+        },
+        "exact_rebuild": {
+          "total": 5000,
+          "converged": 4901,
+          "failed": 99,
+          "mean_iterations": 3.1287492348500305,
+          "median_iterations": 3.0,
+          "errors": [
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.138e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.516e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.090e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.402e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.444e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.044e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 8.061e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.935e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 9.014e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.107e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.166e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.909e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.347e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.003e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.371e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.102e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.495e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.176e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.934e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.527e-03 dex"
+          ]
+        },
+        "nearest_0": {
+          "total": 5000,
+          "converged": 4464,
+          "failed": 536,
+          "mean_iterations": 11.11850358422939,
+          "median_iterations": 11.0,
+          "errors": []
+        },
+        "nearest_1": {
+          "total": 5000,
+          "converged": 4435,
+          "failed": 565,
+          "mean_iterations": 10.834949267192785,
+          "median_iterations": 11.0,
+          "errors": [
+            "ValueError: No layer rows parsed from READ DECK6 in final fixed-column quantization"
+          ]
+        },
+        "grey_convective": {
+          "total": 5000,
+          "converged": 2583,
+          "failed": 2417,
+          "mean_iterations": 11.83817266744096,
+          "median_iterations": 12.0,
+          "errors": []
+        }
+      },
+      "two_profile_failures_rescued_by_exact": 115,
+      "paired_neural_successes": {
+        "two_profile": 4.827075511055486,
+        "six_profile": 5.023362536503964,
+        "count": 4794,
+        "iteration_saving_fraction": 0.03907482767212034,
+        "cpu_total_seconds": {
+          "two_profile": 108.14850467516186,
+          "six_profile": 68.73323124051542
+        }
+      },
+      "first_step_growth": {
+        "two_profile": {
+          "count": 4970,
+          "increased": 423,
+          "fraction": 0.08511066398390342
+        },
+        "six_profile": {
+          "count": 5000,
+          "increased": 888,
+          "fraction": 0.1776
+        },
+        "nearest_0": {
+          "count": 5000,
+          "increased": 2432,
+          "fraction": 0.4864
+        },
+        "nearest_1": {
+          "count": 4999,
+          "increased": 2147,
+          "fraction": 0.42948589717943586
+        },
+        "grey_convective": {
+          "count": 5000,
+          "increased": 2625,
+          "fraction": 0.525
+        }
+      },
+      "nearest_vs_two_paired": {
+        "count": 4034,
+        "two_mean_iterations": 4.78309370352008,
+        "nearest_mean_iterations": 10.894645513138324,
+        "ratio_of_means": 2.2777403472402176,
+        "selection": "two-profile start and both nearest nodes converge; failed counts reported separately"
+      },
+      "reconstruction": {
+        "gas_pressure": {
+          "count": 4980,
+          "samples": [
+            {
+              "tau_R": 1.333521432163324e-07,
+              "median_relative_error": 0.000929107300708783
+            },
+            {
+              "tau_R": 0.1,
+              "median_relative_error": 0.0002857228301431259
+            },
+            {
+              "tau_R": 10.0,
+              "median_relative_error": 0.0002921773905757292
+            },
+            {
+              "tau_R": 1000.0,
+              "median_relative_error": 0.000806190114061527
+            }
+          ]
+        },
+        "electron_density": {
+          "count": 4980,
+          "samples": [
+            {
+              "tau_R": 1.333521432163324e-07,
+              "median_relative_error": 0.0025345836490409173
+            },
+            {
+              "tau_R": 0.1,
+              "median_relative_error": 0.0005026682937006755
+            },
+            {
+              "tau_R": 10.0,
+              "median_relative_error": 0.0007094042264440454
+            },
+            {
+              "tau_R": 1000.0,
+              "median_relative_error": 0.00503077663707458
+            }
+          ]
+        },
+        "rosseland_opacity": {
+          "count": 4980,
+          "samples": [
+            {
+              "tau_R": 1.333521432163324e-07,
+              "median_relative_error": 0.0031752144887800112
+            },
+            {
+              "tau_R": 0.1,
+              "median_relative_error": 0.000579898005401856
+            },
+            {
+              "tau_R": 10.0,
+              "median_relative_error": 0.0011649688388945052
+            },
+            {
+              "tau_R": 1000.0,
+              "median_relative_error": 0.0415129860795962
+            }
+          ]
+        },
+        "radiative_acceleration": {
+          "count": 4980,
+          "samples": [
+            {
+              "tau_R": 1.333521432163324e-07,
+              "median_relative_error": 0.005211371087085506
+            },
+            {
+              "tau_R": 0.1,
+              "median_relative_error": 0.0006490390723300089
+            },
+            {
+              "tau_R": 10.0,
+              "median_relative_error": 0.0008821677240360057
+            },
+            {
+              "tau_R": 1000.0,
+              "median_relative_error": 0.014943926100018268
+            }
+          ]
+        }
+      }
+    },
+    "cno8": {
+      "family": "cno8",
+      "host": "Node-11",
+      "expected": 5000,
+      "completed": 5000,
+      "iteration_cap": 15,
+      "minimum_iterations": 3,
+      "stop_deep_relative_temperature": 0.0005,
+      "arms": {
+        "two_profile": {
+          "total": 5000,
+          "converged": 4887,
+          "failed": 113,
+          "mean_iterations": 4.2488234090444035,
+          "median_iterations": 3.0,
+          "errors": [
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.927e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.067e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.937e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.549e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.551e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.158e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.779e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.341e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.668e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.759e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.360e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.572e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.911e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.827e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 9.043e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.257e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.894e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.057e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.428e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.067e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.381e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.107e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.044e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.268e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.092e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.351e-03 dex"
+          ]
+        },
+        "six_profile": {
+          "total": 5000,
+          "converged": 4891,
+          "failed": 109,
+          "mean_iterations": 4.654262931915763,
+          "median_iterations": 4.0,
+          "errors": []
+        },
+        "exact_rebuild": {
+          "total": 5000,
+          "converged": 4872,
+          "failed": 128,
+          "mean_iterations": 3.0683497536945814,
+          "median_iterations": 3.0,
+          "errors": [
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.058e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.512e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.049e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.508e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.020e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.289e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.004e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 8.348e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.211e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.380e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.142e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.760e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.657e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.771e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.838e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.467e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.382e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.073e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.297e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.402e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.028e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.507e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.347e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.942e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.582e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.792e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.064e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.781e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.025e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.510e-03 dex"
+          ]
+        }
+      },
+      "two_profile_failures_rescued_by_exact": 79,
+      "paired_neural_successes": {
+        "two_profile": 4.224684199627252,
+        "six_profile": 4.632221992130876,
+        "count": 4829,
+        "iteration_saving_fraction": 0.08797889936966319,
+        "cpu_total_seconds": {
+          "two_profile": 108.54414062921761,
+          "six_profile": 68.3562627731364
+        }
+      },
+      "first_step_growth": {
+        "two_profile": {
+          "count": 4973,
+          "increased": 566,
+          "fraction": 0.11381459883370199
+        },
+        "six_profile": {
+          "count": 5000,
+          "increased": 1210,
+          "fraction": 0.242
+        }
+      }
+    },
+    "direct_abundance": {
+      "family": "direct_abundance",
+      "host": "Node-13",
+      "expected": 5045,
+      "completed": 5045,
+      "iteration_cap": 15,
+      "minimum_iterations": 3,
+      "stop_deep_relative_temperature": 0.0005,
+      "arms": {
+        "two_profile": {
+          "total": 5045,
+          "converged": 4778,
+          "failed": 267,
+          "mean_iterations": 5.653830054416074,
+          "median_iterations": 5.0,
+          "errors": [
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 8.891e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.874e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 9.497e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.117e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.129e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.585e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.485e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.384e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.466e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.137e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.485e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.775e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 8.798e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.426e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.200e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.787e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.947e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 9.260e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.066e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.049e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.240e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.746e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.151e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.521e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.641e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 8.068e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.967e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.836e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.439e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.336e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.005e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.311e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.111e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.487e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.632e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.510e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.438e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.987e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.561e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.063e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.518e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.005e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.450e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.567e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.908e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.549e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.667e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.381e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.535e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.780e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.570e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.214e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.776e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.446e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.480e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.046e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.571e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.170e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.421e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.729e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.599e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.295e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.169e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.289e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.876e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.161e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.952e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.839e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.794e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.436e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.517e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.962e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.365e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.734e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.560e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.732e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.499e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.570e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.589e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.628e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.411e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.362e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.526e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.646e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.861e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 6.639e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.232e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 8.834e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.631e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.446e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.600e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.313e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.718e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.788e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.113e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.982e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.508e-02 dex"
+          ]
+        },
+        "six_profile": {
+          "total": 5045,
+          "converged": 4829,
+          "failed": 216,
+          "mean_iterations": 6.212052184717333,
+          "median_iterations": 6.0,
+          "errors": []
+        },
+        "exact_rebuild": {
+          "total": 5045,
+          "converged": 4748,
+          "failed": 297,
+          "mean_iterations": 3.1569081718618364,
+          "median_iterations": 3.0,
+          "errors": [
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.132e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.137e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.230e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.132e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.131e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.150e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.136e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.119e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.075e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.077e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.061e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.141e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.022e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.052e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.184e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.088e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.067e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.037e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.156e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.132e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.788e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.546e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.495e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.379e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.115e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.977e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.128e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.047e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.434e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.132e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.329e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.269e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.135e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.154e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.067e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.106e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.087e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.246e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.474e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.549e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.079e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.673e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.294e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.707e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.418e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.023e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.221e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.090e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.054e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.094e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.461e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.651e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.229e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.611e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.615e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.878e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.335e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.306e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.273e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.879e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.832e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 7.075e-03 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.103e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.422e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 1.506e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.060e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 4.313e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.184e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.881e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.689e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 5.878e+00 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.072e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.569e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.129e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.888e-02 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 3.223e-01 dex",
+            "ReconstructionConvergenceError: reduced-state pressure synchronization did not converge within 8 passes; last change was 2.490e-01 dex"
+          ]
+        }
+      },
+      "two_profile_failures_rescued_by_exact": 115,
+      "paired_neural_successes": {
+        "two_profile": 5.613350394540413,
+        "six_profile": 6.1002345915973555,
+        "count": 4689,
+        "iteration_saving_fraction": 0.07981401202629013,
+        "cpu_total_seconds": {
+          "two_profile": 102.62561083987035,
+          "six_profile": 78.3029058067856
+        }
+      },
+      "first_step_growth": {
+        "two_profile": {
+          "count": 4942,
+          "increased": 621,
+          "fraction": 0.12565762849048967
+        },
+        "six_profile": {
+          "count": 5045,
+          "increased": 989,
+          "fraction": 0.1960356788899901
+        }
+      }
+    }
+  },
+  "spectra": {
+    "expected": 5000,
+    "completed": 5000,
+    "wavelength_nm": [
+      400,
+      900
+    ],
+    "resolution": 20000,
+    "arms": {
+      "exact_rebuild": {
+        "measured": 4980,
+        "missing_or_failed": 20,
+        "conditional_median": 0.0003489946979437497,
+        "by_temperature": [
+          {
+            "temperature_range_K": [
+              4000,
+              4500
+            ],
+            "count": 440,
+            "median": 0.000570028307474546
+          },
+          {
+            "temperature_range_K": [
+              4500,
+              5500
+            ],
+            "count": 917,
+            "median": 0.0005177929786005508
+          },
+          {
+            "temperature_range_K": [
+              5500,
+              7500
+            ],
+            "count": 1060,
+            "median": 0.0006001153072268117
+          },
+          {
+            "temperature_range_K": [
+              7500,
+              10501
+            ],
+            "count": 2563,
+            "median": 0.000177820262540207
+          }
+        ]
+      },
+      "two_profile": {
+        "measured": 4970,
+        "missing_or_failed": 30,
+        "conditional_median": 0.006914940199317807,
+        "by_temperature": [
+          {
+            "temperature_range_K": [
+              4000,
+              4500
+            ],
+            "count": 440,
+            "median": 0.010928664561277307
+          },
+          {
+            "temperature_range_K": [
+              4500,
+              5500
+            ],
+            "count": 917,
+            "median": 0.011604471907368796
+          },
+          {
+            "temperature_range_K": [
+              5500,
+              7500
+            ],
+            "count": 1060,
+            "median": 0.009187034467106836
+          },
+          {
+            "temperature_range_K": [
+              7500,
+              10501
+            ],
+            "count": 2553,
+            "median": 0.004350682428290176
+          }
+        ]
+      },
+      "six_profile": {
+        "measured": 5000,
+        "missing_or_failed": 0,
+        "conditional_median": 0.003892167962128268,
+        "by_temperature": [
+          {
+            "temperature_range_K": [
+              4000,
+              4500
+            ],
+            "count": 440,
+            "median": 0.009352018766167203
+          },
+          {
+            "temperature_range_K": [
+              4500,
+              5500
+            ],
+            "count": 917,
+            "median": 0.005400628259545459
+          },
+          {
+            "temperature_range_K": [
+              5500,
+              7500
+            ],
+            "count": 1060,
+            "median": 0.004160221577001744
+          },
+          {
+            "temperature_range_K": [
+              7500,
+              10501
+            ],
+            "count": 2583,
+            "median": 0.003001634476835491
+          }
+        ]
+      },
+      "nearest_0": {
+        "measured": 5000,
+        "missing_or_failed": 0,
+        "conditional_median": 0.16043287460716513,
+        "by_temperature": [
+          {
+            "temperature_range_K": [
+              4000,
+              4500
+            ],
+            "count": 440,
+            "median": 0.2877827566776159
+          },
+          {
+            "temperature_range_K": [
+              4500,
+              5500
+            ],
+            "count": 917,
+            "median": 0.32357441909987805
+          },
+          {
+            "temperature_range_K": [
+              5500,
+              7500
+            ],
+            "count": 1060,
+            "median": 0.18841718977885882
+          },
+          {
+            "temperature_range_K": [
+              7500,
+              10501
+            ],
+            "count": 2583,
+            "median": 0.11152198078562559
+          }
+        ]
+      },
+      "nearest_1": {
+        "measured": 5000,
+        "missing_or_failed": 0,
+        "conditional_median": 0.1568779886489953,
+        "by_temperature": [
+          {
+            "temperature_range_K": [
+              4000,
+              4500
+            ],
+            "count": 440,
+            "median": 0.3882222096220964
+          },
+          {
+            "temperature_range_K": [
+              4500,
+              5500
+            ],
+            "count": 917,
+            "median": 0.2983449312328107
+          },
+          {
+            "temperature_range_K": [
+              5500,
+              7500
+            ],
+            "count": 1060,
+            "median": 0.16529643784193238
+          },
+          {
+            "temperature_range_K": [
+              7500,
+              10501
+            ],
+            "count": 2583,
+            "median": 0.1034495205625936
+          }
+        ]
+      },
+      "grey_convective": {
+        "measured": 5000,
+        "missing_or_failed": 0,
+        "conditional_median": 0.6753257396190613,
+        "by_temperature": [
+          {
+            "temperature_range_K": [
+              4000,
+              4500
+            ],
+            "count": 440,
+            "median": 0.9998352168198394
+          },
+          {
+            "temperature_range_K": [
+              4500,
+              5500
+            ],
+            "count": 917,
+            "median": 0.9850882618237708
+          },
+          {
+            "temperature_range_K": [
+              5500,
+              7500
+            ],
+            "count": 1060,
+            "median": 0.9116431369636551
+          },
+          {
+            "temperature_range_K": [
+              7500,
+              10501
+            ],
+            "count": 2583,
+            "median": 0.4279991568289158
+          }
+        ]
+      }
+    },
+    "final_normalized_flux_parity": {
+      "paired_numerical_successes": 4794,
+      "threshold": 0.005,
+      "exceeding_threshold": 553,
+      "maximum": 0.0725898303510153
+    },
+    "cdf_denominator": 5000
+  }
+}

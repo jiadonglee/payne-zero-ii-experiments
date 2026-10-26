@@ -1,0 +1,111 @@
+{
+  "capture": "results/m_star_s3_stage_capture_20260922/d/stages.json",
+  "model": "local F \u221d \u03b4^1.5 calibrated on the input state; \u2207_ad, EOS, opacity fixed",
+  "n_masked": 38,
+  "reproduction_check": {
+    "surrogate_S3_pass8_flux_over_required_L71_73": [
+      1.7259584957566358,
+      1.7940530594445532,
+      1.958146526416717
+    ],
+    "recorded_S3_pass8_flux_over_required_L71_73": [
+      1.73,
+      1.794,
+      1.952
+    ],
+    "surrogate_S3_pass1_delta_T_K_L71": 8.548586352861093,
+    "recorded_S3_pass1_delta_T_K_L71": 8.55
+  },
+  "rows": [
+    {
+      "arm": "S3",
+      "passes": 1,
+      "deep_max_abs_flux_over_required_minus_1": 1.4739214420643045,
+      "deep_mean_abs_flux_over_required_minus_1": 0.8775792039490944,
+      "delta_T_K_L71": 8.548586352861093,
+      "delta_T_K_L79": 13.089761336336778,
+      "delta_T_K_deep_max_abs": 13.700019713046458
+    },
+    {
+      "arm": "S3",
+      "passes": 2,
+      "deep_max_abs_flux_over_required_minus_1": 1.4739214420643045,
+      "deep_mean_abs_flux_over_required_minus_1": 0.8775792039490944,
+      "delta_T_K_L71": 8.548586352861093,
+      "delta_T_K_L79": 13.089761336336778,
+      "delta_T_K_deep_max_abs": 13.700019713046458
+    },
+    {
+      "arm": "S3",
+      "passes": 4,
+      "deep_max_abs_flux_over_required_minus_1": 1.4739214420643045,
+      "deep_mean_abs_flux_over_required_minus_1": 0.8775792039490944,
+      "delta_T_K_L71": 8.548586352861093,
+      "delta_T_K_L79": 13.089761336336778,
+      "delta_T_K_deep_max_abs": 13.700019713046458
+    },
+    {
+      "arm": "S3",
+      "passes": 8,
+      "deep_max_abs_flux_over_required_minus_1": 1.4739214420643045,
+      "deep_mean_abs_flux_over_required_minus_1": 0.8775792039490944,
+      "delta_T_K_L71": 8.548586352861093,
+      "delta_T_K_L79": 13.089761336336778,
+      "delta_T_K_deep_max_abs": 13.700019713046458
+    },
+    {
+      "arm": "S3",
+      "passes": 16,
+      "deep_max_abs_flux_over_required_minus_1": 1.4739214420643045,
+      "deep_mean_abs_flux_over_required_minus_1": 0.8775792039490944,
+      "delta_T_K_L71": 8.548586352861093,
+      "delta_T_K_L79": 13.089761336336778,
+      "delta_T_K_deep_max_abs": 13.700019713046458
+    },
+    {
+      "arm": "S3w",
+      "passes": 1,
+      "deep_max_abs_flux_over_required_minus_1": 0.1923470919247683,
+      "deep_mean_abs_flux_over_required_minus_1": 0.04212867517147023,
+      "delta_T_K_L71": -37.40497884774413,
+      "delta_T_K_L79": -89.21097975725752,
+      "delta_T_K_deep_max_abs": 89.21097975725752
+    },
+    {
+      "arm": "S3w",
+      "passes": 2,
+      "deep_max_abs_flux_over_required_minus_1": 0.09223526072928401,
+      "deep_mean_abs_flux_over_required_minus_1": 0.019513407159975942,
+      "delta_T_K_L71": -36.12358773385495,
+      "delta_T_K_L79": -85.17454034827097,
+      "delta_T_K_deep_max_abs": 85.17454034827097
+    },
+    {
+      "arm": "S3w",
+      "passes": 4,
+      "deep_max_abs_flux_over_required_minus_1": 0.0632386127264285,
+      "deep_mean_abs_flux_over_required_minus_1": 0.01651347028799582,
+      "delta_T_K_L71": -36.30742869887126,
+      "delta_T_K_L79": -85.29787733941248,
+      "delta_T_K_deep_max_abs": 85.29787733941248
+    },
+    {
+      "arm": "S3w",
+      "passes": 8,
+      "deep_max_abs_flux_over_required_minus_1": 0.041480275319287996,
+      "deep_mean_abs_flux_over_required_minus_1": 0.013864816590991941,
+      "delta_T_K_L71": -36.359395016826056,
+      "delta_T_K_L79": -85.27967678567711,
+      "delta_T_K_deep_max_abs": 85.27967678567711
+    },
+    {
+      "arm": "S3w",
+      "passes": 16,
+      "deep_max_abs_flux_over_required_minus_1": 0.02312017944257594,
+      "deep_mean_abs_flux_over_required_minus_1": 0.009140103566411732,
+      "delta_T_K_L71": -36.75806603667479,
+      "delta_T_K_L79": -85.28439595623513,
+      "delta_T_K_deep_max_abs": 85.28439595623513
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "arm": "monotone",
+  "star_count": 60,
+  "star_indices": [
+    14767,
+    47791,
+    4507,
+    38490,
+    21633,
+    1318,
+    48980,
+    45514,
+    25391,
+    15661,
+    41799,
+    35590,
+    48708,
+    18143,
+    36745,
+    28463,
+    33136,
+    46286,
+    20379,
+    22097,
+    36600,
+    12402,
+    28078,
+    28401,
+    4175,
+    40736,
+    40161,
+    23476,
+    29143,
+    486,
+    32199,
+    31022,
+    48678,
+    6152,
+    7584,
+    24670,
+    43618,
+    46124,
+    30143,
+    11964,
+    43749,
+    22783,
+    2203,
+    33053,
+    26629,
+    28267,
+    40636,
+    13949,
+    33051,
+    11874,
+    11397,
+    20818,
+    8823,
+    30805,
+    23895,
+    44167,
+    31506,
+    40496,
+    50505,
+    24755
+  ],
+  "synchronization_mode": "adaptive",
+  "max_synchronizations": 8,
+  "pressure_tolerance_dex": 0.001,
+  "iterations_per_trial": null,
+  "minimum_iterations_before_convergence": null,
+  "maximum_all_layer_relative_temperature_change": null,
+  "write_unconverged_products": false,
+  "profile_errors": {
+    "learned_reduced_state": {
+      "temperature_relative_p50": 0.0005142816352421064,
+      "temperature_relative_p95": 0.0037419355829065555,
+      "column_mass_dex_p50": 0.001904884893318009,
+      "column_mass_dex_p95": 0.015185679283885882
+    }
+  },
+  "prediction_artifact": "/nexus/posix0/MIA-astro-env/hxr/jdli/payne-zero/artifacts/reduced_state_emulator/predicted_monotone.npz",
+  "learned_reduced_state_reconstruction": {
+    "requested_count": 60,
+    "synchronized_count": 59,
+    "failure_count": 1,
+    "max_synchronizations": 8,
+    "pressure_tolerance_dex": 0.001,
+    "failures": [
+      {
+        "position": 33,
+        "error_type": "ReconstructionConvergenceError",
+        "error": "reduced-state pressure synchronization did not converge within 8 passes; last change was 5.034e-03 dex",
+        "pressure_change_dex_by_pass": [
+          0.7927737188036348,
+          0.19970227647157363,
+          0.0965912280300999,
+          0.060789121789689426,
+          0.02776387471686692,
+          0.01799428542411108,
+          0.00876467136851189,
+          0.00503403695701099
+        ],
+        "star_index": 6152
+      }
+    ]
+  },
+  "learned_reduced_state": {
+    "star_count": 59,
+    "converged_count": 56,
+    "converged_fraction": 0.9491525423728814,
+    "retry_count": 0,
+    "retry_fraction": 0.0,
+    "failure_count": 3,
+    "failure_fraction": 0.05084745762711865,
+    "converging_trial_iterations": {
+      "mean": 4.053571428571429,
+      "p50": 4.0,
+      "p75": 5.0,
+      "p90": 6.0,
+      "p95": 6.5,
+      "p99": 8.450000000000003,
+      "max": 9.0,
+      "histogram": {
+        "3": 27,
+        "4": 14,
+        "5": 7,
+        "6": 5,
+        "8": 2,
+        "9": 1
+      }
+    },
+    "total_iterations_including_retries": {
+      "mean": 4.610169491525424,
+      "p50": 4.0,
+      "p75": 5.0,
+      "p90": 6.400000000000006,
+      "p95": 9.599999999999966,
+      "p99": 15.0,
+      "max": 15.0
+    },
+    "seconds_per_star": {
+      "mean": 65.24380715129013,
+      "p50": 51.08329003909603,
+      "p75": 71.29333659354597,
+      "p90": 123.18939384547997,
+      "p95": 161.68893861952233,
+      "p99": 220.3307670014167,
+      "total_hours": 1.0692735060905882
+    },
+    "stage_seconds": {
+      "first_iteration_mean": {
+        "population_seconds": 0.6283096297707219,
+        "opacity_seconds": 22.02484399666694,
+        "transfer_seconds": 0.4483131003897574,
+        "finalization_seconds": 0.3600674260533967,
+        "remap_seconds": 0.0023196756966033225
+      },
+      "later_iteration_mean": {
+        "population_seconds": 0.12803013279964107,
+        "opacity_seconds": 10.06423291354768,
+        "transfer_seconds": 0.390168515906315,
+        "finalization_seconds": 0.3563634020193292,
+        "remap_seconds": 0.0023023535589307125
+      }
+    },
+    "contraction": {
+      "trajectory_count": 59,
+      "non_monotonic_fraction": 0.1864406779661017,
+      "q_ratio": {
+        "geometric_mean": 0.5473624903875763,
+        "max": 28.508820199133293,
+        "p50": 0.5444821604850912,
+        "p75": 0.7393563105096389,
+        "p90": 1.0383763913781439,
+        "p95": 1.3501063514639517,
+        "p99": 4.652345286744866
+      },
+      "first_iteration_residual": {
+        "mean": 0.008035811726809908,
+        "p50": 0.002746242653768889,
+        "p75": 0.004250128937445776,
+        "p90": 0.00998639889839864,
+        "p95": 0.017553332651989204,
+        "p99": 0.11885864333406189
+      }
+    },
+    "tail_labels": {
+      "threshold_iterations": 6.400000000000006,
+      "tail_count": 6,
+      "tail_fraction": 0.1016949152542373,
+      "labels": {
+        "effective_temperature": {
+          "population_mean": 7503.423791839372,
+          "tail_mean": 7271.803516933828,
+          "tail_min": 4336.073871705856,
+          "tail_max": 8885.968682439041
+        },
+        "log_surface_gravity": {
+          "population_mean": 2.836183776815282,
+          "tail_mean": 3.6582995790164237,
+          "tail_min": 2.7228567548702998,
+          "tail_max": 4.9937339639604295
+        },
+        "metallicity": {
+          "population_mean": -1.0619309344173715,
+          "tail_mean": -1.0917699815451105,
+          "tail_min": -1.9819122125892132,
+          "tail_max": -0.5561209747289824
+        },
+        "alpha_enhancement": {
+          "population_mean": 0.19743052421443288,
+          "tail_mean": 0.1627931834077996,
+          "tail_min": -0.0815288829000887,
+          "tail_max": 0.37165878206823144
+        },
+        "microturbulence_km_s": {
+          "population_mean": 2.475314199534579,
+          "tail_mean": 2.9759857156629805,
+          "tail_min": 1.42020210715765,
+          "tail_max": 3.9406601585529004
+        }
+      }
+    },
+    "headroom": {
+      "iteration_floor": 3,
+      "stars_already_at_floor": 27,
+      "stars_already_at_floor_fraction": 0.4576271186440678,
+      "total_iterations_burned": 272,
+      "recoverable_iterations": 95,
+      "recoverable_fraction": 0.3492647058823529
+    }
+  }
+}
